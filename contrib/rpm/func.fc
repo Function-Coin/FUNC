@@ -1,0 +1,8 @@
+/usr/bin/func-cli		--	gen_context(system_u:object_r:func_exec_t,s0)
+/usr/sbin/funcd		--	gen_context(system_u:object_r:func_exec_t,s0)
+/usr/lib(64)?/func/funcd		--	gen_context(system_u:object_r:func_exec_t,s0)
+
+/etc/func(/.*)?		gen_context(system_u:object_r:func_conf_t,s0)
+/var/lib/func(/.*)?		gen_context(system_u:object_r:func_var_lib_t,s0)
+
+(/var)?/run/funcd(/.*)?   gen_context(system_u:object_r:func_var_run_t,s0)
