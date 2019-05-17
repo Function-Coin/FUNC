@@ -1,5 +1,5 @@
 ---
-name: "func-win-1.0.1"
+name: "func-win-1.0.2"
 enable_cache: true
 suites:
 - "bionic"
