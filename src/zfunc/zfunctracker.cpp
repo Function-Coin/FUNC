@@ -1,4 +1,4 @@
-// Copyright (c) 2018 The PIVX developers
+// Copyright (c) 2018-2019 The PIVX developers
 // Copyright (c) 2019 The CryptoDev developers
 // Copyright (c) 2019 The FunCoin developers
 // Distributed under the MIT software license, see the accompanying
@@ -15,7 +15,6 @@
 #include "zfunc/zfuncwallet.h"
 #include "witness.h"
 
-using namespace std;
 
 CzFUNCTracker::CzFUNCTracker(std::string strWalletFile)
 {
@@ -138,7 +137,7 @@ bool CzFUNCTracker::ClearSpendCache()
 
 std::vector<uint256> CzFUNCTracker::GetSerialHashes()
 {
-    vector<uint256> vHashes;
+    std::vector<uint256> vHashes;
     for (auto it : mapSerialHashes) {
         if (it.second.isArchived)
             continue;
@@ -156,7 +155,7 @@ CAmount CzFUNCTracker::GetBalance(bool fConfirmedOnly, bool fUnconfirmedOnly) co
     //! zerocoin specific fields
     std::map<libzerocoin::CoinDenomination, unsigned int> myZerocoinSupply;
     for (auto& denom : libzerocoin::zerocoinDenomList) {
-        myZerocoinSupply.insert(make_pair(denom, 0));
+        myZerocoinSupply.insert(std::make_pair(denom, 0));
     }
 
     {
@@ -189,7 +188,7 @@ CAmount CzFUNCTracker::GetUnconfirmedBalance() const
 
 std::vector<CMintMeta> CzFUNCTracker::GetMints(bool fConfirmedOnly) const
 {
-    vector<CMintMeta> vMints;
+    std::vector<CMintMeta> vMints;
     for (auto& it : mapSerialHashes) {
         CMintMeta mint = it.second;
         if (mint.isArchived || mint.isUsed)
@@ -355,7 +354,7 @@ void CzFUNCTracker::SetPubcoinUsed(const uint256& hashPubcoin, const uint256& tx
         return;
     CMintMeta meta = GetMetaFromPubcoin(hashPubcoin);
     meta.isUsed = true;
-    mapPendingSpends.insert(make_pair(meta.hashSerial, txid));
+    mapPendingSpends.insert(std::make_pair(meta.hashSerial, txid));
     UpdateState(meta);
 }
 
@@ -462,7 +461,7 @@ bool CzFUNCTracker::UpdateStatusInternal(const std::set<uint256>& setMempool, CM
     return false;
 }
 
-std::set<CMintMeta> CzFUNCTracker::ListMints(bool fUnusedOnly, bool fMatureOnly, bool fUpdateStatus, bool fWrongSeed)
+std::set<CMintMeta> CzFUNCTracker::ListMints(bool fUnusedOnly, bool fMatureOnly, bool fUpdateStatus, bool fWrongSeed, bool fExcludeV1)
 {
     CWalletDB walletdb(strWalletFile);
     if (fUpdateStatus) {
@@ -475,6 +474,8 @@ std::set<CMintMeta> CzFUNCTracker::ListMints(bool fUnusedOnly, bool fMatureOnly,
 
         CzFUNCWallet* zFUNCWallet = new CzFUNCWallet(strWalletFile);
         for (auto& dMint : listDeterministicDB) {
+            if (fExcludeV1 && dMint.GetVersion() < 2)
+                continue;
             Add(dMint, false, false, zFUNCWallet);
         }
         delete zFUNCWallet;
