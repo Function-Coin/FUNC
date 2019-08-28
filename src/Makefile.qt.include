@@ -8,38 +8,38 @@ EXTRA_LIBRARIES += qt/libbitcoinqt.a
 # func qt core #
 QT_TS = \
   qt/locale/func_bg.ts \
-   qt/locale/func_ca.ts \
-   qt/locale/func_cs.ts \
-   qt/locale/func_da.ts \
-   qt/locale/func_de.ts \
-   qt/locale/func_en.ts \
-   qt/locale/func_en_GB.ts \
-   qt/locale/func_en_US.ts \
-   qt/locale/func_eo.ts \
-   qt/locale/func_es.ts \
-   qt/locale/func_es_ES.ts \
-   qt/locale/func_fi.ts \
-   qt/locale/func_fr_FR.ts \
-   qt/locale/func_hi_IN.ts \
-   qt/locale/func_hr.ts \
-   qt/locale/func_hr_HR.ts \
-   qt/locale/func_it.ts \
-   qt/locale/func_ja.ts \
-   qt/locale/func_ko_KR.ts \
-   qt/locale/func_lt_LT.ts \
-   qt/locale/func_nl.ts \
-   qt/locale/func_pl.ts \
-   qt/locale/func_pt.ts \
-   qt/locale/func_pt_BR.ts \
-   qt/locale/func_ro_RO.ts \
-   qt/locale/func_ru.ts \
-   qt/locale/func_sk.ts \
-   qt/locale/func_sv.ts \
-   qt/locale/func_tr.ts \
-   qt/locale/func_uk.ts \
-   qt/locale/func_vi.ts \
-   qt/locale/func_zh_CN.ts \
-   qt/locale/func_zh_TW.ts
+  qt/locale/func_ca.ts \
+  qt/locale/func_cs.ts \
+  qt/locale/func_da.ts \
+  qt/locale/func_de.ts \
+  qt/locale/func_en.ts \
+  qt/locale/func_en_GB.ts \
+  qt/locale/func_en_US.ts \
+  qt/locale/func_eo.ts \
+  qt/locale/func_es.ts \
+  qt/locale/func_es_ES.ts \
+  qt/locale/func_fi.ts \
+  qt/locale/func_fr_FR.ts \
+  qt/locale/func_hi_IN.ts \
+  qt/locale/func_hr.ts \
+  qt/locale/func_hr_HR.ts \
+  qt/locale/func_it.ts \
+  qt/locale/func_ja.ts \
+  qt/locale/func_ko_KR.ts \
+  qt/locale/func_lt_LT.ts \
+  qt/locale/func_nl.ts \
+  qt/locale/func_pl.ts \
+  qt/locale/func_pt.ts \
+  qt/locale/func_pt_BR.ts \
+  qt/locale/func_ro_RO.ts \
+  qt/locale/func_ru.ts \
+  qt/locale/func_sk.ts \
+  qt/locale/func_sv.ts \
+  qt/locale/func_tr.ts \
+  qt/locale/func_uk.ts \
+  qt/locale/func_vi.ts \
+  qt/locale/func_zh_CN.ts \
+  qt/locale/func_zh_TW.ts
 
 QT_FORMS_UI = \
   qt/forms/addressbookpage.ui \
@@ -47,7 +47,6 @@ QT_FORMS_UI = \
   qt/forms/bip38tooldialog.ui \
   qt/forms/coincontroldialog.ui \
   qt/forms/blockexplorer.ui \
-  qt/forms/obfuscationconfig.ui \
   qt/forms/editaddressdialog.ui \
   qt/forms/governancepage.ui \
   qt/forms/helpmessagedialog.ui \
@@ -83,7 +82,6 @@ QT_MOC_CPP = \
   qt/moc_coincontroldialog.cpp \
   qt/moc_coincontroltreewidget.cpp \
   qt/moc_csvmodelwriter.cpp \
-  qt/moc_obfuscationconfig.cpp \
   qt/moc_editaddressdialog.cpp \
   qt/moc_governancepage.cpp \
   qt/moc_guiutil.cpp \
@@ -159,7 +157,6 @@ BITCOIN_QT_H = \
   qt/coincontroldialog.h \
   qt/coincontroltreewidget.h \
   qt/csvmodelwriter.h \
-  qt/obfuscationconfig.h \
   qt/editaddressdialog.h \
   qt/governancepage.h \
   qt/guiconstants.h \
@@ -312,7 +309,6 @@ BITCOIN_QT_WALLET_CPP = \
   qt/blockexplorer.cpp \
   qt/coincontroldialog.cpp \
   qt/coincontroltreewidget.cpp \
-  qt/obfuscationconfig.cpp \
   qt/editaddressdialog.cpp \
   qt/governancepage.cpp \
   qt/masternodelist.cpp \
@@ -363,10 +359,7 @@ RES_IMAGES = \
   qt/res/images/upArrow_small.png \
   qt/res/images/leftArrow_small_dark.png \
   qt/res/images/rightArrow_small_dark.png \
-  qt/res/images/qtreeview_selected.png \
-  qt/res/images/walletFrame.png \
-  qt/res/images/walletFrame_bg.png \
-  qt/res/images/walletFrame_bg.png
+  qt/res/images/qtreeview_selected.png
 
 RES_CSS = \
   qt/res/css/default.css

@@ -1,6 +1,6 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2018 The PIVX developers
+// Copyright (c) 2015-2019 The PIVX developers
 // Copyright (c) 2019 The CryptoDev developers
 // Copyright (c) 2019 The FunCoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
@@ -33,7 +33,7 @@
 
 #include "init.h"
 #include "masternodelist.h"
-#include "ui_interface.h"
+#include "guiinterface.h"
 #include "util.h"
 
 #include <iostream>
@@ -346,11 +346,11 @@ void BitcoinGUI::createActions(const NetworkStyle* networkStyle)
     //privacyAction->setStatusTip(tr("Privacy Actions for zFUNC"));
     //privacyAction->setToolTip(privacyAction->statusTip());
     //privacyAction->setCheckable(true);
-//#ifdef Q_OS_MAC
+#ifdef Q_OS_MAC
     //privacyAction->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_5));
-//#else
+#else
     //privacyAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_5));
-//#endif
+#endif
     //tabGroup->addAction(privacyAction);
 
 #ifdef ENABLE_WALLET
@@ -375,11 +375,11 @@ void BitcoinGUI::createActions(const NetworkStyle* networkStyle)
     //governanceAction->setStatusTip(tr("Show Proposals"));
     //governanceAction->setToolTip(governanceAction->statusTip());
     //governanceAction->setCheckable(true);
-//#ifdef Q_OS_MAC
+#ifdef Q_OS_MAC
     //governanceAction->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_7));
-//#else
+#else
     //governanceAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_7));
-//#endif
+#endif
     //tabGroup->addAction(governanceAction);
 
     // These showNormalIfMinimized are needed because Send Coins and Receive Coins
