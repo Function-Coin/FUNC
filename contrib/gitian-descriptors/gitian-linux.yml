@@ -1,5 +1,5 @@
 ---
-name: "func-linux-1.0.3"
+name: "func-linux-1.0.4"
 enable_cache: true
 suites:
 - "bionic"
