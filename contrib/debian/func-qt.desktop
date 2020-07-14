@@ -1,6 +1,6 @@
 [Desktop Entry]
-Encoding=UTF-8
-Name=FUNC
+Version=1.0
+Name=FUNC Core
 Comment=FUNC P2P Cryptocurrency
 Comment[fr]=FUNC, monnaie virtuelle cryptographique pair à pair
 Comment[tr]=FUNC, eşten eşe kriptografik sanal para birimi
@@ -10,3 +10,4 @@ Type=Application
 Icon=func128
 MimeType=x-scheme-handler/func;
 Categories=Office;Finance;
+StartupWMClass=Func-qt

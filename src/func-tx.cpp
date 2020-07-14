@@ -1,7 +1,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
-// Copyright (c) 2015-2019 The PIVX developers
-// Copyright (c) 2019 The CryptoDev developers
-// Copyright (c) 2019 The FunCoin developers
+// Copyright (c) 2015-2020 The PIVX developers
+// Copyright (c) 2020 The CryptoDev developers
+// Copyright (c) 2020 The FunCoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -10,6 +10,7 @@
 #include "coins.h"
 #include "core_io.h"
 #include "keystore.h"
+#include "policy/policy.h"
 #include "primitives/block.h" // for MAX_BLOCK_SIZE
 #include "primitives/transaction.h"
 #include "script/script.h"
@@ -222,12 +223,11 @@ static void MutateTxAddOutAddr(CMutableTransaction& tx, const std::string& strIn
 
     // extract and validate ADDRESS
     std::string strAddr = strInput.substr(pos + 1, std::string::npos);
-    CBitcoinAddress addr(strAddr);
-    if (!addr.IsValid())
+    CTxDestination destination = DecodeDestination(strAddr);
+    if (!IsValidDestination(destination)) {
         throw std::runtime_error("invalid TX output address");
-
-    // build standard output script via GetScriptForDestination()
-    CScript scriptPubKey = GetScriptForDestination(addr.Get());
+    }
+    CScript scriptPubKey = GetScriptForDestination(destination);
 
     // construct TxOut, append to transaction output list
     CTxOut txout(value, scriptPubKey);
@@ -313,7 +313,7 @@ static bool findSighashFlags(int& flags, const std::string& flagStr)
 uint256 ParseHashUO(std::map<std::string, UniValue>& o, std::string strKey)
 {
     if (!o.count(strKey))
-        return 0;
+        return UINT256_ZERO;
     return ParseHashUV(o[strKey], strKey);
 }
 
@@ -354,12 +354,10 @@ static void MutateTxSign(CMutableTransaction& tx, const std::string& flagStr)
     for (unsigned int kidx = 0; kidx < keysObj.size(); kidx++) {
         if (!keysObj[kidx].isStr())
             throw std::runtime_error("privatekey not a string");
-        CBitcoinSecret vchSecret;
-        bool fGood = vchSecret.SetString(keysObj[kidx].getValStr());
-        if (!fGood)
+        CKey key = DecodeSecret(keysObj[kidx].getValStr());
+        if (!key.IsValid()) {
             throw std::runtime_error("privatekey not valid");
-
-        CKey key = vchSecret.GetKey();
+        }
         tempKeystore.AddKey(key);
     }
 
@@ -390,8 +388,8 @@ static void MutateTxSign(CMutableTransaction& tx, const std::string& flagStr)
                 CCoinsModifier coins = view.ModifyCoins(txid);
                 if (coins->IsAvailable(nOut) && coins->vout[nOut].scriptPubKey != scriptPubKey) {
                     std::string err("Previous output scriptPubKey mismatch:\n");
-                    err = err + coins->vout[nOut].scriptPubKey.ToString() + "\nvs:\n" +
-                          scriptPubKey.ToString();
+                    err = err + ScriptToAsmStr(coins->vout[nOut].scriptPubKey) + "\nvs:\n"+
+                        ScriptToAsmStr(scriptPubKey);
                     throw std::runtime_error(err);
                 }
                 if ((unsigned int)nOut >= coins->vout.size())
@@ -498,7 +496,7 @@ static void MutateTx(CMutableTransaction& tx, const std::string& command, const 
 static void OutputTxJSON(const CTransaction& tx)
 {
     UniValue entry(UniValue::VOBJ);
-    TxToUniv(tx, 0, entry);
+    TxToUniv(tx, UINT256_ZERO, entry);
 
     std::string jsonOutput = entry.write(4);
     fprintf(stdout, "%s\n", jsonOutput.c_str());
@@ -599,9 +597,9 @@ static int CommandLineRawTx(int argc, char* argv[])
         OutputTx(tx);
     }
 
-    catch (boost::thread_interrupted) {
+    catch (const boost::thread_interrupted&) {
         throw;
-    } catch (std::exception& e) {
+    } catch (const std::exception& e) {
         strPrint = std::string("error: ") + e.what();
         nRet = EXIT_FAILURE;
     } catch (...) {
@@ -622,7 +620,7 @@ int main(int argc, char* argv[])
     try {
         if (!AppInitRawTx(argc, argv))
             return EXIT_FAILURE;
-    } catch (std::exception& e) {
+    } catch (const std::exception& e) {
         PrintExceptionContinue(&e, "AppInitRawTx()");
         return EXIT_FAILURE;
     } catch (...) {
@@ -633,7 +631,7 @@ int main(int argc, char* argv[])
     int ret = EXIT_FAILURE;
     try {
         ret = CommandLineRawTx(argc, argv);
-    } catch (std::exception& e) {
+    } catch (const std::exception& e) {
         PrintExceptionContinue(&e, "CommandLineRawTx()");
     } catch (...) {
         PrintExceptionContinue(NULL, "CommandLineRawTx()");

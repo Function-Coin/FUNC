@@ -1,5 +1,5 @@
 FUNC Core
-=====================
+=============
 
 Setup
 ---------------------
@@ -7,57 +7,57 @@ Setup
 
 Running
 ---------------------
-The following are some helpful notes on how to run FUNC on your native platform.
+The following are some helpful notes on how to run FUNC Core on your native platform.
 
 ### Unix
 
 Unpack the files into a directory and run:
 
-- bin/32/func-qt (GUI, 32-bit) or bin/32/funcd (headless, 32-bit)
-- bin/64/func-qt (GUI, 64-bit) or bin/64/funcd (headless, 64-bit)
+- `bin/func-qt` (GUI) or
+- `bin/funcd` (headless)
 
 ### Windows
 
 Unpack the files into a directory, and then run func-qt.exe.
 
-### OSX
+### macOS
 
 Drag FUNC-Qt to your applications folder, and then run FUNC-Qt.
 
 ### Need Help?
 
-* See the documentation at the [FUNC Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
+* See the documentation at the [FUNC Wiki](https://github.com/CryptoDev-Project/FUNC/wiki)
 for help and more information.
 * Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [FUNC Forum](http://forum.func.org/).
 * Join our Discord server [Discord Server](https://discord.func.org)
-* Join one of our Slack groups [FUNC Slack Groups](https://func.org/slack-logins/) (Main community is replaced by Discord).
 
 Building
 ---------------------
-The following are developer notes on how to build FUNC on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build FUNC Core on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
-- [OSX Build Notes](build-osx.md)
+- [Dependencies](dependencies.md)
+- [macOS Build Notes](build-osx.md)
 - [Unix Build Notes](build-unix.md)
+- [Windows Build Notes](build-windows.md)
 - [Gitian Building Guide](gitian-building.md)
 
 Development
 ---------------------
-The Func repo's [root README](https://github.com/FunTimeDev/FUNC/blob/master/README.md) contains relevant information on the development process and automated testing.
+The FUNC repo's [root README](/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)
 - [Release Notes](release-notes.md)
 - [Release Process](release-process.md)
-- [Source Code Documentation (External Link)](https://dev.visucore.com/bitcoin/doxygen/) ***TODO***
+- [Source Code Documentation (External Link)](https://www.fuzzbawls.pw/func/doxygen/)
 - [Translation Process](translation_process.md)
 - [Unit Tests](unit-tests.md)
 - [Unauthenticated REST Interface](REST-interface.md)
 - [Dnsseed Policy](dnsseed-policy.md)
 
 ### Resources
-
 * Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [FUNC](http://forum.func.org/) forum.
-* Join the [FUNC-Dev](https://func-dev.slack.com/) Slack group ([Sign-Up](https://func-dev.herokuapp.com/)).
+* Join the [FUNC Discord](https://discord.func.org).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)
@@ -67,6 +67,6 @@ The Func repo's [root README](https://github.com/FunTimeDev/FUNC/blob/master/REA
 
 License
 ---------------------
-Distributed under the [MIT/X11 software license](http://www.opensource.org/licenses/mit-license.php).
+Distributed under the [MIT software license](/COPYING).
 This product includes software developed by the OpenSSL Project for use in the [OpenSSL Toolkit](https://www.openssl.org/). This product includes
 cryptographic software written by Eric Young ([eay@cryptsoft.com](mailto:eay@cryptsoft.com)), and UPnP software written by Thomas Bernard.

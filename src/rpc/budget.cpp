@@ -1,7 +1,7 @@
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2019 The PIVX developers
-// Copyright (c) 2019 The CryptoDev developers
-// Copyright (c) 2019 The FunCoin developers
+// Copyright (c) 2015-2020 The PIVX developers
+// Copyright (c) 2020 The CryptoDev developers
+// Copyright (c) 2020 The FunCoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -12,8 +12,10 @@
 #include "main.h"
 #include "masternode-budget.h"
 #include "masternode-payments.h"
+#include "masternode-sync.h"
 #include "masternodeconfig.h"
 #include "masternodeman.h"
+#include "messagesigner.h"
 #include "rpc/server.h"
 #include "utilmoneystr.h"
 
@@ -25,7 +27,6 @@ void budgetToJSON(CBudgetProposal* pbudgetProposal, UniValue& bObj)
 {
     CTxDestination address1;
     ExtractDestination(pbudgetProposal->GetPayee(), address1);
-    CBitcoinAddress address2(address1);
 
     bObj.push_back(Pair("Name", pbudgetProposal->GetName()));
     bObj.push_back(Pair("URL", pbudgetProposal->GetURL()));
@@ -35,7 +36,7 @@ void budgetToJSON(CBudgetProposal* pbudgetProposal, UniValue& bObj)
     bObj.push_back(Pair("BlockEnd", (int64_t)pbudgetProposal->GetBlockEnd()));
     bObj.push_back(Pair("TotalPaymentCount", (int64_t)pbudgetProposal->GetTotalPaymentCount()));
     bObj.push_back(Pair("RemainingPaymentCount", (int64_t)pbudgetProposal->GetRemainingPaymentCount()));
-    bObj.push_back(Pair("PaymentAddress", address2.ToString()));
+    bObj.push_back(Pair("PaymentAddress", EncodeDestination(address1)));
     bObj.push_back(Pair("Ratio", pbudgetProposal->GetRatio()));
     bObj.push_back(Pair("Yeas", (int64_t)pbudgetProposal->GetYeas()));
     bObj.push_back(Pair("Nays", (int64_t)pbudgetProposal->GetNays()));
@@ -51,7 +52,7 @@ void budgetToJSON(CBudgetProposal* pbudgetProposal, UniValue& bObj)
 }
 
 void checkBudgetInputs(const UniValue& params, std::string &strProposalName, std::string &strURL,
-                       int &nPaymentCount, int &nBlockStart, CBitcoinAddress &address, CAmount &nAmount)
+                       int &nPaymentCount, int &nBlockStart, CTxDestination &address, CAmount &nAmount)
 {
     strProposalName = SanitizeString(params[0].get_str());
     if (strProposalName.size() > 20)
@@ -71,21 +72,25 @@ void checkBudgetInputs(const UniValue& params, std::string &strProposalName, std
         throw JSONRPCError(RPC_IN_WARMUP, "Try again after active chain is loaded");
 
     // Start must be in the next budget cycle or later
-    const int budgetCycleBlocks = Params().GetBudgetCycleBlocks();
+    const int budgetCycleBlocks = Params().GetConsensus().nBudgetCycleBlocks;
     int pHeight = pindexPrev->nHeight;
 
     int nBlockMin = pHeight - (pHeight % budgetCycleBlocks) + budgetCycleBlocks;
 
     nBlockStart = params[3].get_int();
-    if ((nBlockStart < nBlockMin) || ((nBlockStart % budgetCycleBlocks) != 0)) {
+    if ((nBlockStart < nBlockMin) || ((nBlockStart % budgetCycleBlocks) != 0))
         throw JSONRPCError(RPC_INVALID_PARAMETER, strprintf("Invalid block start - must be a budget cycle block. Next valid block: %d", nBlockMin));
-    }
 
-    address = params[4].get_str();
-    if (!address.IsValid())
+    address = DecodeDestination(params[4].get_str());
+    if (!IsValidDestination(address))
         throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid FUNC address");
 
     nAmount = AmountFromValue(params[5]);
+    if (nAmount < 10 * COIN)
+        throw JSONRPCError(RPC_INVALID_PARAMETER, strprintf("Invalid amount - Payment of %s is less than minimum 10 %s allowed", FormatMoney(nAmount), CURRENCY_UNIT));
+
+    if (nAmount > budget.GetTotalBudget(nBlockStart))
+        throw JSONRPCError(RPC_INVALID_PARAMETER, strprintf("Invalid amount - Payment of %s more than max of %s", FormatMoney(nAmount), FormatMoney(budget.GetTotalBudget(nBlockStart))));
 }
 
 UniValue preparebudget(const UniValue& params, bool fHelp)
@@ -122,16 +127,16 @@ UniValue preparebudget(const UniValue& params, bool fHelp)
     std::string strURL;
     int nPaymentCount;
     int nBlockStart;
-    CBitcoinAddress address;
+    CTxDestination address;
     CAmount nAmount;
 
     checkBudgetInputs(params, strProposalName, strURL, nPaymentCount, nBlockStart, address, nAmount);
 
     // Parse FUNC address
-    CScript scriptPubKey = GetScriptForDestination(address.Get());
+    CScript scriptPubKey = GetScriptForDestination(address);
 
     // create transaction 15 minutes into the future, to allow for confirmation time
-    CBudgetProposalBroadcast budgetProposalBroadcast(strProposalName, strURL, nPaymentCount, scriptPubKey, nAmount, nBlockStart, 0);
+    CBudgetProposalBroadcast budgetProposalBroadcast(strProposalName, strURL, nPaymentCount, scriptPubKey, nAmount, nBlockStart, UINT256_ZERO);
 
     std::string strError = "";
     if (!budgetProposalBroadcast.IsValid(strError, false))
@@ -152,7 +157,9 @@ UniValue preparebudget(const UniValue& params, bool fHelp)
     // make our change address
     CReserveKey reservekey(pwalletMain);
     //send the tx to the network
-    pwalletMain->CommitTransaction(wtx, reservekey, useIX ? "ix" : "tx");
+    const CWallet::CommitResult& res = pwalletMain->CommitTransaction(wtx, reservekey, useIX ? NetMsgType::IX : NetMsgType::TX);
+    if (res.status != CWallet::CommitStatus::OK)
+        throw JSONRPCError(RPC_WALLET_ERROR, res.ToString());
 
     return wtx.GetHash().ToString();
 }
@@ -184,13 +191,13 @@ UniValue submitbudget(const UniValue& params, bool fHelp)
     std::string strURL;
     int nPaymentCount;
     int nBlockStart;
-    CBitcoinAddress address;
+    CTxDestination address;
     CAmount nAmount;
 
     checkBudgetInputs(params, strProposalName, strURL, nPaymentCount, nBlockStart, address, nAmount);
 
     // Parse FUNC address
-    CScript scriptPubKey = GetScriptForDestination(address.Get());
+    CScript scriptPubKey = GetScriptForDestination(address);
 
     uint256 hash = ParseHashV(params[6], "parameter 1");
 
@@ -274,33 +281,39 @@ UniValue mnbudgetvote(const UniValue& params, bool fHelp)
     UniValue resultsObj(UniValue::VARR);
 
     if (strCommand == "local") {
+        // local node must be a masternode
+        if (!fMasterNode)
+            throw JSONRPCError(RPC_MISC_ERROR, _("This is not a masternode. 'local' option disabled."));
+
+        if (activeMasternode.vin == nullopt)
+            throw JSONRPCError(RPC_MISC_ERROR, _("Active Masternode not initialized."));
+
         CPubKey pubKeyMasternode;
         CKey keyMasternode;
-        std::string errorMessage;
 
         UniValue statusObj(UniValue::VOBJ);
 
         while (true) {
-            if (!obfuScationSigner.SetKey(strMasterNodePrivKey, errorMessage, keyMasternode, pubKeyMasternode)) {
+            if (!CMessageSigner::GetKeysFromSecret(strMasterNodePrivKey, keyMasternode, pubKeyMasternode)) {
                 failed++;
                 statusObj.push_back(Pair("node", "local"));
                 statusObj.push_back(Pair("result", "failed"));
-                statusObj.push_back(Pair("error", "Masternode signing error, could not set key correctly: " + errorMessage));
+                statusObj.push_back(Pair("error", "Masternode signing error, GetKeysFromSecret failed."));
                 resultsObj.push_back(statusObj);
                 break;
             }
 
-            CMasternode* pmn = mnodeman.Find(activeMasternode.vin);
+            CMasternode* pmn = mnodeman.Find(*(activeMasternode.vin));
             if (pmn == NULL) {
                 failed++;
                 statusObj.push_back(Pair("node", "local"));
                 statusObj.push_back(Pair("result", "failed"));
-                statusObj.push_back(Pair("error", "Failure to find masternode in list : " + activeMasternode.vin.ToString()));
+                statusObj.push_back(Pair("error", "Failure to find masternode in list : " + activeMasternode.vin->ToString()));
                 resultsObj.push_back(statusObj);
                 break;
             }
 
-            CBudgetVote vote(activeMasternode.vin, hash, nVote);
+            CBudgetVote vote(*(activeMasternode.vin), hash, nVote);
             if (!vote.Sign(keyMasternode, pubKeyMasternode)) {
                 failed++;
                 statusObj.push_back(Pair("node", "local"));
@@ -337,7 +350,6 @@ UniValue mnbudgetvote(const UniValue& params, bool fHelp)
 
     if (strCommand == "many") {
         for (CMasternodeConfig::CMasternodeEntry mne : masternodeConfig.getEntries()) {
-            std::string errorMessage;
             std::vector<unsigned char> vchMasterNodeSignature;
             std::string strMasterNodeSignMessage;
 
@@ -348,11 +360,11 @@ UniValue mnbudgetvote(const UniValue& params, bool fHelp)
 
             UniValue statusObj(UniValue::VOBJ);
 
-            if (!obfuScationSigner.SetKey(mne.getPrivKey(), errorMessage, keyMasternode, pubKeyMasternode)) {
+            if (!CMessageSigner::GetKeysFromSecret(mne.getPrivKey(), keyMasternode, pubKeyMasternode)) {
                 failed++;
                 statusObj.push_back(Pair("node", mne.getAlias()));
                 statusObj.push_back(Pair("result", "failed"));
-                statusObj.push_back(Pair("error", "Masternode signing error, could not set key correctly: " + errorMessage));
+                statusObj.push_back(Pair("error", "Masternode signing error, could not set key correctly."));
                 resultsObj.push_back(statusObj);
                 continue;
             }
@@ -411,7 +423,6 @@ UniValue mnbudgetvote(const UniValue& params, bool fHelp)
 
             if( strAlias != mne.getAlias()) continue;
 
-            std::string errorMessage;
             std::vector<unsigned char> vchMasterNodeSignature;
             std::string strMasterNodeSignMessage;
 
@@ -422,11 +433,11 @@ UniValue mnbudgetvote(const UniValue& params, bool fHelp)
 
             UniValue statusObj(UniValue::VOBJ);
 
-            if(!obfuScationSigner.SetKey(mne.getPrivKey(), errorMessage, keyMasternode, pubKeyMasternode)){
+            if(!CMessageSigner::GetKeysFromSecret(mne.getPrivKey(), keyMasternode, pubKeyMasternode)){
                 failed++;
                 statusObj.push_back(Pair("node", mne.getAlias()));
                 statusObj.push_back(Pair("result", "failed"));
-                statusObj.push_back(Pair("error", "Masternode signing error, could not set key correctly: " + errorMessage));
+                statusObj.push_back(Pair("error", "Masternode signing error, could not set key correctly."));
                 resultsObj.push_back(statusObj);
                 continue;
             }
@@ -546,7 +557,8 @@ UniValue getnextsuperblock(const UniValue& params, bool fHelp)
     CBlockIndex* pindexPrev = chainActive.Tip();
     if (!pindexPrev) return "unknown";
 
-    int nNext = pindexPrev->nHeight - pindexPrev->nHeight % Params().GetBudgetCycleBlocks() + Params().GetBudgetCycleBlocks();
+    const int nBlocksPerCycle = Params().GetConsensus().nBudgetCycleBlocks;
+    int nNext = pindexPrev->nHeight - pindexPrev->nHeight % nBlocksPerCycle + nBlocksPerCycle;
     return nNext;
 }
 
@@ -598,7 +610,6 @@ UniValue getbudgetprojection(const UniValue& params, bool fHelp)
 
         CTxDestination address1;
         ExtractDestination(pbudgetProposal->GetPayee(), address1);
-        CBitcoinAddress address2(address1);
 
         UniValue bObj(UniValue::VOBJ);
         budgetToJSON(pbudgetProposal, bObj);
@@ -724,10 +735,12 @@ UniValue mnbudgetrawvote(const UniValue& params, bool fHelp)
 
     CBudgetVote vote(vin, hashProposal, nVote);
     vote.nTime = nTime;
-    vote.vchSig = vchSig;
+    vote.SetVchSig(vchSig);
 
-    if (!vote.SignatureValid(true)) {
-        return "Failure to verify signature.";
+    if (!vote.CheckSignature()) {
+        // try old message version
+        vote.nMessVersion = MessageVersion::MESS_VER_STRMESS;
+        if (!vote.CheckSignature()) return "Failure to verify signature.";
     }
 
     std::string strError = "";
@@ -754,7 +767,7 @@ UniValue mnfinalbudget(const UniValue& params, bool fHelp)
 
             "\nAvailable commands:\n"
             "  vote-many   - Vote on a finalized budget\n"
-            "  vote        - Vote on a finalized budget\n"
+            "  vote        - Vote on a finalized budget with local masternode\n"
             "  show        - Show existing finalized budgets\n"
             "  getvotes     - Get vote information for each finalized budget\n");
 
@@ -763,7 +776,7 @@ UniValue mnfinalbudget(const UniValue& params, bool fHelp)
             throw std::runtime_error("Correct usage is 'mnfinalbudget vote-many BUDGET_HASH'");
 
         std::string strHash = params[1].get_str();
-        uint256 hash(strHash);
+        uint256 hash(uint256S(strHash));
 
         int success = 0;
         int failed = 0;
@@ -771,7 +784,6 @@ UniValue mnfinalbudget(const UniValue& params, bool fHelp)
         UniValue resultsObj(UniValue::VOBJ);
 
         for (CMasternodeConfig::CMasternodeEntry mne : masternodeConfig.getEntries()) {
-            std::string errorMessage;
             std::vector<unsigned char> vchMasterNodeSignature;
             std::string strMasterNodeSignMessage;
 
@@ -782,10 +794,10 @@ UniValue mnfinalbudget(const UniValue& params, bool fHelp)
 
             UniValue statusObj(UniValue::VOBJ);
 
-            if (!obfuScationSigner.SetKey(mne.getPrivKey(), errorMessage, keyMasternode, pubKeyMasternode)) {
+            if (!CMessageSigner::GetKeysFromSecret(mne.getPrivKey(), keyMasternode, pubKeyMasternode)) {
                 failed++;
                 statusObj.push_back(Pair("result", "failed"));
-                statusObj.push_back(Pair("errorMessage", "Masternode signing error, could not set key correctly: " + errorMessage));
+                statusObj.push_back(Pair("errorMessage", "Masternode signing error, could not set key correctly."));
                 resultsObj.push_back(Pair(mne.getAlias(), statusObj));
                 continue;
             }
@@ -831,25 +843,30 @@ UniValue mnfinalbudget(const UniValue& params, bool fHelp)
     }
 
     if (strCommand == "vote") {
+        if (!fMasterNode)
+            throw JSONRPCError(RPC_MISC_ERROR, _("This is not a masternode. 'local' option disabled."));
+
+        if (activeMasternode.vin == nullopt)
+            throw JSONRPCError(RPC_MISC_ERROR, _("Active Masternode not initialized."));
+
         if (params.size() != 2)
-            throw std::runtime_error("Correct usage is 'mnfinalbudget vote BUDGET_HASH'");
+            throw JSONRPCError(RPC_INVALID_PARAMETER, _("Correct usage is 'mnfinalbudget vote BUDGET_HASH'"));
 
         std::string strHash = params[1].get_str();
-        uint256 hash(strHash);
+        uint256 hash(uint256S(strHash));
 
         CPubKey pubKeyMasternode;
         CKey keyMasternode;
-        std::string errorMessage;
 
-        if (!obfuScationSigner.SetKey(strMasterNodePrivKey, errorMessage, keyMasternode, pubKeyMasternode))
-            return "Error upon calling SetKey";
+        if (!CMessageSigner::GetKeysFromSecret(strMasterNodePrivKey, keyMasternode, pubKeyMasternode))
+            return "Error upon calling GetKeysFromSecret";
 
-        CMasternode* pmn = mnodeman.Find(activeMasternode.vin);
+        CMasternode* pmn = mnodeman.Find(*(activeMasternode.vin));
         if (pmn == NULL) {
-            return "Failure to find masternode in list : " + activeMasternode.vin.ToString();
+            return "Failure to find masternode in list : " + activeMasternode.vin->ToString();
         }
 
-        CFinalizedBudgetVote vote(activeMasternode.vin, hash);
+        CFinalizedBudgetVote vote(*(activeMasternode.vin), hash);
         if (!vote.Sign(keyMasternode, pubKeyMasternode)) {
             return "Failure to sign.";
         }
@@ -893,7 +910,7 @@ UniValue mnfinalbudget(const UniValue& params, bool fHelp)
             throw std::runtime_error("Correct usage is 'mnbudget getvotes budget-hash'");
 
         std::string strHash = params[1].get_str();
-        uint256 hash(strHash);
+        uint256 hash(uint256S(strHash));
 
         UniValue obj(UniValue::VOBJ);
 

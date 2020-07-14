@@ -1,5 +1,73 @@
 <TS language="nl" version="2.1">
 <context>
+    <name>AddNewAddressDialog</name>
+    <message>
+        <source>Dialog</source>
+        <translation>Dialoog</translation>
+    </message>
+    <message>
+        <source>My Address</source>
+        <translation>Mijn Adres</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adres</translation>
+    </message>
+    <message>
+        <source>PushButton</source>
+        <translation>DrukKnop</translation>
+    </message>
+    <message>
+        <source>CANCEL</source>
+        <translation>Annuleren</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>Akkoord</translation>
+    </message>
+</context>
+<context>
+    <name>AddNewContactDialog</name>
+    <message>
+        <source>Dialog</source>
+        <translation>Dialoog</translation>
+    </message>
+    <message>
+        <source>TextLabel</source>
+        <translation>TextLabel</translation>
+    </message>
+    <message>
+        <source>CANCEL</source>
+        <translation>Annuleren</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>Akkoord</translation>
+    </message>
+    <message>
+        <source>Edit Contact</source>
+        <translation>Contactgegevens wijzigen</translation>
+    </message>
+    <message>
+        <source>Set a label for the selected address</source>
+        <translation>Stel een label in voor het geselecteerde adres</translation>
+    </message>
+    <message>
+        <source>Enter a name for the address (e.g Exchange)</source>
+        <translation>Voeg een naam toe bij het behorende adres (bv, Exchange)</translation>
+    </message>
+    <message>
+        <source>SAVE</source>
+        <translation>Opslaan</translation>
+    </message>
+    <message>
+        <source>Edit label for the selected address:
+%1</source>
+        <translation>Bewerk label voor het geselecteerde adres:
+%1</translation>
+    </message>
+</context>
+<context>
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
@@ -95,7 +163,22 @@
     </message>
     <message>
         <source>There was an error trying to save the address list to %1. Please try again.</source>
-        <translation>Er was een fout opgetreden tijdens het opslaan van deze adreslijst naar %1. Probeer het nogmaals.</translation>
+        <translation>Er is een fout opgetreden tijdens het opslaan van de adreslijst naar %1. Probeer het opnieuw.</translation>
+    </message>
+</context>
+<context>
+    <name>AddressLabelRow</name>
+    <message>
+        <source>Form</source>
+        <translation>Formulier</translation>
+    </message>
+    <message>
+        <source>Bob Allen</source>
+        <translation>Bob Allen</translation>
+    </message>
+    <message>
+        <source>DN6i46dytMPVhV1JMGZFuQBh7BZZ6nNLox</source>
+        <translation>DN6i46dytMPVhV1JMGZFuQBh7BZZ6nNLox</translation>
     </message>
 </context>
 <context>
@@ -109,8 +192,127 @@
         <translation>Adres</translation>
     </message>
     <message>
+        <source>Date</source>
+        <translation>Datum</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Type</translation>
+    </message>
+    <message>
         <source>(no label)</source>
         <translation>(geen label)</translation>
+    </message>
+</context>
+<context>
+    <name>AddressesWidget</name>
+    <message>
+        <source>Form</source>
+        <translation>Formulier</translation>
+    </message>
+    <message>
+        <source>Send</source>
+        <translation>Zenden</translation>
+    </message>
+    <message>
+        <source>TextLabel</source>
+        <translation>TextLabel</translation>
+    </message>
+    <message>
+        <source>N/A</source>
+        <translation>NB</translation>
+    </message>
+    <message>
+        <source>Contact name</source>
+        <translation>Contactpersoon</translation>
+    </message>
+    <message>
+        <source>Enter address</source>
+        <translation>Voeg adres toe</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>Akkoord</translation>
+    </message>
+    <message>
+        <source>Contacts</source>
+        <translation>Contacten</translation>
+    </message>
+    <message>
+        <source>You can add a new one in the options menu to the side.</source>
+        <translation>U kunt een nieuwe toevoegen in het optiemenu aan de zijkant.</translation>
+    </message>
+    <message>
+        <source>No contacts yet</source>
+        <translation>Nog geen contacten</translation>
+    </message>
+    <message>
+        <source>e.g. John Doe</source>
+        <translation>bv. Jan Jansen</translation>
+    </message>
+    <message>
+        <source>Enter FUNC address</source>
+        <translation>Voer FUNC adres in</translation>
+    </message>
+    <message>
+        <source>SAVE</source>
+        <translation>Opslaan</translation>
+    </message>
+    <message>
+        <source>Invalid Contact Address</source>
+        <translation>Ongeldig contactadres</translation>
+    </message>
+    <message>
+        <source>Cannot store your own address as contact</source>
+        <translation>Kan uw eigen adres niet als contact opslaan</translation>
+    </message>
+    <message>
+        <source>Address already stored, label: %1</source>
+        <translation>Adres al opgeslagen, label: %1</translation>
+    </message>
+    <message>
+        <source>New Contact Stored</source>
+        <translation>Nieuw contact opgeslagen</translation>
+    </message>
+    <message>
+        <source>Error Storing Contact</source>
+        <translation>Fout bij het opslaan van contact</translation>
+    </message>
+    <message>
+        <source>Contact edited</source>
+        <translation>Contact bewerkt</translation>
+    </message>
+    <message>
+        <source>Contact edit failed</source>
+        <translation>Bewerken van contact mislukt</translation>
+    </message>
+    <message>
+        <source>Delete Contact</source>
+        <translation>Verwijder contact</translation>
+    </message>
+    <message>
+        <source>You are just about to remove the contact:
+
+%1
+
+Are you sure?</source>
+        <translation>U staat op het punt het contact te verwijderen:
+
+%1
+
+Weet u het zeker?</translation>
+    </message>
+    <message>
+        <source>Contact Deleted</source>
+        <translation>Contact verwijderd</translation>
+    </message>
+    <message>
+        <source>Error deleting a contact</source>
+        <translation>Fout bij het verwijderen van een contact</translation>
+    </message>
+    <message>
+        <source>Address copied</source>
+        <translation>Adres gekopieerd</translation>
     </message>
 </context>
 <context>
@@ -120,24 +322,12 @@
         <translation>Wachtwoordzin dialoog</translation>
     </message>
     <message>
-        <source>Enter passphrase</source>
-        <translation>Voer wachtwoordzin in</translation>
+        <source>TextLabel</source>
+        <translation>TextLabel</translation>
     </message>
     <message>
-        <source>New passphrase</source>
-        <translation>Nieuwe wachtwoordzin</translation>
-    </message>
-    <message>
-        <source>Repeat new passphrase</source>
-        <translation>Herhaal nieuwe wachtwoordzin</translation>
-    </message>
-    <message>
-        <source>Serves to disable the trivial sendmoney when OS account compromised. Provides no real security.</source>
-        <translation>Dient om de triviale sendmoney uit te schakelen wanneer het OS account in gevaar is gebracht. Geeft geen echte veiligheid.</translation>
-    </message>
-    <message>
-        <source>For anonymization, automint, and staking only</source>
-        <translation>Alleen voor anonimisering, automint en staking</translation>
+        <source>PushButton</source>
+        <translation>Druk Knop</translation>
     </message>
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
@@ -150,6 +340,12 @@
     <message>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
         <translation>Deze operatie vereist uw portemonneewachtwoord om de portemonnee te openen.</translation>
+    </message>
+    <message>
+        <source>Unlock wallet
+for staking</source>
+        <translation>Portemonnee ontgrendelen
+voor bewijs van Inzet</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
@@ -176,16 +372,36 @@
         <translation>Bevestig versleuteling van de portemonnee</translation>
     </message>
     <message>
+        <source>WARNING</source>
+        <translation>WAARSCHUWING</translation>
+    </message>
+    <message>
+        <source>If you encrypt your wallet and lose your passphrase, you will</source>
+        <translation>Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zal u</translation>
+    </message>
+    <message>
+        <source>LOSE ALL OF YOUR FUNC</source>
+        <translation>AL UW FUNC VERLIEZEN</translation>
+    </message>
+    <message>
+        <source>ENCRYPT</source>
+        <translation>Versleutelen</translation>
+    </message>
+    <message>
+        <source>CANCEL</source>
+        <translation>Annuleren</translation>
+    </message>
+    <message>
+        <source>WARNING: The Caps Lock key is on!</source>
+        <translation>Waarschuwing: De Caps Lock-toets staat aan!</translation>
+    </message>
+    <message>
         <source>FUNC will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your FUNCs from being stolen by malware infecting your computer.</source>
         <translation>FUNC zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen tegen malware infecties op uw computer die uw FUNC's kunnen stelen.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Weet u zeker dat u uw portemonnee wilt versleutelen?</translation>
-    </message>
-    <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FUNC&lt;/b&gt;!</source>
-        <translation>Waarschuwing: Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zult u &lt;b&gt;AL UW FUNC VERLIEZEN&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -198,6 +414,10 @@
     <message>
         <source>Wallet encryption failed</source>
         <translation>Portemonneeversleuteling mislukt</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>Akkoord</translation>
     </message>
     <message>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
@@ -223,10 +443,6 @@
         <source>Wallet passphrase was successfully changed.</source>
         <translation>Portemonnee wachtwoordzin is met succes gewijzigd.</translation>
     </message>
-    <message>
-        <source>Warning: The Caps Lock key is on!</source>
-        <translation>Waarschuwing: De Caps-Lock-toets staat aan!</translation>
-    </message>
 </context>
 <context>
     <name>BanTableModel</name>
@@ -240,648 +456,30 @@
     </message>
 </context>
 <context>
-    <name>Bip38ToolDialog</name>
+    <name>CSRow</name>
     <message>
-        <source>BIP 38 Tool</source>
-        <translation>BIP 38 Tool</translation>
+        <source>Form</source>
+        <translation>Formulier</translation>
     </message>
     <message>
-        <source>&amp;BIP 38 Encrypt</source>
-        <translation>&amp;BIP 38 Versleuteling</translation>
+        <source>Savings</source>
+        <translation>Besparingen</translation>
     </message>
     <message>
-        <source>Address:</source>
-        <translation>Adres:</translation>
+        <source>0,00 FUNC</source>
+        <translation>0,00 FUNC</translation>
     </message>
     <message>
-        <source>Enter a FUNC Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Voer een FUNC adres in dat u wilt coderen met BIP 38. Voer een wachtwoordzin in in het middelste vak. Druk op versleutelen om de versleutelde privé sleutel te berekenen.</translation>
+        <source>address</source>
+        <translation>adres</translation>
     </message>
     <message>
-        <source>The FUNC address to encrypt</source>
-        <translation>Het FUNC adres om te versleutelen</translation>
+        <source>Not Staking</source>
+        <translation>Niet aan het Staken</translation>
     </message>
     <message>
-        <source>Choose previously used address</source>
-        <translation>Kies een eerder gebruikt adres</translation>
-    </message>
-    <message>
-        <source>Alt+A</source>
-        <translation>Alt+A</translation>
-    </message>
-    <message>
-        <source>Paste address from clipboard</source>
-        <translation>Plak adres vanaf klembord</translation>
-    </message>
-    <message>
-        <source>Alt+P</source>
-        <translation>Alt+P</translation>
-    </message>
-    <message>
-        <source>Passphrase: </source>
-        <translation>Wachtwoord:</translation>
-    </message>
-    <message>
-        <source>Encrypted Key:</source>
-        <translation>Versleutelde sleutel:</translation>
-    </message>
-    <message>
-        <source>Copy the current signature to the system clipboard</source>
-        <translation>Kopieer de huidige handtekening naar het systeemklembord</translation>
-    </message>
-    <message>
-        <source>Encrypt the private key for this FUNC address</source>
-        <translation>Versleutel de privé sleutel voor dit FUNC adres</translation>
-    </message>
-    <message>
-        <source>Reset all fields</source>
-        <translation>Reset alle velden</translation>
-    </message>
-    <message>
-        <source>The encrypted private key</source>
-        <translation>De versleutelde privé sleutel</translation>
-    </message>
-    <message>
-        <source>Decrypt the entered key using the passphrase</source>
-        <translation>Decodeer de ingevoerde sleutel met behulp van de wachtwoordzin</translation>
-    </message>
-    <message>
-        <source>Encrypt &amp;Key</source>
-        <translation>Versleutel &amp;Sleutel</translation>
-    </message>
-    <message>
-        <source>Clear &amp;All</source>
-        <translation>Verwijder &amp;Alles</translation>
-    </message>
-    <message>
-        <source>&amp;BIP 38 Decrypt</source>
-        <translation>&amp;BIP 38 ontsleuteling</translation>
-    </message>
-    <message>
-        <source>Enter the BIP 38 encrypted private key. Enter the passphrase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</source>
-        <translation>Voer de BIP 38 versleutelde geheime sleutel in. Voer de wachtwoordzin in, in het middelste veld. Druk op Ontsleutel Sleutel om de privé sleutel te berekenen.  Nadat de privé sleutel is ontsleuteld, zal het klikken op 'Adres Importeren' de privé sleutel toevoegen aan de portemonnee.</translation>
-    </message>
-    <message>
-        <source>Decrypt &amp;Key</source>
-        <translation>Ontsleutelen &amp;Sleutel</translation>
-    </message>
-    <message>
-        <source>Decrypted Key:</source>
-        <translation>Ontsleutelde sleutel:</translation>
-    </message>
-    <message>
-        <source>Import Address</source>
-        <translation>Adres Importeren</translation>
-    </message>
-    <message>
-        <source>Click "Decrypt Key" to compute key</source>
-        <translation>Klik "Ontsleutelen Sleutel" om de sleutel te berekenen</translation>
-    </message>
-    <message>
-        <source>The entered passphrase is invalid. </source>
-        <translation>De ingevoerde wachtwoordzin is ongeldig.</translation>
-    </message>
-    <message>
-        <source>Allowed: 0-9,a-z,A-Z,</source>
-        <translation>Toegestaan: 0-9,a-z,A-Z</translation>
-    </message>
-    <message>
-        <source>The entered address is invalid.</source>
-        <translation>Het ingevoerde adres is ongeldig.</translation>
-    </message>
-    <message>
-        <source>Please check the address and try again.</source>
-        <translation>Controleer het adres en probeer het opnieuw.</translation>
-    </message>
-    <message>
-        <source>The entered address does not refer to a key.</source>
-        <translation>Het opgegeven adres verwijst niet naar een sleutel.</translation>
-    </message>
-    <message>
-        <source>Wallet unlock was cancelled.</source>
-        <translation>Portemonnee ontsleuteling is geannuleerd.</translation>
-    </message>
-    <message>
-        <source>Private key for the entered address is not available.</source>
-        <translation>Privé sleutel voor het ingevoerde adres is niet beschikbaar.</translation>
-    </message>
-    <message>
-        <source>Failed to decrypt.</source>
-        <translation>Ontsleutelen mislukt.</translation>
-    </message>
-    <message>
-        <source>Please check the key and passphrase and try again.</source>
-        <translation>Controleer de sleutel en de wachtwoordzin en probeer het opnieuw.</translation>
-    </message>
-    <message>
-        <source>Data Not Valid.</source>
-        <translation>Gegevens ongeldig.</translation>
-    </message>
-    <message>
-        <source>Please try again.</source>
-        <translation>Probeer het opnieuw.</translation>
-    </message>
-    <message>
-        <source>Please wait while key is imported</source>
-        <translation>Wacht tot de sleutel is geïmporteerd</translation>
-    </message>
-    <message>
-        <source>Key Already Held By Wallet</source>
-        <translation>Sleutel al aanwezig in portemonnee</translation>
-    </message>
-    <message>
-        <source>Error Adding Key To Wallet</source>
-        <translation>Fout bij het toevoegen van de sleutel</translation>
-    </message>
-    <message>
-        <source>Successfully Added Private Key To Wallet</source>
-        <translation>De privé sleutel is met succes toegevoegd aan de portemonnee</translation>
-    </message>
-</context>
-<context>
-    <name>BitcoinGUI</name>
-    <message>
-        <source>Wallet</source>
-        <translation>Portemonnee</translation>
-    </message>
-    <message>
-        <source>Node</source>
-        <translation>Node</translation>
-    </message>
-    <message>
-        <source>&amp;Overview</source>
-        <translation>&amp;Overzicht</translation>
-    </message>
-    <message>
-        <source>Show general overview of wallet</source>
-        <translation>Toon algemeen overzicht van de portemonnee</translation>
-    </message>
-    <message>
-        <source>&amp;Send</source>
-        <translation>&amp;Verzenden</translation>
-    </message>
-    <message>
-        <source>&amp;Receive</source>
-        <translation>&amp;Ontvangen</translation>
-    </message>
-    <message>
-        <source>&amp;Transactions</source>
-        <translation>&amp;Transacties</translation>
-    </message>
-    <message>
-        <source>Browse transaction history</source>
-        <translation>Blader door transactiegescheidenis</translation>
-    </message>
-    <message>
-        <source>Privacy Actions for zFUNC</source>
-        <translation>Privacy Acties voor zFUNC</translation>
-    </message>
-    <message>
-        <source>&amp;Governance</source>
-        <translation>&amp;Bestuur</translation>
-    </message>
-    <message>
-        <source>Show Proposals</source>
-        <translation>Toon Voorstellen</translation>
-    </message>
-    <message>
-        <source>E&amp;xit</source>
-        <translation>S&amp;luiten</translation>
-    </message>
-    <message>
-        <source>Quit application</source>
-        <translation>Programma afsluiten</translation>
-    </message>
-    <message>
-        <source>About &amp;Qt</source>
-        <translation>Over &amp;Qt</translation>
-    </message>
-    <message>
-        <source>Show information about Qt</source>
-        <translation>Toon informatie over Qt</translation>
-    </message>
-    <message>
-        <source>&amp;Options...</source>
-        <translation>&amp;Opties...</translation>
-    </message>
-    <message>
-        <source>&amp;Show / Hide</source>
-        <translation>&amp;Tonen / Verbergen</translation>
-    </message>
-    <message>
-        <source>Show or hide the main Window</source>
-        <translation>Toon of verberg het hoofdvenster</translation>
-    </message>
-    <message>
-        <source>&amp;Encrypt Wallet...</source>
-        <translation>$Versleutel portemonnee...</translation>
-    </message>
-    <message>
-        <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>Versleutel de privé sleutels die bij uw portemonnee horen</translation>
-    </message>
-    <message>
-        <source>&amp;Backup Wallet...</source>
-        <translation>&amp;Backup Portemonnee...</translation>
-    </message>
-    <message>
-        <source>Backup wallet to another location</source>
-        <translation>Backup portemonnee naar een andere locatie</translation>
-    </message>
-    <message>
-        <source>&amp;Change Passphrase...</source>
-        <translation>&amp;Wijzig Wachtwoordzin...</translation>
-    </message>
-    <message>
-        <source>Change the passphrase used for wallet encryption</source>
-        <translation>Wijzig de wachtwoordzin die gebruikt wordt voor uw portemonnee versleuteling</translation>
-    </message>
-    <message>
-        <source>&amp;Unlock Wallet...</source>
-        <translation>&amp;Open portemonnee...</translation>
-    </message>
-    <message>
-        <source>Unlock wallet</source>
-        <translation>Open portemonnee</translation>
-    </message>
-    <message>
-        <source>&amp;Lock Wallet</source>
-        <translation>&amp;Sluit portemonnee</translation>
-    </message>
-    <message>
-        <source>Sign &amp;message...</source>
-        <translation>Bericht &amp;Ondertekenen...</translation>
-    </message>
-    <message>
-        <source>&amp;Verify message...</source>
-        <translation>Bericht &amp;Verifiëren... </translation>
-    </message>
-    <message>
-        <source>&amp;Information</source>
-        <translation>&amp;Informatie</translation>
-    </message>
-    <message>
-        <source>Show diagnostic information</source>
-        <translation>Toon diagnostische informatie</translation>
-    </message>
-    <message>
-        <source>&amp;Debug console</source>
-        <translation>&amp;Debug console</translation>
-    </message>
-    <message>
-        <source>Open debugging console</source>
-        <translation>Open debugging console</translation>
-    </message>
-    <message>
-        <source>&amp;Network Monitor</source>
-        <translation>&amp;Netwerk Monitor</translation>
-    </message>
-    <message>
-        <source>Show network monitor</source>
-        <translation>Toon netwerk monitor</translation>
-    </message>
-    <message>
-        <source>&amp;Peers list</source>
-        <translation>&amp;Peers lijst</translation>
-    </message>
-    <message>
-        <source>Show peers info</source>
-        <translation>Toon informatie van peers</translation>
-    </message>
-    <message>
-        <source>Wallet &amp;Repair</source>
-        <translation>Portemonnee &amp;Repareren </translation>
-    </message>
-    <message>
-        <source>Show wallet repair options</source>
-        <translation>Toon portemonnee reparatie opties</translation>
-    </message>
-    <message>
-        <source>Open configuration file</source>
-        <translation>Open configuratie bestand</translation>
-    </message>
-    <message>
-        <source>Show Automatic &amp;Backups</source>
-        <translation>Toon Automatische &amp;Backups</translation>
-    </message>
-    <message>
-        <source>Show automatically created wallet backups</source>
-        <translation>Toon automatisch aangemaakte portemonnee backups</translation>
-    </message>
-    <message>
-        <source>&amp;Sending addresses...</source>
-        <translation>&amp;Verzendadressen...</translation>
-    </message>
-    <message>
-        <source>Show the list of used sending addresses and labels</source>
-        <translation>Toon de lijst van gebruikte verzendadressen en labels</translation>
-    </message>
-    <message>
-        <source>&amp;Receiving addresses...</source>
-        <translation>&amp;Ontvangstadressen...</translation>
-    </message>
-    <message>
-        <source>Show the list of used receiving addresses and labels</source>
-        <translation>Toon de lijst van gebruikte ontvangstadressen en labels</translation>
-    </message>
-    <message>
-        <source>&amp;Multisignature creation...</source>
-        <translation>&amp;Multisignature aanmaak...</translation>
-    </message>
-    <message>
-        <source>Create a new multisignature address and add it to this wallet</source>
-        <translation>Creëer een nieuw multisignature adres en voeg het toe aan deze portemonnee</translation>
-    </message>
-    <message>
-        <source>&amp;Multisignature spending...</source>
-        <translation>&amp;Multisignature spenderen...</translation>
-    </message>
-    <message>
-        <source>Spend from a multisignature address</source>
-        <translation>Besteden vanuit een multisignature adres</translation>
-    </message>
-    <message>
-        <source>&amp;Multisignature signing...</source>
-        <translation>Ondertekenen van &amp;Multisignature...</translation>
-    </message>
-    <message>
-        <source>Sign with a multisignature address</source>
-        <translation>Onderteken met een multisignature adres</translation>
-    </message>
-    <message>
-        <source>Open &amp;URI...</source>
-        <translation>Open &amp;URI...</translation>
-    </message>
-    <message>
-        <source>&amp;Command-line options</source>
-        <translation>&amp;Opdrachtregelopties</translation>
-    </message>
-    <message>
-        <source>Synchronizing additional data: %p%</source>
-        <translation>Synchroniseren aanvullende gegevens: %p%</translation>
-    </message>
-    <message>
-        <source>%1 behind. Scanning block %2</source>
-        <translation>%1 achter. Scannen van block %2</translation>
-    </message>
-    <message>
-        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for anonymization and staking only</source>
-        <translation>Portemonnee is &lt;b&gt;versleuteld&lt;/b&gt; en momenteel &lt;b&gt;geopend&lt;/b&gt;enkel voor anonimisering en staking</translation>
-    </message>
-    <message>
-        <source>Tor is &lt;b&gt;enabled&lt;/b&gt;: %1</source>
-        <translation>Tor is &lt;b&gt;enabled&lt;/b&gt;: %1</translation>
-    </message>
-    <message>
-        <source>&amp;File</source>
-        <translation>&amp;Bestand</translation>
-    </message>
-    <message>
-        <source>&amp;Settings</source>
-        <translation>&amp;Instellingen</translation>
-    </message>
-    <message>
-        <source>&amp;Tools</source>
-        <translation>&amp;Gereedschap</translation>
-    </message>
-    <message>
-        <source>&amp;Help</source>
-        <translation>&amp;Help</translation>
-    </message>
-    <message>
-        <source>Tabs toolbar</source>
-        <translation>Tabblad werkbalk</translation>
-    </message>
-    <message>
-        <source>FUNC Core</source>
-        <translation>FUNC Core</translation>
-    </message>
-    <message>
-        <source>Send coins to a FUNC address</source>
-        <translation>Verstuur munten naar een FUNC adres</translation>
-    </message>
-    <message>
-        <source>Request payments (generates QR codes and func: URIs)</source>
-        <translation>Vraag betaling aan (genereert QR codes en FUNC: URI's)</translation>
-    </message>
-    <message>
-        <source>&amp;Privacy</source>
-        <translation>&amp;Privacy</translation>
-    </message>
-    <message>
-        <source>&amp;Masternodes</source>
-        <translation>&amp;Masternodes</translation>
-    </message>
-    <message>
-        <source>Browse masternodes</source>
-        <translation>Bekijk masternodes</translation>
-    </message>
-    <message>
-        <source>&amp;About FUNC Core</source>
-        <translation>&amp;Over FUNC Core</translation>
-    </message>
-    <message>
-        <source>Show information about FUNC Core</source>
-        <translation>Toon informatie over FUNC Kern</translation>
-    </message>
-    <message>
-        <source>Modify configuration options for FUNC</source>
-        <translation>Wijzig FUNC configuratie opties</translation>
-    </message>
-    <message>
-        <source>Sign messages with your FUNC addresses to prove you own them</source>
-        <translation>Onderteken berichten met uw FUNC adressen om te bewijzen dat deze adressen in uw bezit zijn</translation>
-    </message>
-    <message>
-        <source>Verify messages to ensure they were signed with specified FUNC addresses</source>
-        <translation>Controleer berichten om te verzekeren dat deze ondertekend zijn met de gespecificeerde FUNC adressen</translation>
-    </message>
-    <message>
-        <source>&amp;BIP38 tool</source>
-        <translation>&amp;BIP38 tool</translation>
-    </message>
-    <message>
-        <source>Encrypt and decrypt private keys using a passphrase</source>
-        <translation>Versleutelen en ontsleutel privé sleutels door middel van een wachtwoordzin</translation>
-    </message>
-    <message>
-        <source>&amp;MultiSend</source>
-        <translation>&amp;MultiSend</translation>
-    </message>
-    <message>
-        <source>MultiSend Settings</source>
-        <translation>MultiSend instellingen</translation>
-    </message>
-    <message>
-        <source>Open Wallet &amp;Configuration File</source>
-        <translation>Open Portemonnee &amp;Configuratiebestand</translation>
-    </message>
-    <message>
-        <source>Open &amp;Masternode Configuration File</source>
-        <translation>Open &amp;Masternode Configuratiebestand</translation>
-    </message>
-    <message>
-        <source>Open Masternode configuration file</source>
-        <translation>Open Masternode configuratiebestand</translation>
-    </message>
-    <message>
-        <source>Open a FUNC: URI or payment request</source>
-        <translation>Open een FUNC: URI of betaalverzoek</translation>
-    </message>
-    <message>
-        <source>&amp;Blockchain explorer</source>
-        <translation>&amp;Blockchain verkenner</translation>
-    </message>
-    <message>
-        <source>Block explorer window</source>
-        <translation>Block verkenner venster</translation>
-    </message>
-    <message>
-        <source>Show the FUNC Core help message to get a list with possible FUNC command-line options</source>
-        <translation>Toon het FUNC Core help bericht om een ​​lijst te krijgen met mogelijke FUNC command line opties</translation>
-    </message>
-    <message>
-        <source>FUNC Core client</source>
-        <translation>FUNC Core client</translation>
-    </message>
-    <message>
-        <source>Synchronizing with network...</source>
-        <translation>Synchroniseren met het netwerk...</translation>
-    </message>
-    <message>
-        <source>Importing blocks from disk...</source>
-        <translation>Blocks aan het importeren vanaf schijf...</translation>
-    </message>
-    <message>
-        <source>Reindexing blocks on disk...</source>
-        <translation>Blocks opnieuw aan het indexeren op de schijf...</translation>
-    </message>
-    <message>
-        <source>No block source available...</source>
-        <translation>Geen block bron beschikbaar</translation>
-    </message>
-    <message>
-        <source>Up to date</source>
-        <translation>Bijgewerkt</translation>
-    </message>
-    <message>
-        <source>%1 and %2</source>
-        <translation>%1 en %2</translation>
-    </message>
-    <message>
-        <source>Catching up...</source>
-        <translation>Aan het bijwerken...</translation>
-    </message>
-    <message>
-        <source>Last received block was generated %1 ago.</source>
-        <translation>Laatst ontvangen block was %1 geleden gegenereerd.</translation>
-    </message>
-    <message>
-        <source>Transactions after this will not yet be visible.</source>
-        <translation>Transacties hierna zullen nog niet zichtbaar zijn.</translation>
-    </message>
-    <message>
-        <source>Error</source>
-        <translation>Error</translation>
-    </message>
-    <message>
-        <source>Warning</source>
-        <translation>Waarschuwing</translation>
-    </message>
-    <message>
-        <source>Information</source>
-        <translation>Informatie</translation>
-    </message>
-    <message>
-        <source>Sent transaction</source>
-        <translation>Verzend transactie</translation>
-    </message>
-    <message>
-        <source>Incoming transaction</source>
-        <translation>Inkomende transactie</translation>
-    </message>
-    <message>
-        <source>Sent MultiSend transaction</source>
-        <translation>Verzonden MultiSend transactie</translation>
-    </message>
-    <message>
-        <source>Date: %1
-Amount: %2
-Type: %3
-Address: %4
-</source>
-        <translation>Datum: %1
-Hoeveelheid: %2
-Type: %3
-Adres: %4
-</translation>
-    </message>
-    <message>
-        <source>Staking is active
- MultiSend: %1</source>
-        <translation>Staking is actief
-Multisend: %1</translation>
-    </message>
-    <message>
-        <source>Active</source>
-        <translation>Actief</translation>
-    </message>
-    <message>
-        <source>Not Active</source>
-        <translation>Niet actief</translation>
-    </message>
-    <message>
-        <source>Staking is not active
- MultiSend: %1</source>
-        <translation>Staking is niet actief
-MultiSend: %1</translation>
-    </message>
-    <message>
-        <source>AutoMint is currently enabled and set to </source>
-        <translation>AutoMint is momenteel ingeschakeld en ingesteld op</translation>
-    </message>
-    <message>
-        <source>AutoMint is disabled</source>
-        <translation>AutoMint is uitgeschakeld</translation>
-    </message>
-    <message>
-        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>Portemonnee is &lt;b&gt;versleuteld&lt;/b&gt; en momenteel &lt;b&gt;geopend&lt;/b&gt;</translation>
-    </message>
-    <message>
-        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>Portemonnee is versleuteld &lt;/b&gt;en momenteel &lt;b&gt; vergrendeld&lt;/b&gt;</translation>
-    </message>
-    </context>
-<context>
-    <name>BlockExplorer</name>
-    <message>
-        <source>Blockchain Explorer</source>
-        <translation>Blockchain Verkenner</translation>
-    </message>
-    <message>
-        <source>Back</source>
-        <translation>Terug</translation>
-    </message>
-    <message>
-        <source>Forward</source>
-        <translation>Volgende</translation>
-    </message>
-    <message>
-        <source>Address / Block / Transaction</source>
-        <translation>Adres / Block / Transactie</translation>
-    </message>
-    <message>
-        <source>Search</source>
-        <translation>Zoeken</translation>
-    </message>
-    <message>
-        <source>TextLabel</source>
-        <translation>TextLabel</translation>
-    </message>
-    <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (func.conf).</source>
-        <translation>Niet alle transacties zullen worden getoond. Om alle transacties te bekijken moet u txindex=1 instellen in het configuratie bestand (func.conf).</translation>
+        <source>Own delegation</source>
+        <translation>Eigen delegatie</translation>
     </message>
 </context>
 <context>
@@ -889,10 +487,6 @@ MultiSend: %1</translation>
     <message>
         <source>Total: %1 (IPv4: %2 / IPv6: %3 / Tor: %4 / Unknown: %5)</source>
         <translation>Totaal: %1 (IPv4: %2 / IPv6: %3 / Tor: %4 / Onbekend: %5)</translation>
-    </message>
-    <message>
-        <source>Network Alert</source>
-        <translation>Netwerk waarschuwing</translation>
     </message>
 </context>
 <context>
@@ -906,14 +500,6 @@ MultiSend: %1</translation>
         <translation>Bytes:</translation>
     </message>
     <message>
-        <source>Amount:</source>
-        <translation>Bedrag:</translation>
-    </message>
-    <message>
-        <source>Priority:</source>
-        <translation>Prioriteit:</translation>
-    </message>
-    <message>
         <source>Fee:</source>
         <translation>Fee:</translation>
     </message>
@@ -922,24 +508,16 @@ MultiSend: %1</translation>
         <translation>Munt Selectie</translation>
     </message>
     <message>
+        <source>Select FUNC Outputs to Spend</source>
+        <translation>Selecteer FUNC Outputs om te besteden</translation>
+    </message>
+    <message>
         <source>Dust:</source>
         <translation>Dust:</translation>
     </message>
     <message>
-        <source>After Fee:</source>
-        <translation>Na de fee:</translation>
-    </message>
-    <message>
         <source>Change:</source>
         <translation>Wisselgeld:</translation>
-    </message>
-    <message>
-        <source>(un)select all</source>
-        <translation>(de)selecteer alles</translation>
-    </message>
-    <message>
-        <source>toggle lock state</source>
-        <translation>Schakel lock status</translation>
     </message>
     <message>
         <source>Tree mode</source>
@@ -958,6 +536,22 @@ MultiSend: %1</translation>
         <translation>Bedrag</translation>
     </message>
     <message>
+        <source>0.00 FUNC</source>
+        <translation>0.00 FUNC</translation>
+    </message>
+    <message>
+        <source>0</source>
+        <translation>0</translation>
+    </message>
+    <message>
+        <source>Select all</source>
+        <translation>Selecteer alles</translation>
+    </message>
+    <message>
+        <source>Toggle lock state</source>
+        <translation>Schakel lockstatus in</translation>
+    </message>
+    <message>
         <source>Received with label</source>
         <translation>Ontvangen met label</translation>
     </message>
@@ -966,8 +560,12 @@ MultiSend: %1</translation>
         <translation>Ontvangen met adres</translation>
     </message>
     <message>
-        <source>Type</source>
-        <translation>Type</translation>
+        <source>After Fee: </source>
+        <translation>Na kosten</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>Akkoord</translation>
     </message>
     <message>
         <source>Date</source>
@@ -980,10 +578,6 @@ MultiSend: %1</translation>
     <message>
         <source>Confirmed</source>
         <translation>Bevestigd</translation>
-    </message>
-    <message>
-        <source>Priority</source>
-        <translation>Prioriteit</translation>
     </message>
     <message>
         <source>Copy address</source>
@@ -1010,36 +604,40 @@ MultiSend: %1</translation>
         <translation>Unlock niet besteed</translation>
     </message>
     <message>
-        <source>Copy quantity</source>
-        <translation>Kopieer kwantiteit</translation>
-    </message>
-    <message>
-        <source>Copy fee</source>
-        <translation>Kopieer fee</translation>
-    </message>
-    <message>
-        <source>Copy after fee</source>
-        <translation>Kopieer na fee</translation>
-    </message>
-    <message>
-        <source>Copy bytes</source>
-        <translation>Kopieer bytes</translation>
-    </message>
-    <message>
-        <source>Copy priority</source>
-        <translation>Kopieer prioriteit</translation>
-    </message>
-    <message>
-        <source>Copy dust</source>
-        <translation>Kopieer dust</translation>
-    </message>
-    <message>
-        <source>Copy change</source>
-        <translation>Kopieer wisselgeld</translation>
+        <source>Unselect all</source>
+        <translation>Deselecteer alles</translation>
     </message>
     <message>
         <source>Please switch to "List mode" to use this function.</source>
         <translation>Schakel alsjeblieft over naar "Lijst modus" om deze functie te gebruiken.</translation>
+    </message>
+    <message>
+        <source>Quantity Copied</source>
+        <translation>Aantal gekopieerd</translation>
+    </message>
+    <message>
+        <source>Amount Copied</source>
+        <translation>Hoeveelheid gekopieerd</translation>
+    </message>
+    <message>
+        <source>Fee Copied</source>
+        <translation>Kost gekopieerd</translation>
+    </message>
+    <message>
+        <source>After Fee Copied</source>
+        <translation>Na Vergoeding Gekopieerd</translation>
+    </message>
+    <message>
+        <source>Bytes Copied</source>
+        <translation>Bytes gekopieerd</translation>
+    </message>
+    <message>
+        <source>Dust Copied</source>
+        <translation>Dust Gekopieerd</translation>
+    </message>
+    <message>
+        <source>Change Copied</source>
+        <translation>Wissel Gekopieerd</translation>
     </message>
     <message>
         <source>highest</source>
@@ -1090,6 +688,10 @@ MultiSend: %1</translation>
         <translation>ja</translation>
     </message>
     <message>
+        <source>delegated to %1 for cold staking</source>
+        <translation>gedelegeerd naar %1 voor cold staking</translation>
+    </message>
+    <message>
         <source>no</source>
         <translation>nee</translation>
     </message>
@@ -1132,6 +734,387 @@ MultiSend: %1</translation>
     <message>
         <source>(change)</source>
         <translation>(wijzig)</translation>
+    </message>
+</context>
+<context>
+    <name>ColdStakingWidget</name>
+    <message>
+        <source>Form</source>
+        <translation>Formulier</translation>
+    </message>
+    <message>
+        <source>Title</source>
+        <translation>Tietel</translation>
+    </message>
+    <message>
+        <source>TextLabel</source>
+        <translation>TextLabel</translation>
+    </message>
+    <message>
+        <source>Owner address (optional, if empty a new address will be created)</source>
+        <translation>Eigenaarsadres (optioneel, indien leeg wordt er een nieuw adres aangemaakt)</translation>
+    </message>
+    <message>
+        <source>Total Staking:</source>
+        <translation>Totaal Staking:</translation>
+    </message>
+    <message>
+        <source>List of delegated balance by address</source>
+        <translation>Lijst van gedelegeerde balans gesorteerd op adres</translation>
+    </message>
+    <message>
+        <source>No balance delegated</source>
+        <translation>Geen balans gedelegeerd</translation>
+    </message>
+    <message>
+        <source>Cold Staking</source>
+        <translation>Cold Staking</translation>
+    </message>
+    <message>
+        <source>Staker</source>
+        <translation>Staker</translation>
+    </message>
+    <message>
+        <source>Delegation</source>
+        <translation>Delegatie</translation>
+    </message>
+    <message>
+        <source>Delegate</source>
+        <translation>Delegeer</translation>
+    </message>
+    <message>
+        <source>Clear All</source>
+        <translation>Alles wissen</translation>
+    </message>
+    <message>
+        <source>Delegated balance history</source>
+        <translation>Gedelegeerde balanshistoriek</translation>
+    </message>
+    <message>
+        <source>No delegations yet</source>
+        <translation>Nog geen delegaties</translation>
+    </message>
+    <message>
+        <source>Total Staking: %1</source>
+        <translation>Totaal Staking: %1</translation>
+    </message>
+    <message>
+        <source>Error loading delegations: %1</source>
+        <translation>Fout bij laden delegaties: %1</translation>
+    </message>
+    <message>
+        <source>You can delegate your FUNCs, letting a hot node (24/7 online node)
+stake on your behalf, while you keep the keys securely offline.</source>
+        <translation>Je kan jouw FUNCs delegeren en een hot node (24/7 online node)
+voor je laten staken, terwijl je de sleutels veilig offline opslag bewaart.</translation>
+    </message>
+    <message>
+        <source>Enter owner address</source>
+        <translation>Voer eigenaarsadres in</translation>
+    </message>
+    <message>
+        <source>Accept FUNC delegation / Delegate FUNC</source>
+        <translation>Accepteer FUNC delegatie / Delegeer FUNC</translation>
+    </message>
+    <message>
+        <source>Cold Staking address</source>
+        <translation>Cold Staking adres</translation>
+    </message>
+    <message>
+        <source>No receive addresses available, you can go to the receive screen and create some there!</source>
+        <translation>Geen ontvangstadressen beschikbare, je kan naar het ontvangstscherm gaan en daar enkele toevoegen!</translation>
+    </message>
+    <message>
+        <source>No contacts available, you can go to the contacts screen and add some there!</source>
+        <translation>Geen beschikbare contacten, je kan naar het contactscherm gaan en daar enkele toevoegen!</translation>
+    </message>
+    <message>
+        <source>Cannot send delegation, wallet locked</source>
+        <translation>Kan delegatie niet versturen, portemonnee vergrendeld</translation>
+    </message>
+    <message>
+        <source>Cold staking is networkely disabled</source>
+        <translation>Cold staking is uitgeschakeld</translation>
+    </message>
+    <message>
+        <source>Invalid entry</source>
+        <translation>Ongeldige invoer</translation>
+    </message>
+    <message>
+        <source>Invalid entry, minimum delegable amount is </source>
+        <translation>Ongeldige invoer, minimaal te delegeren bedrag is</translation>
+    </message>
+    <message>
+        <source>Owner address invalid</source>
+        <translation>Ongeldig eigenaarsadres</translation>
+    </message>
+    <message>
+        <source>ALERT!</source>
+        <translation>ALERT!</translation>
+    </message>
+    <message>
+        <source>Delegating to an external owner address!
+
+The delegated coins will NOT be spendable by this wallet.
+Spending these coins will need to be done from the wallet or
+device containing the owner address.
+
+Do you wish to proceed?</source>
+        <translation>Aan het delegeren naar een extern eigenaarsadres!
+
+De gedelegeerde munten zullen NIET besteedbaar zijn vanuit deze portemonnee.
+Het uitbesteden van deze munten zal gedaan kunnen worden vanuit de portemonnee of
+toestel welke het eigenaarsadres bevat.
+
+Wil je verdergaan?</translation>
+    </message>
+    <message>
+        <source>Staking address corresponds to this wallet, change it to an external node</source>
+        <translation>Stakingadres reageert op deze portemonnee, wijzig het in een externe node</translation>
+    </message>
+    <message>
+        <source>Cannot create transaction.</source>
+        <translation>Kan geen transactie aanmaken.</translation>
+    </message>
+    <message>
+        <source>Coins delegated</source>
+        <translation>Gedelegeerde Munten</translation>
+    </message>
+    <message>
+        <source>You don't have any FUNC to select.</source>
+        <translation>Je hebt geen FUNC om te selecteren</translation>
+    </message>
+    <message>
+        <source>Cannot perform operation, wallet locked</source>
+        <translation>Kan deze actie niet uitvoeren, portemonnee vergrendeld</translation>
+    </message>
+    <message>
+        <source>URI copied to clipboard</source>
+        <translation>URI gekopieerd naar klembord</translation>
+    </message>
+    <message>
+        <source>Address copied to clipboard</source>
+        <translation>Adres gekopieerd naar klembord</translation>
+    </message>
+    <message>
+        <source>Copy</source>
+        <translation>Kopieren</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Bewerk</translation>
+    </message>
+    <message>
+        <source>Stake</source>
+        <translation>Stake</translation>
+    </message>
+    <message>
+        <source>Blacklist</source>
+        <translation>Blacklist</translation>
+    </message>
+    <message>
+        <source>Edit Label</source>
+        <translation>Label wijzigen</translation>
+    </message>
+    <message>
+        <source>Copy owner
+address</source>
+        <translation>Kopieer eigenaarsadres</translation>
+    </message>
+    <message>
+        <source>Address copied</source>
+        <translation>Adres gekopieerd</translation>
+    </message>
+    <message>
+        <source>Edit Cold Address Label</source>
+        <translation>Label Cold Adres wijzigen</translation>
+    </message>
+    <message>
+        <source>Whitelist failed, please check the logs</source>
+        <translation>Veilige lijst mislukt, controleer de logs</translation>
+    </message>
+    <message>
+        <source> staking!</source>
+        <translation>staking!</translation>
+    </message>
+    <message>
+        <source>Blacklist failed, please check the logs</source>
+        <translation>Zwarte lijst mislukt, controleer de logs</translation>
+    </message>
+    <message>
+        <source> blacklisted from staking</source>
+        <translation>staking staat op de zwarte lijst</translation>
+    </message>
+    <message>
+        <source>Owner address copied</source>
+        <translation>Eigenaarsadres gekopieerd</translation>
+    </message>
+    <message>
+        <source>Edit Owner Address Label</source>
+        <translation>Label eigenaarsadres wijzigen</translation>
+    </message>
+    <message>
+        <source>Address label saved</source>
+        <translation>Adreslabel opgeslagen</translation>
+    </message>
+    <message>
+        <source>Error storing address label</source>
+        <translation>Fout bij bewaren adreslabel</translation>
+    </message>
+</context>
+<context>
+    <name>ContactDropdownRow</name>
+    <message>
+        <source>Form</source>
+        <translation>Formulier</translation>
+    </message>
+    <message>
+        <source>Bob Allen</source>
+        <translation>Bob Allen</translation>
+    </message>
+    <message>
+        <source>DN6i46dytMPVhV1JMGZFuQBh7BZZ6nNLox</source>
+        <translation>DN6i46dytMPVhV1JMGZFuQBh7BZZ6nNLox</translation>
+    </message>
+</context>
+<context>
+    <name>DashboardWidget</name>
+    <message>
+        <source>Form</source>
+        <translation>Formulier</translation>
+    </message>
+    <message>
+        <source>Transactions</source>
+        <translation>Transacties</translation>
+    </message>
+    <message>
+        <source>You can see here the history of your account</source>
+        <translation>U kunt hier de geschiedenis van uw account bekijken</translation>
+    </message>
+    <message>
+        <source>Warning</source>
+        <translation>Waarschuwing</translation>
+    </message>
+    <message>
+        <source>No transactions</source>
+        <translation>Geen transacties</translation>
+    </message>
+    <message>
+        <source>Staking Rewards</source>
+        <translation>Staking Beloningen</translation>
+    </message>
+    <message>
+        <source>TextLabel</source>
+        <translation>TextLabel</translation>
+    </message>
+    <message>
+        <source>Staking statistics</source>
+        <translation>Staking statistieken</translation>
+    </message>
+    <message>
+        <source>FUNC</source>
+        <translation>FUNC</translation>
+    </message>
+    <message>
+        <source>zFUNC</source>
+        <translation>zFUNC</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>Sorteervolgorde</translation>
+    </message>
+    <message>
+        <source>Days</source>
+        <translation>Dagen</translation>
+    </message>
+    <message>
+        <source>Months</source>
+        <translation>Maanden</translation>
+    </message>
+    <message>
+        <source>Years</source>
+        <translation>Jaren</translation>
+    </message>
+    <message>
+        <source>Filter by</source>
+        <translation>Filter volgens</translation>
+    </message>
+    <message>
+        <source>LabelText</source>
+        <translation>LabelText</translation>
+    </message>
+    <message>
+        <source>You can view your account's history</source>
+        <translation>U kunt de geschiedenis van uw account bekijken</translation>
+    </message>
+    <message>
+        <source>Amount of FUNC staked.</source>
+        <translation>Hoeveelheid aan gestaked FUNC en zFUNC.</translation>
+    </message>
+    <message>
+        <source>Please wait until the wallet is fully synced to see your correct balance</source>
+        <translation>Wacht tot de portemonnee volledig gesynchroniseerd is om uw juiste saldo te zien</translation>
+    </message>
+    <message>
+        <source>No transactions yet</source>
+        <translation>Nog geen transacties</translation>
+    </message>
+    <message>
+        <source>How to get FUNC</source>
+        <translation>Hoe FUNC of zFUNC verkrijgen</translation>
+    </message>
+    <message>
+        <source>You can verify the staking activity in the status bar at the top right of the wallet.
+It will start automatically as soon as the wallet has enough confirmations on any unspent balances, and the wallet has synced.</source>
+        <translation>U kunt de stakingactiviteit controleren in de statusbalk rechtsboven in de portemonnee.
+Het zal automatisch starten zodra de portemonnee voldoende bevestigingen heeft op ongebruikte saldo's en de portemonnee gesynchroniseerd is.</translation>
+    </message>
+    <message>
+        <source>You have no staking rewards</source>
+        <translation>Je hebt geen staking beloningen</translation>
+    </message>
+    <message>
+        <source>No charts library</source>
+        <translation>Geen grafiekbibliotheek</translation>
+    </message>
+    <message>
+        <source>Loading chart..</source>
+        <translation>Grafiek laden...</translation>
+    </message>
+    <message>
+        <source>Error loading chart, invalid show option</source>
+        <translation>Fout bij laden van grafiek, ongeldige toonoptie</translation>
+    </message>
+    <message>
+        <source>Error loading chart, invalid data</source>
+        <translation>Fout bij laden van grafiek, ongeldige gegevens</translation>
+    </message>
+    <message>
+        <source>Error loading chart: %1</source>
+        <translation>Fout bij laden grafiek: %1</translation>
+    </message>
+</context>
+<context>
+    <name>DefaultDialog</name>
+    <message>
+        <source>Form</source>
+        <translation>Formulier</translation>
+    </message>
+    <message>
+        <source>Transaction Details</source>
+        <translation>Transactie details</translation>
+    </message>
+    <message>
+        <source>Text Label</source>
+        <translation>Text Label</translation>
+    </message>
+    <message>
+        <source>CANCEL</source>
+        <translation>Annuleren</translation>
+    </message>
+    <message>
+        <source>SAVE</source>
+        <translation>Opslaan</translation>
     </message>
 </context>
 <context>
@@ -1190,6 +1173,13 @@ MultiSend: %1</translation>
     </message>
 </context>
 <context>
+    <name>ExpandableButton</name>
+    <message>
+        <source>Form</source>
+        <translation>Formulier</translation>
+    </message>
+</context>
+<context>
     <name>FreespaceChecker</name>
     <message>
         <source>A new data directory will be created.</source>
@@ -1210,45 +1200,6 @@ MultiSend: %1</translation>
     <message>
         <source>Cannot create data directory here.</source>
         <translation>Kan de data directory hier niet aanmaken.</translation>
-    </message>
-</context>
-<context>
-    <name>GovernancePage</name>
-    <message>
-        <source>Form</source>
-        <translation>Formulier</translation>
-    </message>
-    <message>
-        <source>GOVERNANCE</source>
-        <translation>BESTUUR</translation>
-    </message>
-    <message>
-        <source>Update Proposals</source>
-        <translation>Voorstellen Bijwerken</translation>
-    </message>
-    <message>
-        <source>Next super block:</source>
-        <translation>Volgende superblok:</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    <message>
-        <source>Blocks to next super block:</source>
-        <translation>Blokken tot de volgende superblok:</translation>
-    </message>
-    <message>
-        <source>Allotted budget:</source>
-        <translation>Toegewezen budget:</translation>
-    </message>
-    <message>
-        <source>Budget left:</source>
-        <translation>Resterend budget:</translation>
-    </message>
-    <message>
-        <source>Masternodes count:</source>
-        <translation>Masternodes aantal:</translation>
     </message>
 </context>
 <context>
@@ -1294,6 +1245,10 @@ MultiSend: %1</translation>
         <translation>Toon splash scherm bij opstarten (standaard: %u)</translation>
     </message>
     <message>
+        <source>Hide QT staking charts on startup (default: %u)</source>
+        <translation>Verberg QT stakinggrafieken bij opstarten (standaard: %u)</translation>
+    </message>
+    <message>
         <source>Set language, for example "de_DE" (default: system locale)</source>
         <translation>Stel taal in, bijvoorbeeld "de_DE" (standaard: systeem locale)</translation>
     </message>
@@ -1304,6 +1259,10 @@ MultiSend: %1</translation>
     <message>
         <source>Set SSL root certificates for payment request (default: -system-)</source>
         <translation>Stel SSL root certificaten in voor betalingsverzoek (standaard: -systeem-)</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>Akkoord</translation>
     </message>
 </context>
 <context>
@@ -1321,16 +1280,24 @@ MultiSend: %1</translation>
         <translation>Aangezien dit de eerste keer is dat het programma is gestart, kun je kiezen waar FUNC Core zijn data opslaat.</translation>
     </message>
     <message>
-        <source>FUNC Core will download and store a copy of the FUNC block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>FUNC Core zal een kopie van de FUNC blockchain downloaden en opslaan. Tenminste %1GB aan data zal worden opgeslagen in deze map en het zal over de tijd groeien. De portemonnee zal ook in deze map worden opgeslagen.</translation>
+        <source>FUNC Core will download and store a copy of the FUNC block chain. At least %20MB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>FUNC Core zal een kopie van de FUNC blockchain downloaden en opslaan. Tenminste %20MB aan data zal worden opgeslagen in deze map en het zal over de tijd groeien. De portemonnee zal ook in deze map worden opgeslagen.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
         <translation>Gebruik de standaard datafolder </translation>
     </message>
     <message>
-        <source>Use a custom data directory:</source>
-        <translation>Gebruik een aangepaste data directory:</translation>
+        <source>Use a custom data directory</source>
+        <translation>Gebruik een aangepaste gegevenslocatie</translation>
+    </message>
+    <message>
+        <source>CANCEL</source>
+        <translation>Annuleren</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>Akkoord</translation>
     </message>
     <message>
         <source>FUNC Core</source>
@@ -1354,460 +1321,439 @@ MultiSend: %1</translation>
     </message>
 </context>
 <context>
-    <name>MasternodeList</name>
+    <name>LoadingDialog</name>
     <message>
         <source>Form</source>
         <translation>Formulier</translation>
     </message>
     <message>
-        <source>MASTERNODES</source>
-        <translation>MASTERNODES</translation>
+        <source>TextLabel</source>
+        <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Note: Status of your masternodes in local wallet can potentially be slightly incorrect.&lt;br /&gt;Always wait for wallet to sync additional data and then double check from another node&lt;br /&gt;if your node should be running but you still see "MISSING" in "Status" field.</source>
-        <translation>Opmerking: De status van uw masternodes in de lokale portemonnee kan mogelijk iets afwijken. &lt;br /&gt;Wacht altijd op de portemonnee om additionele data te synchroniseren en verifieer dit vanuit een andere node &lt;br /&gt;mocht de node nu aan het draaien zijn maar je ziet nog steeds 'MISSING' in het 'Status' veld.</translation>
+        <source>Loading</source>
+        <translation>Aan het laden</translation>
     </message>
     <message>
-        <source>Alias</source>
-        <translation>Alias</translation>
+        <source>.</source>
+        <translation>.</translation>
+    </message>
+</context>
+<context>
+    <name>LockUnlock</name>
+    <message>
+        <source>Form</source>
+        <translation>Formulier</translation>
+    </message>
+    <message>
+        <source>Unlock Wallet</source>
+        <translation>Portemonnee Ontgrendelen</translation>
+    </message>
+    <message>
+        <source>Lock Wallet</source>
+        <translation>Portemonnee Vergrendelen</translation>
+    </message>
+    <message>
+        <source>Staking Only</source>
+        <translation>Alleen Staking</translation>
+    </message>
+</context>
+<context>
+    <name>MNRow</name>
+    <message>
+        <source>Form</source>
+        <translation>Formulier</translation>
+    </message>
+</context>
+<context>
+    <name>MasterNodeWizardDialog</name>
+    <message>
+        <source>Dialog</source>
+        <translation>Dialoog</translation>
+    </message>
+    <message>
+        <source>1</source>
+        <translation>1</translation>
+    </message>
+    <message>
+        <source>2</source>
+        <translation>2</translation>
+    </message>
+    <message>
+        <source>3</source>
+        <translation>3</translation>
+    </message>
+    <message>
+        <source>Intro</source>
+        <translation>Intro</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Naam</translation>
     </message>
     <message>
         <source>Address</source>
         <translation>Adres</translation>
     </message>
     <message>
-        <source>Protocol</source>
-        <translation>Protocol</translation>
+        <source>Create New Masternode Controller</source>
+        <translation>Creëer Nieuwe Masternode Controller</translation>
     </message>
     <message>
-        <source>Status</source>
-        <translation>Status</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To create a FUNC Masternode you must dedicate 10,000 FUNC (the unit of FUNC) to the network (however, these coins are still yours and will never leave your possession). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;You can deactivate the node and unlock the coins at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Om een FUNC Masternode te creëren moet u 10.000 FUNC (de eenheid van FUNC) aan het netwerk wijden (deze munten zijn echter nog steeds van u en zullen nooit uw bezit verlaten). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;U kunt de node op elk gewenst moment deactiveren en de munten ontgrendelen.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <source>Active</source>
-        <translation>Actief</translation>
+        <source>Set Masternode Name</source>
+        <translation>Stel de naam voor de Masternode in</translation>
     </message>
     <message>
-        <source>Last Seen (UTC)</source>
-        <translation>Laatst gezien (UTC)</translation>
+        <source>Set Masternode IP and Port</source>
+        <translation>Stel het IP-adres en de Poort voor de Masternode in</translation>
     </message>
     <message>
-        <source>Pubkey</source>
-        <translation>Pubkey</translation>
+        <source>Enter port</source>
+        <translation>Voer poort in</translation>
     </message>
     <message>
-        <source>S&amp;tart alias</source>
-        <translation>S&amp;tart alias</translation>
+        <source>Make sure you have this amount of coins.</source>
+        <translation>Zorg ervoor dat je deze hoeveelheid munten hebt.</translation>
     </message>
     <message>
-        <source>Start &amp;all</source>
-        <translation>&amp;all starten</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A transaction of 10,000 FUNC will be made&lt;/p&gt;&lt;p&gt;to a new empty address in your wallet.&lt;/p&gt;&lt;p&gt;The Address is labeled under the master node's name.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Een transactie van 10,000 FUNC zal gemaakt worden&lt;/p&gt;&lt;p&gt;naar een nieuw leeg adres in uw portemonnee.&lt;/p&gt;&lt;p&gt;Het adres is gelabeld onder de masternode's naam.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <source>Start &amp;MISSING</source>
-        <translation>Start &amp;MISSING</translation>
+        <source>Address of the node that must always be online running the actual master node.</source>
+        <translation>Adres van de node dat altijd online moet zijn met het eigenlijke masternode.</translation>
     </message>
     <message>
-        <source>&amp;Update status</source>
-        <translation>&amp;Status bijwerken</translation>
+        <source>Enter IP address</source>
+        <translation>Voer IP-adres in</translation>
     </message>
     <message>
-        <source>Status will be updated automatically in (sec):</source>
-        <translation>Status wordt automatisch bijgewerkt in (sec):</translation>
+        <source>CANCEL</source>
+        <translation>Annuleren</translation>
     </message>
     <message>
-        <source>0</source>
-        <translation>0</translation>
+        <source>OK</source>
+        <translation>Akkoord</translation>
     </message>
     <message>
-        <source>Start alias</source>
-        <translation>Start alias</translation>
+        <source>e.g user_masternode</source>
+        <translation>e.g user_masternode</translation>
     </message>
     <message>
-        <source>Confirm masternode start</source>
-        <translation>Bevestig start masternode</translation>
+        <source>NEXT</source>
+        <translation>VOLGENDE</translation>
     </message>
     <message>
-        <source>Are you sure you want to start masternode %1?</source>
-        <translation>Weet je zeker dat je masternode %1 wilt starten?</translation>
+        <source>BACK</source>
+        <translation>TERUG</translation>
     </message>
     <message>
-        <source>Confirm all masternodes start</source>
-        <translation>Bevestig start alle masternodes</translation>
+        <source>address label cannot be empty</source>
+        <translation>Adreslabel kan niet leeg zijn</translation>
     </message>
     <message>
-        <source>Are you sure you want to start ALL masternodes?</source>
-        <translation>Weet je zeker dat je ALLE masternodes wilt starten?</translation>
+        <source>IP or port cannot be empty</source>
+        <translation>IP of poort kan niet leeg zijn</translation>
     </message>
     <message>
-        <source>Command is not available right now</source>
-        <translation>Commando is nu niet beschikbaar</translation>
+        <source>Invalid IP address</source>
+        <translation>Ongeldig IP-adres</translation>
     </message>
     <message>
-        <source>You can't use this command until masternode list is synced</source>
-        <translation>Je kunt dit commando niet gebruiken tot de masternode lijst is gesynchroniseerd</translation>
+        <source>Prepare master node failed.
+
+%1
+</source>
+        <translation>Voorbereiden masternode mislukt.
+
+%1
+</translation>
     </message>
     <message>
-        <source>Confirm missing masternodes start</source>
-        <translation>Bevestig start ontbrekende masternodes</translation>
+        <source>Invalid collateral output index</source>
+        <translation>Ongeldige Collaterale Outputindex</translation>
     </message>
     <message>
-        <source>Are you sure you want to start MISSING masternodes?</source>
-        <translation>Weet je zeker dat je alle ONTBREKENDE masternodes wilt starten?</translation>
+        <source>Master node created! Wait %1 confirmations before starting it.</source>
+        <translation>Masternode gecreëerd! Wacht op %1 bevestigingen vooraleer je het start. </translation>
+    </message>
+    <message>
+        <source>Cannot send collateral transaction.
+
+%1</source>
+        <translation>Kan geen collaterale transactie versturen.
+
+%1</translation>
+    </message>
+    <message>
+        <source>Invalid masternode.conf file</source>
+        <translation>Invalide masternode.conf file</translation>
+    </message>
+    <message>
+        <source>Error parsing masternode.conf file</source>
+        <translation>Fout opgelopen bij het parsen van het masternode.conf bestand</translation>
+    </message>
+    <message>
+        <source>masternode.conf file doesn't exists</source>
+        <translation>masternode.conf bestand bestaat niet</translation>
     </message>
 </context>
 <context>
-    <name>MultiSendDialog</name>
+    <name>MasterNodesWidget</name>
     <message>
-        <source>MultiSend</source>
-        <translation>MultiSend</translation>
+        <source>Form</source>
+        <translation>Formulier</translation>
     </message>
     <message>
-        <source>Enter whole numbers 1 - 100</source>
-        <translation>Geef volledige cijfers in 1 - 100</translation>
+        <source>TextLabel</source>
+        <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Enter % to Give (1-100)</source>
-        <translation>Voer % in om te geven (1-100)</translation>
+        <source>N/A</source>
+        <translation>NB</translation>
     </message>
     <message>
-        <source>Enter Address to Send to</source>
-        <translation>Vul het adres in om naar te verzenden</translation>
+        <source>Start All</source>
+        <translation>Alles starten</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other FUNC addresses after it matures.
-To Add: enter percentage to give and FUNC address to add to the MultiSend vector.
-To Delete: Enter address to delete and press delete.
-MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend stelt je in staat om automatisch tot 100% van uw stake of masternode beloning automatisch te verzenden naar een lijst van andere FUNC adressen nadat het volwassen is. 
-Toevoegen: voer het te geven percentage in en FUNC adres om toe te voegen aan de MultiSend vector.
-Verwijderen: Voer adres in om te verwijderen en druk op delete.
-MultiSend zal niet worden geactiveerd tenzij je op Activeer hebt geklikt</translation>
+        <source>Start Inactive/s</source>
+        <translation>Start Inactieve/s</translation>
     </message>
     <message>
-        <source>Add to MultiSend Vector</source>
-        <translation>Aan MultiSend Vector toevoegen</translation>
+        <source>Masternodes</source>
+        <translation>Masternodes</translation>
     </message>
     <message>
-        <source>Add</source>
-        <translation>Toevoegen</translation>
+        <source>Full nodes that incentivize node operators to perform the core consensus functions
+and vote on the treasury system receiving a periodic reward.</source>
+        <translation>Volledige nodes die node-operators stimuleren om de belangrijkste consensusfuncties uit te voeren.
+en stemmen over het treasury systeem met een periodieke beloning.</translation>
     </message>
     <message>
-        <source>Deactivate MultiSend</source>
-        <translation>Deactiveer MultiSend</translation>
+        <source>Create Masternode Controller</source>
+        <translation>Creëer Masternode Controller</translation>
     </message>
     <message>
-        <source>Deactivate</source>
-        <translation>Deactiveren</translation>
+        <source>No active Masternode yet</source>
+        <translation>Geen actieve Masternode</translation>
     </message>
     <message>
-        <source>Choose an address from the address book</source>
-        <translation>Kies een adres uit het adresboek</translation>
-    </message>
-    <message>
-        <source>Alt+A</source>
-        <translation>Alt+A</translation>
-    </message>
-    <message>
-        <source>Percentage of stake to send</source>
-        <translation>Staking percentage om te verzenden</translation>
-    </message>
-    <message>
-        <source>Percentage:</source>
-        <translation>Percentage:</translation>
-    </message>
-    <message>
-        <source>Address to send portion of stake to</source>
-        <translation>Adres om een ​​deel van de stake te verzenden naar</translation>
-    </message>
-    <message>
-        <source>Address:</source>
-        <translation>Adres:</translation>
-    </message>
-    <message>
-        <source>Label:</source>
-        <translation>Label:</translation>
-    </message>
-    <message>
-        <source>Enter a label for this address to add it to your address book</source>
-        <translation>Voer een label in voor dit adres om het toe te voegen aan jouw adresboek</translation>
-    </message>
-    <message>
-        <source>Delete Address From MultiSend Vector</source>
-        <translation>Verwijder adres van MultiSend Vector</translation>
+        <source>Start</source>
+        <translation>Start</translation>
     </message>
     <message>
         <source>Delete</source>
         <translation>Wissen</translation>
     </message>
     <message>
-        <source>Activate MultiSend</source>
-        <translation>Activeer MultiSend</translation>
+        <source>Info</source>
+        <translation>Info</translation>
     </message>
     <message>
-        <source>Activate</source>
-        <translation>Activeren</translation>
+        <source>Please wait until the node is fully synced</source>
+        <translation>Wacht tot de node volledig gesynchroniseerd is</translation>
     </message>
     <message>
-        <source>View MultiSend Vector</source>
-        <translation>Bekijk MultiSend Vector</translation>
+        <source>Start Masternode</source>
+        <translation>Start Masternode</translation>
     </message>
     <message>
-        <source>View MultiSend</source>
-        <translation>Bekijk MultiSend</translation>
+        <source>Are you sure you want to start masternode %1?
+</source>
+        <translation>Weet u zeker dat u masternode %1 wilt starten?
+</translation>
     </message>
     <message>
-        <source>Send For Stakes</source>
-        <translation>Verstuur voor stakes</translation>
+        <source>Cannot edit masternode, wallet locked</source>
+        <translation>Kan de masternode niet bewerken, portemonnee vergrendeld</translation>
     </message>
     <message>
-        <source>Send For Masternode Rewards</source>
-        <translation>Verstuur voor Masternode beloningen</translation>
+        <source>Cannot start masternode, the collateral transaction has not been confirmed by the network yet.
+Please wait few more minutes (masternode collaterals require %1 confirmations).</source>
+        <translation>Kan de masternode niet starten, de collaterale transactie is nog niet bevestigd door het netwerk.
+Gelieve nog enkele minuten te wachten (het onderpand van een masternode vereist %1 bevestigingen).</translation>
     </message>
     <message>
-        <source>(no label)</source>
-        <translation>(geen label)</translation>
+        <source>Background task is being executed, please wait</source>
+        <translation>Achtergrondopdracht wordt nu uitgevoerd, even geduld</translation>
     </message>
     <message>
-        <source>MultiSend Active for Stakes and Masternode Rewards</source>
-        <translation>MultiSend Actief voor Stakes en Masternodebeloningen</translation>
+        <source>Start ALL masternodes failed</source>
+        <translation>Opstarten van ALLE masternodes mislukt</translation>
     </message>
     <message>
-        <source>MultiSend Active for Stakes</source>
-        <translation>MultiSend Actief voor Stakes</translation>
+        <source>Wallet unlock cancelled</source>
+        <translation>Portemonnee ontgrendeling geannuleerd </translation>
     </message>
     <message>
-        <source>MultiSend Active for Masternode Rewards</source>
-        <translation>MultiSend Actief voor Masternodebeloningen</translation>
+        <source>Cannot perform Masternodes start</source>
+        <translation>Kan geen Masternode opstart uitvoeren</translation>
     </message>
     <message>
-        <source>MultiSend Not Active</source>
-        <translation>MultiSend Niet Actief</translation>
+        <source>%1 Masternodes failed to start, %2 started</source>
+        <translation>%1 Masternodes niet succesvol opgestart, %2 opgestart</translation>
     </message>
     <message>
-        <source>The entered address: %1 is invalid.
-Please check the address and try again.</source>
-        <translation>Het ingevoerde adres: %1 is ongeldig.
-Controleer het adres en probeer opnieuw.</translation>
+        <source>All Masternodes started!</source>
+        <translation>Alle Masternodes zijn opgestart!</translation>
     </message>
     <message>
-        <source>The total amount of your MultiSend vector is over 100% of your stake reward</source>
-        <translation>De totale hoeveelheid van je MultiSend vector is meer dan 100% van je inzet beloning</translation>
+        <source>Cannot show Masternode information, wallet locked</source>
+        <translation>Kan geen Masternode-informatie tonen, portemonnee vergrendeld</translation>
     </message>
     <message>
-        <source>Saved the MultiSend to memory, but failed saving properties to the database.</source>
-        <translation>De MultiSend in het geheugen opgeslagen, maar mislukt om de eigenschappen op te slaan in de database.</translation>
+        <source>Masternode data copied to the clipboard.</source>
+        <translation>Masternodegegevens gekopieerd naar het klembord</translation>
     </message>
     <message>
-        <source>MultiSend Vector</source>
-        <translation>MultiSend Vector</translation>
+        <source>Remote Masternode Data</source>
+        <translation>Remote Masternodegegevens</translation>
     </message>
     <message>
-        <source>Removed %1</source>
-        <translation>Verwijderd %1</translation>
+        <source>You are just about to export the required data to run a Masternode
+on a remote server to your clipboard.
+
+
+You will only have to paste the data in the func.conf file
+of your remote server and start it, then start the Masternode using
+this controller wallet (select the Masternode in the list and press "start").
+</source>
+        <translation>U staat op het punt om de vereiste gegevens te exporteren om een Masternode uit te voeren.
+op een externe server aan uw klembord.
+
+
+U hoeft alleen de gegevens in het func.conf bestand te plakken
+van uw externe server en start deze vervolgens de Masternode met
+deze controller portemonnee (selecteer de Masternode in de lijst en druk op "start").
+</translation>
     </message>
     <message>
-        <source>Could not locate address</source>
-        <translation>Kan het adres niet lokaliseren</translation>
+        <source>Delete Masternode</source>
+        <translation>Verwijder Masternode</translation>
     </message>
     <message>
-        <source>Unable to activate MultiSend, check MultiSend vector</source>
-        <translation>Onmogelijk om MultiSend te activeren, controleer MultiSend vector</translation>
+        <source>You are just about to delete Masternode:
+%1
+
+Are you sure?</source>
+        <translation>Je staat op het punt om volgende Masternode te verwijderen:
+%1
+
+Weet je het zeker?</translation>
     </message>
     <message>
-        <source>MultiSend activated but writing settings to DB failed</source>
-        <translation>MultiSend geactiveerd maar instellingen naar DB wegschrijven mislukt</translation>
+        <source>Invalid masternode.conf file</source>
+        <translation>Invalide masternode.conf file</translation>
     </message>
     <message>
-        <source>MultiSend activated</source>
-        <translation>MultiSend geactiveerd</translation>
+        <source>Error parsing masternode.conf file</source>
+        <translation>Fout opgelopen bij het parsen van het masternode.conf bestand</translation>
     </message>
     <message>
-        <source>First Address Not Valid</source>
-        <translation>Eerste Adres Niet Gevalideerd</translation>
+        <source>masternode.conf file doesn't exists</source>
+        <translation>masternode.conf bestand bestaat niet</translation>
     </message>
     <message>
-        <source>MultiSend deactivated but writing settings to DB failed</source>
-        <translation>MultiSend gedeactiveerd maar instellingen naar DB wegschrijven mislukt</translation>
+        <source>Cannot create Masternode controller, wallet locked</source>
+        <translation>Kan geen Masternode controller aanmaken, portemonnee vergrendeld</translation>
     </message>
     <message>
-        <source>MultiSend deactivated</source>
-        <translation>MultiSend gedeactiveerd</translation>
+        <source>Not enough balance to create a masternode, 10,000 FUNC required.</source>
+        <translation>Niet genoeg balans om een masternode te creëren, 10,000 FUNC vereist.</translation>
     </message>
     <message>
-        <source>Please Enter 1 - 100 for percent.</source>
-        <translation>Vul alsjeblieft 1 - 100 voor procent in.</translation>
+        <source>Error creating masternode</source>
+        <translation>Error in het aanmaken van de masternode</translation>
     </message>
 </context>
 <context>
-    <name>MultisigDialog</name>
+    <name>MnInfoDialog</name>
     <message>
-        <source>Multisignature Address Interactions</source>
-        <translation>Multisignature Adres Interacties</translation>
+        <source>Form</source>
+        <translation>Formulier</translation>
     </message>
     <message>
-        <source>Create MultiSignature &amp;Address</source>
-        <translation>Creëer MultiSignature &amp;Adres</translation>
+        <source>Masternode Information</source>
+        <translation>Masternode informatie</translation>
     </message>
     <message>
-        <source>How many people must sign to verify a transaction</source>
-        <translation>Hoeveel mensen moeten ondertekenen om een transactie te verifiëren</translation>
+        <source>Public Key:</source>
+        <translation>Publieke Sleutel:</translation>
     </message>
     <message>
-        <source>Enter the minimum number of signatures required to sign transactions</source>
-        <translation>Voer het minimale aantal vereiste ondertekeningen in om de transacties te ondertekenen</translation>
+        <source>492526e7fa3c810b35016...40a5df85ee227ab00b1156994</source>
+        <translation>492526e7fa3c810b35016...40a5df85ee227ab00b1156994</translation>
     </message>
     <message>
-        <source>Address Label:</source>
-        <translation>Adreslabel:</translation>
+        <source>Address: </source>
+        <translation>Adres:</translation>
     </message>
     <message>
-        <source>Add another address that could sign to verify a transaction from the multisig address.</source>
-        <translation>Voeg een ander adres toe die kan ondertekenen om een transactie vanuit het multisig adres te verifiëren.</translation>
+        <source>127.0.0.2:43223</source>
+        <translation>127.0.0.2:43223</translation>
     </message>
     <message>
-        <source>&amp;Add Address / Key</source>
-        <translation>&amp;Voeg Adres / Sleutel toe</translation>
+        <source>Collaterall tx id:</source>
+        <translation>Collaterale tx id:</translation>
     </message>
     <message>
-        <source>Local addresses or public keys that can sign:</source>
-        <translation>Lokale adressen of publieke sleutels die kunnen ondertekenen:</translation>
+        <source>Output index:</source>
+        <translation>Outputindex:</translation>
     </message>
     <message>
-        <source>Create a new multisig address</source>
-        <translation>Creëer een nieuw multisig adres</translation>
-    </message>
-    <message>
-        <source>C&amp;reate</source>
-        <translation>C&amp;reëer</translation>
+        <source>1 Inputs</source>
+        <translation>1 Invoer</translation>
     </message>
     <message>
         <source>Status:</source>
         <translation>Status:</translation>
     </message>
     <message>
-        <source>Use below to quickly import an address by its redeem. Don't forget to add a label before clicking import!
-Keep in mind, the wallet will rescan the blockchain to find transactions containing the new address.
-Please be patient after clicking import.</source>
-        <translation>Gebruik onderstaande om snel een adres te importeren door in te wisselen. Vergeet niet om een label toe te voegen voordat u op importeren klikt!
-Houd er rekening mee dat de portemonnee de blockchain opnieuw doorzoekt om transacties te vinden die het nieuwe adres bevatten.
-Waas alsjeblieft geduldig nadat u op importeren hebt geklikt.</translation>
+        <source>MISSING</source>
+        <translation>ONTBREKEND</translation>
     </message>
     <message>
-        <source>&amp;Import Redeem</source>
-        <translation>&amp;Importeer Inlossen</translation>
+        <source>Export data to run the Masternode on a remote server</source>
+        <translation>Exporteer gegevens om de Masternode op een externe server uit te voeren</translation>
+    </message>
+</context>
+<context>
+    <name>MyAddressRow</name>
+    <message>
+        <source>Form</source>
+        <translation>Formulier</translation>
     </message>
     <message>
-        <source>&amp;Create MultiSignature Tx</source>
-        <translation>&amp;Creëer MultiSignature Tx</translation>
+        <source>Savings</source>
+        <translation>Besparingen</translation>
     </message>
     <message>
-        <source>Inputs:</source>
-        <translation>Inputs</translation>
+        <source>Jan. 19, 2019</source>
+        <translation>Jan. 19, 2019</translation>
     </message>
     <message>
-        <source>Coin Control</source>
-        <translation>Munt Controle</translation>
+        <source>DN6i46dytMPVhV1JMGZFuQBh7BZZ6nNLox</source>
+        <translation>DN6i46dytMPVhV1JMGZFuQBh7BZZ6nNLox</translation>
+    </message>
+</context>
+<context>
+    <name>NavMenuWidget</name>
+    <message>
+        <source>Form</source>
+        <translation>Formulier</translation>
     </message>
     <message>
-        <source>Quantity Selected:</source>
-        <translation>Hoeveelheid geselecteerd:</translation>
+        <source>V 1.0.0</source>
+        <translation>V 1.0.0</translation>
     </message>
     <message>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    <message>
-        <source>Amount:</source>
-        <translation>Bedrag:</translation>
-    </message>
-    <message>
-        <source>Add an input to fund the outputs</source>
-        <translation>Voeg een invoer toe om de uitvoer te financieren</translation>
-    </message>
-    <message>
-        <source>Add a Raw Input</source>
-        <translation>Voer een Raw invoer in</translation>
-    </message>
-    <message>
-        <source>Address / Amount:</source>
-        <translation>Adres / Bedrag:</translation>
-    </message>
-    <message>
-        <source>Add destinations to send FUNC to</source>
-        <translation>Voeg bestemmingen toe om FUNC naar te verzenden</translation>
-    </message>
-    <message>
-        <source>Add &amp;Destination</source>
-        <translation>Voeg &amp;Bestemming toe</translation>
-    </message>
-    <message>
-        <source>Create a transaction object using the given inputs to the given outputs</source>
-        <translation>Maak een transactie object aan met behulp van de gegeven invoer voor de gegeven uitvoer</translation>
-    </message>
-    <message>
-        <source>Cr&amp;eate</source>
-        <translation>Cr&amp;eëer</translation>
-    </message>
-    <message>
-        <source>&amp;Sign MultiSignature Tx</source>
-        <translation>&amp;Onderteken MultiSignature Tx</translation>
-    </message>
-    <message>
-        <source>Transaction Hex:</source>
-        <translation>Transactie Hex:</translation>
-    </message>
-    <message>
-        <source>Sign the transaction from this wallet or from provided private keys</source>
-        <translation>Onderteken de transactie vanuit deze portemonnee of vanuit aangeboden privésleutels</translation>
-    </message>
-    <message>
-        <source>S&amp;ign</source>
-        <translation>O&amp;nderteken</translation>
-    </message>
-    <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;DISABLED until transaction has been signed enough times.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;UITGESCHAKELD totdat de transactie voldoende is ondertekend.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <source>Co&amp;mmit</source>
-        <translation>&amp;Engageer</translation>
-    </message>
-    <message>
-        <source>Add private keys to sign the transaction with</source>
-        <translation>Voeg privésleutels toe om de transactie met te ondertekenen</translation>
-    </message>
-    <message>
-        <source>Add Private &amp;Key</source>
-        <translation>Voeg &amp;Privésleutel toe</translation>
-    </message>
-    <message>
-        <source>Sign with only private keys (Not Recommened)</source>
-        <translation>Onderteken met enkel privésleutels (Niet Aanbevolen)</translation>
-    </message>
-    <message>
-        <source>Invalid Tx Hash.</source>
-        <translation>Ongeldige Tx Hash.</translation>
-    </message>
-    <message>
-        <source>Vout position must be positive.</source>
-        <translation>Je positie moet positief zijn. </translation>
-    </message>
-    <message>
-        <source>Maximum possible addresses reached. (15)</source>
-        <translation>Maximale mogelijke adressen bereikt. (15)</translation>
-    </message>
-    <message>
-        <source>Vout Position: </source>
-        <translation>Jouw Positie:</translation>
-    </message>
-    <message>
-        <source>Amount: </source>
-        <translation>Hoeveelheid:</translation>
-    </message>
-    <message>
-        <source>Maximum (15)</source>
-        <translation>Maximum (15)</translation>
+        <source>v%1</source>
+        <translation>v%1</translation>
     </message>
 </context>
 <context>
@@ -1821,8 +1767,16 @@ Waas alsjeblieft geduldig nadat u op importeren hebt geklikt.</translation>
         <translation>Open betalingsverzoek van URL of bestand</translation>
     </message>
     <message>
-        <source>URI:</source>
-        <translation>URI:</translation>
+        <source>TextLabel</source>
+        <translation>TextLabel</translation>
+    </message>
+    <message>
+        <source>CANCEL</source>
+        <translation>Annuleren</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>Akkoord</translation>
     </message>
     <message>
         <source>Select payment request file</source>
@@ -1831,6 +1785,29 @@ Waas alsjeblieft geduldig nadat u op importeren hebt geklikt.</translation>
     <message>
         <source>Select payment request file to open</source>
         <translation>Selecteer betalingsverzoek bestand dat geopend moet worden</translation>
+    </message>
+    <message>
+        <source>File not found</source>
+        <translation>Bestand niet gevonden</translation>
+    </message>
+    <message>
+        <source>Parsed data too large</source>
+        <translation>Ingelezen data te groot</translation>
+    </message>
+    <message>
+        <source>Invalid URI, not starting with "func" prefix</source>
+        <translation>Ongeldige URI, begint niet met de "func" prefix</translation>
+    </message>
+</context>
+<context>
+    <name>OptionButton</name>
+    <message>
+        <source>Form</source>
+        <translation>Formulier</translation>
+    </message>
+    <message>
+        <source>TextLabel</source>
+        <translation>TextLabel</translation>
     </message>
 </context>
 <context>
@@ -1942,6 +1919,10 @@ https://www.transifex.com/CryptoDev-Project/CryptoDev-Project-translations</tran
         <translation>Schakel zFUNC Automint in</translation>
     </message>
     <message>
+        <source>Enable automatic zFUNC minting from specific addresses</source>
+        <translation>Automatische zFUNC munting inschakelen vanuit specifiek adres</translation>
+    </message>
+    <message>
         <source>Enable Automint Addresses</source>
         <translation>Automint Adressen Inschakelen</translation>
     </message>
@@ -1963,7 +1944,7 @@ https://www.transifex.com/CryptoDev-Project/CryptoDev-Project-translations</tran
     </message>
     <message>
         <source>Stake split threshold:</source>
-        <translation>Inzet splitdrempel:</translation>
+        <translation>Stake splitsdrempel:</translation>
     </message>
     <message>
         <source>Connect to the FUNC network through a SOCKS5 proxy.</source>
@@ -2016,6 +1997,10 @@ https://www.transifex.com/CryptoDev-Project/CryptoDev-Project-translations</tran
     <message>
         <source>User Interface Theme:</source>
         <translation>Gebruiksinterface thema:</translation>
+    </message>
+    <message>
+        <source>Unit to show amounts in:</source>
+        <translation>Eenheid om hoeveelheid in te weergeven:</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
@@ -2107,156 +2092,82 @@ https://www.transifex.com/CryptoDev-Project/CryptoDev-Project-translations</tran
     </message>
 </context>
 <context>
-    <name>OverviewPage</name>
+    <name>FUNCGUI</name>
     <message>
-        <source>Form</source>
-        <translation>Formulier</translation>
+        <source>FUNC Core</source>
+        <translation>FUNC Core</translation>
     </message>
     <message>
-        <source>Available:</source>
-        <translation>Beschikbaar:</translation>
+        <source>Wallet</source>
+        <translation>Portemonnee</translation>
     </message>
     <message>
-        <source>Your current spendable balance</source>
-        <translation>Uw huidige bestedingsruimte</translation>
+        <source>Node</source>
+        <translation>Node</translation>
     </message>
     <message>
-        <source>Total Balance, including all unavailable coins.</source>
-        <translation>Totaal saldo, inclusief alle niet-beschikbare munten.</translation>
+        <source>&amp;Show / Hide</source>
+        <translation>&amp;Tonen / Verbergen</translation>
     </message>
     <message>
-        <source>FUNC Balance</source>
-        <translation>FUNC Saldi</translation>
+        <source>Show or hide the main Window</source>
+        <translation>Toon of verberg het hoofdvenster</translation>
     </message>
     <message>
-        <source>Pending:</source>
-        <translation>In afwachting:</translation>
+        <source>E&amp;xit</source>
+        <translation>S&amp;luiten</translation>
     </message>
     <message>
-        <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
-        <translation>Totaal aantal transacties die nog niet zijn bevestigd en nog niet meetellen in het uitgeefbare saldo</translation>
+        <source>Quit application</source>
+        <translation>Programma afsluiten</translation>
     </message>
     <message>
-        <source>Immature:</source>
-        <translation>Immatuur:</translation>
+        <source>FUNC Core client</source>
+        <translation>FUNC Core client</translation>
     </message>
     <message>
-        <source>Staked or masternode rewards that has not yet matured</source>
-        <translation>Staked of masternode beloningen die nog niet volwassen zijn</translation>
+        <source>Error</source>
+        <translation>Error</translation>
     </message>
     <message>
-        <source>Current locked balance in watch-only addresses</source>
-        <translation>Huidige vergrendelde balans in alleen-lezen-adressen</translation>
+        <source>Warning</source>
+        <translation>Waarschuwing</translation>
     </message>
     <message>
-        <source>Your current FUNC balance, unconfirmed and immature transactions included</source>
-        <translation>Uw huidige FUNC-saldo, onbevestigde en onvolgroeide transacties inbegrepen</translation>
+        <source>Information</source>
+        <translation>Informatie</translation>
     </message>
     <message>
-        <source>zFUNC Balance</source>
-        <translation>zFUNC-saldo</translation>
+        <source>System Message</source>
+        <translation>Systeembericht</translation>
     </message>
     <message>
-        <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zFUNC are spendable.</source>
-        <translation>Volwassen: meer dan 20 bevestigingen en meer dan 1 mint van dezelfde denominatie nadat het gemint was.
-Deze zPIB zijn besteedbaar.</translation>
+        <source>Sent MultiSend transaction</source>
+        <translation>Verzonden MultiSend transactie</translation>
     </message>
     <message>
-        <source>Unconfirmed: less than 20 confirmations
-Immature: confirmed, but less than 1 mint of the same denomination after it was minted</source>
-        <translation>Onbevestigd: minder dan 20 bevestigingen
-Onvolwassen: bevestigd, maar minder dan 1 mint van dezelfde denominatie nadat het gemint was.</translation>
+        <source>Sent transaction</source>
+        <translation>Verzend transactie</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the FUNC network after a connection is established, but this process has not completed yet.</source>
-        <translation>De weergegeven informatie kan verouderd zijn. Je portemonnee synchroniseert automatisch met het FUNC netwerk nadat een verbinding is opgezet, maar dit proces is nog niet afgerond.</translation>
+        <source>Incoming transaction</source>
+        <translation>Inkomende transactie</translation>
     </message>
     <message>
-        <source>OVERVIEW</source>
-        <translation>OVERZICHT</translation>
-    </message>
-    <message>
-        <source>Combined Balance (including unconfirmed and immature coins)</source>
-        <translation>Gecombineerde Saldi (inclusief onbevestigde en onvolwassen munten)</translation>
-    </message>
-    <message>
-        <source>Combined Balance</source>
-        <translation>Gecombineerde balans</translation>
-    </message>
-    <message>
-        <source>Unconfirmed transactions to watch-only addresses</source>
-        <translation>Onbevestigde transacties naar watch-only adressen</translation>
-    </message>
-    <message>
-        <source>Staked or masternode rewards in watch-only addresses that has not yet matured</source>
-        <translation>Staked of masternode beloningen in watch-only adressen die nog niet volwassen zijn</translation>
-    </message>
-    <message>
-        <source>Total:</source>
-        <translation>Totaal:</translation>
-    </message>
-    <message>
-        <source>Current total balance in watch-only addresses</source>
-        <translation>Huidig ​​totaal saldo in watch-only adressen</translation>
-    </message>
-    <message>
-        <source>Watch-only:</source>
-        <translation>Watch-only:</translation>
-    </message>
-    <message>
-        <source>Your current balance in watch-only addresses</source>
-        <translation>Je huidige saldo in watch-only adressen</translation>
-    </message>
-    <message>
-        <source>Spendable:</source>
-        <translation>Uitgeefbaar:</translation>
-    </message>
-    <message>
-        <source>Locked FUNC or Masternode collaterals. These are excluded from zFUNC minting.</source>
-        <translation>Vergrendelde FUNC of Masternode onderpanden. Deze zijn uitgesloten van de zFUNC muntage.</translation>
-    </message>
-    <message>
-        <source>Locked:</source>
-        <translation>Vergrendeld:</translation>
-    </message>
-    <message>
-        <source>Unconfirmed:</source>
-        <translation>Onbevestigd:</translation>
-    </message>
-    <message>
-        <source>Your current zFUNC balance, unconfirmed and immature zFUNC included.</source>
-        <translation>Uw huidige zFUNC-saldo, onbevestigde en onvolgroeide zFUNC inbegrepen.</translation>
-    </message>
-    <message>
-        <source>Recent transactions</source>
-        <translation>Recente transacties</translation>
-    </message>
-    <message>
-        <source>out of sync</source>
-        <translation>niet gesynchroniseerd</translation>
-    </message>
-    <message>
-        <source>Current percentage of zFUNC.
-If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
+        <source>Date: %1
+Amount: %2
+Type: %3
+Address: %4
 </source>
-        <translation>Huidige percentage van zFUNC
-Als AutoMint ingeschakeld is zal deze percentage afhangen van de geconfigureerde AutoMint percentage (standaard = 10%).
+        <translation>Datum: %1
+Hoeveelheid: %2
+Type: %3
+Adres: %4
 </translation>
     </message>
     <message>
-        <source>AutoMint is currently enabled and set to </source>
-        <translation>AutoMint is momenteel ingeschakeld en ingesteld op</translation>
-    </message>
-    <message>
-        <source>To disable AutoMint add 'enablezeromint=0' in func.conf.</source>
-        <translation>Om AutoMint uit te schakelen, voeg je 'enablezeromint=0' toe aan func.conf.</translation>
-    </message>
-    <message>
-        <source>AutoMint is currently disabled.
-To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in func.conf</source>
-        <translation>AutoMint is momenteel uitgeschakeld.
-Om AutoMint in te schakelend verander je 'enablezeromint=0' naar 'enablezeromint=1' in func.conf</translation>
+        <source>A fatal error occurred. FUNC can no longer continue safely and will quit.</source>
+        <translation>Een kritieke fout is opgelopen. FUNC kan niet langer veilig uitgevoerd worden en zal afsluiten.</translation>
     </message>
 </context>
 <context>
@@ -2366,604 +2277,128 @@ Om AutoMint in te schakelend verander je 'enablezeromint=0' naar 'enablezeromint
     </message>
 </context>
 <context>
-    <name>PrivacyDialog</name>
+    <name>PrivacyWidget</name>
     <message>
-        <source>Zerocoin Actions:</source>
-        <translation>Zerocoin Acties:</translation>
+        <source>Form</source>
+        <translation>Formulier</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the FUNC network after a connection is established, but this process has not completed yet.</source>
-        <translation>De weergegeven informatie kan verouderd zijn. Je portemonnee synchroniseert automatisch met het FUNC netwerk nadat een verbinding is opgezet, maar dit proces is nog niet afgerond.</translation>
-    </message>
-    <message>
-        <source>Mint Zerocoin</source>
-        <translation>Mint Zerocoin</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    <message>
-        <source>zFUNC</source>
-        <translation>zFUNC</translation>
-    </message>
-    <message>
-        <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
-        <translation>Zerocoin Wallet DB opnieuw instellen. Verwijdert transacties die het niet in de blockchain hebben gered.</translation>
-    </message>
-    <message>
-        <source>Reset</source>
-        <translation>Resetten</translation>
-    </message>
-    <message>
-        <source>Rescan the complete blockchain for  Zerocoin mints and their meta-data.</source>
-        <translation>Rescan de complete blockchain voor Zerocoin mints en hun meta-data.</translation>
-    </message>
-    <message>
-        <source>ReScan</source>
-        <translation>ReScan</translation>
-    </message>
-    <message>
-        <source>Status and/or Mesages from the last Mint Action.</source>
-        <translation>Status en/of Berichten van de laatste mint actie.</translation>
-    </message>
-    <message>
-        <source>PRIVACY</source>
-        <translation>PRIVACY</translation>
-    </message>
-    <message>
-        <source>zFUNC Control</source>
-        <translation>zFUNC Control</translation>
-    </message>
-    <message>
-        <source>zFUNC Selected:</source>
-        <translation>zFUNC geselecteerd:</translation>
-    </message>
-    <message>
-        <source>Quantity Selected:</source>
-        <translation>Hoeveelheid geselecteerd:</translation>
-    </message>
-    <message>
-        <source>Spend Zerocoin. Without 'Pay To:' address creates payments to yourself.</source>
-        <translation>Zerocoin besteden. Zonder 'Betaal aan:' adres ontstaan betalingen aan jezelf.</translation>
-    </message>
-    <message>
-        <source>Spend Zerocoin</source>
-        <translation>Besteed Zerocoin</translation>
-    </message>
-    <message>
-        <source>Available (mature and spendable) zFUNC for spending</source>
-        <translation>Beschikbare (volwassen en uitgeefbaar) zFUNC voor besteding</translation>
-    </message>
-    <message>
-        <source>Available Balance:</source>
-        <translation>Beschikbaar saldo:</translation>
-    </message>
-    <message>
-        <source>Available (mature and spendable) zFUNC for spending
-
-zFUNC are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>Beschikbare (volwwassen en uitgeefbaar) zFUNC voor besteding
-
-zFunc zijn volwassen wanneer zij meer dan 20 bevestigingen hebben EN meer dan 2 muntages van dezelfde denominaties nadat zij gemunt zijn.</translation>
-    </message>
-    <message>
-        <source>0 zFUNC</source>
-        <translation>0 zFUNC</translation>
-    </message>
-    <message>
-        <source>Pay &amp;To:</source>
-        <translation>Betaal &amp;Naar:</translation>
-    </message>
-    <message>
-        <source>The FUNC address to send the payment to. Creates local payment to yourself when empty.</source>
-        <translation>Het FUNC adres om de betaling naar te verzenden. Maakt lokale betaling aan jezelf als je leeg bent.</translation>
-    </message>
-    <message>
-        <source>Choose previously used address</source>
-        <translation>Kies een eerder gebruikt adres</translation>
-    </message>
-    <message>
-        <source>Alt+A</source>
-        <translation>Alt+A</translation>
-    </message>
-    <message>
-        <source>Paste address from clipboard</source>
-        <translation>Plak adres vanaf klembord</translation>
-    </message>
-    <message>
-        <source>Alt+P</source>
-        <translation>Alt+P</translation>
-    </message>
-    <message>
-        <source>&amp;Label:</source>
-        <translation>&amp;Label:</translation>
-    </message>
-    <message>
-        <source>Enter a label for this address to add it to the list of used addresses</source>
-        <translation>Vul een label in voor dit adres om deze toe te voegen aan de lijst met gebruikte adressen</translation>
-    </message>
-    <message>
-        <source>A&amp;mount:</source>
-        <translation>&amp;Hoeveelheid:</translation>
-    </message>
-    <message>
-        <source>Convert Change to Zerocoin (might cost additional fees)</source>
-        <translation>Zet wisselgeld om naar Zerocoin (mogelijk extra kosten)</translation>
-    </message>
-    <message>
-        <source>If checked, the wallet tries to minimize the returning change instead of minimizing the number of spent denominations.</source>
-        <translation>Indien aangevinkt, probeert de portemonnee het terugkerende wisselgeld te minimaliseren in plaats van het aantal uitgegeven denominaties te minimaliseren.</translation>
-    </message>
-    <message>
-        <source>Minimize Change</source>
-        <translation>Minimaliseer wisselgeld</translation>
-    </message>
-    <message>
-        <source>Information about the available Zerocoin funds.</source>
-        <translation>Informatie over de beschikbare Zerocoin fondsen.</translation>
-    </message>
-    <message>
-        <source>Zerocoin Stats:</source>
-        <translation>Zerocoin Statistieken:</translation>
-    </message>
-    <message>
-        <source>Total Balance including unconfirmed and immature zFUNC</source>
-        <translation>Totale Saldi, inclusief onbevestigde en onvolwassen zFUNC</translation>
-    </message>
-    <message>
-        <source>Total Zerocoin  Balance:</source>
-        <translation>Totale Zerocoin Saldi:</translation>
-    </message>
-    <message>
-        <source>Denominations with value 1:</source>
-        <translation>Denominaties met waarde 1:</translation>
-    </message>
-    <message>
-        <source>Denom. with value 1:</source>
-        <translation>Denom. met waarde 1:</translation>
-    </message>
-    <message>
-        <source>Unconfirmed: less than 20 confirmations
-Immature: confirmed, but less than 1 mint of the same denomination after it was minted</source>
-        <translation>Onbevestigd: minder dan 20 bevestigingen
-Onvolwassen: bevestigd, maar minder dan 1 mint van dezelfde denominatie nadat het gemint was.</translation>
-    </message>
-    <message>
-        <source>Show the current status of automatic zFUNC minting.
-
-To change the status (restart required):
-- enable: add 'enablezeromint=1' to func.conf
-- disable: add 'enablezeromint=0' to func.conf
-
-To change the percentage (no restart required):
-- menu Settings-&gt;Options-&gt;Percentage of autominted zFUNC
-
-</source>
-        <translation>Toon de huidige status van automatische zFUNC-markering.
-
-Om de status te wijzigen (opnieuw opstarten vereist): 
-- enable: voeg 'enablezeromint = 1' toe aan func.conf
-- uitschakelen: voeg 'enablezeromint = 0' toe aan func.conf
-
-Om het percentage te wijzigen (geen herstart vereist): 
-- menu Instellingen-&gt; Opties-&gt; Percentage van geautomatiseerde zFUNC
-</translation>
-    </message>
-    <message>
-        <source>AutoMint Status</source>
-        <translation>AutoMint-status</translation>
-    </message>
-    <message>
-        <source>Global Supply:</source>
-        <translation>Wereldwijde levering:</translation>
-    </message>
-    <message>
-        <source>Denom. 1:</source>
-        <translation>Denom. 1:</translation>
-    </message>
-    <message>
-        <source>Denom. 5:</source>
-        <translation>Denom. 5:</translation>
-    </message>
-    <message>
-        <source>Denom. 10:</source>
-        <translation>Denom. 10:</translation>
-    </message>
-    <message>
-        <source>Denom. 50:</source>
-        <translation>Denom. 50:</translation>
-    </message>
-    <message>
-        <source>Denom. 100:</source>
-        <translation>Denom. 100:</translation>
-    </message>
-    <message>
-        <source>Denom. 500:</source>
-        <translation>Denom. 500:</translation>
-    </message>
-    <message>
-        <source>Denom. 1000:</source>
-        <translation>Denom. 1000:</translation>
-    </message>
-    <message>
-        <source>Denom. 5000:</source>
-        <translation>Denom. 5000:</translation>
-    </message>
-    <message>
-        <source>0 x</source>
-        <translation> 0 x</translation>
-    </message>
-    <message>
-        <source>Show zFUNC denominations list</source>
-        <translation>Toon zFUNC denominatielijst</translation>
-    </message>
-    <message>
-        <source>Show Denominations</source>
-        <translation>Toon Denominaties</translation>
-    </message>
-    <message>
-        <source>Denominations with value 5:</source>
-        <translation>Denominaties met waarde 5:</translation>
-    </message>
-    <message>
-        <source>Denom. with value 5:</source>
-        <translation>Denom. met waarde 5:</translation>
-    </message>
-    <message>
-        <source>Denominations with value 10:</source>
-        <translation>Denominaties met waarde 10:</translation>
-    </message>
-    <message>
-        <source>Denom. with value 10:</source>
-        <translation>Denom. met waarde 10:</translation>
-    </message>
-    <message>
-        <source>Denominations with value 50:</source>
-        <translation>Denominaties met waarde 50:</translation>
-    </message>
-    <message>
-        <source>Denom. with value 50:</source>
-        <translation>Denom. met waarde 50:</translation>
-    </message>
-    <message>
-        <source>Denominations with value 100:</source>
-        <translation>Denominaties met waarde 100:</translation>
-    </message>
-    <message>
-        <source>Denom. with value 100:</source>
-        <translation>Denom. met waarde 100:</translation>
-    </message>
-    <message>
-        <source>Denominations with value 500:</source>
-        <translation>Denominaties met waarde 500:</translation>
-    </message>
-    <message>
-        <source>Denom. with value 500:</source>
-        <translation>Denom. met waarde 500:</translation>
-    </message>
-    <message>
-        <source>Denominations with value 1000:</source>
-        <translation>Denominaties met waarde 1000:</translation>
-    </message>
-    <message>
-        <source>Denom. with value 1000:</source>
-        <translation>Denom. met waarde 1000:</translation>
-    </message>
-    <message>
-        <source>Denominations with value 5000:</source>
-        <translation>Denominaties met waarde 5000:</translation>
-    </message>
-    <message>
-        <source>Denom. with value 5000:</source>
-        <translation>Denom. met waarde 5000:</translation>
-    </message>
-    <message>
-        <source>Hide Denominations</source>
-        <translation>Verberg Denominaties</translation>
-    </message>
-    <message>
-        <source>Priority:</source>
-        <translation>Prioriteit:</translation>
+        <source>Title</source>
+        <translation>Tietel</translation>
     </message>
     <message>
         <source>TextLabel</source>
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Fee:</source>
-        <translation>Fee:</translation>
+        <source>PushButton</source>
+        <translation>Druk Knop</translation>
     </message>
     <message>
-        <source>Dust:</source>
-        <translation>Dust:</translation>
+        <source>N/A</source>
+        <translation>NB</translation>
     </message>
     <message>
-        <source>no</source>
-        <translation>nee</translation>
+        <source>Privacy</source>
+        <translation>Privacy</translation>
     </message>
     <message>
-        <source>Bytes:</source>
-        <translation>Bytes:</translation>
+        <source>Convert</source>
+        <translation>Converteren</translation>
     </message>
     <message>
-        <source>Insufficient funds!</source>
-        <translation>Onvoldoende saldo!</translation>
+        <source>Mint</source>
+        <translation>Munt</translation>
     </message>
     <message>
-        <source>Coins automatically selected</source>
-        <translation>Munten automatisch geselecteerd</translation>
+        <source>Minting zFUNC anonymizes your FUNC by removing any
+transaction history, making transactions untraceable </source>
+        <translation>Munten van zFUNC anonimiseert uw FUNC door het verwijderen van eender welke
+transactiegeschiedenis, waardoor transacties niet meer te traceren zijn</translation>
     </message>
     <message>
-        <source>medium</source>
-        <translation>medium</translation>
+        <source>Mint new zFUNC or convert back to FUNC</source>
+        <translation>Munt nieuwe zFUNC of converteer deze terug in FUNC</translation>
     </message>
     <message>
-        <source>Coin Control Features</source>
-        <translation>Munt controle kenmerken</translation>
+        <source>Last zFUNC Movements</source>
+        <translation>Laatste zFUNC Bewegingen</translation>
     </message>
     <message>
-        <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
-        <translation>Als dit geactiveerd is, maar het wisselgeld adres is leeg of ongeldig, wordt het wisselgeld verzonden naar een nieuw gegenereerd adres.</translation>
+        <source>No transactions yet</source>
+        <translation>Nog geen transacties</translation>
     </message>
     <message>
-        <source>Custom change address</source>
-        <translation>Aangepast wisselgeld adres</translation>
+        <source>Mint zFUNC</source>
+        <translation>Munt zFUNC</translation>
     </message>
     <message>
-        <source>Amount After Fee:</source>
-        <translation>Bedrag na kosten:</translation>
+        <source>Enter amount of FUNC to mint into zFUNC</source>
+        <translation>Vul de hoeveelheid FUNC in die u omslaan in zFUNC</translation>
     </message>
     <message>
-        <source>Change:</source>
-        <translation>Wisselgeld:</translation>
+        <source>Convert back to FUNC</source>
+        <translation>Converteer terug naar FUNC</translation>
     </message>
     <message>
-        <source>out of sync</source>
-        <translation>niet gesynchroniseerd</translation>
+        <source>Enter amount of zFUNC to convert back into FUNC</source>
+        <translation>Voer de hoeveelheed zFUNC in om terug te converteren naar FUNC</translation>
     </message>
     <message>
-        <source>Mint Status: Okay</source>
-        <translation>Mint status: Oké</translation>
+        <source>Zerocoin</source>
+        <translation>Zerocoin</translation>
     </message>
     <message>
-        <source>Starting ResetMintZerocoin: rescanning complete blockchain, this will need up to 30 minutes depending on your hardware.
-Please be patient...</source>
-        <translation>Start ResetMintZerocoin: rescanning complete blockchain, dit zal tot 30 minuten nodig hebben, afhankelijk van uw hardware.
-Wees alsjeblieft geduldig...</translation>
+        <source>zFUNC is currently undergoing maintenance</source>
+        <translation>zFUNC ondergaat momenteel onderhoud</translation>
     </message>
     <message>
-        <source>zFUNC Spend #: </source>
-        <translation>zFUNC besteed #:</translation>
+        <source>You need to unlock the wallet to be able to %1 zFUNC</source>
+        <translation>Je moet de portemonnee ontgrendelen om in staat zijn om %1 zFUNC</translation>
     </message>
     <message>
-        <source>zFUNC Mint</source>
-        <translation>zFUNC mint</translation>
+        <source>convert</source>
+        <translation>converteer</translation>
     </message>
     <message>
-        <source> &lt;b&gt;enabled&lt;/b&gt;.</source>
-        <translation>&lt;b&gt;ingeschakeld&lt;/b&gt;.</translation>
+        <source>mint</source>
+        <translation>munt</translation>
     </message>
     <message>
-        <source> &lt;b&gt;disabled&lt;/b&gt;.</source>
-        <translation>&lt;b&gt;invalide&lt;/b&gt;.</translation>
+        <source>Invalid value</source>
+        <translation>Ongeldige waarde</translation>
     </message>
     <message>
-        <source> Configured target percentage: &lt;b&gt;</source>
-        <translation>Geconfigureerd doelpercentage:&lt;b&gt;</translation>
+        <source>zFUNC minted successfully</source>
+        <translation>zFUNC munting succesvol</translation>
     </message>
     <message>
-        <source>zFUNC is currently disabled due to maintenance.</source>
-        <translation>zFUNC is momenteel uitgeschakeld vanwege onderhoud.</translation>
+        <source>zFUNC converted back to FUNC</source>
+        <translation>zFUNC terug geconverteerd naar FUNC</translation>
     </message>
     <message>
-        <source>zFUNC is currently undergoing maintenance.</source>
-        <translation>zFUNC wordt momenteel onderhouden.</translation>
+        <source>You don't have any FUNC to select.</source>
+        <translation>Je hebt geen FUNC om te selecteren</translation>
     </message>
     <message>
-        <source>Denom. with value &lt;b&gt;1&lt;/b&gt;:</source>
-        <translation>Denom. met waarde &lt;b&gt; 1&lt;/b&gt;:</translation>
+        <source>Rescan Mints</source>
+        <translation>Muntingen opnieuw scannen</translation>
     </message>
     <message>
-        <source>Denom. with value &lt;b&gt;5&lt;/b&gt;:</source>
-        <translation>Denom. met waarde &lt;b&gt;5&lt;/b&gt;:</translation>
+        <source>Your zerocoin mints are going to be scanned from the blockchain from scratch</source>
+        <translation>Uw zerocoin muntingen zullen van de blockchain vanaf nul worden gescanned</translation>
     </message>
     <message>
-        <source>Denom. with value &lt;b&gt;10&lt;/b&gt;:</source>
-        <translation>Denom. met waarde &lt;b&gt;10&lt;/b&gt;:</translation>
+        <source>Reset Spent zFUNC</source>
+        <translation>Reset Besteedde zFUNC</translation>
     </message>
     <message>
-        <source>Denom. with value &lt;b&gt;50&lt;/b&gt;:</source>
-        <translation>Denom. met waarde &lt;b&gt;50&lt;/b&gt;:</translation>
+        <source>Your zerocoin spends are going to be scanned from the blockchain from scratch</source>
+        <translation>Uw zerocoin bestedingen zullen van de blockchain vanaf nul worden gescanned</translation>
     </message>
     <message>
-        <source>Denom. with value &lt;b&gt;100&lt;/b&gt;:</source>
-        <translation>Denom. met waarde &lt;b&gt; 100&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Denom. with value &lt;b&gt;500&lt;/b&gt;:</source>
-        <translation>Denom. met waarde &lt;b&gt; 500&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Denom. with value &lt;b&gt;1000&lt;/b&gt;:</source>
-        <translation>Denom. met waarde &lt;b&gt;1000&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Denom. with value &lt;b&gt;5000&lt;/b&gt;:</source>
-        <translation>Denom. met waarde &lt;b&gt;5000&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>AutoMint Status:</source>
-        <translation>AutoMint-status</translation>
-    </message>
-    <message>
-        <source>Denom. &lt;b&gt;1&lt;/b&gt;:</source>
-        <translation>Denom. &lt;b&gt;1&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Denom. &lt;b&gt;5&lt;/b&gt;:</source>
-        <translation>Denom. &lt;b&gt;5&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Denom. &lt;b&gt;10&lt;/b&gt;:</source>
-        <translation>Denom. &lt;b&gt;10&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Denom. &lt;b&gt;50&lt;/b&gt;:</source>
-        <translation>Denom. &lt;b&gt;50&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Denom. &lt;b&gt;100&lt;/b&gt;:</source>
-        <translation>Denom. &lt;b&gt;100&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Denom. &lt;b&gt;500&lt;/b&gt;:</source>
-        <translation>Denom. &lt;b&gt;500&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Denom. &lt;b&gt;1000&lt;/b&gt;:</source>
-        <translation>Denom. &lt;b&gt;1000&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Denom. &lt;b&gt;5000&lt;/b&gt;:</source>
-        <translation>Denom. &lt;b&gt;5000&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Duration: </source>
-        <translation>Duur:</translation>
-    </message>
-    <message>
-        <source> sec.
-</source>
-        <translation> sec.
-</translation>
-    </message>
-    <message>
-        <source>Starting ResetSpentZerocoin: </source>
-        <translation>Starten van ResetSpentZerocoin: </translation>
-    </message>
-    <message>
-        <source>No 'Pay To' address provided, creating local payment</source>
-        <translation>Geen 'Betaal aan' adres verstrekt, lokale betaling wordt gemaakt</translation>
-    </message>
-    <message>
-        <source>Invalid Func Address</source>
-        <translation>Ongeldig Func addres</translation>
-    </message>
-    <message>
-        <source>Invalid Send Amount</source>
-        <translation>Ongeldig verzend bedrag</translation>
-    </message>
-    <message>
-        <source>Confirm additional Fees</source>
-        <translation>Bevestig extra kosten</translation>
-    </message>
-    <message>
-        <source>Are you sure you want to send?&lt;br /&gt;&lt;br /&gt;</source>
-        <translation>Weet je zeker dat je wilt verzenden?&lt;br /&gt;&lt;br /&gt;</translation>
-    </message>
-    <message>
-        <source> to address </source>
-        <translation>naar adres</translation>
-    </message>
-    <message>
-        <source> to a newly generated (unused and therefore anonymous) local address &lt;br /&gt;</source>
-        <translation>naar een nieuw gegenereerd (ongebruikt en dus anoniem) lokaal adres&lt;br /&gt;</translation>
-    </message>
-    <message>
-        <source>Confirm send coins</source>
-        <translation>Bevestig verzending coins</translation>
-    </message>
-    <message>
-        <source>Failed to fetch mint associated with serial hash</source>
-        <translation>Mislukt om de mint op te halen geassocieerd met de seriële hash</translation>
-    </message>
-    <message>
-        <source>Spend Zerocoin failed with status = </source>
-        <translation>Bestede Zerocoin mislukt met status =</translation>
-    </message>
-    <message>
-        <source>denomination: </source>
-        <translation>denominatie:</translation>
-    </message>
-    <message>
-        <source>serial: </source>
-        <translation>serial: </translation>
-    </message>
-    <message>
-        <source>Spend is 1 of : </source>
-        <translation>Besteed is 1 of : </translation>
-    </message>
-    <message>
-        <source>value out: </source>
-        <translation>Waarde uit:</translation>
-    </message>
-    <message>
-        <source>address: </source>
-        <translation>adres:</translation>
-    </message>
-    <message>
-        <source>Sending successful, return code: </source>
-        <translation>Verzenden succesvol, retourcode:</translation>
-    </message>
-    <message>
-        <source>txid: </source>
-        <translation>txid: </translation>
-    </message>
-    <message>
-        <source>fee: </source>
-        <translation>kosten:</translation>
-    </message>
-</context>
-<context>
-    <name>ProposalFrame</name>
-    <message>
-        <source>Open proposal page in browser</source>
-        <translation>Voorstelpagina in browser openen</translation>
-    </message>
-    <message>
-        <source>Yes:</source>
-        <translation>Voor:</translation>
-    </message>
-    <message>
-        <source>Abstain:</source>
-        <translation>Onthouden:</translation>
-    </message>
-    <message>
-        <source>No:</source>
-        <translation>Tegen:</translation>
-    </message>
-    <message>
-        <source>Open link</source>
-        <translation>Link openen</translation>
-    </message>
-    <message>
-        <source>Copy link</source>
-        <translation>Link kopiëren</translation>
-    </message>
-    <message>
-        <source>Wallet Locked</source>
-        <translation>Portemonnee Vergrendeld</translation>
-    </message>
-    <message>
-        <source>You must unlock your wallet to vote.</source>
-        <translation>Je moet uw portemonnee ontgrendelen om te stemmen.</translation>
-    </message>
-    <message>
-        <source>Proposal Hash:</source>
-        <translation>Voorstel Hash:</translation>
-    </message>
-    <message>
-        <source>Proposal URL:</source>
-        <translation>Voorstel URL:</translation>
-    </message>
-    <message>
-        <source>Confirm Vote</source>
-        <translation>Stem bevestigen</translation>
-    </message>
-    <message>
-        <source>Vote Results</source>
-        <translation>Stemresultaten</translation>
+        <source>Total %1</source>
+        <translation>Totaal %1</translation>
     </message>
 </context>
 <context>
@@ -2973,7 +2408,7 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Bedrag</translation>
     </message>
     <message>
-        <source>Enter a FUNC address (e.g. %1)</source>
+        <source>Enter FUNC address (e.g. %1)</source>
         <translation>Voer een FUNC adres in (b.v. %1)</translation>
     </message>
     <message>
@@ -3001,10 +2436,6 @@ Wees alsjeblieft geduldig...</translation>
         <translation>BLOOM</translation>
     </message>
     <message>
-        <source>ZK_BLOOM</source>
-        <translation>ZK_BLOOM</translation>
-    </message>
-    <message>
         <source>UNKNOWN</source>
         <translation>ONBEKEND</translation>
     </message>
@@ -3024,24 +2455,137 @@ Wees alsjeblieft geduldig...</translation>
         <source>FUNC Core</source>
         <translation>FUNC Core</translation>
     </message>
-    </context>
-<context>
-    <name>QRImageWidget</name>
     <message>
-        <source>&amp;Save Image...</source>
-        <translation>&amp;Afbeelding opslaan...</translation>
+        <source>Error: Specified data directory "%1" does not exist.</source>
+        <translation>Fout: De opgegeven gegevensmap "%1" bestaat niet.</translation>
     </message>
     <message>
-        <source>&amp;Copy Image</source>
-        <translation>&amp;Kopieer afbeelding</translation>
+        <source>Error: Cannot parse configuration file: %1. Only use key=value syntax.</source>
+        <translation>Fout: Kan het configuratiebestand niet parsen: %1. Gebruik alleen sleutel=waarde syntaxis.</translation>
     </message>
     <message>
-        <source>Save QR Code</source>
-        <translation>QR code opslaan</translation>
+        <source>Error: Invalid combination of -regtest and -testnet.</source>
+        <translation>Fout: Ongeldige combinatie van -regtest en -testnet.</translation>
     </message>
     <message>
-        <source>PNG Image (*.png)</source>
-        <translation>PNG Afbeelding(*.png)</translation>
+        <source>Error reading masternode configuration file: %1</source>
+        <translation>Fout bij het lezen van het masternode configuratiebestand: %1</translation>
+    </message>
+    <message>
+        <source>FUNC Core didn't yet exit safely...</source>
+        <translation>FUNC Core is nog niet veilig afgesloten...</translation>
+    </message>
+    <message>
+        <source>Contact</source>
+        <translation>Contacteer</translation>
+    </message>
+    <message>
+        <source>Receiving</source>
+        <translation>Ontvangen</translation>
+    </message>
+    <message>
+        <source>Delegator</source>
+        <translation>Delegator</translation>
+    </message>
+    <message>
+        <source>Cold Staking</source>
+        <translation>Cold Staking</translation>
+    </message>
+    <message>
+        <source>Cold Staking Contact</source>
+        <translation>Cold Staking Contact</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>Verborgen</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Ongekend</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Alle</translation>
+    </message>
+    <message>
+        <source>Contacts</source>
+        <translation>Contacten</translation>
+    </message>
+    <message>
+        <source>Delegators</source>
+        <translation>Delegators</translation>
+    </message>
+    <message>
+        <source>Staking Contacts</source>
+        <translation>Staking Contacten</translation>
+    </message>
+    <message>
+        <source>Date desc</source>
+        <translation>Datum aflopend</translation>
+    </message>
+    <message>
+        <source>Date asc</source>
+        <translation>Datum oplopend</translation>
+    </message>
+    <message>
+        <source>Amount desc</source>
+        <translation>Aantal aflopend</translation>
+    </message>
+    <message>
+        <source>Amount asc</source>
+        <translation>Aantal oplopend</translation>
+    </message>
+    <message>
+        <source>Received</source>
+        <translation>Ontvangen</translation>
+    </message>
+    <message>
+        <source>Sent</source>
+        <translation>Verstuurd</translation>
+    </message>
+    <message>
+        <source>Mined</source>
+        <translation>Mined</translation>
+    </message>
+    <message>
+        <source>Minted</source>
+        <translation>Minted</translation>
+    </message>
+    <message>
+        <source>MN reward</source>
+        <translation>MN beloning</translation>
+    </message>
+    <message>
+        <source>To yourself</source>
+        <translation>Naar jezelf</translation>
+    </message>
+    <message>
+        <source>Cold stakes</source>
+        <translation>Cold stakes</translation>
+    </message>
+    <message>
+        <source>Hot stakes</source>
+        <translation>Hot stakes</translation>
+    </message>
+    <message>
+        <source>Delegated</source>
+        <translation>Gedelegeerd</translation>
+    </message>
+    <message>
+        <source>Delegations</source>
+        <translation>Delegaties</translation>
+    </message>
+    <message>
+        <source>by Label</source>
+        <translation>per Label</translation>
+    </message>
+    <message>
+        <source>by Address</source>
+        <translation>per Adres</translation>
+    </message>
+    <message>
+        <source>by Date</source>
+        <translation>per Datum</translation>
     </message>
 </context>
 <context>
@@ -3095,10 +2639,6 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Debug logbestand</translation>
     </message>
     <message>
-        <source>Using OpenSSL version</source>
-        <translation>Gebruikt OpenSSL versie</translation>
-    </message>
-    <message>
         <source>Build date</source>
         <translation>Bouwdatum</translation>
     </message>
@@ -3125,6 +2665,14 @@ Wees alsjeblieft geduldig...</translation>
     <message>
         <source>Number of Masternodes</source>
         <translation>Aantal Masternodes</translation>
+    </message>
+    <message>
+        <source>Data Directory</source>
+        <translation>Gegevenslocatie</translation>
+    </message>
+    <message>
+        <source>Last block hash</source>
+        <translation>Laatste blokhash</translation>
     </message>
     <message>
         <source>&amp;Console</source>
@@ -3387,8 +2935,16 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Bevestig hersynchronisering van Blockchain</translation>
     </message>
     <message>
+        <source>Use up and down arrows to navigate history, and %1 to clear screen.</source>
+        <translation>Gebruik omhoog en omlaag pijltjestoetsen om door de geschiedenis te navigeren en %1 om het scherm te wissen.</translation>
+    </message>
+    <message>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
         <translation>Type &lt;b&gt;help &lt;/b&gt;voor een overzicht van beschikbare commando's.</translation>
+    </message>
+    <message>
+        <source>WARNING: Scammers have been active, telling users to type commands here, stealing their wallet contents. Do not use this console without fully understanding the ramifications of a command.</source>
+        <translation>WAARSCHUWING: Er zijn oplichters actief geweest, die gebruikers vertellen dat ze hier commando's moeten typen waarmee ze de inhoud van hun portemonnee konden stelen. Gebruik deze console niet zonder de gevolgen van een commando volledig te begrijpen.</translation>
     </message>
     <message>
         <source>%1 B</source>
@@ -3440,165 +2996,113 @@ Wees alsjeblieft geduldig...</translation>
     </message>
 </context>
 <context>
-    <name>ReceiveCoinsDialog</name>
+    <name>ReceiveDialog</name>
     <message>
-        <source>Reuse one of the previously used receiving addresses.&lt;br&gt;Reusing addresses has security and privacy issues.&lt;br&gt;Do not use this unless re-generating a payment request made before.</source>
-        <translation>Hergebruik een van de eerder gebruikte ontvangstadressen.&lt;br&gt;Hergebruik van adressen heeft beveiligings- en privacyproblemen. &lt;br&gt;Gebruik dit niet tenzij u eerder een betalingsverzoek heeft aangemaakt.</translation>
+        <source>Dialog</source>
+        <translation>Dialoog</translation>
     </message>
     <message>
-        <source>R&amp;euse an existing receiving address (not recommended)</source>
-        <translation>Hergebruik een bestaand ontvangstadres (niet aanbevolen)</translation>
+        <source>Transaction Details</source>
+        <translation>Transactie details</translation>
     </message>
     <message>
-        <source>&amp;Message:</source>
-        <translation>&amp;Bericht:</translation>
+        <source>F7VFR83SQbiezrW72hjcWJtcfip5krte2Z </source>
+        <translation>F7VFR83SQbiezrW72hjcWJtcfip5krte2Z</translation>
     </message>
     <message>
-        <source>An optional label to associate with the new receiving address.</source>
-        <translation>Een optioneel label om te associëren met het nieuwe ontvangstadres.</translation>
+        <source>CANCEL</source>
+        <translation>Annuleren</translation>
     </message>
     <message>
-        <source>Your receiving address. You can copy and use it to receive coins on this wallet. A new one will be generated once it is used.</source>
-        <translation>Je ontvangstadres. Je kan deze kopieren en gebruiken om munten te ontvangen in deze portemonnee. Een nieuwe zal gegenereerd worden van zodra het gebruikt is.</translation>
-    </message>
-    <message>
-        <source>&amp;Address:</source>
-        <translation>&amp;Adres:</translation>
-    </message>
-    <message>
-        <source>A&amp;mount:</source>
-        <translation>&amp;Hoeveelheid:</translation>
-    </message>
-    <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the FUNC network.</source>
-        <translation>Een optioneel bericht dat aan het betalingsverzoek wordt gehecht, dat wordt weergegeven wanneer het verzoek wordt geopend. Opmerking: het bericht wordt niet verzonden met de betaling via het FUNC netwerk.</translation>
-    </message>
-    <message>
-        <source>RECEIVE</source>
-        <translation>ontvangen</translation>
-    </message>
-    <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the FUNC network.</source>
-        <translation>Een optioneel bericht dat aan het betalingsverzoek wordt gehecht, dat wordt weergegeven wanneer het verzoek wordt geopend.&lt;br&gt;Opmerking: het bericht wordt niet verzonden met de betaling via het FUNC netwerk.</translation>
-    </message>
-    <message>
-        <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
-        <translation>Gebruik dit formulier om betalingen aan te vragen. Alle velden zijn&lt;b&gt;optioneel&lt;/b&gt;.</translation>
-    </message>
-    <message>
-        <source>&amp;Label:</source>
-        <translation>&amp;Label:</translation>
-    </message>
-    <message>
-        <source>An optional amount to request. Leave this empty or zero to not request a specific amount.</source>
-        <translation>Een optioneel bedrag om te vragen. Laat dit leeg of vul een nul in om geen specifiek bedrag te vragen.</translation>
-    </message>
-    <message>
-        <source>&amp;Request payment</source>
-        <translation>&amp;Verzoek betaling</translation>
-    </message>
-    <message>
-        <source>Clear all fields of the form.</source>
-        <translation>Leeg alle velden van het formulier.</translation>
-    </message>
-    <message>
-        <source>Clear</source>
-        <translation>Leegmaken</translation>
-    </message>
-    <message>
-        <source>Receiving Addresses</source>
-        <translation>Ontvangstadressen</translation>
-    </message>
-    <message>
-        <source>Requested payments history</source>
-        <translation>Betalingsverzoeken geschiedenis</translation>
-    </message>
-    <message>
-        <source>Show the selected request (does the same as double clicking an entry)</source>
-        <translation>Toon het geselecteerde verzoek (doet hetzelfde als dubbelklik op een item)</translation>
-    </message>
-    <message>
-        <source>Show</source>
-        <translation>Toon</translation>
-    </message>
-    <message>
-        <source>Remove the selected entries from the list</source>
-        <translation>Verwijder de geselecteerde vermeldingen uit de lijst</translation>
-    </message>
-    <message>
-        <source>Remove</source>
-        <translation>Verwijder</translation>
-    </message>
-    <message>
-        <source>Copy label</source>
-        <translation>Kopiëer label</translation>
-    </message>
-    <message>
-        <source>Copy message</source>
-        <translation>Bericht kopiëren</translation>
-    </message>
-    <message>
-        <source>Copy amount</source>
-        <translation>Kopieer bedrag</translation>
-    </message>
-    <message>
-        <source>Copy address</source>
-        <translation>Kopieer adres</translation>
+        <source>OK</source>
+        <translation>Akkoord</translation>
     </message>
 </context>
 <context>
-    <name>ReceiveRequestDialog</name>
+    <name>ReceiveWidget</name>
     <message>
-        <source>QR Code</source>
-        <translation>QR Code</translation>
+        <source>Form</source>
+        <translation>Formulier</translation>
     </message>
     <message>
-        <source>Copy &amp;URI</source>
-        <translation>Kopieer &amp;URI</translation>
+        <source>TextLabel</source>
+        <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Copy &amp;Address</source>
-        <translation>Kopieer &amp;Adres</translation>
+        <source>No address</source>
+        <translation>Geen adres</translation>
     </message>
     <message>
-        <source>&amp;Save Image...</source>
-        <translation>&amp;Afbeelding opslaan...</translation>
+        <source>Add Label</source>
+        <translation>Label Toevoegen</translation>
     </message>
     <message>
-        <source>Request payment to %1</source>
-        <translation>Verzoek betaling aan %1</translation>
+        <source>Generate Address</source>
+        <translation>Adres Genereren</translation>
     </message>
     <message>
-        <source>Payment information</source>
-        <translation>Betalingsinformatie</translation>
+        <source>Copy</source>
+        <translation>Kopieren</translation>
     </message>
     <message>
-        <source>URI</source>
-        <translation>URI</translation>
+        <source>Receive</source>
+        <translation>Ontvangen</translation>
     </message>
     <message>
-        <source>Address</source>
-        <translation>Adres</translation>
+        <source>Scan the QR code or copy the address to receive FUNC.</source>
+        <translation>Scan de QR code of kopieer het adres om FUNC te ontvangen.</translation>
     </message>
     <message>
-        <source>Amount</source>
-        <translation>Bedrag</translation>
+        <source>No address </source>
+        <translation>Geen adres</translation>
     </message>
     <message>
-        <source>Label</source>
-        <translation>Label</translation>
+        <source>No available address, try unlocking the wallet</source>
+        <translation>Geen beschikbaar adres, probeer de portemonnee te ontgrendelen</translation>
     </message>
     <message>
-        <source>Message</source>
-        <translation>Bericht</translation>
+        <source>Error generating address</source>
+        <translation>Genereren van adres misgelopen</translation>
     </message>
     <message>
-        <source>Resulting URI too long, try to reduce the text for label / message.</source>
-        <translation>Resulterende URI te lang geleden, probeer de tekst voor label/bericht te verminderen.</translation>
+        <source>Edit Label</source>
+        <translation>Label wijzigen</translation>
     </message>
     <message>
-        <source>Error encoding URI into QR Code.</source>
-        <translation>Fout bij het coderen van URI in QR-code.</translation>
+        <source>Edit Address Label</source>
+        <translation>Bewerk Adreslabel</translation>
+    </message>
+    <message>
+        <source>Address label saved</source>
+        <translation>Adreslabel opgeslagen</translation>
+    </message>
+    <message>
+        <source>Error storing address label</source>
+        <translation>Fout bij bewaren adreslabel</translation>
+    </message>
+    <message>
+        <source>Cannot create new address, wallet locked</source>
+        <translation>Kan geen nieuw adres aanmaken, portemonnee vergrendeld</translation>
+    </message>
+    <message>
+        <source>New address created</source>
+        <translation>Nieuw adres gecreëerd</translation>
+    </message>
+    <message>
+        <source>Address copied</source>
+        <translation>Adres gekopieerd</translation>
+    </message>
+    <message>
+        <source>Cannot perform operation, wallet locked</source>
+        <translation>Kan deze actie niet uitvoeren, portemonnee vergrendeld</translation>
+    </message>
+    <message>
+        <source>URI copied to clipboard</source>
+        <translation>URI gekopieerd naar klembord</translation>
+    </message>
+    <message>
+        <source>Address copied to clipboard</source>
+        <translation>Adres gekopieerd naar klembord</translation>
     </message>
 </context>
 <context>
@@ -3637,507 +3141,1759 @@ Wees alsjeblieft geduldig...</translation>
     </message>
 </context>
 <context>
-    <name>SendCoinsDialog</name>
+    <name>RequestDialog</name>
     <message>
-        <source>Send Coins</source>
-        <translation>Verzend Munten</translation>
+        <source>Dialog</source>
+        <translation>Dialoog</translation>
     </message>
     <message>
-        <source>SEND</source>
-        <translation>STUREN</translation>
+        <source>New Request Payment</source>
+        <translation>Nieuw Betalingsverzoek</translation>
     </message>
     <message>
-        <source>Coin Control Features</source>
-        <translation>Munt controle kenmerken</translation>
+        <source>Lorem ipsum dolor sit amet, consectur cling elit, sed do </source>
+        <translation>Lorem ipsum dolor sit amet, consectur cling elit, sed do </translation>
     </message>
     <message>
-        <source>Insufficient funds!</source>
-        <translation>Onvoldoende saldo!</translation>
+        <source>Amount</source>
+        <translation>Bedrag</translation>
     </message>
     <message>
-        <source>Quantity:</source>
-        <translation>Kwantiteit:</translation>
+        <source>FUNC</source>
+        <translation>FUNC</translation>
     </message>
     <message>
-        <source>Bytes:</source>
-        <translation>Bytes:</translation>
+        <source>TextLabel</source>
+        <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Amount:</source>
-        <translation>Bedrag:</translation>
+        <source>F7VFR83SQbiezrW72hjcWJtcfip5krte2Z </source>
+        <translation>F7VFR83SQbiezrW72hjcWJtcfip5krte2Z</translation>
     </message>
     <message>
-        <source>Priority:</source>
-        <translation>Prioriteit:</translation>
+        <source>COPY ADDRESS</source>
+        <translation>KOPIEER ADRES</translation>
     </message>
     <message>
-        <source>medium</source>
-        <translation>medium</translation>
+        <source>COPY URL</source>
+        <translation>KOPIEER URL</translation>
     </message>
     <message>
-        <source>Fee:</source>
-        <translation>Fee:</translation>
+        <source>CANCEL</source>
+        <translation>Annuleren</translation>
     </message>
     <message>
-        <source>Dust:</source>
-        <translation>Dust:</translation>
+        <source>REQUEST</source>
+        <translation>VERZOEK</translation>
     </message>
     <message>
-        <source>no</source>
-        <translation>nee</translation>
+        <source>Label</source>
+        <translation>Label</translation>
     </message>
     <message>
-        <source>After Fee:</source>
-        <translation>Na de fee:</translation>
+        <source>Description (optional)</source>
+        <translation>Omschrijving (optioneel)</translation>
     </message>
     <message>
-        <source>Change:</source>
-        <translation>Wisselgeld:</translation>
+        <source>New Payment Request</source>
+        <translation>Nieuw Betalingsverzoek</translation>
     </message>
     <message>
-        <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
-        <translation>Als dit geactiveerd is, maar het wisselgeld adres is leeg of ongeldig, wordt het wisselgeld verzonden naar een nieuw gegenereerd adres.</translation>
+        <source>Instead of sharing only a FUNC address, you can create a payment request, bundling up more information.</source>
+        <translation>In plaats van een FUNC-adres te delen, kunt u een betalingsverzoek creëren dat meer informatie bundelt.</translation>
     </message>
     <message>
-        <source>Custom change address</source>
-        <translation>Aangepast wisselgeld adres</translation>
+        <source>Enter a label for the address</source>
+        <translation>Voer een label in voor het adres</translation>
     </message>
     <message>
-        <source>Split UTXO</source>
-        <translation>Split UTXO</translation>
+        <source>Enter description</source>
+        <translation>Beschrijving toevoegen</translation>
     </message>
     <message>
-        <source># of outputs</source>
-        <translation># outputs</translation>
+        <source>Error</source>
+        <translation>Error</translation>
     </message>
     <message>
-        <source>UTXO Size:</source>
-        <translation>UTXO grootte:</translation>
+        <source>GENERATE</source>
+        <translation>GENEREER</translation>
     </message>
     <message>
-        <source>0 FUNC</source>
-        <translation>0 FUNC</translation>
+        <source>Creates an address to receive coin delegations and be able to stake them.</source>
+        <translation>Maak een adres aan om muntdelegaties te ontvangen en deze te kunnen staken.</translation>
     </message>
     <message>
-        <source>Transaction Fee:</source>
-        <translation>Transactiekosten: </translation>
+        <source>New Cold Staking Address</source>
+        <translation>Nieuw Cold Staking Adres</translation>
     </message>
     <message>
-        <source>Choose...</source>
-        <translation>Kies...</translation>
+        <source>Amount (optional)</source>
+        <translation>Bedrag (optioneel)</translation>
+    </message>
+</context>
+<context>
+    <name>SendChangeAddressDialog</name>
+    <message>
+        <source>Dialog</source>
+        <translation>Dialoog</translation>
     </message>
     <message>
-        <source>collapse fee-settings</source>
-        <translation>Klap kosten instellingen in</translation>
+        <source>Transaction Details</source>
+        <translation>Transactie details</translation>
     </message>
     <message>
-        <source>Minimize</source>
-        <translation>Minimaliseer</translation>
+        <source>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</source>
+        <translation>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</translation>
     </message>
     <message>
-        <source>per kilobyte</source>
-        <translation>per kilobyte</translation>
+        <source>CANCEL</source>
+        <translation>Annuleren</translation>
     </message>
     <message>
-        <source>total at least</source>
-        <translation>totaal tenminste</translation>
+        <source>OK</source>
+        <translation>Akkoord</translation>
     </message>
     <message>
-        <source>(read the tooltip)</source>
-        <translation>(lees de tooltip)</translation>
+        <source>Custom Change Address</source>
+        <translation>Aangepast wijzigingsadres</translation>
     </message>
     <message>
-        <source>Custom:</source>
-        <translation>Aangepast:</translation>
+        <source>The remainder of the value resultant from the inputs minus the outputs value goes to the "change" FUNC address</source>
+        <translation>De rest van de waarde die resulteert uit de ingangen minus de waarde van de uitgangen gaat naar het "wijzig" FUNC-adres</translation>
     </message>
     <message>
-        <source>(Smart fee not initialized yet. This usually takes a few blocks...)</source>
-        <translation>(Smart fee nog niet geïnitialiseerd. Dit duurt meestal een paar blokken ...)</translation>
+        <source>SAVE</source>
+        <translation>Opslaan</translation>
     </message>
     <message>
-        <source>SwiftX</source>
-        <translation>SwiftX</translation>
+        <source>RESET</source>
+        <translation>RESETTEN</translation>
     </message>
     <message>
-        <source>Confirmation time:</source>
-        <translation>Bevestigingstijd:</translation>
+        <source>Invalid address</source>
+        <translation>Ongeldig adres</translation>
+    </message>
+</context>
+<context>
+    <name>SendCustomFeeDialog</name>
+    <message>
+        <source>Form</source>
+        <translation>Formulier</translation>
     </message>
     <message>
-        <source>Open Coin Control...</source>
-        <translation>Open munt controle...</translation>
+        <source>Transaction Details</source>
+        <translation>Transactie details</translation>
     </message>
     <message>
-        <source>Coins automatically selected</source>
-        <translation>Munten automatisch geselecteerd</translation>
-    </message>
-    <message>
-        <source>If the custom fee is set to 1000 uFUNCs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uFUNCs in fee,&lt;br /&gt;while "at least" pays 1000 uFUNCs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Als de aangepaste vergoeding is ingesteld op 1000 uFUNCs en de transactie is slechts 250 bytes, dan betaalt per kilobyte alleen 250 uFUNC's in vergoeding,&lt;br /&gt;terwijl "minstens" 1000 uFUNC's betaalt. Voor transacties die groter zijn dan een kilobyte, betalen beiden per kilobyte.</translation>
-    </message>
-    <message>
-        <source>If the custom fee is set to 1000 uFUNCs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uFUNCs in fee,&lt;br /&gt;while "total at least" pays 1000 uFUNCs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Als de aangepaste vergoeding is ingesteld op 1000 uFUNCs en de transactie is slechts 250 bytes, dan betaalt per kilobyte alleen 250 uFUNC's in vergoeding,&lt;br /&gt;terwijl "totaal minstens" 1000 uFUNC's betaalt. Voor transacties die groter zijn dan een kilobyte, betalen beiden per kilobyte.</translation>
-    </message>
-    <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for FUNC transactions than the network can process.</source>
-        <translation>Alleen de minimale vergoeding betalen is prima, zolang er minder transactie volume is dan ruimte in de blokken. &lt;br /&gt;Maar wees ervan bewust dat dit kan leiden tot een nooit bevestigende transactie wanneer er meer vraag is naar FUNC transacties dan het netwerk kan verwerken.</translation>
-    </message>
-    <message>
-        <source>normal</source>
-        <translation>normaal</translation>
-    </message>
-    <message>
-        <source>fast</source>
-        <translation>snel</translation>
+        <source>Customize the transaction fee at your to your liking, depending on the fee value your transaction will be included or not in the blockchain.</source>
+        <translation>Pas de transactiekosten naar wens aan, afhankelijk van de kostenwaarde die uw transactie wel of niet in de blockchain zal opnemen.</translation>
     </message>
     <message>
         <source>Recommended</source>
         <translation>Aanbevolen</translation>
     </message>
     <message>
-        <source>Send as zero-fee transaction if possible</source>
-        <translation>Zend als zero-fee transactie indien mogelijk</translation>
+        <source>FUNC/kilobyte</source>
+        <translation>FUNC/kilobyte</translation>
     </message>
     <message>
-        <source>(confirmation may take longer)</source>
-        <translation>(bevestiging kan langer duren)</translation>
+        <source>0.00 KB</source>
+        <translation>0.00 KB</translation>
     </message>
     <message>
-        <source>Confirm the send action</source>
-        <translation>Bevestig de verzendactie</translation>
+        <source>Custom</source>
+        <translation>Aangepast</translation>
     </message>
     <message>
-        <source>S&amp;end</source>
-        <translation>V&amp;erzenden</translation>
+        <source>CANCEL</source>
+        <translation>Annuleren</translation>
     </message>
     <message>
-        <source>Clear all fields of the form.</source>
-        <translation>Leeg alle velden van het formulier.</translation>
+        <source>OK</source>
+        <translation>Akkoord</translation>
     </message>
     <message>
-        <source>Clear &amp;All</source>
-        <translation>Verwijder &amp;Alles</translation>
+        <source>Customize Fee</source>
+        <translation>Kost Aanpassen</translation>
     </message>
     <message>
-        <source>Send to multiple recipients at once</source>
-        <translation>Verzend naar meerdere ontvangers tegelijk</translation>
+        <source>Customize the transaction fee, depending on the fee value your transaction might be included faster in the blockchain.</source>
+        <translation>Pas de transactie aan, afhankelijk van de kostenwaarde zal uw transactie mogelijks sneller opgenomen worden in de blockchain.</translation>
     </message>
     <message>
-        <source>Add &amp;Recipient</source>
-        <translation>Voeg &amp;ontvanger toe</translation>
+        <source>Normal</source>
+        <translation>Normaal</translation>
     </message>
     <message>
-        <source>Anonymized FUNC</source>
-        <translation>Geanonimiseerde FUNC</translation>
+        <source>Slow</source>
+        <translation>Traag</translation>
     </message>
     <message>
-        <source>Balance:</source>
-        <translation>Balans:</translation>
+        <source>Fast</source>
+        <translation>Snel</translation>
     </message>
     <message>
-        <source>Copy quantity</source>
-        <translation>Kopieer kwantiteit</translation>
+        <source>SAVE</source>
+        <translation>Opslaan</translation>
+    </message>
+    </context>
+<context>
+    <name>SendMultiRow</name>
+    <message>
+        <source>Form</source>
+        <translation>Formulier</translation>
     </message>
     <message>
-        <source>Copy amount</source>
-        <translation>Kopieer bedrag</translation>
+        <source>TextLabel</source>
+        <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Copy fee</source>
-        <translation>Kopieer fee</translation>
+        <source>Enter address</source>
+        <translation>Voeg adres toe</translation>
     </message>
     <message>
-        <source>Copy after fee</source>
-        <translation>Kopieer na fee</translation>
-    </message>
-    <message>
-        <source>Copy bytes</source>
-        <translation>Kopieer bytes</translation>
-    </message>
-    <message>
-        <source>Copy priority</source>
-        <translation>Kopieer prioriteit</translation>
-    </message>
-    <message>
-        <source>Copy dust</source>
-        <translation>Kopieer dust</translation>
-    </message>
-    <message>
-        <source>Copy change</source>
-        <translation>Kopieer wisselgeld</translation>
-    </message>
-    <message>
-        <source>The split block tool does not work when sending to outside addresses. Try again.</source>
-        <translation>Het split block tool werkt niet bij het verzenden naar externe adressen. Probeer het nog eens.</translation>
-    </message>
-    <message>
-        <source>The split block tool does not work with multiple addresses. Try again.</source>
-        <translation>Het split block tool werkt niet met meerdere adressen. Probeer het nog eens.</translation>
-    </message>
-    <message>
-        <source>Warning: Invalid FUNC address</source>
-        <translation>Waarschuwing: Ongeldig FUNC adres</translation>
-    </message>
-    <message>
-        <source>%1 to %2</source>
-        <translation>%1 naar %2</translation>
-    </message>
-    <message>
-        <source>Are you sure you want to send?</source>
-        <translation>Ben je zeker dat je wilt verzenden?</translation>
-    </message>
-    <message>
-        <source>are added as transaction fee</source>
-        <translation>worden toegevoegd als transactiekosten</translation>
-    </message>
-    <message>
-        <source>Total Amount = &lt;b&gt;%1&lt;/b&gt;&lt;br /&gt;= %2</source>
-        <translation>Totale hoeveelheid = &lt;b&gt;%1 &lt;/b&gt;&lt;br /&gt;= %2</translation>
-    </message>
-    <message>
-        <source>Confirm send coins</source>
-        <translation>Bevestig verzending coins</translation>
-    </message>
-    <message>
-        <source>A fee %1 times higher than %2 per kB is considered an insanely high fee.</source>
-        <translation>Een vergoeding %1 keer hoger dan %2 per kB wordt beschouwd als een zwaar hoge vergoeding.</translation>
-    </message>
-    <message>
-        <source>The recipient address is not valid, please recheck.</source>
-        <translation>Het ontvangstadres is niet geldig, controleer deze.</translation>
-    </message>
-    <message>
-        <source>using SwiftX</source>
-        <translation>met SwiftX</translation>
-    </message>
-    <message>
-        <source> split into %1 outputs using the UTXO splitter.</source>
-        <translation>gesplitst in %1 outputs met behulp van de UTXO splitter.</translation>
-    </message>
-    <message>
-        <source>&lt;b&gt;(%1 of %2 entries displayed)&lt;/b&gt;</source>
-        <translation>&lt;b&gt;(%1 van %2 vermeldingen weergegeven)</translation>
-    </message>
-    <message>
-        <source>The amount to pay must be larger than 0.</source>
-        <translation>Het te betalen bedrag moet groter zijn dan 0.</translation>
-    </message>
-    <message>
-        <source>The amount exceeds your balance.</source>
-        <translation>Het bedrag overschrijdt uw saldo.</translation>
-    </message>
-    <message>
-        <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation>Het totaal overschrijdt uw saldo wanneer de transactievergoeding %1 is inbegrepen.</translation>
-    </message>
-    <message>
-        <source>Duplicate address found, can only send to each address once per send operation.</source>
-        <translation>Dubbel adres gevonden, kan alleen per keer per verzendoperatie naar elk adres versturen.</translation>
-    </message>
-    <message>
-        <source>Transaction creation failed!</source>
-        <translation>Transactie creatie mislukt!</translation>
-    </message>
-    <message>
-        <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>De transactie is afgewezen! Dit kan gebeuren als sommige munten in je portemonnee al waren uitgegeven, zoals als je een kopie van de wallet.dat en munten in de kopie waren besteed maar niet gemarkeerd zoals hier besteed.</translation>
-    </message>
-    <message>
-        <source>Error: The wallet was unlocked only to anonymize coins.</source>
-        <translation>Fout: De portemonnee was alleen geopend om munten te anonimiseren.</translation>
-    </message>
-    <message>
-        <source>Error: The wallet was unlocked only to anonymize coins. Unlock canceled.</source>
-        <translation>Fout: De portemonnee was alleen geopend om munten te anonimiseren. Ontgrendelen geannuleerd.</translation>
-    </message>
-    <message>
-        <source>Pay only the minimum fee of %1</source>
-        <translation>Betaal alleen de minimumkost van %1</translation>
-    </message>
-    <message>
-        <source>Warning: Unknown change address</source>
-        <translation>Waarschuwing: Ongekend wisselgeld adres</translation>
-    </message>
-    <message>
-        <source>(no label)</source>
-        <translation>(geen label)</translation>
+        <source>Enter label</source>
+        <translation>Label toevoegen</translation>
     </message>
 </context>
 <context>
-    <name>SendCoinsEntry</name>
+    <name>SendWidget</name>
     <message>
-        <source>This is a normal payment.</source>
-        <translation>Dit is een normale betaling.</translation>
+        <source>Send</source>
+        <translation>Zenden</translation>
     </message>
     <message>
-        <source>Pay &amp;To:</source>
-        <translation>Betaal &amp;Naar:</translation>
+        <source>You can transfer public coins (FUNC) or private coins (zFUNC)</source>
+        <translation>Je kan publieke munten (FUNC) of private munten (zFUNC) overdragen</translation>
     </message>
     <message>
-        <source>The FUNC address to send the payment to</source>
-        <translation>Het FUNC adres om de betaling naar te verzenden</translation>
+        <source>Select coin type to spend</source>
+        <translation>Selecteer munttype om te spenderen</translation>
     </message>
     <message>
-        <source>Choose previously used address</source>
-        <translation>Kies een eerder gebruikt adres</translation>
+        <source>Amount</source>
+        <translation>Bedrag</translation>
     </message>
     <message>
-        <source>Alt+A</source>
-        <translation>Alt+A</translation>
+        <source>Customize fee</source>
+        <translation>Kosten aanpassen</translation>
     </message>
     <message>
-        <source>Paste address from clipboard</source>
-        <translation>Plak adres vanaf klembord</translation>
+        <source>Clear all</source>
+        <translation>Alles wissen</translation>
     </message>
     <message>
-        <source>Alt+P</source>
-        <translation>Alt+P</translation>
+        <source>Add recipient</source>
+        <translation>Voeg bestemmeling toe</translation>
     </message>
     <message>
-        <source>Remove this entry</source>
-        <translation>Verwijder dit item</translation>
+        <source>Reset to default</source>
+        <translation>Terugzetten naar standaardinstelling</translation>
     </message>
     <message>
-        <source>&amp;Label:</source>
-        <translation>&amp;Label:</translation>
+        <source>Total to send</source>
+        <translation>Totaal te versturen</translation>
     </message>
     <message>
-        <source>Enter a label for this address to add it to the list of used addresses</source>
-        <translation>Vul een label in voor dit adres om deze toe te voegen aan de lijst met gebruikte adressen</translation>
+        <source>Send FUNC</source>
+        <translation>FUNC Versturen</translation>
     </message>
     <message>
-        <source>A&amp;mount:</source>
-        <translation>&amp;Hoeveelheid:</translation>
+        <source>Send zFUNC</source>
+        <translation>zFUNC Versturen</translation>
     </message>
     <message>
-        <source>Message:</source>
-        <translation>Bericht:</translation>
+        <source>Total remaining from the selected UTXO</source>
+        <translation>Totaal resterende van de geselecteerde UTXO</translation>
     </message>
     <message>
-        <source>A message that was attached to the FUNC: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the FUNC network.</source>
-        <translation>Een bericht dat is gehecht aan de FUNC: URI die bij de transactie wordt opgeslagen voor uw referentie. Opmerking: dit bericht wordt niet verzonden via het FUNC netwerk.</translation>
+        <source>Total remaining</source>
+        <translation>Totaal resterende</translation>
     </message>
     <message>
-        <source>This is an unverified payment request.</source>
-        <translation>Dit is een ongeverifieerde betalingsverzoek.</translation>
+        <source>Warning!</source>
+        <translation>Waarschuwing!</translation>
     </message>
     <message>
-        <source>Pay To:</source>
-        <translation>Betaal aan:</translation>
+        <source>The change address doesn't belong to this wallet.
+
+Do you want to continue?</source>
+        <translation>Het wisseladres behoort niet toe tot deze portemonnee.
+
+Wilt u verdergaan?</translation>
     </message>
     <message>
-        <source>Memo:</source>
-        <translation>Memo:</translation>
+        <source>Customize Fee</source>
+        <translation>Kost Aanpassen</translation>
     </message>
     <message>
-        <source>This is a verified payment request.</source>
-        <translation>Dit is een geverifieerd betalingsverzoek.</translation>
+        <source>Maximum amount of outputs reached</source>
+        <translation>Maximum aantal uitvoeren bereikt</translation>
     </message>
     <message>
-        <source>Enter a label for this address to add it to your address book</source>
-        <translation>Voer een label in voor dit adres om het toe te voegen aan jouw adresboek</translation>
+        <source>FUNC address or contact label</source>
+        <translation>FUNC adres of contactlabel</translation>
+    </message>
+    <message>
+        <source>Invalid entry, previous entries must be valid before add a new one</source>
+        <translation>Ongeldige invoer, vorige invoeren moeten geldig zijn voordat je een nieuwe kan toevoegen</translation>
+    </message>
+    <message>
+        <source>Possibly spend coins delegated for cold-staking (currently available: %1</source>
+        <translation>Mogelijks besteedde munten gedelegeerd voor cold-staking (momenteel beschikbaar: %1</translation>
+    </message>
+    <message>
+        <source>Invalid entry</source>
+        <translation>Ongeldige invoer</translation>
+    </message>
+    <message>
+        <source>No set recipients</source>
+        <translation>Geen ontvangers ingesteld</translation>
+    </message>
+    <message>
+        <source>Cannot send, wallet locked</source>
+        <translation>Kan niet verzenden, portemonnee vergrendeld</translation>
+    </message>
+    <message>
+        <source>Cannot create transaction.</source>
+        <translation>Kan geen transactie aanmaken.</translation>
+    </message>
+    <message>
+        <source>WARNING:
+Transaction spends a cold-stake delegation, voiding it.
+These coins will no longer be cold-staked.</source>
+        <translation>WAARSCHUWING:
+Transactie besteedt een cold-stake delegatie om deze te vernietigen
+Deze munten zullen niet langer cold-staked zijn.</translation>
+    </message>
+    <message>
+        <source>Transaction sent</source>
+        <translation>Transactie verstuurd</translation>
+    </message>
+    <message>
+        <source>Spend Zerocoin</source>
+        <translation>Besteed Zerocoin</translation>
+    </message>
+    <message>
+        <source>zFUNC is currently undergoing maintenance.</source>
+        <translation>zFUNC wordt momenteel onderhouden.</translation>
+    </message>
+    <message>
+        <source>Coin control mint not found</source>
+        <translation>Muntcontrole munting niet gevonden</translation>
+    </message>
+    <message>
+        <source>Sending %1 to address %2
+</source>
+        <translation>Versturen van %1 naar adres %2
+</translation>
+    </message>
+    <message>
+        <source>Sending %1 to addresses:
+%2</source>
+        <translation>Versturen van %1 naar adressen:
+%2</translation>
+    </message>
+    <message>
+        <source>zFUNC transaction sent!</source>
+        <translation>zFUNC transactie verzonden!</translation>
+    </message>
+    <message>
+        <source>Version 1 zFUNC require a security level of 100 to successfully spend.</source>
+        <translation>Versie 1 zFUNC vereist een beveiligingsniveau van 100 om succesvol te besteden.</translation>
+    </message>
+    <message>
+        <source>Too much inputs (</source>
+        <translation>Teveel invoer (</translation>
+    </message>
+    <message>
+        <source>) needed.
+Maximum allowed: </source>
+        <translation>) vereist.
+Maximaal toegestaan:</translation>
+    </message>
+    <message>
+        <source>
+Either mint higher denominations (so fewer inputs are needed) or reduce the amount to spend.</source>
+        <translation>
+Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te besteden bedrag verminderen.</translation>
+    </message>
+    <message>
+        <source>Address label update failed for address: %1</source>
+        <translation>Adreslabel bijwerken mislukt voor adres: %1</translation>
+    </message>
+    <message>
+        <source>Invalid URI</source>
+        <translation>Ongeldige URI</translation>
+    </message>
+    <message>
+        <source>Invalid address in URI</source>
+        <translation>Ongeldig adres in URI</translation>
+    </message>
+    <message>
+        <source>Custom Fee %1</source>
+        <translation>Aangepaste Kost %1</translation>
+    </message>
+    <message>
+        <source>You don't have any FUNC to select.</source>
+        <translation>Je hebt geen FUNC om te selecteren</translation>
+    </message>
+    <message>
+        <source>You don't have any zFUNC in your balance to select.</source>
+        <translation>Je hebt geen zFUNC in je balans om te selecteren.</translation>
+    </message>
+    <message>
+        <source>No contacts available, you can go to the contacts screen and add some there!</source>
+        <translation>Geen beschikbare contacten, je kan naar het contactscherm gaan en daar enkele toevoegen!</translation>
+    </message>
+    <message>
+        <source>Save contact</source>
+        <translation>Contact opslaan</translation>
+    </message>
+    <message>
+        <source>Address field is empty</source>
+        <translation>Adresveld is leeg</translation>
+    </message>
+    <message>
+        <source>Invalid address</source>
+        <translation>Ongeldig adres</translation>
+    </message>
+    <message>
+        <source>Cannot store your own address as contact</source>
+        <translation>Kan uw eigen adres niet als contact opslaan</translation>
+    </message>
+    <message>
+        <source>Update Contact</source>
+        <translation>Contact bijwerken</translation>
+    </message>
+    <message>
+        <source>Create New Contact</source>
+        <translation>Creëer Nieuw Contact</translation>
+    </message>
+    <message>
+        <source>New Contact Stored</source>
+        <translation>Nieuw contact opgeslagen</translation>
+    </message>
+    <message>
+        <source>Error Storing Contact</source>
+        <translation>Fout bij het opslaan van contact</translation>
     </message>
 </context>
 <context>
-    <name>ShutdownWindow</name>
+    <name>SettingsBackupWallet</name>
     <message>
-        <source>FUNC Core is shutting down...</source>
-        <translation>FUNC Core is aan het afsluiten...</translation>
+        <source>Form</source>
+        <translation>Formulier</translation>
     </message>
     <message>
-        <source>Do not shut down the computer until this window disappears.</source>
-        <translation>Sluit de computer niet af voordat dit venster verdwenen is.</translation>
+        <source>TextLabel</source>
+        <translation>TextLabel</translation>
+    </message>
+    <message>
+        <source>Backup Wallet </source>
+        <translation>Wallet Back-uppen</translation>
+    </message>
+    <message>
+        <source>Change Wallet Passphrase</source>
+        <translation>Wijzig Portemonnee Wachtwoord</translation>
+    </message>
+    <message>
+        <source>This will decrypt the whole wallet data and encrypt it back with the new passphrase.
+Remember to write it down and store it safely, otherwise you might lose access to your funds.</source>
+        <translation>Dit zal de gehele portemonneegegevens decrypteren en zal opnieuw encrypteren met een nieuwe wachtwoordzin.
+Vergeet deze niet op te schrijven en veilig te bewaren, anders verlies je mogelijks de toegang tot uw geld.</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Waar</translation>
+    </message>
+    <message>
+        <source>Keep your wallet safe by doing regular backups and storing your backup file externally.
+This option creates a wallet.dat file that can be used to recover your whole balance (transactions and addresses) on another device.</source>
+        <translation>Bewaar uw portemonnee veilig door middel van regelmatige back-ups, bewaar uw back-upbestand extern.
+Deze optie maakt een wallet.dat bestand aan dat gebruikt kan worden om uw volledige saldo (transacties en adressen) van een ander apparaat terug te krijgen.</translation>
+    </message>
+    <message>
+        <source>Select folder...</source>
+        <translation>Map Selecteren...</translation>
+    </message>
+    <message>
+        <source>Change Passphrase</source>
+        <translation>Wijzig Wachtwoord</translation>
+    </message>
+    <message>
+        <source>Backup Wallet</source>
+        <translation>Backup portemonnee</translation>
+    </message>
+    <message>
+        <source>Wallet Data (*.dat)</source>
+        <translation>Portemonneegegevens (*.dat)</translation>
+    </message>
+    <message>
+        <source>Backup created</source>
+        <translation>Back-up aangemaakt</translation>
+    </message>
+    <message>
+        <source>Backup creation failed</source>
+        <translation>Aanmaak back-up mislukt</translation>
+    </message>
+    <message>
+        <source>Please select a folder to export the backup first.</source>
+        <translation>Selecteer eerst een map om de back-up te exporteren.</translation>
     </message>
 </context>
 <context>
-    <name>SignVerifyMessageDialog</name>
+    <name>SettingsBitToolWidget</name>
     <message>
-        <source>Signatures - Sign / Verify a Message</source>
-        <translation>Handtekeningen - Onderteken / Verifieer een Bericht</translation>
+        <source>Form</source>
+        <translation>Formulier</translation>
     </message>
     <message>
-        <source>&amp;Sign Message</source>
-        <translation>&amp;Onderteken Bericht</translation>
+        <source>TextLabel</source>
+        <translation>TextLabel</translation>
     </message>
     <message>
-        <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Je kunt berichten met je adressen ondertekenen om te bewijzen dat je ze bezit. Wees voorzichtig om niets vaags te ondertekenen, omdat phishing aanvallen je misschien kunnen proberen om je identiteit over te geven. Teken alleen volledig gedetailleerde verklaringen aan waar je mee akkoord gaat.</translation>
+        <source>PushButton</source>
+        <translation>Druk Knop</translation>
     </message>
     <message>
-        <source>The FUNC address to sign the message with</source>
-        <translation>Het FUNC adres om het bericht met te ondertekenen</translation>
+        <source>Decrypt Address Result</source>
+        <translation>Decrypteer Adresresultaat</translation>
     </message>
     <message>
-        <source>Choose previously used address</source>
-        <translation>Kies een eerder gebruikt adres</translation>
+        <source>Import Address</source>
+        <translation>Adres Importeren</translation>
     </message>
     <message>
-        <source>Alt+A</source>
-        <translation>Alt+A</translation>
+        <source>Clear</source>
+        <translation>Leegmaken</translation>
     </message>
     <message>
-        <source>Paste address from clipboard</source>
-        <translation>Plak adres vanaf klembord</translation>
+        <source>BIP38 Tool</source>
+        <translation>BIP38 Tool</translation>
     </message>
     <message>
-        <source>Alt+P</source>
-        <translation>Alt+P</translation>
+        <source>Encrypt</source>
+        <translation>Encrypteer</translation>
     </message>
     <message>
-        <source>Enter the message you want to sign here</source>
-        <translation>Voer hier het bericht in dat u wilt ondertekenen</translation>
+        <source>Decrypt</source>
+        <translation>Decrypteer</translation>
+    </message>
+    <message>
+        <source>Encrypted key</source>
+        <translation>Geëncrypteerde sleutel</translation>
+    </message>
+    <message>
+        <source>Enter a encrypted key</source>
+        <translation>Voer een geëncrypteerde sleutel in</translation>
+    </message>
+    <message>
+        <source>Passphrase</source>
+        <translation>Wachtwoord</translation>
+    </message>
+    <message>
+        <source>Enter a passphrase </source>
+        <translation>Voer wachtwoord in</translation>
+    </message>
+    <message>
+        <source>Decrypted address result</source>
+        <translation>Gedecrypteerd Adresresultaat</translation>
+    </message>
+    <message>
+        <source>Decrypted Address</source>
+        <translation>Gedecrypteerd Adres</translation>
+    </message>
+    <message>
+        <source>DECRYPT KEY</source>
+        <translation>DECRYPTEER SLEUTEL</translation>
+    </message>
+    <message>
+        <source>FUNC address</source>
+        <translation>FUNC adres</translation>
+    </message>
+    <message>
+        <source>Enter address</source>
+        <translation>Voeg adres toe</translation>
+    </message>
+    <message>
+        <source>Enter passphrase</source>
+        <translation>Voer wachtwoordzin in</translation>
+    </message>
+    <message>
+        <source>Encrypted Key</source>
+        <translation>Geëncrypteerde sleutel</translation>
+    </message>
+    <message>
+        <source>ENCRYPT</source>
+        <translation>Versleutelen</translation>
+    </message>
+    <message>
+        <source>CLEAR ALL</source>
+        <translation>WIS ALLES</translation>
+    </message>
+    <message>
+        <source>CLEAR</source>
+        <translation>WIS</translation>
+    </message>
+    <message>
+        <source>The entered passphrase is invalid. </source>
+        <translation>De ingevoerde wachtwoordzin is ongeldig.</translation>
+    </message>
+    <message>
+        <source>Allowed: 0-9,a-z,A-Z,</source>
+        <translation>Toegestaan: 0-9,a-z,A-Z</translation>
+    </message>
+    <message>
+        <source>The entered address is invalid.</source>
+        <translation>Het ingevoerde adres is ongeldig.</translation>
+    </message>
+    <message>
+        <source>Please check the address and try again.</source>
+        <translation>Controleer het adres en probeer het opnieuw.</translation>
+    </message>
+    <message>
+        <source>The entered address does not refer to a key.</source>
+        <translation>Het opgegeven adres verwijst niet naar een sleutel.</translation>
+    </message>
+    <message>
+        <source>Wallet unlock was cancelled.</source>
+        <translation>Portemonnee ontsleuteling is geannuleerd.</translation>
+    </message>
+    <message>
+        <source>Private key for the entered address is not available.</source>
+        <translation>Privé sleutel voor het ingevoerde adres is niet beschikbaar.</translation>
+    </message>
+    <message>
+        <source>Address encrypted.</source>
+        <translation>Adres geëncrypteerd.</translation>
+    </message>
+    <message>
+        <source>No addresses available, you can go to the receive screen and add some there!</source>
+        <translation>Geen beschikbare adressen, je kan naar het ontvangstscherm gaan en daar enkele toevoegen!</translation>
+    </message>
+    <message>
+        <source>Failed to decrypt.</source>
+        <translation>Ontsleutelen mislukt.</translation>
+    </message>
+    <message>
+        <source>Please check the key and passphrase and try again.</source>
+        <translation>Controleer de sleutel en de wachtwoordzin en probeer het opnieuw.</translation>
+    </message>
+    <message>
+        <source>Data Not Valid.</source>
+        <translation>Gegevens ongeldig.</translation>
+    </message>
+    <message>
+        <source>Please try again.</source>
+        <translation>Probeer het opnieuw.</translation>
+    </message>
+    <message>
+        <source>Please wait while key is imported</source>
+        <translation>Wacht tot de sleutel is geïmporteerd</translation>
+    </message>
+    <message>
+        <source>Cannot import address, key already held by the wallet</source>
+        <translation>Kan adres niet importen, sleutel alreeds in de portemonnee</translation>
+    </message>
+    <message>
+        <source>Error adding key to the wallet</source>
+        <translation>Fout bij toevoegen van sleutel aan de portemonnee</translation>
+    </message>
+    <message>
+        <source>Successfully added private key to the wallet</source>
+        <translation>Privésleutel succesvol toegevoegd aan de portemonnee</translation>
+    </message>
+</context>
+<context>
+    <name>SettingsConsoleWidget</name>
+    <message>
+        <source>Form</source>
+        <translation>Formulier</translation>
+    </message>
+    <message>
+        <source>TextLabel</source>
+        <translation>TextLabel</translation>
+    </message>
+    <message>
+        <source>Console</source>
+        <translation>Console</translation>
+    </message>
+    <message>
+        <source>Console input</source>
+        <translation>Console invoer</translation>
+    </message>
+    <message>
+        <source>Command Line Options </source>
+        <translation>Command Line Opties</translation>
+    </message>
+    <message>
+        <source>Open Debug File</source>
+        <translation>Open debugbestand</translation>
+    </message>
+    <message>
+        <source>Clear history</source>
+        <translation>Geschiedenis verwijderen</translation>
+    </message>
+    <message>
+        <source>Cannot open debug file.
+Verify that you have installed a predetermined text editor.</source>
+        <translation>Kan het debugbestand niet openen.
+Controleer of u een vooraf bepaalde teksteditor hebt geïnstalleerd.</translation>
+    </message>
+    <message>
+        <source>Welcome to the FUNC RPC console.</source>
+        <translation>Welkom bij de FUNC RPC console.</translation>
+    </message>
+    <message>
+        <source>Use up and down arrows to navigate history, and %1 to clear screen.</source>
+        <translation>Gebruik omhoog en omlaag pijltjestoetsen om door de geschiedenis te navigeren en %1 om het scherm te wissen.</translation>
+    </message>
+    <message>
+        <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
+        <translation>Type &lt;b&gt;help &lt;/b&gt;voor een overzicht van beschikbare commando's.</translation>
+    </message>
+    <message>
+        <source>WARNING: Scammers have been active, telling users to type commands here, stealing their wallet contents. Do not use this console without fully understanding the ramifications of a command.</source>
+        <translation>WAARSCHUWING: Er zijn oplichters actief geweest, die gebruikers vertellen dat ze hier commando's moeten typen waarmee ze de inhoud van hun portemonnee konden stelen. Gebruik deze console niet zonder de gevolgen van een commando volledig te begrijpen.</translation>
+    </message>
+</context>
+<context>
+    <name>SettingsDisplayOptionsWidget</name>
+    <message>
+        <source>Form</source>
+        <translation>Formulier</translation>
+    </message>
+    <message>
+        <source>TextLabel</source>
+        <translation>TextLabel</translation>
+    </message>
+    <message>
+        <source>Hide stake charts in the dashboard</source>
+        <translation>Verberg stakegrafieken in het dashboard</translation>
+    </message>
+    <message>
+        <source>Reset to default</source>
+        <translation>Terugzetten naar standaardinstelling</translation>
+    </message>
+    <message>
+        <source>Discard changes</source>
+        <translation>Wijzigingen ongedaan maken</translation>
+    </message>
+    <message>
+        <source>Display</source>
+        <translation>Display</translation>
+    </message>
+    <message>
+        <source>Customize the display view options</source>
+        <translation>Pas de weergaveopties aan</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Taal</translation>
+    </message>
+    <message>
+        <source>Unit to show amount</source>
+        <translation>Eenheid om bedrag te tonen</translation>
+    </message>
+    <message>
+        <source>Decimal digits</source>
+        <translation>Decimale cijfers</translation>
+    </message>
+    <message>
+        <source>Third party transactions URLs</source>
+        <translation>Derde partij transactie URLs</translation>
+    </message>
+    <message>
+        <source>Hide empty balances</source>
+        <translation>Verberg lege saldi</translation>
+    </message>
+    <message>
+        <source>SAVE</source>
+        <translation>Opslaan</translation>
+    </message>
+    <message>
+        <source>default</source>
+        <translation>standaard</translation>
+    </message>
+    <message>
+        <source>Options reset succeed</source>
+        <translation>Opties succesvol gereset</translation>
+    </message>
+</context>
+<context>
+    <name>SettingsExportCSV</name>
+    <message>
+        <source>Form</source>
+        <translation>Formulier</translation>
+    </message>
+    <message>
+        <source>Export Accounting</source>
+        <translation>Exporteer Accounting</translation>
+    </message>
+    <message>
+        <source>Export your wallet's accounting data to a csv file.</source>
+        <translation>Exporteer je portemonnee's accountinggegevens naar een csv bestand.</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Waar</translation>
+    </message>
+    <message>
+        <source>Select folder...</source>
+        <translation>Map Selecteren...</translation>
+    </message>
+    <message>
+        <source>Export Address Book</source>
+        <translation>Adreslijst Exporteren</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>CSV Exporteren</translation>
+    </message>
+    <message>
+        <source>Export Address List</source>
+        <translation>Exporteer Adreslijst</translation>
+    </message>
+    <message>
+        <source>FUNC_tx_csv_export(*.csv)</source>
+        <translation>FUNC_tx_csv_export(*.csv)</translation>
+    </message>
+    <message>
+        <source>FUNC_addresses_csv_export(*.csv)</source>
+        <translation>FUNC_addresses_csv_export(*.csv)</translation>
+    </message>
+    <message>
+        <source>Please select a folder to export the csv file first.</source>
+        <translation>Selecteer eerst een map om het csv te exporteren te exporteren.</translation>
+    </message>
+    <message>
+        <source>Confirmed</source>
+        <translation>Bevestigd</translation>
+    </message>
+    <message>
+        <source>Watch-only</source>
+        <translation>Watch-only</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Datum</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Type</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Label</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adres</translation>
+    </message>
+    <message>
+        <source>ID</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>Exporting Successful
+The transaction history was successfully saved to %1.</source>
+        <translation>Export Succesvol
+De transactiegeschiedenis is succesvol bewaard in %1.</translation>
+    </message>
+    <message>
+        <source>Exporting Failed
+There was an error trying to save the transaction history to %1.</source>
+        <translation>Export Mislukt
+Er is een fout opgetreden om de transactiegeschiedenis te bewaren naar %1.</translation>
+    </message>
+    <message>
+        <source>No available addresses to export under the selected filter</source>
+        <translation>Geen beschikbare adressen om te exporteren onder de geselecteerde filter</translation>
+    </message>
+    <message>
+        <source>Exporting Successful
+The address book was successfully saved to %1.</source>
+        <translation>Export Succesvol
+Het adresboek is succesvol bewaard in %1.</translation>
+    </message>
+    <message>
+        <source>Exporting Failed
+There was an error trying to save the address list to %1. Please try again.</source>
+        <translation>Export Mislukt
+Er was een fout opgetreden tijdens het opslaan van deze adreslijst naar %1. Probeer het nogmaals.</translation>
+    </message>
+</context>
+<context>
+    <name>SettingsFaqWidget</name>
+    <message>
+        <source>Form</source>
+        <translation>Formulier</translation>
+    </message>
+    <message>
+        <source>TextLabel</source>
+        <translation>TextLabel</translation>
+    </message>
+    <message>
+        <source>PushButton</source>
+        <translation>Druk Knop</translation>
+    </message>
+    <message>
+        <source>1) What is FUNC?</source>
+        <translation>1) Wat is FUNC?</translation>
+    </message>
+    <message>
+        <source>2) Why are my FUNC unspendable?</source>
+        <translation>2) Waarom is mijn FUNC niet besteedbaar?</translation>
+    </message>
+    <message>
+        <source>3) FUNC privacy? What is Zerocoin (zFUNC)?</source>
+        <translation>3) FUNC privacy? Wat is Zerocoin (zFUNC)?</translation>
+    </message>
+    <message>
+        <source>4) Why are my zFUNC unspendable?</source>
+        <translation>4) Waarom is mijn zFUNC niet besteedbaar?</translation>
+    </message>
+    <message>
+        <source>5) Why did my wallet convert the balance
+    into zFUNC automatically?</source>
+        <translation>5) Waarom heeft mijn portemonnee mijn balans
+    automatisch naar zFUNC geconverteerd?</translation>
+    </message>
+    <message>
+        <source>6) How do I receive FUNC/zFUNC?</source>
+        <translation>6) Hoe ontvang ik FUNC/zFUNC?</translation>
+    </message>
+    <message>
+        <source>7) How do I stake FUNC/zFUNC?</source>
+        <translation>7) Hoe stake ik FUNC/zFUNC?</translation>
+    </message>
+    <message>
+        <source>8) Where I should go if I need support?</source>
+        <translation>8) Waar moet ik heen gaan als ik ondersteuning nodig heb?</translation>
+    </message>
+    <message>
+        <source>9) What is a Masternode?</source>
+        <translation>9) Wat is een Masternode?</translation>
+    </message>
+    <message>
+        <source>10) What is a Masternode Controller?</source>
+        <translation>10) Wat is een Masternode Controller?</translation>
+    </message>
+    <message>
+        <source>1</source>
+        <translation>1</translation>
+    </message>
+    <message>
+        <source>What is FUNC?</source>
+        <translation>Wat is FUNC?</translation>
+    </message>
+    <message>
+        <source>
+                           &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
+                           FUNC is a form of digital online money using blockchain technology
+                           that can be easily transferred globally, instantly, and with near
+                           zero fees.  FUNC incorporates market leading security &amp;
+                           privacy and is also the first PoS (Proof of Stake) Cryptocurrency
+                           to implement ZeroCoin(zFUNC) and Zerocoin staking.
+                           &lt;/p&gt;&lt;p align="justify"&gt;
+                           FUNC utilizes a Proof of Stake (PoS) consensus system algorithm,
+                           allowing all owners of FUNC to participate in earning block rewards
+                           while securing the network with full node wallets, as well as to
+                           run Masternodes to create and vote on proposals.
+                           &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+                         </source>
+        <translation>
+                           &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
+                           FUNC is een vorm van digitaal online geld dat gebruik maakt van blockchain technologie.
+                           die gemakkelijk wereldwijd kan worden overgebracht, onmiddellijk en met bijna
+                           geen kosten.  FUNC omvat marktleidende beveiliging &amp;
+                           privacy en is ook de eerste PoS (Proof of Stake) Cryptovaluta
+                           om ZeroCoin (zFUNC) en Zerocoin staking te implementeren.
+                           &lt;/p&gt;&lt;p align="justify"&gt;
+                           FUNC gebruikt een Proof of Stake (PoS) consensussysteemalgoritme,
+                           waardoor alle eigenaren van FUNC kunnen deelnemen aan het verdienen van blokbeloningen
+                           en tegelijkertijd het netwerk te beveiligen met volledige node portemonnees, en ook om
+                           Masternodes uit te voeren en om voorstellen op te stellen en daarover te stemmen.
+                           &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+                         </translation>
+    </message>
+    <message>
+        <source>2</source>
+        <translation>2</translation>
+    </message>
+    <message>
+        <source>Why are my FUNC unspendable?</source>
+        <translation>Waarom is mijn FUNC niet besteedbaar?</translation>
+    </message>
+    <message>
+        <source>
+                           &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
+                           Newly received FUNC requires 6 confirmations on the network
+                           to become eligible for spending which can take ~6 minutes.
+                           &lt;/p&gt;&lt;p align="justify"&gt;
+                           Your FUNC wallet also needs to be completely synchronized
+                           to see and spend balances on the network.
+                           &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+                         </source>
+        <translation>
+                           &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
+                           Nieuw ontvangen FUNC vereist 6 bevestigingen op het netwerk
+                           om in aanmerking te komen voor uitgaven die ongeveer 6 minuten in beslag kunnen nemen.
+                           &lt;/p&gt;&lt;p align="justify"&gt;
+                           Uw FUNC portemonnee moet ook volledig gesynchroniseerd zijn
+                           om de balans te zien en uit te geven op het netwerk.
+                           &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+                         </translation>
+    </message>
+    <message>
+        <source>3</source>
+        <translation>3</translation>
+    </message>
+    <message>
+        <source>FUNC privacy? What is Zerocoin (zFUNC)?</source>
+        <translation>FUNC privacy? Wat is Zerocoin (zFUNC)?</translation>
+    </message>
+    <message>
+        <source>
+                           &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
+                           zFUNC is an optional privacy-centric method of coin mixing on the
+                           FUNC blockchain. Basically all your transactions cannot be tracked
+                           on to any block explorer. You can read more about the technicals in the
+                           &lt;a style='color: #80ffac' href='https://functioncoin.club/zfunc/'&gt;
+                           "FUNC Zerocoin (zFUNC) Technical Paper"&lt;/a&gt;.
+                           &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+                         </source>
+        <translation>
+                           &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
+                           zFUNC is een optionele privacy-gerichte methode om munten te mengen op de
+                           FUNC blockchain. In principe kunnen al uw transacties niet worden gevolgd
+                           op enige block explorer. U kunt meer lezen over de technische gegevens in de
+                           &lt;a style='color: #80ffac' href='https://functioncoin.club/zfunc/'&gt;
+                           "FUNC Zerocoin (zFUNC) Technische Paper"&lt;/a&gt;.
+                           &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+                         </translation>
+    </message>
+    <message>
+        <source>4</source>
+        <translation>4</translation>
+    </message>
+    <message>
+        <source>Why are my zFUNC unspendable?</source>
+        <translation>Waarom is mijn zFUNC niet besteedbaar?</translation>
+    </message>
+    <message>
+        <source>
+                           &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
+                           After minting, zFUNC will require 20 confirmations as well as 1
+                           additional mint of the same denomination on the network to
+                           become eligible for spending.
+                           &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+                         </source>
+        <translation>
+                           &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
+                           Na het muntenheeft zFUNC 20 bevestigingen nodig, evenals 1
+                          extra munt van dezelfde denominatie op het netwerk om
+                           in aanmerking komen voor uitgaven.
+                           &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+                         </translation>
+    </message>
+    <message>
+        <source>5</source>
+        <translation>5</translation>
+    </message>
+    <message>
+        <source>Why did my wallet convert the balance into zFUNC automatically?</source>
+        <translation>Waarom heeft mijn portemonnee mijn balans automatisch naar zFUNC geconverteerd?</translation>
+    </message>
+    <message>
+        <source>
+                           &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
+                           By default the FUNC wallet will convert 10% of your entire FUNC
+                           balance to zFUNC to assist the network. If you do not wish to
+                           stake zFUNC or take advantage of the privacy benefit it brings,
+                           you can disable the automatic minting in your FUNC wallet by
+                           going to Settings-&gt;Options and deselecting “Enable zFUNC Automint”.
+                           If you are not making use of the FUNC-QT or GUI you can simply open
+                           your func.conf file and add &lt;i&gt;enablezeromint=0&lt;/i&gt; Without the quotation
+                           marks and restart your wallet to disable automint.&lt;/p&gt;
+                           &lt;/p&gt;&lt;p align="justify"&gt;
+                           You can read more about zFUNC in the
+                           &lt;a style='color: #80ffac' href='https://functioncoin.club/zfunc/'&gt; "FUNC Zerocoin (zFUNC) Technical Paper"&lt;/a&gt;.
+                           If you would like to keep and stake your zFUNC, please read the "How do I stake"
+                           section of the FAQ below.
+                           &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+                         </source>
+        <translation>
+                           &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
+                           Standaard zal de FUNC portemonnee 10% van uw gehele FUNC-balans omzetten
+                          naar zFUNC om het netwerk te helpen. Als u niet wenst om
+                           zFUNC te staken of voordeel te halen uit het privacyvoordeel dat dit oplevert,
+                           kan je deze automatische omzetting uitschakelen in je FUNC portemonnee door
+                           naar Instellingen &gt; Opties te gaan en dan “Schakel zFUNC Automuntering in” te deselecteren.
+                           Als je geen gebruik maakt van de FUNC-QT of GUI kan je simpelweg
+                           je func.conf bestand openen en er &lt;i&gt;"enablezeromint=0" aan toevoegen&lt;/i&gt; Zonder de aanhaling
+                           en je portemonnee herstarten om automuntering uit te schakelen.&lt;/p&gt;
+                           &lt;/p&gt;&lt;p align="justify"&gt;
+                           Je kan meer lezen over zFUNC in de
+                           &lt;a style='color: #80ffac' href='https://functioncoin.club/zfunc/'&gt; "FUNC Zerocoin (zFUNC) Technische Paper"&lt;/a&gt;.
+                           Als u uw zFUNC wilt behouden en staken, lees dan de "Hoe stake ik"
+                           sectie in onderstaande FAQ.
+                           &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+                         </translation>
+    </message>
+    <message>
+        <source>6</source>
+        <translation>6</translation>
+    </message>
+    <message>
+        <source>How do I receive FUNC/zFUNC?</source>
+        <translation>Hoe ontvang ik FUNC/zFUNC?</translation>
+    </message>
+    <message>
+        <source>
+                           &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
+                           zFUNC can be spent and sent to any FUNC address. The receiver will
+                           receive standard FUNC but the origin of the FUNC is anonymized by the zFUNC Protocol.
+                           &lt;/p&gt;&lt;p align="justify"&gt;
+                           If you want more zFUNC you will need to mint your balance in the “Privacy” tab.
+                           &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+                         </source>
+        <translation>
+                           &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
+                           zFUNC kan worden uitgegeven en verzonden naar elk FUNC-adres. De ontvanger zal
+                           gewone FUNC ontvangen, maar de oorsprong van de FUNC is geanonimiseerd door het zFUNC-protocol
+                           &lt;/p&gt;&lt;p align="justify"&gt;
+                           Als u meer zFUNC wilt, moet u uw balans op mint zetten in de "Privacy" tab.
+                           &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+                         </translation>
+    </message>
+    <message>
+        <source>7</source>
+        <translation>7</translation>
+    </message>
+    <message>
+        <source>How do I stake FUNC/zFUNC?</source>
+        <translation>Hoe stake ik FUNC/zFUNC?</translation>
+    </message>
+    <message>
+        <source>
+                           &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
+                           To Stake FUNC:
+                           &lt;/p&gt;&lt;p align="justify"&gt;
+                           &lt;ol&gt;&lt;li&gt;
+                           Make sure your wallet is completely synchronized and you are using the latest release.
+                           &lt;li&gt;
+                           You must have a balance of FUNC with a minimum of 600 confirmations.
+                           &lt;li&gt;
+                           Your wallet must stay online and be unlocked for staking purposes.
+                           &lt;li&gt;
+                           Once all those steps are followed staking should be enabled.
+                           &lt;li&gt;
+                           You can see the status of staking in the wallet by mousing over the package icon in the row on the top left of the wallet interface. There package will be lit up and will state "Staking Enabled" to indicate it is staking.  Using the command line interface (func-cli); the command &lt;i&gt;getstakingstatus&lt;/i&gt; will confirm that staking is active.
+                           &lt;/li&gt;&lt;/ol&gt;
+                           &lt;/p&gt;&lt;p align="justify"&gt;
+                           To Stake zFUNC:
+                           &lt;/p&gt;&lt;p align="justify"&gt;
+                           &lt;ol&gt;&lt;li&gt;
+                           Make sure your wallet is completely synchronized and you are using the latest release.
+                           &lt;li&gt;
+                           Your newly minted or existing zFUNC balance must have a minimum of 200 confirmations.
+                           &lt;li&gt;
+                           Your wallet must stay online and be unlocked for anonymization and staking purposes.
+                           Staking should now be enabled.
+                           &lt;/li&gt;&lt;/ol&gt;
+                           &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+                         </source>
+        <translation>
+                           &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
+                           Om FUNC te Staken:
+                           &lt;/p&gt;&lt;p align="justify"&gt;
+                           &lt;ol&gt;&lt;li&gt;
+                           Zorg ervoor dat uw portemonnee volledig gesynchroniseerd is en dat u de laatste versie gebruikt.
+                           &lt;li&gt;
+                           U moet een saldo van FUNC hebben met een minimum van 600 bevestigingen.
+                           &lt;li&gt;
+                           Uw portemonnee moet online blijven en ontgrendeld zijn voor staking-doeleinden.
+                           &lt;li&gt;
+                           Zodra al deze stappen gevolgd zijn, zal het staken worden ingeschakeld.
+                           &lt;li&gt;
+                           U kunt de status van de staking in de portemonnee zien door op het pictogram in de rij linksboven in de portemonnee-interface te bewegen. Het pakket zal oplichten en zal "Staking Ingeschakeld" aangeven om aan te geven dat het pakket in de portemonnee is geplaatst. Met behulp van de opdrachtregel-interface (func-cli); het commando &lt;i&gt;getstakingstatus&lt;/i&gt; zal bevestigen dat de staking actief is.
+                           &lt;/li&gt;&lt;/ol&gt;
+                           &lt;/p&gt;&lt;p align="justify"&gt;
+                           Om zFUNC te Staken:
+                           &lt;/p&gt;&lt;p align="justify"&gt;
+                           &lt;ol&gt;&lt;li&gt;
+                            Zorg ervoor dat uw portemonnee volledig gesynchroniseerd is en dat u de laatste versie gebruikt.
+                           &lt;li&gt;
+                           Uw nieuw gemunte of bestaande zFUNC balans moet minimaal 200 bevestigingen hebben.
+                           &lt;li&gt;
+                           Uw portemonnee moet online blijven en worden ontgrendeld voor anonimisering en staking-doeleinden.
+                           Het Staken zou nu ingeschakeld moeten zijn
+                           &lt;/li&gt;&lt;/ol&gt;
+                           &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+                         </translation>
+    </message>
+    <message>
+        <source>Where should I go if I need support?</source>
+        <translation>Waar moet ik heen gaan als ik ondersteuning nodig heb?</translation>
+    </message>
+    <message>
+        <source>What is a Masternode?</source>
+        <translation>Wat is een Masternode?</translation>
+    </message>
+    <message>
+        <source>What is a Masternode Controller?</source>
+        <translation>Wat is een Masternode Controller</translation>
+    </message>
+    <message>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;A Masternode Controller wallet is where the 10,000 FUNC collateral can reside during a Controller-Remote masternode setup. It is a wallet that can activate the remote masternode wallet(s) and allows you to keep your collateral coins offline while the remote masternode remains online. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;Een Masternode Controller portemonnee is waar de 10.000 FUNC onderpand zich kan bevinden tijdens een Controller-Remote masternode setup. Het is een portemonnee die de remote masternode portemonnee(s) kan activeren en waarmee u uw ondergepande munten offline kunt houden terwijl de remote masternode online blijft. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <source>8</source>
+        <translation>8</translation>
+    </message>
+    <message>
+        <source>
+                           &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
+                           We have support channels in most of our official chat groups, for example
+                           &lt;a style='color: #80ffac' href='https://discord.functioncoin.club'&gt;
+                           #support in our Discord&lt;/a&gt;.
+                           If you prefer to submit a ticket, One can be
+                           &lt;a style='color: #80ffac' href='https://FUNC.freshdesk.com'&gt;
+                           our Freshdesk support site&lt;/a&gt;.
+                           &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+                         </source>
+        <translation>
+                           &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
+                           We hebben ondersteuningskanalen in de meeste van onze officiële chatgroepen, bijvoorbeeld
+                           &lt;a style='color: #80ffac' href='https://discord.functioncoin.club'&gt;
+                           #support in onze Discord&lt;/a&gt;.
+                           Als u liever een ticket indient, kan men dat
+                           &lt;a style='color: #80ffac' href='https://FUNC.freshdesk.com'&gt;
+                           op onze Freshdesk supportsite&lt;/a&gt;.
+                           &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+                         </translation>
+    </message>
+    <message>
+        <source>9</source>
+        <translation>9</translation>
+    </message>
+    <message>
+        <source>
+                           &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
+                           A masternode is a computer running a full node FUNC core wallet with a
+                           requirement of 10,000 FUNC secured collateral to provide extra services
+                           to the network and in return, receive a portion of the block reward
+                           regularly.  These services include:
+                           &lt;/p&gt;&lt;p align="justify"&gt;
+
+                           &lt;ul&gt;
+                           &lt;li&gt;Instant transactions (SwiftX)&lt;/li&gt;
+                           &lt;li&gt;A decentralized governance (Proposal Voting)&lt;/li&gt;
+                           &lt;li&gt;A decentralized budgeting system (Treasury)&lt;/li&gt;
+                           &lt;li&gt;Validation of transactions within each block&lt;/li&gt;
+                           &lt;li&gt;Act as an additional full node in the network&lt;/li&gt;
+                           &lt;/ul&gt;
+
+                           &lt;/p&gt;&lt;p align="justify"&gt;
+                           For providing such services, masternodes are also paid a certain portion
+                           of reward for each block. This can serve as a passive income to the
+                           masternode owners minus their running cost.
+                           &lt;/p&gt;&lt;p align="justify"&gt;
+
+                           Masternode Perks:
+                           &lt;/p&gt;&lt;p align="justify"&gt;
+                           &lt;ul&gt;
+                           &lt;li&gt;Participate in FUNC Governance&lt;/li&gt;
+                           &lt;li&gt;Earn Masternode Rewards&lt;/li&gt;
+                           &lt;li&gt;Commodity option for future sale&lt;/li&gt;
+                           &lt;li&gt;Help secure the FUNC network&lt;/li&gt;
+                           &lt;/ul&gt;
+                           &lt;/p&gt;&lt;p align="justify"&gt;
+
+                           Requirements:
+                           &lt;/p&gt;&lt;p align="justify"&gt;
+                           &lt;ul&gt;
+                           &lt;li&gt;10,000 FUNC per single Masternode instance&lt;/li&gt;
+                           &lt;li&gt;Must be stored in a core wallet&lt;/li&gt;
+                           &lt;li&gt;Need dedicated IP address&lt;/li&gt;
+                           &lt;li&gt;Masternode wallet to remain online&lt;/li&gt;
+                           &lt;/ul&gt;
+                           &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+                         </source>
+        <translation>
+                           &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
+                           Een masternode is een computer met een volledige node FUNC core portemonnee met een
+                           vereiste van 10.000 FUNC onderpand om extra diensten te kunnen verlenen
+                           aan het netwerk en in ruil daarvoor ontvangt u regelmatig een deel van de blokbeloning.
+                           Deze diensten omvatten::
+                           &lt;/p&gt;&lt;p align="justify"&gt;
+
+                           &lt;ul&gt;
+                           &lt;li&gt;Directe transacties (SwiftX)&lt;/li&gt;
+                           &lt;li&gt;Een gedecentralizeerd bestuur (Stemming Voorstel)&lt;/li&gt;
+                           &lt;li&gt;Een gedecentralizeerd budgeteringssysteem (Treasury)&lt;/li&gt;
+                           &lt;li&gt;Validatie van transacties binnen elk blok&lt;/li&gt;
+                           &lt;li&gt;Fungeert als een extra volledige node in het netwerk&lt;/li&gt;
+                           &lt;/ul&gt;
+
+                           &lt;/p&gt;&lt;p align="justify"&gt;
+                           Voor het verlenen van dergelijke diensten wordt ook een bepaald deel van de masternodes betaald
+                            van beloning voor elk blok. Dit kan dienen als een passief inkomen voor de
+                           masternode eigenaars minus hun exploitatiekosten.
+                           &lt;/p&gt;&lt;p align="justify"&gt;
+
+                           Masternode Voordelen:
+                           &lt;/p&gt;&lt;p align="justify"&gt;
+                           &lt;ul&gt;
+                           &lt;li&gt;Deelnemen in het FUNC Bestuur&lt;/li&gt;
+                           &lt;li&gt;Verdien Masternode Beloningen&lt;/li&gt;
+                           &lt;li&gt;Commodity-optie voor toekomstige verkoop&lt;/li&gt;
+                           &lt;li&gt;Helpt bij het beveiligen van het FUNC netwerk&lt;/li&gt;
+                           &lt;/ul&gt;
+                           &lt;/p&gt;&lt;p align="justify"&gt;
+
+                           Vereisten:
+                           &lt;/p&gt;&lt;p align="justify"&gt;
+                           &lt;ul&gt;
+                           &lt;li&gt;10,000 FUNC per Masternode instance&lt;/li&gt;
+                           &lt;li&gt;Moet in een kernportemonnee worden opgeborgen&lt;/li&gt;
+                           &lt;li&gt;Vereist een vast IP-adres
+                           &lt;li&gt;Masternode portemonnee moet online blijven&lt;/li&gt;
+                           &lt;/ul&gt;
+                           &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+                         </translation>
+    </message>
+    <message>
+        <source>10</source>
+        <translation>10</translation>
+    </message>
+    <message>
+        <source>Frequently Asked Questions</source>
+        <translation>Frequently Asked Questions</translation>
+    </message>
+    <message>
+        <source>You can read more here</source>
+        <translation>Je kan er hier meer over lezen</translation>
+    </message>
+    <message>
+        <source>Exit</source>
+        <translation>Sluit</translation>
+    </message>
+</context>
+<context>
+    <name>SettingsInformationWidget</name>
+    <message>
+        <source>Form</source>
+        <translation>Formulier</translation>
+    </message>
+    <message>
+        <source>Network Monitor</source>
+        <translation>Netwerkmonitor</translation>
+    </message>
+    <message>
+        <source>Information</source>
+        <translation>Informatie</translation>
+    </message>
+    <message>
+        <source>General</source>
+        <translation>Algemeen</translation>
+    </message>
+    <message>
+        <source>Client Version:</source>
+        <translation>Client Versie:</translation>
+    </message>
+    <message>
+        <source>BerkeleyDB version:</source>
+        <translation>BerkeleyDB versie:</translation>
+    </message>
+    <message>
+        <source>Datadir:</source>
+        <translation>Datadir:</translation>
+    </message>
+    <message>
+        <source>Startup time:</source>
+        <translation>Opstarttijd:</translation>
+    </message>
+    <message>
+        <source>Connections:</source>
+        <translation>Verbindingen:</translation>
+    </message>
+    <message>
+        <source>Number of Masternodes:</source>
+        <translation>Aantal Masternodes:</translation>
+    </message>
+    <message>
+        <source>Current number of blocks:</source>
+        <translation>Huidige aantal blocks:</translation>
+    </message>
+    <message>
+        <source>Last block time:</source>
+        <translation>Laatste blocktijd:</translation>
+    </message>
+    <message>
+        <source>Last block hash:</source>
+        <translation>Laatste blockhash:</translation>
+    </message>
+    <message>
+        <source>Current number of transactions:</source>
+        <translation>Huidig aantal transacties:</translation>
+    </message>
+    <message>
+        <source>User Agent:</source>
+        <translation>User Agent:</translation>
+    </message>
+    <message>
+        <source>Network</source>
+        <translation>Netwerk</translation>
+    </message>
+    <message>
+        <source>Name:</source>
+        <translation>Naam:</translation>
+    </message>
+    <message>
+        <source>Blockchain</source>
+        <translation>Blockchain</translation>
+    </message>
+    <message>
+        <source>Memory Pool</source>
+        <translation>Geheugenpool</translation>
+    </message>
+    <message>
+        <source>Main</source>
+        <translation>Hoofd</translation>
+    </message>
+    <message>
+        <source>Wallet Conf</source>
+        <translation>Portemonnee Conf</translation>
+    </message>
+    <message>
+        <source>Backups</source>
+        <translation>Back-ups</translation>
+    </message>
+    <message>
+        <source>No information</source>
+        <translation>Geen informatie</translation>
+    </message>
+    <message>
+        <source>Unable to open backups folder</source>
+        <translation>Kan de back-upmap niet openen</translation>
+    </message>
+    <message>
+        <source>Unable to open func.conf with default application</source>
+        <translation>Kan func.conf niet openen met de standaard applicatie</translation>
+    </message>
+    <message>
+        <source>In:</source>
+        <translation>In:</translation>
+    </message>
+    <message>
+        <source>Out:</source>
+        <translation>Uit:</translation>
+    </message>
+</context>
+<context>
+    <name>SettingsMainOptionsWidget</name>
+    <message>
+        <source>Form</source>
+        <translation>Formulier</translation>
+    </message>
+    <message>
+        <source>TextLabel</source>
+        <translation>TextLabel</translation>
+    </message>
+    <message>
+        <source>Window</source>
+        <translation>Venster</translation>
+    </message>
+    <message>
+        <source>Customize the application window options</source>
+        <translation>De opties van het toepassingsvenster aanpassen</translation>
+    </message>
+    <message>
+        <source>CheckBox</source>
+        <translation>Selectievakje</translation>
+    </message>
+    <message>
+        <source>Reset to default</source>
+        <translation>Terugzetten naar standaardinstelling</translation>
+    </message>
+    <message>
+        <source>Discard changes</source>
+        <translation>Wijzigingen ongedaan maken</translation>
+    </message>
+    <message>
+        <source>SAVE</source>
+        <translation>Opslaan</translation>
+    </message>
+    <message>
+        <source>Main</source>
+        <translation>Hoofd</translation>
+    </message>
+    <message>
+        <source>Size of database cache</source>
+        <translation>Grootte van database cache</translation>
+    </message>
+    <message>
+        <source>Number of script verification threads</source>
+        <translation>Aantal van script verificatiethreads</translation>
+    </message>
+    <message>
+        <source>Start FUNC on system login</source>
+        <translation>Start FUNC bij systeemlogin</translation>
+    </message>
+    <message>
+        <source>Minimize to the tray instead of the taskbar</source>
+        <translation>Minimaliseer naar het vak in plaats van de taakbalk</translation>
+    </message>
+    <message>
+        <source>Minimize on close</source>
+        <translation>Minimaliseer bij sluiten</translation>
+    </message>
+    <message>
+        <source>Reset Options</source>
+        <translation>Reset Opties</translation>
+    </message>
+    <message>
+        <source>You are just about to reset the app's options to the default values.
+
+Are you sure?
+</source>
+        <translation>U staat op het punt om de opties van de app terug te zetten naar de standaardwaarden.
+
+Weet u het zeker?
+</translation>
+    </message>
+    <message>
+        <source>Options reset succeed</source>
+        <translation>Opties succesvol gereset</translation>
+    </message>
+</context>
+<context>
+    <name>SettingsMultisendDialog</name>
+    <message>
+        <source>Form</source>
+        <translation>Formulier</translation>
+    </message>
+    <message>
+        <source>Transaction Details</source>
+        <translation>Transactie details</translation>
+    </message>
+    <message>
+        <source>TextLabel</source>
+        <translation>TextLabel</translation>
+    </message>
+    <message>
+        <source>CANCEL</source>
+        <translation>Annuleren</translation>
+    </message>
+    <message>
+        <source>SAVE</source>
+        <translation>Opslaan</translation>
+    </message>
+    <message>
+        <source>New recipient for multisend</source>
+        <translation>Nieuwe ontvanger voor multisend</translation>
+    </message>
+    <message>
+        <source>Address Label (optional)</source>
+        <translation>Adreslabel (optioneel)</translation>
+    </message>
+    <message>
+        <source>Enter label to be saved with this address</source>
+        <translation>Voer een label in dat bij het adres opgeslagen moet worden </translation>
+    </message>
+    <message>
+        <source>Percentage</source>
+        <translation>Percentage</translation>
+    </message>
+</context>
+<context>
+    <name>SettingsMultisendWidget</name>
+    <message>
+        <source>Form</source>
+        <translation>Formulier</translation>
+    </message>
+    <message>
+        <source>TextLabel</source>
+        <translation>TextLabel</translation>
+    </message>
+    <message>
+        <source>N/A</source>
+        <translation>NB</translation>
+    </message>
+    <message>
+        <source>CheckBox</source>
+        <translation>Selectievakje</translation>
+    </message>
+    <message>
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other FUNC addresses after it matures.</source>
+        <translation>Met MultiSend kunt u automatisch tot 100% van uw inzet of masternode beloning naar een lijst met andere FUNC-adressen sturen nadat deze volwaardig zijn geworden.</translation>
+    </message>
+    <message>
+        <source>Active</source>
+        <translation>Actief</translation>
+    </message>
+    <message>
+        <source>Disable</source>
+        <translation>Uitschakelen</translation>
+    </message>
+    <message>
+        <source>No active recipient yet</source>
+        <translation>Nog geen actieve ontvanger</translation>
+    </message>
+    <message>
+        <source>Send stakes</source>
+        <translation>Verstuur stakes</translation>
+    </message>
+    <message>
+        <source>Send masternode rewards</source>
+        <translation>Verstuurd masternode beloningen</translation>
+    </message>
+    <message>
+        <source>ADD RECIPIENT</source>
+        <translation>VOEG BESTEMMELING TOE</translation>
+    </message>
+    <message>
+        <source>CLEAR ALL</source>
+        <translation>WIS ALLES</translation>
+    </message>
+    <message>
+        <source>Cannot perform operation, wallet locked</source>
+        <translation>Kan deze actie niet uitvoeren, portemonnee vergrendeld</translation>
+    </message>
+    <message>
+        <source>Clear succeed</source>
+        <translation>Wissen geslaagd</translation>
+    </message>
+    <message>
+        <source>Clear all failed, could not locate address in wallet file</source>
+        <translation>Alles wissen mislukt, kon geen adres terugvinden in het portemonnee bestand</translation>
+    </message>
+    <message>
+        <source>Cannot add multisend recipient, wallet locked</source>
+        <translation>Kan geen multisendontvanger toevoegen, portemonnee vergrendeld</translation>
+    </message>
+    <message>
+        <source>The entered address: %1 is invalid.
+Please check the address and try again.</source>
+        <translation>Het ingevoerde adres: %1 is ongeldig.
+Controleer het adres en probeer opnieuw.</translation>
+    </message>
+    <message>
+        <source>Invalid percentage, please enter values from 1 to 100.</source>
+        <translation>Ongeldig percentage, voer waarden in van 1 tot 100.</translation>
+    </message>
+    <message>
+        <source>The total amount of your MultiSend vector is over 100% of your stake reward</source>
+        <translation>De totale hoeveelheid van je MultiSend vector is meer dan 100% van je inzet beloning</translation>
+    </message>
+    <message>
+        <source>Error saving  MultiSend, failed saving properties to the database.</source>
+        <translation>Opslaan van MultiSend mislukt, foutgelopen bij opslaan van eigenschappen naar de database.</translation>
+    </message>
+    <message>
+        <source>Unable to activate MultiSend, no available recipients</source>
+        <translation>Kon MultiSend niet activeren, geen beschikbare ontvangers</translation>
+    </message>
+    <message>
+        <source>Unable to activate MultiSend
+Check one or both of the check boxes to send on stake and/or masternode rewards</source>
+        <translation>MultiSend kan niet geactiveerd worden
+Vink één of beide selectievakjes aan om beloningen op de inzet en/of masternode te sturen.</translation>
+    </message>
+    <message>
+        <source>MultiSend activated but writing settings to DB failed</source>
+        <translation>MultiSend geactiveerd maar instellingen naar DB wegschrijven mislukt</translation>
+    </message>
+    <message>
+        <source>MultiSend activated</source>
+        <translation>MultiSend geactiveerd</translation>
+    </message>
+    <message>
+        <source>First multiSend address invalid</source>
+        <translation>Eerste MultiSend-adres ongeldig</translation>
+    </message>
+    <message>
+        <source>MultiSend deactivated but writing settings to DB failed</source>
+        <translation>MultiSend gedeactiveerd maar instellingen naar DB wegschrijven mislukt</translation>
+    </message>
+    <message>
+        <source>MultiSend deactivated</source>
+        <translation>MultiSend gedeactiveerd</translation>
+    </message>
+</context>
+<context>
+    <name>SettingsSignMessageWidgets</name>
+    <message>
+        <source>Form</source>
+        <translation>Formulier</translation>
+    </message>
+    <message>
+        <source>TextLabel</source>
+        <translation>TextLabel</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Leegmaken</translation>
+    </message>
+    <message>
+        <source>Sign/Verify Message</source>
+        <translation>Onderteken/Verifiëer Bericht</translation>
+    </message>
+    <message>
+        <source>Sign</source>
+        <translation>Onderteken</translation>
+    </message>
+    <message>
+        <source>Verify</source>
+        <translation>Verifiëer</translation>
+    </message>
+    <message>
+        <source>Select mode</source>
+        <translation>Selecteer mode</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Bericht</translation>
+    </message>
+    <message>
+        <source>FUNC address or contact label</source>
+        <translation>FUNC adres of contactlabel</translation>
+    </message>
+    <message>
+        <source>Enter address</source>
+        <translation>Voeg adres toe</translation>
+    </message>
+    <message>
+        <source>Write message</source>
+        <translation>Schrijf een bericht</translation>
     </message>
     <message>
         <source>Signature</source>
         <translation>Handtekening</translation>
     </message>
     <message>
-        <source>Copy the current signature to the system clipboard</source>
-        <translation>Kopieer de huidige handtekening naar het systeemklembord</translation>
+        <source>SIGN</source>
+        <translation>SIGNEER</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this FUNC address</source>
-        <translation>Onderteken het bericht om te bewijzen dat u het FUNC adres bezit</translation>
+        <source>CLEAR ALL</source>
+        <translation>WIS ALLES</translation>
     </message>
     <message>
-        <source>The FUNC address the message was signed with</source>
-        <translation>Het FUNC adres waarmee het bericht was ondertekend</translation>
-    </message>
-    <message>
-        <source>Verify the message to ensure it was signed with the specified FUNC address</source>
-        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde FUNC adres</translation>
-    </message>
-    <message>
-        <source>Sign &amp;Message</source>
-        <translation>Onderteken &amp;Bericht</translation>
-    </message>
-    <message>
-        <source>Reset all sign message fields</source>
-        <translation>Maak alle ondertekenvelden leeg</translation>
-    </message>
-    <message>
-        <source>Clear &amp;All</source>
-        <translation>Verwijder &amp;Alles</translation>
-    </message>
-    <message>
-        <source>&amp;Verify Message</source>
-        <translation>&amp;Verifieer Bericht</translation>
+        <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>Je kunt berichten met je adressen ondertekenen om te bewijzen dat je ze bezit. Wees voorzichtig om niets vaags te ondertekenen, omdat phishing aanvallen je misschien kunnen proberen om je identiteit over te geven. Teken alleen volledig gedetailleerde verklaringen aan waar je mee akkoord gaat.</translation>
     </message>
     <message>
         <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
         <translation>Voer het ondertekening adres in, verifieer het bericht (zorg ervoor dat je line breaks, spaties, tabs, enz.) en onderteken hieronder om het bericht te verifiëren. Wees voorzichtig om niet meer in de handtekening te lezen dan in het ondertekende bericht zelf, om te voorkomen dat je door een man-in-de-middle aanval wordt getroffen.</translation>
     </message>
     <message>
-        <source>Verify &amp;Message</source>
-        <translation>Verifeer &amp;Message</translation>
-    </message>
-    <message>
-        <source>Reset all verify message fields</source>
-        <translation>Maak alle verifiëren van het bericht velden leeg</translation>
-    </message>
-    <message>
-        <source>Click "Sign Message" to generate signature</source>
-        <translation>Klik op "Onderteken Bericht" om een handtekening te genereren</translation>
+        <source>VERIFY</source>
+        <translation>VERIFIËER</translation>
     </message>
     <message>
         <source>The entered address is invalid.</source>
@@ -4187,6 +4943,360 @@ Wees alsjeblieft geduldig...</translation>
         <source>Message verified.</source>
         <translation>Bericht geverifieerd.</translation>
     </message>
+    <message>
+        <source>No addresses available, you can go to the receive screen and add some there!</source>
+        <translation>Geen beschikbare adressen, je kan naar het ontvangstscherm gaan en daar enkele toevoegen!</translation>
+    </message>
+</context>
+<context>
+    <name>SettingsWalletOptionsWidget</name>
+    <message>
+        <source>Form</source>
+        <translation>Formulier</translation>
+    </message>
+    <message>
+        <source>TextLabel</source>
+        <translation>TextLabel</translation>
+    </message>
+    <message>
+        <source>CheckBox</source>
+        <translation>Selectievakje</translation>
+    </message>
+    <message>
+        <source>RadioButton</source>
+        <translation>RadioButton</translation>
+    </message>
+    <message>
+        <source>Reset to default</source>
+        <translation>Terugzetten naar standaardinstelling</translation>
+    </message>
+    <message>
+        <source>Discard changes</source>
+        <translation>Wijzigingen ongedaan maken</translation>
+    </message>
+    <message>
+        <source>Wallet</source>
+        <translation>Portemonnee</translation>
+    </message>
+    <message>
+        <source>Customize the internal wallet options</source>
+        <translation>Pas de interne portemonnee-opties aan</translation>
+    </message>
+    <message>
+        <source>Stake split threshold:</source>
+        <translation>Stake splitsdrempel:</translation>
+    </message>
+    <message>
+        <source>Spend unconfirmed change</source>
+        <translation>Besteed onbevestigde wijziging</translation>
+    </message>
+    <message>
+        <source>Network</source>
+        <translation>Netwerk</translation>
+    </message>
+    <message>
+        <source>Customize the node network options</source>
+        <translation>Pas de nodenetwerkopties aan</translation>
+    </message>
+    <message>
+        <source>Proxy IP:</source>
+        <translation>Proxy IP:</translation>
+    </message>
+    <message>
+        <source>Enter proxy IP</source>
+        <translation>Proxy IP invoeren</translation>
+    </message>
+    <message>
+        <source>Port:</source>
+        <translation>Poort:</translation>
+    </message>
+    <message>
+        <source>Map port using UPnP</source>
+        <translation>Wijs poort toe met behulp van UPnP</translation>
+    </message>
+    <message>
+        <source>Allow incoming connections</source>
+        <translation>Sta inkomende connecties toe</translation>
+    </message>
+    <message>
+        <source>Connect through SOCKS5 proxy (default proxy):</source>
+        <translation>Connecteer via SOCKS5 proxy (standaardproxy):</translation>
+    </message>
+    <message>
+        <source>SAVE</source>
+        <translation>Opslaan</translation>
+    </message>
+    <message>
+        <source>Options reset succeed</source>
+        <translation>Opties succesvol gereset</translation>
+    </message>
+</context>
+<context>
+    <name>SettingsWalletRepairWidget</name>
+    <message>
+        <source>Form</source>
+        <translation>Formulier</translation>
+    </message>
+    <message>
+        <source>TextLabel</source>
+        <translation>TextLabel</translation>
+    </message>
+    <message>
+        <source>Wallet Repair</source>
+        <translation>Portemonnee Herstel</translation>
+    </message>
+    <message>
+        <source>The buttons below will restart the wallet with command-line options to repair this wallet, fix issues with corrupt blockchain files or missing/obsolete transactions.</source>
+        <translation>De knoppen hieronder herstarten de portemonnee met commandoregelopties om deze portemonnee te repareren, problemen met corrupte blockchain bestanden of ontbrekende/verouderde transacties op te lossen.</translation>
+    </message>
+    <message>
+        <source>Attempt to recover private keys from a corrupt wallet.dat.</source>
+        <translation>Poog om privé sleutels terug te halen uit een corrupte wallet.dat.</translation>
+    </message>
+    <message>
+        <source>Rescan the blockchain for missing wallet transactions.</source>
+        <translation>Scan de blockchain opnieuw voor ontbrekende portemonneetransacties.</translation>
+    </message>
+    <message>
+        <source>Recover transactions from blockchain (keep-meta-data, e.g. account owner).</source>
+        <translation>Herstel transacties uit de blockchain (keep-meta-data, bijvoorbeeld van de rekeninghouder).</translation>
+    </message>
+    <message>
+        <source>Recover transactions from blockchain (drop meta-data).</source>
+        <translation>Herstel transacties van blockchain (laat meta-data vallen).</translation>
+    </message>
+    <message>
+        <source>Upgrade wallet to latest format on startup. (Note: this is NOT an update of the wallet itself)</source>
+        <translation>Upgrade de portemonnee naar het laatste formaat bij het opstarten. (Opmerking: dit is GEEN update van de portemonnee zelf).</translation>
+    </message>
+    <message>
+        <source>Rebuild blockchain index from current blk000???.dat files.</source>
+        <translation>Bouw de blockchain index opnieuw vanuit huidige blk000???.dat bestanden.</translation>
+    </message>
+    <message>
+        <source>Deletes all local blockchain folders so the wallet synchronizes from scratch.</source>
+        <translation>Verwijder alle lokale blockchain mappen zodat de portemonnee alles opnieuw kan hersynchroniseren.</translation>
+    </message>
+    <message>
+        <source>Salvage wallet</source>
+        <translation>Red portemonnee</translation>
+    </message>
+    <message>
+        <source>Rescan blockchain file</source>
+        <translation>Blockchainbestand opnieuw scannen</translation>
+    </message>
+    <message>
+        <source>Recover transactions 1</source>
+        <translation>Herstel transacties 1</translation>
+    </message>
+    <message>
+        <source>Recover transactions 2</source>
+        <translation>Herstel transacties 2</translation>
+    </message>
+    <message>
+        <source>Upgrade wallet format</source>
+        <translation>Upgrade portemonnee format</translation>
+    </message>
+    <message>
+        <source>Rebuild index</source>
+        <translation>Herbouw index</translation>
+    </message>
+    <message>
+        <source>Delete local blockchain </source>
+        <translation>Verwijder lokale blockchain</translation>
+    </message>
+    <message>
+        <source>This will delete your local blockchain folders and the wallet will synchronize the complete Blockchain from scratch.&lt;br /&gt;&lt;br /&gt;</source>
+        <translation>Dit zal al jouw lokale blockchain mappen verwijderen en de portemonnee zal de blockchain helemaal opnieuw synchroniseren.&lt;br /&gt;&lt;br /&gt;</translation>
+    </message>
+    <message>
+        <source>This needs quite some time and downloads a lot of data.&lt;br /&gt;&lt;br /&gt;</source>
+        <translation>Dit vergt nogal wat tijd en downloadt veel data.&lt;br /&gt;&lt;br /&gt;</translation>
+    </message>
+    <message>
+        <source>Your transactions and funds will be visible again after the download has completed.&lt;br /&gt;&lt;br /&gt;</source>
+        <translation>Uw transacties en tegoeden zijn opnieuw zichtbaar nadat het downloaden is voltooid.&lt;br /&gt;&lt;br /&gt;</translation>
+    </message>
+    <message>
+        <source>Do you want to continue?.&lt;br /&gt;</source>
+        <translation>Wil je verdergaan?</translation>
+    </message>
+    <message>
+        <source>Confirm resync Blockchain</source>
+        <translation>Bevestig hersynchronisering van Blockchain</translation>
+    </message>
+</context>
+<context>
+    <name>SettingsWidget</name>
+    <message>
+        <source>Form</source>
+        <translation>Formulier</translation>
+    </message>
+    <message>
+        <source>Wallet Data</source>
+        <translation>Portemonnee Data</translation>
+    </message>
+    <message>
+        <source>Wallet</source>
+        <translation>Portemonnee</translation>
+    </message>
+    <message>
+        <source>Multisend</source>
+        <translation>Multisend</translation>
+    </message>
+    <message>
+        <source>Export Accounting</source>
+        <translation>Exporteer Accounting</translation>
+    </message>
+    <message>
+        <source>Tools</source>
+        <translation>Gereedschap</translation>
+    </message>
+    <message>
+        <source>Sign/Verify Message</source>
+        <translation>Onderteken/Verifiëer Bericht</translation>
+    </message>
+    <message>
+        <source>BIP38 Tool</source>
+        <translation>BIP38 Tool</translation>
+    </message>
+    <message>
+        <source>Options</source>
+        <translation>Opties</translation>
+    </message>
+    <message>
+        <source>Main</source>
+        <translation>Hoofd</translation>
+    </message>
+    <message>
+        <source>Display</source>
+        <translation>Display</translation>
+    </message>
+    <message>
+        <source>Debug</source>
+        <translation>Debug</translation>
+    </message>
+    <message>
+        <source>Information</source>
+        <translation>Informatie</translation>
+    </message>
+    <message>
+        <source>Console</source>
+        <translation>Console</translation>
+    </message>
+    <message>
+        <source>Wallet Repair</source>
+        <translation>Portemonnee Herstel</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Help</translation>
+    </message>
+    <message>
+        <source>FAQ</source>
+        <translation>Veelgestelde vragen</translation>
+    </message>
+    <message>
+        <source>About FUNC</source>
+        <translation>Over FUNC</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Instellingen</translation>
+    </message>
+    <message>
+        <source>Confirm options reset</source>
+        <translation>Bevestig reset instellingen</translation>
+    </message>
+    <message>
+        <source>Client restart required to activate changes.</source>
+        <translation>Client herstart vereist om wijzigingen te activeren.</translation>
+    </message>
+    <message>
+        <source>Client will be shutdown, do you want to proceed?</source>
+        <translation>Client wordt uitgeschakeld, wil je doorgaan?</translation>
+    </message>
+    <message>
+        <source>Restart required</source>
+        <translation>Herstart nodig</translation>
+    </message>
+    <message>
+        <source>Your wallet needs to be restarted to apply the changes
+</source>
+        <translation>Je portemonnee moet opnieuw opgestart worden om de wijzigingen toe te passen.
+</translation>
+    </message>
+    <message>
+        <source>Restart Now</source>
+        <translation>Nu herstarten</translation>
+    </message>
+    <message>
+        <source>Restart Later</source>
+        <translation>Later herstarten</translation>
+    </message>
+    <message>
+        <source>Options will be applied on next wallet restart</source>
+        <translation>Opties zullen toegepast worden bij de volgende herstart van de portemonnee</translation>
+    </message>
+    <message>
+        <source>Options stored</source>
+        <translation>Opties bewaard</translation>
+    </message>
+    <message>
+        <source>Options store failed</source>
+        <translation>Opties opslaan mislukt</translation>
+    </message>
+    <message>
+        <source>Discard Unsaved Changes</source>
+        <translation>Niet-opgeslagen wijzigingen negeren</translation>
+    </message>
+    <message>
+        <source>You are just about to discard all of your unsaved options.
+
+Are you sure?
+</source>
+        <translation>U staat op het punt al uw niet-opgeslagen opties te verwijderen.
+
+Weet je zeker dat?
+</translation>
+    </message>
+</context>
+<context>
+    <name>ShutdownWindow</name>
+    <message>
+        <source>FUNC Core is shutting down...</source>
+        <translation>FUNC Core is aan het afsluiten...</translation>
+    </message>
+    <message>
+        <source>Do not shut down the computer until this window disappears.</source>
+        <translation>Sluit de computer niet af voordat dit venster verdwenen is.</translation>
+    </message>
+</context>
+<context>
+    <name>SnackBar</name>
+    <message>
+        <source>Form</source>
+        <translation>Formulier</translation>
+    </message>
+    <message>
+        <source>Contact Stored</source>
+        <translation>Contact Bewaard</translation>
+    </message>
+</context>
+<context>
+    <name>Splash</name>
+    <message>
+        <source>Form</source>
+        <translation>Formulier</translation>
+    </message>
+    <message>
+        <source>Loading…</source>
+        <translation>Laden...</translation>
+    </message>
+    <message>
+        <source>FUNC Core</source>
+        <translation>FUNC Core</translation>
+    </message>
 </context>
 <context>
     <name>SplashScreen</name>
@@ -4216,6 +5326,180 @@ Wees alsjeblieft geduldig...</translation>
     </message>
 </context>
 <context>
+    <name>TooltipMenu</name>
+    <message>
+        <source>Form</source>
+        <translation>Formulier</translation>
+    </message>
+    <message>
+        <source>Copy</source>
+        <translation>Kopieren</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Bewerk</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>Wissen</translation>
+    </message>
+    <message>
+        <source>Last</source>
+        <translation>Laatste</translation>
+    </message>
+</context>
+<context>
+    <name>TopBar</name>
+    <message>
+        <source>Form</source>
+        <translation>Formulier</translation>
+    </message>
+    <message>
+        <source>Available</source>
+        <translation>Beschikbaar</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>In afwachting</translation>
+    </message>
+    <message>
+        <source>Immature</source>
+        <translation>Onverwerkt</translation>
+    </message>
+    <message>
+        <source>Wallet Unlocked for staking</source>
+        <translation>Portemonnee Ongrendeld voor staking</translation>
+    </message>
+    <message>
+        <source>Error generating address</source>
+        <translation>Genereren van adres misgelopen</translation>
+    </message>
+    <message>
+        <source>Address Copied</source>
+        <translation>Adres Gekopieerd</translation>
+    </message>
+    <message>
+        <source>Staking active</source>
+        <translation>Staking actief</translation>
+    </message>
+    <message>
+        <source>Staking not active</source>
+        <translation>Staking niet actief</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n active connection(s)</source>
+        <translation><numerusform>%n actieve verbinding</numerusform><numerusform>%n actieve verbindingen</numerusform></translation>
+    </message>
+    <message>
+        <source>Synchronized - Block: %1</source>
+        <translation>Gesynchroniseerd - Block: %1</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n hour(s)</source>
+        <translation><numerusform>%n uur</numerusform><numerusform>%n uren</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n day(s)</source>
+        <translation><numerusform>%n dag</numerusform><numerusform>%n dagen</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n week(s)</source>
+        <translation><numerusform>%n week</numerusform><numerusform>%n weken</numerusform></translation>
+    </message>
+    <message>
+        <source>%1 and %2</source>
+        <translation>%1 en %2</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n year(s)</source>
+        <translation><numerusform>%n jaar</numerusform><numerusform>%n jaren</numerusform></translation>
+    </message>
+    <message>
+        <source>Wallet Upgrade</source>
+        <translation>Portemonneeupgrade</translation>
+    </message>
+    <message>
+        <source>Upgrading to HD wallet will improve
+the wallet's reliability and security.
+
+
+NOTE: after the upgrade, a new
+backup will be created.
+</source>
+        <translation>Upgrade naar HD portemonnee zal
+de portemonnee's betrouwbaarheid en veiligheid verbeteren.
+
+
+OPMERKING: na de upgrade, zal een
+nieuwe back-up aangemaakt worden.
+</translation>
+    </message>
+    <message>
+        <source>Upgrade Wallet</source>
+        <translation>Portemonnee upgraden</translation>
+    </message>
+    <message>
+        <source>Wallet unlock cancelled</source>
+        <translation>Portemonnee ontgrendeling geannuleerd </translation>
+    </message>
+    <message>
+        <source>Tor Active: %1</source>
+        <translation>Tor Actief: %1</translation>
+    </message>
+    <message>
+        <source>Tor Disabled</source>
+        <translation>Tor Uitgeschakeld</translation>
+    </message>
+    <message>
+        <source>Available (Locked included)</source>
+        <translation>Beschikbaar (inclusief vergrendelde)</translation>
+    </message>
+    <message>
+        <source>The wallet has been successfully upgraded to HD.</source>
+        <translation>De portemonnee is succesvol geüpgraded naar HD.</translation>
+    </message>
+    <message>
+        <source>It is advised to make a backup.</source>
+        <translation>Het is geadviseerd om een back-up te maken.</translation>
+    </message>
+    <message>
+        <source>Do you wish to backup now?</source>
+        <translation>Wilt u nu een back-up maken?</translation>
+    </message>
+    <message>
+        <source>Backup Wallet</source>
+        <translation>Backup portemonnee</translation>
+    </message>
+    <message>
+        <source>Wallet Data (*.dat)</source>
+        <translation>Portemonneegegevens (*.dat)</translation>
+    </message>
+    <message>
+        <source>Backup created</source>
+        <translation>Back-up aangemaakt</translation>
+    </message>
+    <message>
+        <source>Backup creation failed</source>
+        <translation>Aanmaak back-up mislukt</translation>
+    </message>
+    <message>
+        <source>no file selected</source>
+        <translation>geen bestand geselecteerd</translation>
+    </message>
+    <message>
+        <source>Wallet upgraded successfully, but no backup created.</source>
+        <translation>Portemonnee succesvol geüpgraded, maar geen back-up aangemaakt.</translation>
+    </message>
+    <message>
+        <source>WARNING: remember to make a copy of your wallet.dat file!</source>
+        <translation>WAARSCHUWING: vergeet niet op je wallet.dat bestand te kopiëren!</translation>
+    </message>
+    <message>
+        <source>Upgrade Wallet Error</source>
+        <translation>Upgrade Portemonnee Error</translation>
+    </message>
+</context>
+<context>
     <name>TrafficGraphWidget</name>
     <message>
         <source>KB/s</source>
@@ -4224,6 +5508,10 @@ Wees alsjeblieft geduldig...</translation>
 </context>
 <context>
     <name>TransactionDesc</name>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation><numerusform>Open voor nog %n blokken</numerusform><numerusform>Open voor nog %n blok</numerusform></translation>
+    </message>
     <message>
         <source>Open until %1</source>
         <translation>Open tot %1</translation>
@@ -4284,6 +5572,10 @@ Wees alsjeblieft geduldig...</translation>
         <source>, has not been successfully broadcast yet</source>
         <translation>, is nog niet succesvol uitgezonden</translation>
     </message>
+    <message numerus="yes">
+        <source>, broadcast through %n node(s)</source>
+        <translation><numerusform>, broadcast via %n nodes</numerusform><numerusform>, broadcast via %n node</numerusform></translation>
+    </message>
     <message>
         <source>Date</source>
         <translation>Datum</translation>
@@ -4323,6 +5615,10 @@ Wees alsjeblieft geduldig...</translation>
     <message>
         <source>Credit</source>
         <translation>Credit</translation>
+    </message>
+    <message numerus="yes">
+        <source>matures in %n more block(s)</source>
+        <translation><numerusform>volgroeid in %n blokken</numerusform><numerusform>volgroeid in %n blok</numerusform></translation>
     </message>
     <message>
         <source>not accepted</source>
@@ -4369,10 +5665,6 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Winkelier</translation>
     </message>
     <message>
-        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Gegenereerde munten moeten %1 blokken rijpen voordat ze kunnen worden uitgegeven. Wanneer je dit blok hebt gegenereerd, wordt het naar het netwerk uitgezonden om aan de blockchain toegevoegd te worden. Als het niet in de keten komt, verandert de staat in "niet geaccepteerd" en zal het niet uitgeefbaar worden. Dit kan af en toe gebeuren als een andere node binnen een paar seconden van u een blok genereert.</translation>
-    </message>
-    <message>
         <source>Debug information</source>
         <translation>Debug informatie</translation>
     </message>
@@ -4398,17 +5690,6 @@ Wees alsjeblieft geduldig...</translation>
     </message>
 </context>
 <context>
-    <name>TransactionDescDialog</name>
-    <message>
-        <source>Transaction details</source>
-        <translation>Transactiedetails</translation>
-    </message>
-    <message>
-        <source>This pane shows a detailed description of the transaction</source>
-        <translation>Dit venster laat een gedetailleerde beschrijving van de transactie zien</translation>
-    </message>
-</context>
-<context>
     <name>TransactionTableModel</name>
     <message>
         <source>Date</source>
@@ -4421,6 +5702,10 @@ Wees alsjeblieft geduldig...</translation>
     <message>
         <source>Address</source>
         <translation>Adres</translation>
+    </message>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation><numerusform>Open voor nog %n blokken</numerusform><numerusform>Open voor nog %n blok</numerusform></translation>
     </message>
     <message>
         <source>Open until %1</source>
@@ -4467,10 +5752,6 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Ontvangen van</translation>
     </message>
     <message>
-        <source>Received via Obfuscation</source>
-        <translation>Verkregen via verduistering</translation>
-    </message>
-    <message>
         <source>FUNC Stake</source>
         <translation>FUNC Stake</translation>
     </message>
@@ -4479,20 +5760,12 @@ Wees alsjeblieft geduldig...</translation>
         <translation>zFUNC Stake</translation>
     </message>
     <message>
-        <source>Obfuscation Denominate</source>
-        <translation>Verduistering denominatie</translation>
+        <source>FUNC Cold Stake</source>
+        <translation>FUNC Cold Stake</translation>
     </message>
     <message>
-        <source>Obfuscation Collateral Payment</source>
-        <translation>Verduistering zijdelingse betaling</translation>
-    </message>
-    <message>
-        <source>Obfuscation Make Collateral Inputs</source>
-        <translation>Verduistering maakt zijdelingse inputs</translation>
-    </message>
-    <message>
-        <source>Obfuscation Create Denominations</source>
-        <translation>Verduistering creëert denominaties</translation>
+        <source>Stake delegation</source>
+        <translation>Stake delegatie</translation>
     </message>
     <message>
         <source>Converted FUNC to zFUNC</source>
@@ -4515,14 +5788,6 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Geconverteerde zFUNC naar FUNC</translation>
     </message>
     <message>
-        <source>Anonymous (zFUNC Transaction)</source>
-        <translation>Anonieme (zFUNC transactie)</translation>
-    </message>
-    <message>
-        <source>Anonymous (zFUNC Stake)</source>
-        <translation>Anonieme (zFUNC stake)</translation>
-    </message>
-    <message>
         <source>Sent to</source>
         <translation>Verzenden naar</translation>
     </message>
@@ -4535,16 +5800,28 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Betaling naar jezelf</translation>
     </message>
     <message>
+        <source>FUNC Stake on behalf of</source>
+        <translation>FUNC Stake in naam van</translation>
+    </message>
+    <message>
+        <source>Stake delegation spent by</source>
+        <translation>Stake delegatie gespendeerd door</translation>
+    </message>
+    <message>
         <source>Mined</source>
         <translation>Mined</translation>
     </message>
     <message>
-        <source>Obfuscated</source>
-        <translation>Verduisterd</translation>
-    </message>
-    <message>
         <source>watch-only</source>
         <translation>watch-only</translation>
+    </message>
+    <message>
+        <source>Anonymous</source>
+        <translation>Anoniem</translation>
+    </message>
+    <message>
+        <source>No information</source>
+        <translation>Geen informatie</translation>
     </message>
     <message>
         <source>(n/a)</source>
@@ -4576,196 +5853,121 @@ Wees alsjeblieft geduldig...</translation>
     </message>
 </context>
 <context>
-    <name>TransactionView</name>
+    <name>TxDetailDialog</name>
     <message>
-        <source>All</source>
-        <translation>Alle</translation>
+        <source>Form</source>
+        <translation>Formulier</translation>
     </message>
     <message>
-        <source>Today</source>
-        <translation>Vandaag</translation>
+        <source>Transaction Details</source>
+        <translation>Transactie details</translation>
     </message>
     <message>
-        <source>This week</source>
-        <translation>Deze week</translation>
+        <source>Total amount</source>
+        <translation>Totale hoeveelheid</translation>
     </message>
     <message>
-        <source>This month</source>
-        <translation>Deze maand</translation>
+        <source>Previous Transaction</source>
+        <translation>Vorige Transactie</translation>
     </message>
     <message>
-        <source>Last month</source>
-        <translation>Afgelopen maand</translation>
+        <source>Output Index</source>
+        <translation>Outputindex</translation>
     </message>
     <message>
-        <source>This year</source>
-        <translation>Dit jaar</translation>
+        <source>F7VFR83SQbie…BhjcWJtcfip5krte2Z </source>
+        <translation>F7VFR83SQbie…BhjcWJtcfip5krte2Z </translation>
     </message>
     <message>
-        <source>Range...</source>
-        <translation>Omvang...</translation>
-    </message>
-    <message>
-        <source>Most Common</source>
-        <translation>Meest voorkomend</translation>
-    </message>
-    <message>
-        <source>Received with</source>
-        <translation>Ontvangen met</translation>
-    </message>
-    <message>
-        <source>Sent to</source>
-        <translation>Verzenden naar</translation>
-    </message>
-    <message>
-        <source>To yourself</source>
-        <translation>Naar jezelf</translation>
-    </message>
-    <message>
-        <source>Mined</source>
-        <translation>Mined</translation>
-    </message>
-    <message>
-        <source>Minted</source>
-        <translation>Minted</translation>
-    </message>
-    <message>
-        <source>Masternode Reward</source>
-        <translation>Masternode beloning</translation>
-    </message>
-    <message>
-        <source>Zerocoin Mint</source>
-        <translation>Zerocoin Mint</translation>
-    </message>
-    <message>
-        <source>Zerocoin Spend</source>
-        <translation>Zerocoin uitgegeven</translation>
-    </message>
-    <message>
-        <source>Zerocoin Spend to Self</source>
-        <translation>Zerocoin uitgegeven aan jezelf</translation>
-    </message>
-    <message>
-        <source>Other</source>
-        <translation>Andere</translation>
-    </message>
-    <message>
-        <source>Enter address or label to search</source>
-        <translation>Adres of label invullen om te zoeken</translation>
-    </message>
-    <message>
-        <source>Min amount</source>
-        <translation>Minimale hoeveelheid</translation>
-    </message>
-    <message>
-        <source>Copy address</source>
-        <translation>Kopieer adres</translation>
-    </message>
-    <message>
-        <source>Copy label</source>
-        <translation>Kopiëer label</translation>
-    </message>
-    <message>
-        <source>Copy amount</source>
-        <translation>Kopieer bedrag</translation>
-    </message>
-    <message>
-        <source>Copy transaction ID</source>
-        <translation>Kopieer transactie ID</translation>
-    </message>
-    <message>
-        <source>Edit label</source>
-        <translation>Label wijzigen</translation>
-    </message>
-    <message>
-        <source>Show transaction details</source>
-        <translation>Bekijk transactiedetails</translation>
-    </message>
-    <message>
-        <source>Hide orphan stakes</source>
-        <translation>Verberg orphan stakes</translation>
-    </message>
-    <message>
-        <source>Export Transaction History</source>
-        <translation>Exporteer Transactiegeschiedenis</translation>
-    </message>
-    <message>
-        <source>Comma separated file (*.csv)</source>
-        <translation>Kommagescheiden bestand (*.csv)</translation>
-    </message>
-    <message>
-        <source>Confirmed</source>
-        <translation>Bevestigd</translation>
-    </message>
-    <message>
-        <source>Watch-only</source>
-        <translation>Watch-only</translation>
-    </message>
-    <message>
-        <source>Date</source>
-        <translation>Datum</translation>
-    </message>
-    <message>
-        <source>Type</source>
-        <translation>Type</translation>
-    </message>
-    <message>
-        <source>Label</source>
-        <translation>Label</translation>
-    </message>
-    <message>
-        <source>Address</source>
-        <translation>Adres</translation>
+        <source>May 25, 2017</source>
+        <translation>25 Mei, 2017</translation>
     </message>
     <message>
         <source>ID</source>
         <translation>ID</translation>
     </message>
     <message>
-        <source>Exporting Failed</source>
-        <translation>Export Mislukt</translation>
+        <source>Sending to</source>
+        <translation>Versturen naar:</translation>
     </message>
     <message>
-        <source>There was an error trying to save the transaction history to %1.</source>
-        <translation>Er is een fout opgetreden om de transactiegeschiedenis te bewaren naar %1.</translation>
+        <source>Coin inputs</source>
+        <translation>Munt invoeringen</translation>
     </message>
     <message>
-        <source>Exporting Successful</source>
-        <translation>Exporteren succesvol</translation>
+        <source>Fee</source>
+        <translation>Onkost</translation>
     </message>
     <message>
-        <source>Received FUNC from zFUNC</source>
-        <translation>Ontvangen FUNC van zFUNC</translation>
+        <source>Size</source>
+        <translation>Grootte</translation>
     </message>
     <message>
-        <source>Zerocoin Spend, Change in zFUNC</source>
-        <translation>Zerocoin besteed, wisselgeld in zFUNC</translation>
+        <source>Change address</source>
+        <translation>Wijzig adres</translation>
     </message>
     <message>
-        <source>The transaction history was successfully saved to %1.</source>
-        <translation>De transactiegeschiedenis is succesvol bewaard in %1.</translation>
+        <source>Spendable</source>
+        <translation>Uitgeefbaar</translation>
     </message>
     <message>
-        <source>Range:</source>
-        <translation>Bereik:</translation>
+        <source>Confirmations</source>
+        <translation>Bevestigingen</translation>
     </message>
     <message>
-        <source>to</source>
-        <translation>naar</translation>
+        <source>Status</source>
+        <translation>Status</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Datum</translation>
+    </message>
+    <message>
+        <source>TextLabel</source>
+        <translation>TextLabel</translation>
+    </message>
+    <message>
+        <source>CANCEL</source>
+        <translation>Annuleren</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>Akkoord</translation>
+    </message>
+    <message>
+        <source>Confirm Your Transaction</source>
+        <translation>Bevestig Uw Transactie</translation>
+    </message>
+    <message>
+        <source>SEND</source>
+        <translation>STUREN</translation>
+    </message>
+    <message>
+        <source>ID copied</source>
+        <translation>ID gekopieerd</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Ongekend</translation>
     </message>
 </context>
 <context>
-    <name>UnitDisplayStatusBarControl</name>
+    <name>TxRow</name>
     <message>
-        <source>Unit to show amounts in. Click to select another unit.</source>
-        <translation>Eenheid om bedragen te laten zien. Klik om een andere eenheid te selecteren.</translation>
+        <source>Form</source>
+        <translation>Formulier</translation>
     </message>
-</context>
-<context>
-    <name>WalletFrame</name>
     <message>
-        <source>No wallet has been loaded.</source>
-        <translation>Er is geen portemonnee ingeladen.</translation>
+        <source>Received from Bob</source>
+        <translation>Ontvangen van Bob</translation>
+    </message>
+    <message>
+        <source>18/05/18</source>
+        <translation>18/05/18</translation>
+    </message>
+    <message>
+        <source>+0.000585 FUNC</source>
+        <translation>+0.000585 FUNC</translation>
     </message>
 </context>
 <context>
@@ -4780,30 +5982,72 @@ Wees alsjeblieft geduldig...</translation>
     </message>
 </context>
 <context>
-    <name>WalletView</name>
+    <name>WelcomeContentWidget</name>
     <message>
-        <source>HISTORY</source>
-        <translation>GESCHIEDENIS</translation>
+        <source>1</source>
+        <translation>1</translation>
     </message>
     <message>
-        <source>&amp;Export</source>
-        <translation>&amp;Exporteren</translation>
+        <source>2</source>
+        <translation>2</translation>
     </message>
     <message>
-        <source>Export the data in the current tab to a file</source>
-        <translation>Exporteer de data in de huidige tab naar een bestand</translation>
+        <source>3</source>
+        <translation>3</translation>
     </message>
     <message>
-        <source>Selected amount:</source>
-        <translation>Geselecteerde hoeveelheid:</translation>
+        <source>4</source>
+        <translation>4</translation>
     </message>
     <message>
-        <source>Backup Wallet</source>
-        <translation>Backup portemonnee</translation>
+        <source>Language</source>
+        <translation>Taal</translation>
     </message>
     <message>
-        <source>Wallet Data (*.dat)</source>
-        <translation>Portemonneegegevens (*.dat)</translation>
+        <source>Welcome</source>
+        <translation>Welkom</translation>
+    </message>
+    <message>
+        <source>Privacy</source>
+        <translation>Privacy</translation>
+    </message>
+    <message>
+        <source>Masternodes</source>
+        <translation>Masternodes</translation>
+    </message>
+    <message>
+        <source>Select your language</source>
+        <translation>Selecteer uw taal</translation>
+    </message>
+    <message>
+        <source>Welcome to
+FUNC Core Wallet</source>
+        <translation>Welkom bij
+FUNC Core Portemonnee</translation>
+    </message>
+    <message>
+        <source>FUNC is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</source>
+        <translation>FUNC is 's werelds meest innovatieve Proof of Stake blockchain gebaseerde technologie. Ontwikkeld door een team van zeer ervaren ontwikkelaars en cryptografen.</translation>
+    </message>
+    <message>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;As our manifesto says: Privacy is a non-negotiable basic human right; it grants users the freedom to share their data whenever and with whomever they want - FUNC believes in self sovereignty.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Zoals ons manifest zegt: Privacy is een niet-onderhandelbaar fundamenteel mensenrecht; het geeft gebruikers de vrijheid om hun gegevens te delen wanneer en met wie ze maar willen - FUNC gelooft in soevereiniteit.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <source>The masternode network is FUNC's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
+        <translation>Het masternode netwerk is FUNC's tweedelaagse netwerk bovenop de blockchain die onze DAO in staat stelt om gedecentraliseerd bestuur, treasury te leveren</translation>
+    </message>
+    <message>
+        <source>How FUNC respects your privacy?</source>
+        <translation>Hoe respecteert FUNC uw privacy?</translation>
+    </message>
+    <message>
+        <source>What is a Masternode?</source>
+        <translation>Wat is een Masternode?</translation>
+    </message>
+    <message>
+        <source>default</source>
+        <translation>standaard</translation>
     </message>
 </context>
 <context>
@@ -4813,24 +6057,40 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Selecteer zFUNC om te besteden</translation>
     </message>
     <message>
-        <source>Quantity</source>
-        <translation>Hoeveelheid</translation>
+        <source>Coin Control</source>
+        <translation>Munt Controle</translation>
+    </message>
+    <message>
+        <source>PushButton</source>
+        <translation>Druk Knop</translation>
+    </message>
+    <message>
+        <source>zFunc</source>
+        <translation>zFunc</translation>
+    </message>
+    <message>
+        <source>0.00 </source>
+        <translation>0.00 </translation>
+    </message>
+    <message>
+        <source>Quantity:</source>
+        <translation>Kwantiteit:</translation>
+    </message>
+    <message>
+        <source>Is Spendable</source>
+        <translation>Is Uitgeefbaar</translation>
     </message>
     <message>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <source>zFUNC</source>
-        <translation>zFUNC</translation>
-    </message>
-    <message>
         <source>Select/Deselect All</source>
         <translation>Selecteer/Deselecteer Alles</translation>
     </message>
     <message>
-        <source>Spendable?</source>
-        <translation>Besteedbaar?</translation>
+        <source>Select zFUNC Denominations to Spend</source>
+        <translation>Selecteer zFUNC Denominaties om te Besteden</translation>
     </message>
 </context>
 <context>
@@ -4854,10 +6114,6 @@ Wees alsjeblieft geduldig...</translation>
     <message>
         <source>Bind to given address to listen for JSON-RPC connections. Use [host]:port notation for IPv6. This option can be specified multiple times (default: bind to all interfaces)</source>
         <translation>Bind naar het opgegeven adres om te luisteren naar JSON-RPC verbindingen. Gebruik [host]:poort notatie voor IPv6. Deze optie kan meerdere keren worden opgegeven (standaard: bind aan alle interfaces)</translation>
-    </message>
-    <message>
-        <source>Calculated accumulator checkpoint is not what is recorded by block index</source>
-        <translation>Het berekende accumulatie controlepunt is niet wat wordt geregistreerd door de blokindex</translation>
     </message>
     <message>
         <source>Cannot obtain a lock on data directory %s. FUNC Core is probably already running.</source>
@@ -4888,8 +6144,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Gedistribueerd onder de MIT software licentie, zie het bijgevoegde bestand COPYING of &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
     </message>
     <message>
-        <source>Enable automatic wallet backups triggered after each zFUNC minting (0-1, default: %u)</source>
-        <translation>Schakel automatische portemonnee back-ups in geactiveerd na elke geminte zFUNC (0-1, standaard: %u)</translation>
+        <source>Enable cold staking functionality (0-1, default: %u). Disabled if staking=0</source>
+        <translation>Activeer cold staking functionaliteit (0-1, standaard: %u). Uitgeschakeld als staking=0</translation>
     </message>
     <message>
         <source>Enable or disable staking functionality for FUNC inputs (0-1, default: %u)</source>
@@ -4918,6 +6174,10 @@ Wees alsjeblieft geduldig...</translation>
     <message>
         <source>Error: Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
         <translation>Fout: Niet ondersteund argument -socks gevonden. Het instellen van SOCKS versie is niet meer mogelijk, alleen SOCKS5 proxy's worden ondersteund.</translation>
+    </message>
+    <message>
+        <source>Exclude debugging information for a category. Can be used in conjunction with -debug=1 to output debug logs for all categories except one or more specified categories.</source>
+        <translation>Sluit informatie voor een categorie uit. Kan worden gebruikt in combinatie met -debug=1 om foutopsporingslogboeken uit te voeren voor alle categorieën behalve een of meer gespecificeerde categorieën.</translation>
     </message>
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
@@ -4972,8 +6232,16 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Onderhoud een volledige transactie index, gebruikt door de getrawtransaction rpc call (standaard: %u)</translation>
     </message>
     <message>
+        <source>Maximum average size of an index occurrence in the block spam filter (default: %u)</source>
+        <translation>Maximale gemiddelde grootte van een index in het spamfilter van het blok (standaard: %u)</translation>
+    </message>
+    <message>
         <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
         <translation>Maximale gegevensgrootte in data carrier transacties die we relayen en minen (standaard: %u)</translation>
+    </message>
+    <message>
+        <source>Maximum size of the list of indexes in the block spam filter (default: %u)</source>
+        <translation>Maximale grootte van de lijst met indexen in de spamfilter van het blok (standaard: %u)</translation>
     </message>
     <message>
         <source>Maximum total fees to use in a single wallet transaction, setting too low may abort large transactions (default: %s)</source>
@@ -4982,10 +6250,6 @@ Wees alsjeblieft geduldig...</translation>
     <message>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: %u)</source>
         <translation>Aantal seconden om te voorkomen dat misdragende peers opnieuw connectoren (standaard: %u)</translation>
-    </message>
-    <message>
-        <source>Obfuscation uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
-        <translation>Verduistering maakt gebruik van exacte gedenomineerde bedragen om fondsen te verzenden, je zou misschien nog wat munten moeten anonimiseren.</translation>
     </message>
     <message>
         <source>Output debugging information (default: %u, supplying &lt;category&gt; is optional)</source>
@@ -5028,24 +6292,20 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Ondersteun filteren van blokken en transactie met bloom filters (standaard: %u)</translation>
     </message>
     <message>
+        <source>The block database contains a block which appears to be from the future. This may be due to your computer's date and time being set incorrectly. Only rebuild the block database if you are sure that your computer's date and time are correct</source>
+        <translation>De blokdatabase bevat een blok dat uit de toekomst lijkt te komen. Dit kan te wijten zijn aan het feit dat de datum en tijd van uw computer verkeerd zijn ingesteld. Bouw de blokdatabase alleen opnieuw op als u er zeker van bent dat de datum en tijd van uw computer correct zijn ingesteld.</translation>
+    </message>
+    <message>
         <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
         <translation>Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in de OpenSSL Toolkit &lt;https://www.openssl.org/&gt; en cryptografische software geschreven door Eric Young en UPnP software geschreven door Thomas Bernard.</translation>
     </message>
     <message>
+        <source>Total length of network version string (%i) exceeds maximum length (%i). Reduce the number or size of uacomments.</source>
+        <translation>De totale lengte van de netwerkversie (%i) overschrijdt de maximale lengte (%i). Verminder het aantal of de grootte van uacommentaren.</translation>
+    </message>
+    <message>
         <source>Unable to bind to %s on this computer. FUNC Core is probably already running.</source>
         <translation>Niet mogelijk te binden aan %s op deze computer. FUNC Core loopt waarschijnlijk al.</translation>
-    </message>
-    <message>
-        <source>Unable to locate enough Obfuscation denominated funds for this transaction.</source>
-        <translation>Kan niet genoeg verduistering gedenomineerde fondsen voor deze transactie vinden.</translation>
-    </message>
-    <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 FUNC.</source>
-        <translation>Kan niet genoeg verduistering niet gedenomineerde fondsen voor deze transactie vinden die niet gelijk zijn aan 10000 FUNC.</translation>
-    </message>
-    <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 FUNC.</source>
-        <translation>Kan niet genoeg fondsen voor deze transactie vinden die niet gelijk zijn aan 10000 FUNC.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -5148,28 +6408,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Block creatie opties:</translation>
     </message>
     <message>
-        <source>Calculating missing accumulators...</source>
-        <translation>Calculeren van ontbrekende accumulators...</translation>
-    </message>
-    <message>
         <source>Cannot downgrade wallet</source>
         <translation>Kan de portemonnee niet downgraden</translation>
-    </message>
-    <message>
-        <source>Cannot resolve -bind address: '%s'</source>
-        <translation>Kan -bind adres niet oplossen: '%s'</translation>
-    </message>
-    <message>
-        <source>Cannot resolve -externalip address: '%s'</source>
-        <translation>Kan -externalip adres niet oplossen: '%s'</translation>
-    </message>
-    <message>
-        <source>Cannot resolve -whitebind address: '%s'</source>
-        <translation>Kan -whitebind adres niet oplossen: '%s'</translation>
-    </message>
-    <message>
-        <source>Cannot write default address</source>
-        <translation>Kan standaard adres niet schrijven</translation>
     </message>
     <message>
         <source>Connect only to the specified node(s)</source>
@@ -5240,10 +6480,6 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Klaar met laden</translation>
     </message>
     <message>
-        <source>Enable automatic Zerocoin minting (0-1, default: %u)</source>
-        <translation>Zet automatische Zerocoin minting aan (0-1, standaard: %u)</translation>
-    </message>
-    <message>
         <source>Enable publish hash transaction (locked via SwiftX) in &lt;address&gt;</source>
         <translation>Activeer publicatie hash transactie (vergrendeld via SwiftTX) in &lt;address&gt;</translation>
     </message>
@@ -5288,16 +6524,16 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Error tijdens het lezen van de database, aan het afsluiten.</translation>
     </message>
     <message>
-        <source>Error recovering public key.</source>
-        <translation>Fout bij het herstellen van de publieke sleutel.</translation>
-    </message>
-    <message>
         <source>Error writing zerocoinDB to disk</source>
         <translation>Fout bij het schrijven van zerocoinDB naar schijf</translation>
     </message>
     <message>
         <source>Error</source>
         <translation>Error</translation>
+    </message>
+    <message>
+        <source>Error: </source>
+        <translation>Error: </translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
@@ -5314,10 +6550,6 @@ Wees alsjeblieft geduldig...</translation>
     <message>
         <source>Error: Wallet locked, unable to create transaction!</source>
         <translation>Fout: Portemonnee vergrendeld, niet in staat om transactie te creëren!</translation>
-    </message>
-    <message>
-        <source>Failed to calculate accumulator checkpoint</source>
-        <translation>Kon het controlepunt van de accumulator niet berekenen</translation>
     </message>
     <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
@@ -5388,28 +6620,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Ongeldig -onion adres of hostnaam: '%s'</translation>
     </message>
     <message>
-        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Ongeldige hoeveelheid voor -maxtxfee=&lt;amount&gt;: '%s'</translation>
-    </message>
-    <message>
-        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Ongeldige hoeveelheid voor -minrelaytxfee=&lt;amount&gt;: '%s'</translation>
-    </message>
-    <message>
-        <source>Invalid amount for -mintxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Ongeldige hoeveelheid voor -mintxfee=&lt;amount&gt;: '%s'</translation>
-    </message>
-    <message>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s' (must be at least %s)</source>
         <translation>Ongeldige hoeveelheid voor -paytxfee=&lt;amount&gt;: '%s' (moet tenminste %s zijn)</translation>
-    </message>
-    <message>
-        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Ongeldige hoeveelheid voor -paytxfee=&lt;amount&gt;: '%s'</translation>
-    </message>
-    <message>
-        <source>Invalid amount for -reservebalance=&lt;amount&gt;</source>
-        <translation>Ongeldige hoeveelheid voor -reservebalance=&lt;amount&gt;</translation>
     </message>
     <message>
         <source>Invalid amount</source>
@@ -5428,12 +6640,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Ongeldige poort gedetecteerd in masternode.conf</translation>
     </message>
     <message>
-        <source>Invalid private key.</source>
-        <translation>Ongeldige privésleutel.</translation>
-    </message>
-    <message>
-        <source>Percentage of automatically minted Zerocoin  (1-100, default: %u)</source>
-        <translation>Percentage automatisch geminte Zerocoin (10-100, standaard: %u)</translation>
+        <source>Recalculating FUNC supply...</source>
+        <translation>Hercalculatie van FUNC aanbod...</translation>
     </message>
     <message>
         <source>Reindex the FUNC and zFUNC money supply statistics</source>
@@ -5488,10 +6696,6 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Fout: De transactie is afgewezen! Dit kan gebeuren als sommige munten in je portemonnee al waren uitgegeven, bijvoorbeeld als je een kopie van wallet.dat gebruikt en munten in de kopie waren besteed maar hier niet als zodanig gemarkeerd.</translation>
     </message>
     <message>
-        <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
-        <translation>Fout: Deze transactie vereist transactiekosten van ten minste %s vanwege de hoeveelheid, de complexiteit of het gebruik van recent ontvangen fondsen!</translation>
-    </message>
-    <message>
         <source>Error: Unsupported argument -checklevel found. Checklevel must be level 4.</source>
         <translation>Fout: Niet ondersteund argument -checklevel gevonden. Checklevel moet niveau 4 zijn.</translation>
     </message>
@@ -5506,14 +6710,6 @@ Wees alsjeblieft geduldig...</translation>
     <message>
         <source>In rare cases, a spend with 7 coins exceeds our maximum allowable transaction size, please retry spend using 6 or less coins</source>
         <translation>In zeldzame gevallen overschrijdt een besteding met 7 munten uw maximaal toegestane transactiegrootte. Probeer het opnieuw met 6 of minder munten</translation>
-    </message>
-    <message>
-        <source>Preferred Denomination for automatically minted Zerocoin  (1/5/10/50/100/500/1000/5000), 0 for no preference. default: %u)</source>
-        <translation>Voorkeur denominatie voor automatisch minted Zerocoin (1/5/10/50/100/500/1000/5000), 0 voor geen voorkeur. standaard: %u)</translation>
-    </message>
-    <message>
-        <source>Specify custom backup path to add a copy of any automatic zFUNC backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
-        <translation>Specificeer aangepast back-up pad om een kopie van elke automatische zFUNC back-up toe te voegen. Indien ingesteld als dir zal elke back-up een bestand genereren met een tijdstempel. Indien ingesteld als file zal elke back-up herschreven worden naar dat bestand. Indien backuppath ook is ingesteld zullen 4 back-ups gedaan worden.</translation>
     </message>
     <message>
         <source>Specify custom backup path to add a copy of any wallet backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup.</source>
@@ -5532,8 +6728,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Poging om blockchain corruptie herstel te forceren</translation>
     </message>
     <message>
-        <source>CoinSpend: Accumulator witness does not verify</source>
-        <translation>CoinSpend: Accumulator witness controleert niet</translation>
+        <source>Cannot create public spend input</source>
+        <translation>Kon geen publiek besteedadres aanmaken</translation>
     </message>
     <message>
         <source>Display the stake modifier calculations in the debug.log file.</source>
@@ -5572,12 +6768,12 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Fout: geen geldige utxo!</translation>
     </message>
     <message>
-        <source>Failed to create mint</source>
-        <translation>Het is niet gelukt om mint te maken</translation>
-    </message>
-    <message>
         <source>Failed to find Zerocoins in wallet.dat</source>
         <translation>Niet gelukt om Zerocoins in wallet.dat te vinden.</translation>
+    </message>
+    <message>
+        <source>Failed to parse public spend</source>
+        <translation>Parsen van publieke uitgaven mislukt</translation>
     </message>
     <message>
         <source>Failed to select a zerocoin</source>
@@ -5590,6 +6786,10 @@ Wees alsjeblieft geduldig...</translation>
     <message>
         <source>Failed to write coin serial number into wallet</source>
         <translation>Het serienummer van het muntstuk kan niet in de portemonnee worden geschreven</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -%s=&lt;amount&gt;: '%s'</source>
+        <translation>Ongeldige hoeveelheid voor -%s=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
@@ -5616,6 +6816,10 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Adressen laden...</translation>
     </message>
     <message>
+        <source>Loading banlist...</source>
+        <translation>Banlijst aan het laden...</translation>
+    </message>
+    <message>
         <source>Loading block index...</source>
         <translation>Blockindex laden...</translation>
     </message>
@@ -5636,10 +6840,6 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Sporks laden...</translation>
     </message>
     <message>
-        <source>Loading wallet... (%3.2f %%)</source>
-        <translation>Portemonnee laden... (%3.2f %%)</translation>
-    </message>
-    <message>
         <source>Loading wallet...</source>
         <translation>Portemonnee aan het laden...</translation>
     </message>
@@ -5654,6 +6854,10 @@ Wees alsjeblieft geduldig...</translation>
     <message>
         <source>Lookup(): Invalid -proxy address or hostname: '%s'</source>
         <translation>Lookup (): ongeldig -proxy-adres of hostnaam: '%s'</translation>
+    </message>
+    <message>
+        <source>MNs synchronization pending...</source>
+        <translation>Synchronisatie van MN's in afwachting...</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: %u)</source>
@@ -5676,10 +6880,6 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Mint heeft de blockchain niet gehaald</translation>
     </message>
     <message>
-        <source>Need address because change is not exact</source>
-        <translation>Noodzaak van adres omdat wijziging niet exact is</translation>
-    </message>
-    <message>
         <source>Need to specify a port with -whitebind: '%s'</source>
         <translation>Moet een poort opgeven met -whitebind: '%s'</translation>
     </message>
@@ -5700,6 +6900,10 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Aantal aangepaste locatie back-ups om te behouden (standaard: %d)</translation>
     </message>
     <message>
+        <source>On first run, create a legacy wallet instead of a HD wallet</source>
+        <translation>Bij de initiële uitvoering, maak een legacy portemonnee aan in plaats van een HD portemonnee</translation>
+    </message>
+    <message>
         <source>Only accept block chain matching built-in checkpoints (default: %u)</source>
         <translation>Accepteer alleen blockchain matching met ingebouwde controlepunten (standaard: %u)</translation>
     </message>
@@ -5716,6 +6920,22 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Wachtwoord voor JSON-RPC connecties</translation>
     </message>
     <message>
+        <source>Peers are being disconnected due time differences.</source>
+        <translation>Peers worden verbroken vanwege tijdsverschillen.</translation>
+    </message>
+    <message>
+        <source>Unable to find transaction containing mint %s</source>
+        <translation>Kan geen transactie terugvinden die munting %s bevat</translation>
+    </message>
+    <message>
+        <source>Unable to find transaction containing mint, txHash: %s</source>
+        <translation>Kan geen transactie terugvinden die munting, txHash %s bevat</translation>
+    </message>
+    <message>
+        <source>Use block spam filter (default: %u)</source>
+        <translation>Gebruik block-spamfilter (standaard: %u)</translation>
+    </message>
+    <message>
         <source>isValid(): Invalid -proxy address or hostname: '%s'</source>
         <translation>isValid (): ongeldig -proxy-adres of hostnaam: '%s'</translation>
     </message>
@@ -5724,12 +6944,36 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Voorbereiden van hersynchronisatie...</translation>
     </message>
     <message>
+        <source>Please check that your computer's date and time are correct! If your clock is wrong FUNC Core will not work properly.</source>
+        <translation>Controleer of de datum en tijd van je computer juist zijn! Als je klok verkeerd ingesteld staat, werkt FUNC Core niet goed.</translation>
+    </message>
+    <message>
+        <source>Specify location of debug log file: this can be an absolute path or a path relative to the data directory (default: %s)</source>
+        <translation>Geef de locatie van het foutopsporingslogboek op: dit kan een absoluut pad zijn of een pad ten opzichte van de gegevensmap (standaard: %s)</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -%s address: '%s'</source>
+        <translation>Kan oplossing -%s niet voltooien voor adres: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot upgrade to HD wallet (already running HD support). Version: %d</source>
+        <translation>Kan niet upgraden naar een HD portemonnee (Voert alreeds HD ondersteuning uit). Versie: %d</translation>
+    </message>
+    <message>
+        <source>Need destination or change address because change is not exact</source>
+        <translation>Bestemmings- of wisseladres nodig omdat wissel niet exact is</translation>
+    </message>
+    <message>
         <source>Prepend debug output with timestamp (default: %u)</source>
         <translation>Voeg debug output met timestamp toe (standaard: %u)</translation>
     </message>
     <message>
         <source>Print version and exit</source>
         <translation>Print versie en verlaat</translation>
+    </message>
+    <message>
+        <source>Pubcoin not found in mint tx</source>
+        <translation>Pubcoin niet gevonden in mint tx</translation>
     </message>
     <message>
         <source>RPC server options:</source>
@@ -5746,14 +6990,6 @@ Wees alsjeblieft geduldig...</translation>
     <message>
         <source>Rebuild block chain index from current blk000??.dat files</source>
         <translation>Herstel blockchain index van huidige blk000??.dat bestanden</translation>
-    </message>
-    <message>
-        <source>Receive and display P2P network alerts (default: %u)</source>
-        <translation>Ontvang en laat P2P netwerkmeldingen zien (standaard: %u)</translation>
-    </message>
-    <message>
-        <source>Reindex the accumulator database</source>
-        <translation>Herindexeer de verzameldatabase</translation>
     </message>
     <message>
         <source>Relay and mine data carrier transactions (default: %u)</source>
@@ -5790,10 +7026,6 @@ Wees alsjeblieft geduldig...</translation>
     <message>
         <source>Send transactions as zero-fee transactions if possible (default: %u)</source>
         <translation>Zend transacties als zero fee transacties indien mogelijk (standaard: %u)</translation>
-    </message>
-    <message>
-        <source>Session timed out.</source>
-        <translation>Sessie verlopen.</translation>
     </message>
     <message>
         <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
@@ -5838,14 +7070,6 @@ Wees alsjeblieft geduldig...</translation>
     <message>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
         <translation>Krimp debug.log bestand bij client startup (standaard: 1 wanneer geen -debug)</translation>
-    </message>
-    <message>
-        <source>Signing failed.</source>
-        <translation>Ondertekenen mislukt.</translation>
-    </message>
-    <message>
-        <source>Signing timed out.</source>
-        <translation>Ondertekening time out.</translation>
     </message>
     <message>
         <source>Signing transaction failed</source>
@@ -5904,10 +7128,6 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Synchronisatie voltooid</translation>
     </message>
     <message>
-        <source>Synchronization pending...</source>
-        <translation>Synchronisatie in afwachting...</translation>
-    </message>
-    <message>
         <source>Synchronizing budgets...</source>
         <translation>Budgeten synchroniseren...</translation>
     </message>
@@ -5926,14 +7146,6 @@ Wees alsjeblieft geduldig...</translation>
     <message>
         <source>Syncing zFUNC wallet...</source>
         <translation>Synchroniseren zFUNC portemonnee...</translation>
-    </message>
-    <message>
-        <source>The coin spend has been used</source>
-        <translation>De muntuitgaven zijn gebruikt</translation>
-    </message>
-    <message>
-        <source>The transaction did not verify</source>
-        <translation>De transactie heeft niet geverifieerd</translation>
     </message>
     <message>
         <source>This help message</source>
@@ -5996,6 +7208,14 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Niet mogelijk te binden aan %s op deze computer (bind stuurt fout %s terug)</translation>
     </message>
     <message>
+        <source>Unable to generate initial key</source>
+        <translation>Niet mogelijke om de initiële sleutel te genereren.</translation>
+    </message>
+    <message>
+        <source>Unable to generate keys</source>
+        <translation>Niet mogelijke om sleutels te genereren.</translation>
+    </message>
+    <message>
         <source>Unable to sign spork message, wrong key?</source>
         <translation>Kan sporkbericht niet tekenen, verkeerde sleutel?</translation>
     </message>
@@ -6006,6 +7226,10 @@ Wees alsjeblieft geduldig...</translation>
     <message>
         <source>Unknown network specified in -onlynet: '%s'</source>
         <translation>Onbekend netwerk gespecificeerd in -onlynet: '%s'</translation>
+    </message>
+    <message>
+        <source>Unsupported logging category %s=%s.</source>
+        <translation>Niet-ondersteunde logboekcategorie %s=%s.</translation>
     </message>
     <message>
         <source>Upgrade wallet to latest format</source>
@@ -6096,6 +7320,10 @@ Wees alsjeblieft geduldig...</translation>
         <translation>ZeroMQ notificatie opties:</translation>
     </message>
     <message>
+        <source>Zerocoin minting available only on regtest</source>
+        <translation>Zerocoin munting alleen beschikbaar via regtest</translation>
+    </message>
+    <message>
         <source>Zerocoin options:</source>
         <translation>Zerocoin opties:</translation>
     </message>
@@ -6106,6 +7334,29 @@ Wees alsjeblieft geduldig...</translation>
     <message>
         <source>wallet.dat corrupt, salvage failed</source>
         <translation>wallet.dat corrupt, redding mislukt</translation>
+    </message>
+</context>
+<context>
+    <name>send</name>
+    <message>
+        <source>Form</source>
+        <translation>Formulier</translation>
+    </message>
+    <message>
+        <source>Send</source>
+        <translation>Zenden</translation>
+    </message>
+    <message>
+        <source>TextLabel</source>
+        <translation>TextLabel</translation>
+    </message>
+    <message>
+        <source>Include delegated</source>
+        <translation>Reken delegatie mee</translation>
+    </message>
+    <message>
+        <source>PushButton</source>
+        <translation>Druk Knop</translation>
     </message>
 </context>
 </TS>

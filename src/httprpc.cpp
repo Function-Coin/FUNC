@@ -1,7 +1,7 @@
 // Copyright (c) 2015-2017 The Bitcoin Core developers
-// Copyright (c) 2017-2019 The PIVX developers
-// Copyright (c) 2019 The CryptoDev developers
-// Copyright (c) 2019 The FunCoin developers
+// Copyright (c) 2017-2020 The PIVX developers
+// Copyright (c) 2020 The CryptoDev developers
+// Copyright (c) 2020 The FunCoin developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -26,7 +26,7 @@
 class HTTPRPCTimer : public RPCTimerBase
 {
 public:
-    HTTPRPCTimer(struct event_base* eventBase, boost::function<void(void)>& func, int64_t millis) :
+    HTTPRPCTimer(struct event_base* eventBase, std::function<void(void)>& func, int64_t millis) :
         ev(eventBase, false, func)
     {
         struct timeval tv;
@@ -48,7 +48,7 @@ public:
     {
         return "HTTP";
     }
-    RPCTimerBase* NewTimer(boost::function<void(void)>& func, int64_t millis)
+    RPCTimerBase* NewTimer(std::function<void(void)>& func, int64_t millis)
     {
         return new HTTPRPCTimer(base, func, millis);
     }
@@ -171,7 +171,7 @@ static bool InitRPCAuthentication()
 
 bool StartHTTPRPC()
 {
-    LogPrint("rpc", "Starting HTTP RPC server\n");
+    LogPrint(BCLog::RPC, "Starting HTTP RPC server\n");
     if (!InitRPCAuthentication())
         return false;
 
@@ -185,12 +185,12 @@ bool StartHTTPRPC()
 
 void InterruptHTTPRPC()
 {
-    LogPrint("rpc", "Interrupting HTTP RPC server\n");
+    LogPrint(BCLog::RPC, "Interrupting HTTP RPC server\n");
 }
 
 void StopHTTPRPC()
 {
-    LogPrint("rpc", "Stopping HTTP RPC server\n");
+    LogPrint(BCLog::RPC, "Stopping HTTP RPC server\n");
     UnregisterHTTPHandler("/", true);
     if (httpRPCTimerInterface) {
         RPCUnsetTimerInterface(httpRPCTimerInterface);

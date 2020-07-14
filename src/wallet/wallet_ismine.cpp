@@ -1,6 +1,8 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2016-2019 The PIVX developers
+// Copyright (c) 2020 The CryptoDev developers
+// Copyright (c) 2020 The FunCoin developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -9,6 +11,7 @@
 #include "key.h"
 #include "keystore.h"
 #include "script/script.h"
+#include "script/sign.h"
 #include "script/standard.h"
 #include "util.h"
 
@@ -35,18 +38,11 @@ isminetype IsMine(const CKeyStore& keystore, const CTxDestination& dest)
 
 isminetype IsMine(const CKeyStore& keystore, const CScript& scriptPubKey)
 {
-    if(keystore.HaveWatchOnly(scriptPubKey))
-        return ISMINE_WATCH_ONLY;
-    if(keystore.HaveMultiSig(scriptPubKey))
-        return ISMINE_MULTISIG;
-
     std::vector<valtype> vSolutions;
     txnouttype whichType;
     if(!Solver(scriptPubKey, whichType, vSolutions)) {
         if(keystore.HaveWatchOnly(scriptPubKey))
-            return ISMINE_WATCH_ONLY;
-        if(keystore.HaveMultiSig(scriptPubKey))
-            return ISMINE_MULTISIG;
+            return ISMINE_WATCH_UNSOLVABLE;
 
         return ISMINE_NO;
     }
@@ -77,6 +73,20 @@ isminetype IsMine(const CKeyStore& keystore, const CScript& scriptPubKey)
         }
         break;
     }
+    case TX_COLDSTAKE: {
+        CKeyID stakeKeyID = CKeyID(uint160(vSolutions[0]));
+        bool stakeKeyIsMine = keystore.HaveKey(stakeKeyID);
+        CKeyID ownerKeyID = CKeyID(uint160(vSolutions[1]));
+        bool spendKeyIsMine = keystore.HaveKey(ownerKeyID);
+
+        if (spendKeyIsMine && stakeKeyIsMine)
+            return ISMINE_SPENDABLE_STAKEABLE;
+        else if (stakeKeyIsMine)
+            return ISMINE_COLD;
+        else if (spendKeyIsMine)
+            return ISMINE_SPENDABLE_DELEGATED;
+        break;
+    }
     case TX_MULTISIG: {
         // Only consider transactions "mine" if we own ALL the
         // keys involved. multi-signature transactions that are
@@ -90,10 +100,11 @@ isminetype IsMine(const CKeyStore& keystore, const CScript& scriptPubKey)
     }
     }
 
-    if(keystore.HaveWatchOnly(scriptPubKey))
-        return ISMINE_WATCH_ONLY;
-    if(keystore.HaveMultiSig(scriptPubKey))
-        return ISMINE_MULTISIG;
+    if (keystore.HaveWatchOnly(scriptPubKey)) {
+        // TODO: This could be optimized some by doing some work after the above solver
+        CScript scriptSig;
+        return ProduceSignature(DummySignatureCreator(&keystore), scriptPubKey, scriptSig, false) ? ISMINE_WATCH_SOLVABLE : ISMINE_WATCH_UNSOLVABLE;
+    }
 
     return ISMINE_NO;
 }

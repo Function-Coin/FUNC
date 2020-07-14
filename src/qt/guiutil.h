@@ -1,7 +1,7 @@
 // Copyright (c) 2011-2013 The Bitcoin developers
-// Copyright (c) 2017-2018 The PIVX developers
-// Copyright (c) 2019 The CryptoDev developers
-// Copyright (c) 2019 The FunCoin developers
+// Copyright (c) 2017-2020 The PIVX developers
+// Copyright (c) 2020 The CryptoDev developers
+// Copyright (c) 2020 The FunCoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -9,6 +9,8 @@
 #define BITCOIN_QT_GUIUTIL_H
 
 #include "amount.h"
+#include "askpassphrasedialog.h"
+#include "fs.h"
 
 #include <QEvent>
 #include <QHeaderView>
@@ -19,7 +21,6 @@
 #include <QTableView>
 #include <QTableWidget>
 
-#include <boost/filesystem.hpp>
 
 class QValidatedLineEdit;
 class SendCoinsRecipient;
@@ -33,20 +34,40 @@ class QUrl;
 class QWidget;
 QT_END_NAMESPACE
 
+/*
+ * General GUI exception
+ */
+class GUIException : public std::exception
+{
+public:
+    std::string message;
+    GUIException(const std::string &message) : message(message) {}
+};
+
 /** Utility functions used by the FUNC Qt UI.
  */
 namespace GUIUtil
 {
 // Create human-readable string from date
 QString dateTimeStr(const QDateTime& datetime);
+QString dateTimeStrWithSeconds(const QDateTime& date);
 QString dateTimeStr(qint64 nTime);
 
 // Render FUNC addresses in monospace font
 QFont bitcoinAddressFont();
 
+// Parse string into a CAmount value
+CAmount parseValue(const QString& text, int displayUnit, bool* valid_out = 0);
+
+// Format an amount
+QString formatBalance(CAmount amount, int nDisplayUnit = 0, bool isZfunc = false);
+
 // Set up widgets for address and amounts
 void setupAddressWidget(QValidatedLineEdit* widget, QWidget* parent);
 void setupAmountWidget(QLineEdit* widget, QWidget* parent);
+
+// Update the cursor of the widget after a text change
+void updateWidgetTextAndCursorPosition(QLineEdit* widget, const QString& str);
 
 // Parse "func:" URI into recipient object, return true on successful parsing
 bool parseBitcoinURI(const QUrl& uri, SendCoinsRecipient* out);
@@ -108,20 +129,23 @@ QString getOpenFileName(QWidget* parent, const QString& caption, const QString& 
     */
 Qt::ConnectionType blockingGUIThreadConnection();
 
+// Activate, show and raise the widget
+void bringToFront(QWidget* w);
+
 // Determine whether a widget is hidden behind other windows
 bool isObscured(QWidget* w);
 
 // Open debug.log
-void openDebugLogfile();
+bool openDebugLogfile();
 
 // Open func.conf
-void openConfigfile();
+bool openConfigfile();
 
 // Open masternode.conf
-void openMNConfigfile();
+bool openMNConfigfile();
 
 // Browse backup folder
-void showBackups();
+bool showBackups();
 
 // Replace invalid default fonts with known good ones
 void SubstituteFonts(const QString& language);
@@ -178,7 +202,7 @@ private:
     void setViewHeaderResizeMode(int logicalIndex, QHeaderView::ResizeMode resizeMode);
     void resizeColumn(int nColumnIndex, int width);
 
-private slots:
+private Q_SLOTS:
     void on_sectionResized(int logicalIndex, int oldSize, int newSize);
     void on_geometriesChanged();
 };
@@ -213,10 +237,10 @@ QString loadStyleSheet();
 bool isExternal(QString theme);
 
 /* Convert QString to OS specific boost path through UTF-8 */
-boost::filesystem::path qstringToBoostPath(const QString& path);
+fs::path qstringToBoostPath(const QString& path);
 
 /* Convert OS specific boost path to QString through UTF-8 */
-QString boostPathToQString(const boost::filesystem::path& path);
+QString boostPathToQString(const fs::path& path);
 
 /* Convert seconds into a QString with days, hours, mins, secs */
 QString formatDurationStr(int secs);

@@ -1,9 +1,9 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2019 The PIVX developers
-// Copyright (c) 2019 The CryptoDev developers
-// Copyright (c) 2019 The FunCoin developers
+// Copyright (c) 2015-2020 The PIVX developers
+// Copyright (c) 2020 The CryptoDev developers
+// Copyright (c) 2020 The FunCoin developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -37,11 +37,20 @@ static const CRPCConvertParam vRPCConvertParams[] =
         {"generate", 0},
         {"getnetworkhashps", 0},
         {"getnetworkhashps", 1},
+        {"delegatestake", 1},
+        {"delegatestake", 3},
+        {"delegatestake", 4},
+        {"delegatestake", 5},
+        {"rawdelegatestake", 1},
+        {"rawdelegatestake", 3},
+        {"rawdelegatestake", 4},
         {"sendtoaddress", 1},
         {"sendtoaddressix", 1},
         {"settxfee", 0},
         {"getreceivedbyaddress", 1},
         {"getreceivedbyaccount", 1},
+        {"listcoldutxos", 0},
+        {"listdelegators", 0},
         {"listreceivedbyaddress", 0},
         {"listreceivedbyaddress", 1},
         {"listreceivedbyaddress", 2},
@@ -64,6 +73,8 @@ static const CRPCConvertParam vRPCConvertParams[] =
         {"listtransactions", 1},
         {"listtransactions", 2},
         {"listtransactions", 3},
+        {"listtransactions", 4},
+        {"listtransactions", 5},
         {"listaccounts", 0},
         {"listaccounts", 1},
         {"walletpassphrase", 1},
@@ -81,6 +92,8 @@ static const CRPCConvertParam vRPCConvertParams[] =
         {"listunspent", 1},
         {"listunspent", 2},
         {"listunspent", 3},
+        {"logging", 0},
+        {"logging", 1},
         {"getblock", 1},
         {"getblockheader", 1},
         {"gettransaction", 1},
@@ -88,16 +101,21 @@ static const CRPCConvertParam vRPCConvertParams[] =
         {"createrawtransaction", 0},
         {"createrawtransaction", 1},
         {"createrawtransaction", 2},
+        {"fundrawtransaction", 1},
         {"signrawtransaction", 1},
         {"signrawtransaction", 2},
         {"sendrawtransaction", 1},
         {"sendrawtransaction", 2},
+        {"sethdseed", 0},
         {"gettxout", 1},
         {"gettxout", 2},
         {"lockunspent", 0},
         {"lockunspent", 1},
         {"importprivkey", 2},
+        {"importprivkey", 3},
         {"importaddress", 2},
+        {"importaddress", 3},
+        {"importpubkey", 2},
         {"verifychain", 0},
         {"verifychain", 1},
         {"keypoolrefill", 0},
@@ -120,8 +138,6 @@ static const CRPCConvertParam vRPCConvertParams[] =
         //{"startmasternode", 1},
         {"mnvoteraw", 1},
         {"mnvoteraw", 4},
-        {"reservebalance", 0},
-        {"reservebalance", 1},
         {"setstakesplitthreshold", 0},
         {"autocombinerewards", 0},
         {"autocombinerewards", 1},
@@ -133,8 +149,6 @@ static const CRPCConvertParam vRPCConvertParams[] =
         {"mintzerocoin", 0},
         {"mintzerocoin", 1},
         {"spendzerocoin", 0},
-        {"spendzerocoin", 1},
-        {"spendzerocoin", 2},
         {"spendrawzerocoin", 2},
         {"spendzerocoinmints", 0},
         {"importzerocoins", 0},
@@ -147,22 +161,15 @@ static const CRPCConvertParam vRPCConvertParams[] =
         {"searchdzfunc", 0},
         {"searchdzfunc", 1},
         {"searchdzfunc", 2},
-        {"getaccumulatorvalues", 0},
-        {"getaccumulatorwitness",2},
         {"getmintsvalues", 2},
         {"enableautomintaddress", 0},
         {"getblockindexstats", 0},
         {"getblockindexstats", 1},
         {"getblockindexstats", 2},
-        {"getmintsinblocks", 0},
-        {"getmintsinblocks", 1},
-        {"getmintsinblocks", 2},
         {"getserials", 0},
         {"getserials", 1},
         {"getserials", 2},
         {"getfeeinfo", 0},
-        {"getchecksumblock", 1},
-        {"getchecksumblock", 2},
     };
 
 class CRPCConvertTable

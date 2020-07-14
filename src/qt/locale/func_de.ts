@@ -1,5 +1,73 @@
 <TS language="de" version="2.1">
 <context>
+    <name>AddNewAddressDialog</name>
+    <message>
+        <source>Dialog</source>
+        <translation>Dialog</translation>
+    </message>
+    <message>
+        <source>My Address</source>
+        <translation>Meine Adresse</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adresse</translation>
+    </message>
+    <message>
+        <source>PushButton</source>
+        <translation>Druckknopf</translation>
+    </message>
+    <message>
+        <source>CANCEL</source>
+        <translation>ABBRECHEN</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
+    </message>
+</context>
+<context>
+    <name>AddNewContactDialog</name>
+    <message>
+        <source>Dialog</source>
+        <translation>Dialog</translation>
+    </message>
+    <message>
+        <source>TextLabel</source>
+        <translation>TextEtikett</translation>
+    </message>
+    <message>
+        <source>CANCEL</source>
+        <translation>ABBRECHEN</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
+    </message>
+    <message>
+        <source>Edit Contact</source>
+        <translation>Kontakt bearbeiten</translation>
+    </message>
+    <message>
+        <source>Set a label for the selected address</source>
+        <translation>Der ausgewählten Adresse ein Label zuweisen</translation>
+    </message>
+    <message>
+        <source>Enter a name for the address (e.g Exchange)</source>
+        <translation>Einen Namen für diese Adresse eingeben (z.B. Exchange)</translation>
+    </message>
+    <message>
+        <source>SAVE</source>
+        <translation>SICHERN</translation>
+    </message>
+    <message>
+        <source>Edit label for the selected address:
+%1</source>
+        <translation>Beschreibung bearbeiten für ausgewählte Adresse:
+%1</translation>
+    </message>
+</context>
+<context>
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
@@ -63,11 +131,11 @@
     </message>
     <message>
         <source>These are your FUNC addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dies sind ihre FUNC-Adressen zum Tätigen von Überweisungen. Bitte prüfen Sie den Betrag und die Empfangsadresse, bevor Sie FUNC überweisen.</translation>
+        <translation>Dies sind ihre FUNC-Adressen zum Senden von Zahlungen. Bitte prüfen Sie den Betrag und die Empfangsadresse, bevor Sie FUNC überweisen.</translation>
     </message>
     <message>
         <source>These are your FUNC addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dies sind ihre FUNC-Adressen zum Empfangen von Zahlungen. Es wird empfohlen für jede Transaktion eine neue Empfangsadresse zu verwenden.</translation>
+        <translation>Das sind Ihre FUNC-Adressen zum Empfangen von Zahlungen. Es wird empfohlen für jede Transaktion eine neue Empfangsadresse zu verwenden.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -99,6 +167,21 @@
     </message>
 </context>
 <context>
+    <name>AddressLabelRow</name>
+    <message>
+        <source>Form</source>
+        <translation>Formular</translation>
+    </message>
+    <message>
+        <source>Bob Allen</source>
+        <translation>Bob Allen</translation>
+    </message>
+    <message>
+        <source>DN6i46dytMPVhV1JMGZFuQBh7BZZ6nNLox</source>
+        <translation>DN6i46dytMPVhV1JMGZFuQBh7BZZ6nNLox</translation>
+    </message>
+</context>
+<context>
     <name>AddressTableModel</name>
     <message>
         <source>Label</source>
@@ -109,8 +192,127 @@
         <translation>Adresse</translation>
     </message>
     <message>
+        <source>Date</source>
+        <translation>Datum</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Art</translation>
+    </message>
+    <message>
         <source>(no label)</source>
         <translation>(keine Bezeichnung)</translation>
+    </message>
+</context>
+<context>
+    <name>AddressesWidget</name>
+    <message>
+        <source>Form</source>
+        <translation>Formular</translation>
+    </message>
+    <message>
+        <source>Send</source>
+        <translation>Schicken</translation>
+    </message>
+    <message>
+        <source>TextLabel</source>
+        <translation>TextEtikett</translation>
+    </message>
+    <message>
+        <source>N/A</source>
+        <translation>k.A.</translation>
+    </message>
+    <message>
+        <source>Contact name</source>
+        <translation>Kontaktname</translation>
+    </message>
+    <message>
+        <source>Enter address</source>
+        <translation>Adresse einfügen</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
+    </message>
+    <message>
+        <source>Contacts</source>
+        <translation>Kontakte</translation>
+    </message>
+    <message>
+        <source>You can add a new one in the options menu to the side.</source>
+        <translation>Unter Menü "Optionen" auf der Seite können sie einen Neuen erfassen.</translation>
+    </message>
+    <message>
+        <source>No contacts yet</source>
+        <translation>Noch keine Kontakte</translation>
+    </message>
+    <message>
+        <source>e.g. John Doe</source>
+        <translation>z.B. John Doe</translation>
+    </message>
+    <message>
+        <source>Enter FUNC address</source>
+        <translation>FUNC Adresse eingeben</translation>
+    </message>
+    <message>
+        <source>SAVE</source>
+        <translation>SICHERN</translation>
+    </message>
+    <message>
+        <source>Invalid Contact Address</source>
+        <translation>Ungültige Kontaktadresse</translation>
+    </message>
+    <message>
+        <source>Cannot store your own address as contact</source>
+        <translation>Eigene Adresse nicht als Kontakt speicherbar</translation>
+    </message>
+    <message>
+        <source>Address already stored, label: %1</source>
+        <translation>Adresse schon gespeichert, label: %1</translation>
+    </message>
+    <message>
+        <source>New Contact Stored</source>
+        <translation>Neuer Kontakt gespeichert</translation>
+    </message>
+    <message>
+        <source>Error Storing Contact</source>
+        <translation>Fehler beim Speichern des Kontakts</translation>
+    </message>
+    <message>
+        <source>Contact edited</source>
+        <translation>Kontakt bearbeitet</translation>
+    </message>
+    <message>
+        <source>Contact edit failed</source>
+        <translation>Bearbeitung des Kontakts fehlgeschlagen</translation>
+    </message>
+    <message>
+        <source>Delete Contact</source>
+        <translation>Lösche Kontakt</translation>
+    </message>
+    <message>
+        <source>You are just about to remove the contact:
+
+%1
+
+Are you sure?</source>
+        <translation>Sie sind dabei folgenden Kontakt zu löschen:
+
+%1
+
+Sind Sie sicher?</translation>
+    </message>
+    <message>
+        <source>Contact Deleted</source>
+        <translation>Kontakt gelöscht</translation>
+    </message>
+    <message>
+        <source>Error deleting a contact</source>
+        <translation>Fehler beim Löschen des Kontakts</translation>
+    </message>
+    <message>
+        <source>Address copied</source>
+        <translation>Adresse kopiert</translation>
     </message>
 </context>
 <context>
@@ -120,24 +322,12 @@
         <translation>Passphrase Dialog</translation>
     </message>
     <message>
-        <source>Enter passphrase</source>
-        <translation>Passphrase eingeben</translation>
+        <source>TextLabel</source>
+        <translation>TextEtikett</translation>
     </message>
     <message>
-        <source>New passphrase</source>
-        <translation>Neue Passphrase</translation>
-    </message>
-    <message>
-        <source>Repeat new passphrase</source>
-        <translation>Neue Passphrase wiederholen</translation>
-    </message>
-    <message>
-        <source>Serves to disable the trivial sendmoney when OS account compromised. Provides no real security.</source>
-        <translation>Verhindert das einfache Überweisen von Geld, falls das Systemkonto kompromittiert wurde. Bietet keine wirkliche Sicherheit.</translation>
-    </message>
-    <message>
-        <source>For anonymization, automint, and staking only</source>
-        <translation>Nur zur Anonymisierung, automatischen Prägung (automint) und Staking</translation>
+        <source>PushButton</source>
+        <translation>Druckknopf</translation>
     </message>
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
@@ -150,6 +340,11 @@
     <message>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
         <translation>Dieser Vorgang benötigt ihre Passphrase, um die Wallet zu entsperren.</translation>
+    </message>
+    <message>
+        <source>Unlock wallet
+for staking</source>
+        <translation>Wallet entsperren</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
@@ -176,16 +371,36 @@
         <translation>Verschlüsselung der Wallet bestätigen</translation>
     </message>
     <message>
+        <source>WARNING</source>
+        <translation>WARNUNG</translation>
+    </message>
+    <message>
+        <source>If you encrypt your wallet and lose your passphrase, you will</source>
+        <translation>Wenn Sie ihr Wallet verschlüsseln und Ihre Passphrase verlieren, werden Sie</translation>
+    </message>
+    <message>
+        <source>LOSE ALL OF YOUR FUNC</source>
+        <translation>ALLE IHRE FUNC VERLIEREN</translation>
+    </message>
+    <message>
+        <source>ENCRYPT</source>
+        <translation>VERSCHLÜSSELN</translation>
+    </message>
+    <message>
+        <source>CANCEL</source>
+        <translation>ABBRECHEN</translation>
+    </message>
+    <message>
+        <source>WARNING: The Caps Lock key is on!</source>
+        <translation>WARNUNG: CAPS LOCK IST EINGESCHALTET</translation>
+    </message>
+    <message>
         <source>FUNC will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your FUNCs from being stolen by malware infecting your computer.</source>
         <translation>Die Anwendung wird nun geschlossen um die Verschlüsselung abzuschließen. Bitte bedenken Sie, dass auch die Verschlüsselung nicht sicher vor Diebstahl ihrer FUNCs durch Schadsoftware schützt, die ihren Computer befällt.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Sind Sie sich sicher, dass Sie Ihre Wallet verschlüsseln möchten?</translation>
-    </message>
-    <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FUNC&lt;/b&gt;!</source>
-        <translation>Warnung: Wenn Sie Ihre Wallet verschlüsseln und Ihre Passphrase verlieren, &lt;b&gt;verlieren Sie alle ihre FUNCs&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -198,6 +413,10 @@
     <message>
         <source>Wallet encryption failed</source>
         <translation>Verschlüsselung der Wallet fehlgeschlagen</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
     </message>
     <message>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
@@ -223,10 +442,6 @@
         <source>Wallet passphrase was successfully changed.</source>
         <translation>Die Passphrase der Wallet wurde erfolgreich geändert.</translation>
     </message>
-    <message>
-        <source>Warning: The Caps Lock key is on!</source>
-        <translation>Warnung: Die Feststelltaste ist aktiviert!</translation>
-    </message>
 </context>
 <context>
     <name>BanTableModel</name>
@@ -240,639 +455,30 @@
     </message>
 </context>
 <context>
-    <name>Bip38ToolDialog</name>
+    <name>CSRow</name>
     <message>
-        <source>BIP 38 Tool</source>
-        <translation>BIP 38 Tool</translation>
+        <source>Form</source>
+        <translation>Formular</translation>
     </message>
     <message>
-        <source>&amp;BIP 38 Encrypt</source>
-        <translation>&amp;BIP 38 Verschlüsselung</translation>
+        <source>Savings</source>
+        <translation>Erspartes</translation>
     </message>
     <message>
-        <source>Address:</source>
-        <translation>Adresse:</translation>
+        <source>0,00 FUNC</source>
+        <translation>0,00 FUNC</translation>
     </message>
     <message>
-        <source>Enter a FUNC Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Bitte die FUNC-Adresse eingeben, welche mittels BIP 38 verschlüsselt werden soll. Bitte ein Passwort in die mittlere Box eintragen. Klicken Sie auf "Verschlüsslen" um den privaten Schlüssel zu generieren.</translation>
+        <source>address</source>
+        <translation>Adresse</translation>
     </message>
     <message>
-        <source>The FUNC address to encrypt</source>
-        <translation>Die zu verschlüsselnde FUNC-Adresse</translation>
+        <source>Not Staking</source>
+        <translation>Nicht staking</translation>
     </message>
     <message>
-        <source>Choose previously used address</source>
-        <translation>Bereits verwendete Adresse auswählen</translation>
-    </message>
-    <message>
-        <source>Alt+A</source>
-        <translation>Alt+A</translation>
-    </message>
-    <message>
-        <source>Paste address from clipboard</source>
-        <translation>Adresse aus der Zwischenablage einfügen</translation>
-    </message>
-    <message>
-        <source>Alt+P</source>
-        <translation>Alt+P</translation>
-    </message>
-    <message>
-        <source>Passphrase: </source>
-        <translation>Passphrase: </translation>
-    </message>
-    <message>
-        <source>Encrypted Key:</source>
-        <translation>Geschützer Schlüssel:</translation>
-    </message>
-    <message>
-        <source>Copy the current signature to the system clipboard</source>
-        <translation>Kopiert die aktuelle Signatur in die Zwischenablage</translation>
-    </message>
-    <message>
-        <source>Encrypt the private key for this FUNC address</source>
-        <translation>Den privaten Schlüssel für diese FUNC-Adresse verschlüsseln</translation>
-    </message>
-    <message>
-        <source>Reset all fields</source>
-        <translation>Alle Felder zurücksetzen</translation>
-    </message>
-    <message>
-        <source>The encrypted private key</source>
-        <translation>Der verschlüsselte private Schlüssel</translation>
-    </message>
-    <message>
-        <source>Decrypt the entered key using the passphrase</source>
-        <translation>Den eigegebenen Schlüssel mittels Passwort entschlüsseln</translation>
-    </message>
-    <message>
-        <source>Encrypt &amp;Key</source>
-        <translation>Verschlüsselt &amp;Schlüssel</translation>
-    </message>
-    <message>
-        <source>Clear &amp;All</source>
-        <translation>&amp;Alles zurücksetzen</translation>
-    </message>
-    <message>
-        <source>&amp;BIP 38 Decrypt</source>
-        <translation>&amp;BIP 38 Entschlüsseln</translation>
-    </message>
-    <message>
-        <source>Enter the BIP 38 encrypted private key. Enter the passphrase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</source>
-        <translation>Geben Sie den BIP 38 verschlüsselten privaten Schlüssel ein. Geben Sie die Passphrase in das mittlere Feld ein. Klicken Sie auf 'Entschlüsseln', um den privaten Schlüssel zu berechnen. Nach erfolgreicher Entschlüsselung, wird durch Klicken auf 'Adresse importieren' dieser private Schlüssel der Wallet hinzugefügt.</translation>
-    </message>
-    <message>
-        <source>Decrypt &amp;Key</source>
-        <translation>Entschlüsseln &amp;Schlüssel</translation>
-    </message>
-    <message>
-        <source>Decrypted Key:</source>
-        <translation>Entschlüsselter Schlüssel:</translation>
-    </message>
-    <message>
-        <source>Import Address</source>
-        <translation>Adresse importieren</translation>
-    </message>
-    <message>
-        <source>Click "Decrypt Key" to compute key</source>
-        <translation>Klicke "Schlüssel entschlüsseln" um den Schlüssel zu berechnen</translation>
-    </message>
-    <message>
-        <source>The entered passphrase is invalid. </source>
-        <translation>Die eingegebene Passphrase ist ungültig. </translation>
-    </message>
-    <message>
-        <source>Allowed: 0-9,a-z,A-Z,</source>
-        <translation>Zulässig: 0-9,a-z,A-Z,</translation>
-    </message>
-    <message>
-        <source>The entered address is invalid.</source>
-        <translation>Die eingegebene Adresse ist falsch</translation>
-    </message>
-    <message>
-        <source>Please check the address and try again.</source>
-        <translation>Bitte die Adresse prüfen und erneut eingeben</translation>
-    </message>
-    <message>
-        <source>The entered address does not refer to a key.</source>
-        <translation>Die eingegebene Adresse passt zu keinem Schlüssel</translation>
-    </message>
-    <message>
-        <source>Wallet unlock was cancelled.</source>
-        <translation>Entsperrung der Wallet wurde abgebrochen.</translation>
-    </message>
-    <message>
-        <source>Private key for the entered address is not available.</source>
-        <translation>Kein privater Schlüssel für die eingegebene Adresse verfügbar</translation>
-    </message>
-    <message>
-        <source>Failed to decrypt.</source>
-        <translation>Entschlüsselung fehlgeschlagen.</translation>
-    </message>
-    <message>
-        <source>Please check the key and passphrase and try again.</source>
-        <translation>Bitte überprüfen Sie den Schlüssel und die Passphrase und versuchen Sie es erneut.</translation>
-    </message>
-    <message>
-        <source>Data Not Valid.</source>
-        <translation>Daten ungültig.</translation>
-    </message>
-    <message>
-        <source>Please try again.</source>
-        <translation>Bitte versuchen Sie es erneut.</translation>
-    </message>
-    <message>
-        <source>Please wait while key is imported</source>
-        <translation>Bitte warten. Schlüssel wird importiert..</translation>
-    </message>
-    <message>
-        <source>Key Already Held By Wallet</source>
-        <translation>Schlüssel bereits in der Wallet vorhanden</translation>
-    </message>
-    <message>
-        <source>Error Adding Key To Wallet</source>
-        <translation>Fehler beim Hinzufügen des Schlüssels zur Wallet</translation>
-    </message>
-    <message>
-        <source>Successfully Added Private Key To Wallet</source>
-        <translation>Privater Schlüssel erfolgreich zur Wallet hinzugefügt</translation>
-    </message>
-</context>
-<context>
-    <name>BitcoinGUI</name>
-    <message>
-        <source>Wallet</source>
-        <translation>Wallet</translation>
-    </message>
-    <message>
-        <source>Node</source>
-        <translation>Node</translation>
-    </message>
-    <message>
-        <source>&amp;Overview</source>
-        <translation>&amp;Übersicht</translation>
-    </message>
-    <message>
-        <source>Show general overview of wallet</source>
-        <translation>Gesamtübersicht der Wallet anzeigen</translation>
-    </message>
-    <message>
-        <source>&amp;Send</source>
-        <translation>&amp;Überweisen</translation>
-    </message>
-    <message>
-        <source>&amp;Receive</source>
-        <translation>&amp;Empfangen</translation>
-    </message>
-    <message>
-        <source>&amp;Transactions</source>
-        <translation>&amp;Transaktionen</translation>
-    </message>
-    <message>
-        <source>Browse transaction history</source>
-        <translation>Transaktionsverlauf durchsuchen</translation>
-    </message>
-    <message>
-        <source>Privacy Actions for zFUNC</source>
-        <translation>Datenschutzmaßnahmen für zFUNC</translation>
-    </message>
-    <message>
-        <source>E&amp;xit</source>
-        <translation>&amp;Beenden</translation>
-    </message>
-    <message>
-        <source>Quit application</source>
-        <translation>Anwendung beenden</translation>
-    </message>
-    <message>
-        <source>About &amp;Qt</source>
-        <translation>Über &amp;Qt</translation>
-    </message>
-    <message>
-        <source>Show information about Qt</source>
-        <translation>Informationen über Qt anzeigen</translation>
-    </message>
-    <message>
-        <source>&amp;Options...</source>
-        <translation>&amp;Konfiguration...</translation>
-    </message>
-    <message>
-        <source>&amp;Show / Hide</source>
-        <translation>&amp;Anzeigen / Verstecken</translation>
-    </message>
-    <message>
-        <source>Show or hide the main Window</source>
-        <translation>Das Hauptfenster anzeigen oder verstecken</translation>
-    </message>
-    <message>
-        <source>&amp;Encrypt Wallet...</source>
-        <translation>Wallet &amp;verschlüsseln...</translation>
-    </message>
-    <message>
-        <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>Verschlüsselt die zu Ihrer Wallet gehörenden privaten Schlüssel</translation>
-    </message>
-    <message>
-        <source>&amp;Backup Wallet...</source>
-        <translation>Wallet &amp;sichern...</translation>
-    </message>
-    <message>
-        <source>Backup wallet to another location</source>
-        <translation>Sicherung der Wallet an einem anderen Ort speichern</translation>
-    </message>
-    <message>
-        <source>&amp;Change Passphrase...</source>
-        <translation>Passphrase &amp;ändern...</translation>
-    </message>
-    <message>
-        <source>Change the passphrase used for wallet encryption</source>
-        <translation>Ändert die Passphrase, die für die Verschlüsselung der Wallet benutzt wird</translation>
-    </message>
-    <message>
-        <source>&amp;Unlock Wallet...</source>
-        <translation>Wallet &amp;entsperren</translation>
-    </message>
-    <message>
-        <source>Unlock wallet</source>
-        <translation>Wallet entsperren</translation>
-    </message>
-    <message>
-        <source>&amp;Lock Wallet</source>
-        <translation>Wallet &amp;sperren</translation>
-    </message>
-    <message>
-        <source>Sign &amp;message...</source>
-        <translation>Nachricht &amp;signieren...</translation>
-    </message>
-    <message>
-        <source>&amp;Verify message...</source>
-        <translation>&amp;Nachricht prüfen...</translation>
-    </message>
-    <message>
-        <source>&amp;Information</source>
-        <translation>&amp;Information</translation>
-    </message>
-    <message>
-        <source>Show diagnostic information</source>
-        <translation>Diagnoseinformation anzeigen</translation>
-    </message>
-    <message>
-        <source>&amp;Debug console</source>
-        <translation>&amp;Debugkonsole</translation>
-    </message>
-    <message>
-        <source>Open debugging console</source>
-        <translation>Debugkonsole öffnen</translation>
-    </message>
-    <message>
-        <source>&amp;Network Monitor</source>
-        <translation>&amp;Netzwerkmonitor</translation>
-    </message>
-    <message>
-        <source>Show network monitor</source>
-        <translation>Netzwerkmonitor anzeigen</translation>
-    </message>
-    <message>
-        <source>&amp;Peers list</source>
-        <translation>&amp;Gegenstellen-Liste</translation>
-    </message>
-    <message>
-        <source>Show peers info</source>
-        <translation>Informationen zu Gegenstellen anzeigen</translation>
-    </message>
-    <message>
-        <source>Wallet &amp;Repair</source>
-        <translation>Wallet-&amp;Reparatur</translation>
-    </message>
-    <message>
-        <source>Show wallet repair options</source>
-        <translation>Optionen zur Wallet-Reparatur anzeigen</translation>
-    </message>
-    <message>
-        <source>Open configuration file</source>
-        <translation>Konfigurationsdatei öffnen</translation>
-    </message>
-    <message>
-        <source>Show Automatic &amp;Backups</source>
-        <translation>Automatische &amp;Sicherheitskopien anzeigen</translation>
-    </message>
-    <message>
-        <source>Show automatically created wallet backups</source>
-        <translation>Automatisch erzeugte Wallet-Sicherheitskopien anzeigen</translation>
-    </message>
-    <message>
-        <source>&amp;Sending addresses...</source>
-        <translation>&amp;Zahlungsadressen...</translation>
-    </message>
-    <message>
-        <source>Show the list of used sending addresses and labels</source>
-        <translation>Liste verwendeter Zahlungsadressen und Bezeichnungen anzeigen</translation>
-    </message>
-    <message>
-        <source>&amp;Receiving addresses...</source>
-        <translation>&amp;Empfangsadressen...</translation>
-    </message>
-    <message>
-        <source>Show the list of used receiving addresses and labels</source>
-        <translation>Liste verwendeter Empfangsadressen und Bezeichnungen anzeigen</translation>
-    </message>
-    <message>
-        <source>&amp;Multisignature creation...</source>
-        <translation>&amp;Mehrfachsignatur erstellen...</translation>
-    </message>
-    <message>
-        <source>Create a new multisignature address and add it to this wallet</source>
-        <translation>Erstelle eine neue mehrfach signierte Adresse und füge sie diesem Wallet hinzu</translation>
-    </message>
-    <message>
-        <source>&amp;Multisignature spending...</source>
-        <translation>&amp;Mehrfachsignatur überweisen...</translation>
-    </message>
-    <message>
-        <source>Spend from a multisignature address</source>
-        <translation>Von einer mehrfach signierten Adresse überweisen</translation>
-    </message>
-    <message>
-        <source>&amp;Multisignature signing...</source>
-        <translation>&amp;Mehrfachsignatur signieren...</translation>
-    </message>
-    <message>
-        <source>Sign with a multisignature address</source>
-        <translation>Signiere mit einer mehrfach signierten Adresse</translation>
-    </message>
-    <message>
-        <source>Open &amp;URI...</source>
-        <translation>&amp;URI öffnen...</translation>
-    </message>
-    <message>
-        <source>&amp;Command-line options</source>
-        <translation>&amp;Kommandozeilenoptionen</translation>
-    </message>
-    <message>
-        <source>Synchronizing additional data: %p%</source>
-        <translation>Synchronisiere zusätzliche Daten:  %p%</translation>
-    </message>
-    <message>
-        <source>%1 behind. Scanning block %2</source>
-        <translation>%1 im Rückstand. Scanne Block %2</translation>
-    </message>
-    <message>
-        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for anonymization and staking only</source>
-        <translation>Wallet ist &lt;b&gt;verschlüsselt&lt;/b&gt; und aktuell nur zum Anonymisieren und "staking"&lt;b&gt;entsperrt&lt;/b&gt;</translation>
-    </message>
-    <message>
-        <source>Tor is &lt;b&gt;enabled&lt;/b&gt;: %1</source>
-        <translation>Tor ist &lt;b&gt;aktiviert&lt;/b&gt;: %1</translation>
-    </message>
-    <message>
-        <source>&amp;File</source>
-        <translation>&amp;Datei</translation>
-    </message>
-    <message>
-        <source>&amp;Settings</source>
-        <translation>&amp;Einstellungen</translation>
-    </message>
-    <message>
-        <source>&amp;Tools</source>
-        <translation>&amp;Werkzeuge</translation>
-    </message>
-    <message>
-        <source>&amp;Help</source>
-        <translation>&amp;Hilfe</translation>
-    </message>
-    <message>
-        <source>Tabs toolbar</source>
-        <translation>Registerkartenleiste</translation>
-    </message>
-    <message>
-        <source>FUNC Core</source>
-        <translation>FUNC Core</translation>
-    </message>
-    <message>
-        <source>Send coins to a FUNC address</source>
-        <translation>An eine FUNC-Adresse überweisen</translation>
-    </message>
-    <message>
-        <source>Request payments (generates QR codes and func: URIs)</source>
-        <translation>Zahlung anfordern (QR-Code Generierung und func: URIs)</translation>
-    </message>
-    <message>
-        <source>&amp;Privacy</source>
-        <translation>&amp;Privatsphäre</translation>
-    </message>
-    <message>
-        <source>&amp;Masternodes</source>
-        <translation>&amp;Masternodes</translation>
-    </message>
-    <message>
-        <source>Browse masternodes</source>
-        <translation>Masternodes durchsuchen</translation>
-    </message>
-    <message>
-        <source>&amp;About FUNC Core</source>
-        <translation>Über FUNC Core</translation>
-    </message>
-    <message>
-        <source>Show information about FUNC Core</source>
-        <translation>Zeigt Informationen über FUNC Core</translation>
-    </message>
-    <message>
-        <source>Modify configuration options for FUNC</source>
-        <translation>Konfiguration von FUNC verändern</translation>
-    </message>
-    <message>
-        <source>Sign messages with your FUNC addresses to prove you own them</source>
-        <translation>Unterschreibt eine Nachricht mit Ihrer FUNC-Adresse und beweist, dass sie Ihnen gehört</translation>
-    </message>
-    <message>
-        <source>Verify messages to ensure they were signed with specified FUNC addresses</source>
-        <translation>Überprüft eine Nachricht um zu prüfen ob diese mit einer bestimmten FUNC-Adresse signiert wurde</translation>
-    </message>
-    <message>
-        <source>&amp;BIP38 tool</source>
-        <translation>&amp;BIP38 Hilfsprogramm</translation>
-    </message>
-    <message>
-        <source>Encrypt and decrypt private keys using a passphrase</source>
-        <translation>Den eigegebenen Schlüssel mittels Passwort entschlüsseln</translation>
-    </message>
-    <message>
-        <source>&amp;MultiSend</source>
-        <translation>&amp;MultiSend</translation>
-    </message>
-    <message>
-        <source>MultiSend Settings</source>
-        <translation>MultiSend Einstellungen</translation>
-    </message>
-    <message>
-        <source>Open Wallet &amp;Configuration File</source>
-        <translation>Öffne Wallet &amp;Einstellungsdatei </translation>
-    </message>
-    <message>
-        <source>Open &amp;Masternode Configuration File</source>
-        <translation>Öffne &amp;Masternode Einstellungsdatei </translation>
-    </message>
-    <message>
-        <source>Open Masternode configuration file</source>
-        <translation>Öffne Masternode Einstellungsdatei</translation>
-    </message>
-    <message>
-        <source>Open a FUNC: URI or payment request</source>
-        <translation>Öffne eine FUNC: URI oder Zahlungsanfrage</translation>
-    </message>
-    <message>
-        <source>&amp;Blockchain explorer</source>
-        <translation>&amp;Blockchain Betrachter</translation>
-    </message>
-    <message>
-        <source>Block explorer window</source>
-        <translation>Blockchain Betrachter Fenster</translation>
-    </message>
-    <message>
-        <source>Show the FUNC Core help message to get a list with possible FUNC command-line options</source>
-        <translation>Zeige die FUNC-Core Hilfe, um mögliche FUNC Kommando-Zeilen-Optionen anzuzeigen</translation>
-    </message>
-    <message>
-        <source>FUNC Core client</source>
-        <translation>FUNC Core Client</translation>
-    </message>
-    <message>
-        <source>Synchronizing with network...</source>
-        <translation>Synchronisiere mit Netzwerk...</translation>
-    </message>
-    <message>
-        <source>Importing blocks from disk...</source>
-        <translation>Importiere Blöcke von Datenträger...</translation>
-    </message>
-    <message>
-        <source>Reindexing blocks on disk...</source>
-        <translation>Reindiziere Blöcke auf Datenträger...</translation>
-    </message>
-    <message>
-        <source>No block source available...</source>
-        <translation>Keine Blockquelle verfügbar...</translation>
-    </message>
-    <message>
-        <source>Up to date</source>
-        <translation>Auf aktuellem Stand</translation>
-    </message>
-    <message>
-        <source>%1 and %2</source>
-        <translation>%1 und %2</translation>
-    </message>
-    <message>
-        <source>Catching up...</source>
-        <translation>Hole auf...</translation>
-    </message>
-    <message>
-        <source>Last received block was generated %1 ago.</source>
-        <translation>Der letzte empfangene Block ist %1 alt.</translation>
-    </message>
-    <message>
-        <source>Transactions after this will not yet be visible.</source>
-        <translation>Transaktionen hiernach werden noch nicht angezeigt.</translation>
-    </message>
-    <message>
-        <source>Error</source>
-        <translation>Fehler</translation>
-    </message>
-    <message>
-        <source>Warning</source>
-        <translation>Warnung</translation>
-    </message>
-    <message>
-        <source>Information</source>
-        <translation>Hinweis</translation>
-    </message>
-    <message>
-        <source>Sent transaction</source>
-        <translation>Gesendete Transaktion</translation>
-    </message>
-    <message>
-        <source>Incoming transaction</source>
-        <translation>Eingehende Transaktion</translation>
-    </message>
-    <message>
-        <source>Sent MultiSend transaction</source>
-        <translation>Versende MultiSend Transaktion</translation>
-    </message>
-    <message>
-        <source>Date: %1
-Amount: %2
-Type: %3
-Address: %4
-</source>
-        <translation>Datum: %1
-Betrag: %2
-Typ: %3
-Adresse: %4</translation>
-    </message>
-    <message>
-        <source>Staking is active
- MultiSend: %1</source>
-        <translation>Staking ist aktiviert
- MultiSend: %1</translation>
-    </message>
-    <message>
-        <source>Active</source>
-        <translation>Aktiv</translation>
-    </message>
-    <message>
-        <source>Not Active</source>
-        <translation>Nicht aktiv</translation>
-    </message>
-    <message>
-        <source>Staking is not active
- MultiSend: %1</source>
-        <translation>Staking ist nicht aktiviert
- MultiSend: %1</translation>
-    </message>
-    <message>
-        <source>AutoMint is currently enabled and set to </source>
-        <translation>Automatisches Prägen ist aktiv und eingestellt auf </translation>
-    </message>
-    <message>
-        <source>AutoMint is disabled</source>
-        <translation>Automatisches Prägen ist deaktiviert</translation>
-    </message>
-    <message>
-        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>Wallet ist &lt;b&gt;verschlüsselt&lt;/b&gt; und aktuell &lt;b&gt;entsperrt&lt;/b&gt;</translation>
-    </message>
-    <message>
-        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>Wallet ist &lt;b&gt;verschlüsselt&lt;/b&gt; und aktuell &lt;b&gt;gesperrt&lt;/b&gt;</translation>
-    </message>
-    </context>
-<context>
-    <name>BlockExplorer</name>
-    <message>
-        <source>Blockchain Explorer</source>
-        <translation>Blockchain Explorer</translation>
-    </message>
-    <message>
-        <source>Back</source>
-        <translation>Zurück</translation>
-    </message>
-    <message>
-        <source>Forward</source>
-        <translation>Vor</translation>
-    </message>
-    <message>
-        <source>Address / Block / Transaction</source>
-        <translation>Addrese / Block / Tansaktion</translation>
-    </message>
-    <message>
-        <source>Search</source>
-        <translation>Suche</translation>
-    </message>
-    <message>
-        <source>TextLabel</source>
-        <translation>TextEtikett</translation>
-    </message>
-    <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (func.conf).</source>
-        <translation>Nicht alle Transaktionen können anzezeigt werden. Um alle Transaktionen zu sehen, müssen sie die Option  "txindex=1" in der "func.conf" Konfigurationsdatei hinzufügen.</translation>
+        <source>Own delegation</source>
+        <translation>Eigene Zuweisung</translation>
     </message>
 </context>
 <context>
@@ -880,10 +486,6 @@ Adresse: %4</translation>
     <message>
         <source>Total: %1 (IPv4: %2 / IPv6: %3 / Tor: %4 / Unknown: %5)</source>
         <translation>Total: %1 (IPv4: %2 / IPv6: %3 / Tor: %4 / Unbekannt: %5)</translation>
-    </message>
-    <message>
-        <source>Network Alert</source>
-        <translation>Netzwerkalarm</translation>
     </message>
 </context>
 <context>
@@ -897,14 +499,6 @@ Adresse: %4</translation>
         <translation>Byte:</translation>
     </message>
     <message>
-        <source>Amount:</source>
-        <translation>Betrag:</translation>
-    </message>
-    <message>
-        <source>Priority:</source>
-        <translation>Priorität:</translation>
-    </message>
-    <message>
         <source>Fee:</source>
         <translation>Gebühr:</translation>
     </message>
@@ -913,24 +507,16 @@ Adresse: %4</translation>
         <translation>Münzenauswahl </translation>
     </message>
     <message>
+        <source>Select FUNC Outputs to Spend</source>
+        <translation>FUNC Outputs zum Ausgeben wählen</translation>
+    </message>
+    <message>
         <source>Dust:</source>
         <translation>Abzug:</translation>
     </message>
     <message>
-        <source>After Fee:</source>
-        <translation>Nach Gebühren:</translation>
-    </message>
-    <message>
         <source>Change:</source>
         <translation>Wechselgeld:</translation>
-    </message>
-    <message>
-        <source>(un)select all</source>
-        <translation>(nicht) alle auswählen</translation>
-    </message>
-    <message>
-        <source>toggle lock state</source>
-        <translation>Sperrzustand umschalten</translation>
     </message>
     <message>
         <source>Tree mode</source>
@@ -949,6 +535,22 @@ Adresse: %4</translation>
         <translation>Betrag</translation>
     </message>
     <message>
+        <source>0.00 FUNC</source>
+        <translation>0.00 FUNC</translation>
+    </message>
+    <message>
+        <source>0</source>
+        <translation>0</translation>
+    </message>
+    <message>
+        <source>Select all</source>
+        <translation>Alle anwählen</translation>
+    </message>
+    <message>
+        <source>Toggle lock state</source>
+        <translation>Verriegelungsstatus umschalten</translation>
+    </message>
+    <message>
         <source>Received with label</source>
         <translation>Empfange mit Bezeichnung</translation>
     </message>
@@ -957,8 +559,12 @@ Adresse: %4</translation>
         <translation>Empfangen mit Adresse</translation>
     </message>
     <message>
-        <source>Type</source>
-        <translation>Art</translation>
+        <source>After Fee: </source>
+        <translation>Nach Gebühren:</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
     </message>
     <message>
         <source>Date</source>
@@ -971,10 +577,6 @@ Adresse: %4</translation>
     <message>
         <source>Confirmed</source>
         <translation>Bestätigt</translation>
-    </message>
-    <message>
-        <source>Priority</source>
-        <translation>Priorität</translation>
     </message>
     <message>
         <source>Copy address</source>
@@ -1001,36 +603,40 @@ Adresse: %4</translation>
         <translation>Entsperre Verwendung</translation>
     </message>
     <message>
-        <source>Copy quantity</source>
-        <translation>Anzahl kopieren</translation>
-    </message>
-    <message>
-        <source>Copy fee</source>
-        <translation>Gebühr kopieren</translation>
-    </message>
-    <message>
-        <source>Copy after fee</source>
-        <translation>Kopiere nach Gebühr</translation>
-    </message>
-    <message>
-        <source>Copy bytes</source>
-        <translation>Kopiere Bytes</translation>
-    </message>
-    <message>
-        <source>Copy priority</source>
-        <translation>Kopiere Priorität</translation>
-    </message>
-    <message>
-        <source>Copy dust</source>
-        <translation>Kopiere Abzug</translation>
-    </message>
-    <message>
-        <source>Copy change</source>
-        <translation>Kopiere Wechselgeld</translation>
+        <source>Unselect all</source>
+        <translation>Alle abwählen</translation>
     </message>
     <message>
         <source>Please switch to "List mode" to use this function.</source>
         <translation>Bitte wechsle zur "Listenansicht" um diese Funktion zu verwenden.</translation>
+    </message>
+    <message>
+        <source>Quantity Copied</source>
+        <translation>Menge kopiert</translation>
+    </message>
+    <message>
+        <source>Amount Copied</source>
+        <translation>Menge kopiert</translation>
+    </message>
+    <message>
+        <source>Fee Copied</source>
+        <translation>Gebühr kopiert</translation>
+    </message>
+    <message>
+        <source>After Fee Copied</source>
+        <translation>Nach Gebühr kopiert</translation>
+    </message>
+    <message>
+        <source>Bytes Copied</source>
+        <translation>Bytes kopiert</translation>
+    </message>
+    <message>
+        <source>Dust Copied</source>
+        <translation>Staub kopiert</translation>
+    </message>
+    <message>
+        <source>Change Copied</source>
+        <translation>Wechselbetrag kopiert</translation>
     </message>
     <message>
         <source>highest</source>
@@ -1081,6 +687,10 @@ Adresse: %4</translation>
         <translation>ja</translation>
     </message>
     <message>
+        <source>delegated to %1 for cold staking</source>
+        <translation>%1 für Cold Staking zugewiesen</translation>
+    </message>
+    <message>
         <source>no</source>
         <translation>nein</translation>
     </message>
@@ -1123,6 +733,381 @@ Adresse: %4</translation>
     <message>
         <source>(change)</source>
         <translation>(Wechselgeld)</translation>
+    </message>
+</context>
+<context>
+    <name>ColdStakingWidget</name>
+    <message>
+        <source>Form</source>
+        <translation>Formular</translation>
+    </message>
+    <message>
+        <source>Title</source>
+        <translation>Titel</translation>
+    </message>
+    <message>
+        <source>TextLabel</source>
+        <translation>TextEtikett</translation>
+    </message>
+    <message>
+        <source>Owner address (optional, if empty a new address will be created)</source>
+        <translation>Adresse des Besitzers (Optional, wenn leer, wird eine neue Adresse erzeugt)</translation>
+    </message>
+    <message>
+        <source>Total Staking:</source>
+        <translation>Gesamtmenge Staking</translation>
+    </message>
+    <message>
+        <source>List of delegated balance by address</source>
+        <translation>Auflistung zugewiesener Bilanz nach Adresse</translation>
+    </message>
+    <message>
+        <source>No balance delegated</source>
+        <translation>Keine Bilanz zugewiesen</translation>
+    </message>
+    <message>
+        <source>Cold Staking</source>
+        <translation>Cold Staking</translation>
+    </message>
+    <message>
+        <source>Staker</source>
+        <translation>Staker</translation>
+    </message>
+    <message>
+        <source>Delegation</source>
+        <translation>Zuweisung</translation>
+    </message>
+    <message>
+        <source>Delegate</source>
+        <translation>Delegierter</translation>
+    </message>
+    <message>
+        <source>Clear All</source>
+        <translation>Alles löschen</translation>
+    </message>
+    <message>
+        <source>Delegated balance history</source>
+        <translation>Verlauf zugewiesener Bilanzen</translation>
+    </message>
+    <message>
+        <source>No delegations yet</source>
+        <translation>Bisher keine Zuweisungen</translation>
+    </message>
+    <message>
+        <source>Total Staking: %1</source>
+        <translation>Insgesamt %1 staking</translation>
+    </message>
+    <message>
+        <source>Error loading delegations: %1</source>
+        <translation>Fehler beim Laden der Zuweisungen: %1</translation>
+    </message>
+    <message>
+        <source>You can delegate your FUNCs, letting a hot node (24/7 online node)
+stake on your behalf, while you keep the keys securely offline.</source>
+        <translation>Sie können Ihre FUNCs zuweisen und einen Node (24/7) für Sie staken lassen, während Sie Ihre Schlüssel sicher offline verwahren. </translation>
+    </message>
+    <message>
+        <source>Enter owner address</source>
+        <translation>Adresse des Besitzers eingeben</translation>
+    </message>
+    <message>
+        <source>Accept FUNC delegation / Delegate FUNC</source>
+        <translation>FUNC Zusweisung annehmen / FUNC zuweisen</translation>
+    </message>
+    <message>
+        <source>Cold Staking address</source>
+        <translation>Adresse für Cold Staking</translation>
+    </message>
+    <message>
+        <source>No receive addresses available, you can go to the receive screen and create some there!</source>
+        <translation>Keine Empfangsadresse verfügbar. Sie können zum Empfangsfenster gehen und dort eine erzeugen.</translation>
+    </message>
+    <message>
+        <source>No contacts available, you can go to the contacts screen and add some there!</source>
+        <translation>Keine Kontakte verfügbar. Sie können zum Kontaktfenster wechseln und dort welche hinzufügen.</translation>
+    </message>
+    <message>
+        <source>Cannot send delegation, wallet locked</source>
+        <translation>Zuweisung konnte nicht gesendet werden. Ihr Wallet ist verschlossen.</translation>
+    </message>
+    <message>
+        <source>Invalid entry</source>
+        <translation>Ungültige Eingabe</translation>
+    </message>
+    <message>
+        <source>Invalid entry, minimum delegable amount is </source>
+        <translation>Ungültiger Eintrag, die Mindestmenge für Zuweisungen ist</translation>
+    </message>
+    <message>
+        <source>Owner address invalid</source>
+        <translation>Adresse des Besitzers ist ungültig</translation>
+    </message>
+    <message>
+        <source>ALERT!</source>
+        <translation>ALARM!</translation>
+    </message>
+    <message>
+        <source>Delegating to an external owner address!
+
+The delegated coins will NOT be spendable by this wallet.
+Spending these coins will need to be done from the wallet or
+device containing the owner address.
+
+Do you wish to proceed?</source>
+        <translation>Weise einer externen Adresse zu!
+
+Die zugewiesenen Coins können von diesem Wallet nicht mehr ausgegeben werden.
+Das Ausgeben dieser Münzen ist nur von dem Wallet oder Gerät möglich, das die Besitzer Adresse enthält.
+
+Möchten Sie fortfahren?</translation>
+    </message>
+    <message>
+        <source>Staking address corresponds to this wallet, change it to an external node</source>
+        <translation>Die Staking Adresse entspricht diesem Wallet, ändern Sie dies zu einem externen Node.</translation>
+    </message>
+    <message>
+        <source>Cannot create transaction.</source>
+        <translation>Die Transaktion kann nicht erzeugt werden.</translation>
+    </message>
+    <message>
+        <source>Coins delegated</source>
+        <translation>Coins zugewiesen</translation>
+    </message>
+    <message>
+        <source>You don't have any FUNC to select.</source>
+        <translation>Sie haben keine FUNC zu wählen</translation>
+    </message>
+    <message>
+        <source>Cannot perform operation, wallet locked</source>
+        <translation>Aufgabe kann nicht durchgeführt werden, Ihr Wallet ist verschlossen</translation>
+    </message>
+    <message>
+        <source>URI copied to clipboard</source>
+        <translation>URI in die Zwischenablage kopiert</translation>
+    </message>
+    <message>
+        <source>Address copied to clipboard</source>
+        <translation>Adresse in Zwischenablage kopiert</translation>
+    </message>
+    <message>
+        <source>Copy</source>
+        <translation>Kopieren</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Bearbeiten</translation>
+    </message>
+    <message>
+        <source>Stake</source>
+        <translation>Stake</translation>
+    </message>
+    <message>
+        <source>Blacklist</source>
+        <translation>Blacklist</translation>
+    </message>
+    <message>
+        <source>Edit Label</source>
+        <translation>Bezeichnung bearbeiten</translation>
+    </message>
+    <message>
+        <source>Copy owner
+address</source>
+        <translation>Besitzeradresse kopieren</translation>
+    </message>
+    <message>
+        <source>Address copied</source>
+        <translation>Adresse kopiert</translation>
+    </message>
+    <message>
+        <source>Edit Cold Address Label</source>
+        <translation>Bezeichnung der Cold Adresse bearbeiten</translation>
+    </message>
+    <message>
+        <source>Whitelist failed, please check the logs</source>
+        <translation>Whitelist gescheitert. Bitte überprüfen Sie die Logs.</translation>
+    </message>
+    <message>
+        <source> staking!</source>
+        <translation>Staking!</translation>
+    </message>
+    <message>
+        <source>Blacklist failed, please check the logs</source>
+        <translation>Blacklist gescheitert. Bitte überprüfen Sie die Logs.</translation>
+    </message>
+    <message>
+        <source> blacklisted from staking</source>
+        <translation>Vom Staking geblacklisted</translation>
+    </message>
+    <message>
+        <source>Owner address copied</source>
+        <translation>Besitzeradresse kopiert</translation>
+    </message>
+    <message>
+        <source>Edit Owner Address Label</source>
+        <translation>Besitzeradresse bearbeiten</translation>
+    </message>
+    <message>
+        <source>Address label saved</source>
+        <translation>Adressbezeichnung gespeichert</translation>
+    </message>
+    <message>
+        <source>Error storing address label</source>
+        <translation>Fehler beim Speichern der Adressbezeichnung</translation>
+    </message>
+</context>
+<context>
+    <name>ContactDropdownRow</name>
+    <message>
+        <source>Form</source>
+        <translation>Formular</translation>
+    </message>
+    <message>
+        <source>Bob Allen</source>
+        <translation>Bob Allen</translation>
+    </message>
+    <message>
+        <source>DN6i46dytMPVhV1JMGZFuQBh7BZZ6nNLox</source>
+        <translation>DN6i46dytMPVhV1JMGZFuQBh7BZZ6nNLox</translation>
+    </message>
+</context>
+<context>
+    <name>DashboardWidget</name>
+    <message>
+        <source>Form</source>
+        <translation>Formular</translation>
+    </message>
+    <message>
+        <source>Transactions</source>
+        <translation>Transaktion</translation>
+    </message>
+    <message>
+        <source>You can see here the history of your account</source>
+        <translation>Hier können sie die Geschichte des Accounts anschauen</translation>
+    </message>
+    <message>
+        <source>Warning</source>
+        <translation>Warnung</translation>
+    </message>
+    <message>
+        <source>No transactions</source>
+        <translation>Keine Transaktionen</translation>
+    </message>
+    <message>
+        <source>Staking Rewards</source>
+        <translation>Staking Entschädigung</translation>
+    </message>
+    <message>
+        <source>TextLabel</source>
+        <translation>TextEtikett</translation>
+    </message>
+    <message>
+        <source>Staking statistics</source>
+        <translation>Staking Statistiken</translation>
+    </message>
+    <message>
+        <source>FUNC</source>
+        <translation>FUNC</translation>
+    </message>
+    <message>
+        <source>zFUNC</source>
+        <translation>zFUNC</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>Sortieren nach</translation>
+    </message>
+    <message>
+        <source>Days</source>
+        <translation>Tage</translation>
+    </message>
+    <message>
+        <source>Months</source>
+        <translation>Monate</translation>
+    </message>
+    <message>
+        <source>Years</source>
+        <translation>Jahre</translation>
+    </message>
+    <message>
+        <source>Filter by</source>
+        <translation>Filtern nach</translation>
+    </message>
+    <message>
+        <source>LabelText</source>
+        <translation>Text für die Bezeichnung</translation>
+    </message>
+    <message>
+        <source>You can view your account's history</source>
+        <translation>Der Link zum Verlauf des Accounts</translation>
+    </message>
+    <message>
+        <source>Amount of FUNC staked.</source>
+        <translation>Wieviele FUNC und z FUNC am staken sind.</translation>
+    </message>
+    <message>
+        <source>Please wait until the wallet is fully synced to see your correct balance</source>
+        <translation>Bitte warten bis die Wallet voll synchronisiert ist, um den korrekten Kontostand zu sehen</translation>
+    </message>
+    <message>
+        <source>No transactions yet</source>
+        <translation>Keine Transaktionen</translation>
+    </message>
+    <message>
+        <source>How to get FUNC</source>
+        <translation>Wie bekommt man FUNC oder zFUNC</translation>
+    </message>
+    <message>
+        <source>You can verify the staking activity in the status bar at the top right of the wallet.
+It will start automatically as soon as the wallet has enough confirmations on any unspent balances, and the wallet has synced.</source>
+        <translation>In der Statusbar der Wallet oben rechts kannst du sehen, ob staking aktiviert wurde.
+Die staking Aktivität wird automatisch gestartet, sobald die Wallet genügend Konfirmationen für alle nicht ausgegeben Guthaben hat und zudem die Wallet synchronisiert ist.</translation>
+    </message>
+    <message>
+        <source>You have no staking rewards</source>
+        <translation>Sie haben keine Staking-Vergütungen</translation>
+    </message>
+    <message>
+        <source>No charts library</source>
+        <translation>Keine Grafik Bibliothek</translation>
+    </message>
+    <message>
+        <source>Loading chart..</source>
+        <translation>Lade Tabelle..</translation>
+    </message>
+    <message>
+        <source>Error loading chart, invalid show option</source>
+        <translation>Fehler beim Laden der Tabelle, ungültige Anzeigeoption</translation>
+    </message>
+    <message>
+        <source>Error loading chart, invalid data</source>
+        <translation>Fehler beim Laden des Charts. Daten sind ungültig.</translation>
+    </message>
+    <message>
+        <source>Error loading chart: %1</source>
+        <translation>Fehler beim Laden der Tabelle: %1</translation>
+    </message>
+</context>
+<context>
+    <name>DefaultDialog</name>
+    <message>
+        <source>Form</source>
+        <translation>Formular</translation>
+    </message>
+    <message>
+        <source>Transaction Details</source>
+        <translation>Transaktionsdetails</translation>
+    </message>
+    <message>
+        <source>Text Label</source>
+        <translation>Text Bezeichnung</translation>
+    </message>
+    <message>
+        <source>CANCEL</source>
+        <translation>ABBRECHEN</translation>
+    </message>
+    <message>
+        <source>SAVE</source>
+        <translation>SICHERN</translation>
     </message>
 </context>
 <context>
@@ -1181,6 +1166,13 @@ Adresse: %4</translation>
     </message>
 </context>
 <context>
+    <name>ExpandableButton</name>
+    <message>
+        <source>Form</source>
+        <translation>Formular</translation>
+    </message>
+</context>
+<context>
     <name>FreespaceChecker</name>
     <message>
         <source>A new data directory will be created.</source>
@@ -1203,17 +1195,6 @@ Adresse: %4</translation>
         <translation>Datenverzeichnis kann hier nicht angelegt werden.</translation>
     </message>
 </context>
-<context>
-    <name>GovernancePage</name>
-    <message>
-        <source>Form</source>
-        <translation>Formular</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    </context>
 <context>
     <name>HelpMessageDialog</name>
     <message>
@@ -1257,6 +1238,10 @@ Adresse: %4</translation>
         <translation>Zeige Startbildschirm beim Start (Standard: %u)</translation>
     </message>
     <message>
+        <source>Hide QT staking charts on startup (default: %u)</source>
+        <translation>QT Staking Charts beim Startup verbergen (Standardmäßig: %u)</translation>
+    </message>
+    <message>
         <source>Set language, for example "de_DE" (default: system locale)</source>
         <translation>Sprache festlegen, z.B. "de_DE" (Standard: Systemstandard)</translation>
     </message>
@@ -1267,6 +1252,10 @@ Adresse: %4</translation>
     <message>
         <source>Set SSL root certificates for payment request (default: -system-)</source>
         <translation>SSL-Wurzelzertifikate für Zahlungsanforderungen festlegen (Standard: Systemstandard)</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
     </message>
 </context>
 <context>
@@ -1284,16 +1273,24 @@ Adresse: %4</translation>
         <translation>Da dies das erste Mal ist, dass Sie FUNC Core starten, legen Sie jetzt bitte fest, an welchem Ort die Daten gespeichert werden sollen.</translation>
     </message>
     <message>
-        <source>FUNC Core will download and store a copy of the FUNC block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>FUNC Core wird die Blockchain laden und lokal speichern. Dafür sind mindestens %1GB freier Speicherplatz erforderlich. Der Speicherbedarf wird mit der Zeit anwachsen. Die Wallet wird ebenfalls in diesem Verzeichnis gespeichert.</translation>
+        <source>FUNC Core will download and store a copy of the FUNC block chain. At least %20MB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>FUNC Core wird die Blockchain laden und lokal speichern. Dafür sind mindestens %20MB freier Speicherplatz erforderlich. Der Speicherbedarf wird mit der Zeit anwachsen. Die Wallet wird ebenfalls in diesem Verzeichnis gespeichert.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
         <translation>Standard-Datenverzeichnis verwenden</translation>
     </message>
     <message>
-        <source>Use a custom data directory:</source>
-        <translation>Ein benutzerdefiniertes Datenverzeichnis verwenden:</translation>
+        <source>Use a custom data directory</source>
+        <translation>Wähle ein beliebiges Verzeichnis</translation>
+    </message>
+    <message>
+        <source>CANCEL</source>
+        <translation>ABBRECHEN</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
     </message>
     <message>
         <source>FUNC Core</source>
@@ -1317,21 +1314,74 @@ Adresse: %4</translation>
     </message>
 </context>
 <context>
-    <name>MasternodeList</name>
+    <name>LoadingDialog</name>
     <message>
         <source>Form</source>
         <translation>Formular</translation>
     </message>
     <message>
-        <source>MASTERNODES</source>
-        <translation>MASTERNODES</translation>
+        <source>TextLabel</source>
+        <translation>TextEtikett</translation>
     </message>
     <message>
-        <source>Note: Status of your masternodes in local wallet can potentially be slightly incorrect.&lt;br /&gt;Always wait for wallet to sync additional data and then double check from another node&lt;br /&gt;if your node should be running but you still see "MISSING" in "Status" field.</source>
-        <translation>Hinweis: Der Status Ihrer Masternodes kann in der lokalen Wallet möglicherweise falsch sein.&lt;br /&gt;Warten Sie, bis die Wallet zusätzliche Daten synchronisiert hat. Wenn Ihr Node läuft,&lt;br /&gt;aber trotzdem "MISSING" im Feld "Status" steht, überprüfen Sie den Status von einem anderen Knoten aus.</translation>
+        <source>Loading</source>
+        <translation>Lädt</translation>
     </message>
     <message>
-        <source>Alias</source>
+        <source>.</source>
+        <translation>.</translation>
+    </message>
+</context>
+<context>
+    <name>LockUnlock</name>
+    <message>
+        <source>Form</source>
+        <translation>Formular</translation>
+    </message>
+    <message>
+        <source>Unlock Wallet</source>
+        <translation>Wallet entsperren</translation>
+    </message>
+    <message>
+        <source>Lock Wallet</source>
+        <translation>Wallet sperren</translation>
+    </message>
+    <message>
+        <source>Staking Only</source>
+        <translation>Nur Staking</translation>
+    </message>
+</context>
+<context>
+    <name>MNRow</name>
+    <message>
+        <source>Form</source>
+        <translation>Formular</translation>
+    </message>
+</context>
+<context>
+    <name>MasterNodeWizardDialog</name>
+    <message>
+        <source>Dialog</source>
+        <translation>Dialog</translation>
+    </message>
+    <message>
+        <source>1</source>
+        <translation>1</translation>
+    </message>
+    <message>
+        <source>2</source>
+        <translation>2</translation>
+    </message>
+    <message>
+        <source>3</source>
+        <translation>3</translation>
+    </message>
+    <message>
+        <source>Intro</source>
+        <translation>Intro</translation>
+    </message>
+    <message>
+        <source>Name</source>
         <translation>Name</translation>
     </message>
     <message>
@@ -1339,368 +1389,360 @@ Adresse: %4</translation>
         <translation>Adresse</translation>
     </message>
     <message>
-        <source>Protocol</source>
-        <translation>Protokoll</translation>
+        <source>Create New Masternode Controller</source>
+        <translation>Erzeuge neuen Masternode Controller</translation>
     </message>
     <message>
-        <source>Status</source>
-        <translation>Status</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To create a FUNC Masternode you must dedicate 10,000 FUNC (the unit of FUNC) to the network (however, these coins are still yours and will never leave your possession). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;You can deactivate the node and unlock the coins at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>Um einen FUNC Masternode zu erzeugen, müssen Sie 10.000 FUNC (die Einheit von FUNC) dem Netzwerk zuweisen (diese Coins sind weiterhin Ihre und Sie werden Ihren Besitz nicht verlassen)
+Sie können den Node jederzeit deaktivieren und die Coins entriegeln.</translation>
     </message>
     <message>
-        <source>Active</source>
-        <translation>Aktiv</translation>
+        <source>Set Masternode Name</source>
+        <translation>Namen des Masternodes eingeben</translation>
     </message>
     <message>
-        <source>Last Seen (UTC)</source>
-        <translation>Zuletzt gesehen (UTC)</translation>
+        <source>Set Masternode IP and Port</source>
+        <translation>Masternode IP und Port eingeben</translation>
     </message>
     <message>
-        <source>Pubkey</source>
-        <translation>Öffentlicher Schlüssel</translation>
+        <source>Enter port</source>
+        <translation>Port eingeben</translation>
     </message>
     <message>
-        <source>S&amp;tart alias</source>
-        <translation>S&amp;tarten</translation>
+        <source>Make sure you have this amount of coins.</source>
+        <translation>Stellen Sie sicher, dass Sie die Anzahl Coins besitzen.</translation>
     </message>
     <message>
-        <source>Start &amp;all</source>
-        <translation>&amp;Alle starten</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A transaction of 10,000 FUNC will be made&lt;/p&gt;&lt;p&gt;to a new empty address in your wallet.&lt;/p&gt;&lt;p&gt;The Address is labeled under the master node's name.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Eine Transaktion von 10'000 FUNC wird gemacht&lt;/p&gt;&lt;p&gt;auf eine leere Adresse in Ihrer Wallet.&lt;/p&gt;&lt;p&gt;Die Adresse wird beschriftet mit dem Namen des Masternodes.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <source>Start &amp;MISSING</source>
-        <translation>Starte nur &amp;MISSING</translation>
+        <source>Address of the node that must always be online running the actual master node.</source>
+        <translation>Adresse des Nodes, welche immer online sein muss um den Master Node darüber laufen zu lassen.</translation>
     </message>
     <message>
-        <source>&amp;Update status</source>
-        <translation>Stat&amp;us aktualisieren</translation>
+        <source>Enter IP address</source>
+        <translation>IP-Adresse eingeben</translation>
     </message>
     <message>
-        <source>Status will be updated automatically in (sec):</source>
-        <translation>Status wird automatisch aktualisiert in (Sekunden):</translation>
+        <source>CANCEL</source>
+        <translation>ABBRECHEN</translation>
     </message>
     <message>
-        <source>0</source>
-        <translation>0</translation>
+        <source>OK</source>
+        <translation>OK</translation>
     </message>
     <message>
-        <source>Start alias</source>
-        <translation>Starten</translation>
+        <source>e.g user_masternode</source>
+        <translation>z.B Benutzer_masternode</translation>
     </message>
     <message>
-        <source>Confirm masternode start</source>
-        <translation>Masternode start bestätigen</translation>
+        <source>NEXT</source>
+        <translation>NEXT</translation>
     </message>
     <message>
-        <source>Are you sure you want to start masternode %1?</source>
-        <translation>Sind Sie sicher, dass Sie den Masternode %1 starten wollen?</translation>
+        <source>BACK</source>
+        <translation>ZURÜCK</translation>
     </message>
     <message>
-        <source>Confirm all masternodes start</source>
-        <translation>Start aller Masternodes bestätigen</translation>
+        <source>address label cannot be empty</source>
+        <translation>Adressenbeschriftung darf nicht leer sein</translation>
     </message>
     <message>
-        <source>Are you sure you want to start ALL masternodes?</source>
-        <translation>Sind Sie sicher, dass Sie alle Masternodes starten wollen?</translation>
+        <source>IP or port cannot be empty</source>
+        <translation>IP und port dürfen nicht leer sein</translation>
     </message>
     <message>
-        <source>Command is not available right now</source>
-        <translation>Befehl steht zur Zeit nicht zut verfügung</translation>
+        <source>Prepare master node failed.
+
+%1
+</source>
+        <translation>Vorbereitung des Masternode ist gescheitert.
+
+%1
+</translation>
     </message>
     <message>
-        <source>You can't use this command until masternode list is synced</source>
-        <translation>Sie können diesen Befehlt nicht ausführen, bevor der Masternode synchronisiert ist</translation>
+        <source>Invalid collateral output index</source>
+        <translation>Ungültiger Index der Kollateralausgabe </translation>
     </message>
     <message>
-        <source>Confirm missing masternodes start</source>
-        <translation>Start fehlender Masternodes bestätigen</translation>
+        <source>Master node created! Wait %1 confirmations before starting it.</source>
+        <translation>Masternode erstellt. Warten Sie auf %1 Bestätigungen, bevor Sie ihn starten</translation>
     </message>
     <message>
-        <source>Are you sure you want to start MISSING masternodes?</source>
-        <translation>Sind Sie sicher, dass Sie alle fehlenden Masternodes starten wollen?</translation>
+        <source>Cannot send collateral transaction.
+
+%1</source>
+        <translation>Kollateral konnte nicht gesendet werden
+%1
+</translation>
+    </message>
+    <message>
+        <source>Invalid masternode.conf file</source>
+        <translation>Ungültiges masternode.conf file</translation>
+    </message>
+    <message>
+        <source>Error parsing masternode.conf file</source>
+        <translation>Fehler beim Parsen der masternode.conf Datei </translation>
+    </message>
+    <message>
+        <source>masternode.conf file doesn't exists</source>
+        <translation>masternode.conf File existiert nicht</translation>
     </message>
 </context>
 <context>
-    <name>MultiSendDialog</name>
+    <name>MasterNodesWidget</name>
     <message>
-        <source>MultiSend</source>
-        <translation>MultiSend</translation>
+        <source>Form</source>
+        <translation>Formular</translation>
     </message>
     <message>
-        <source>Enter whole numbers 1 - 100</source>
-        <translation>Gebe Ganzzahlen zwischen 1 - 100 ein</translation>
+        <source>TextLabel</source>
+        <translation>TextEtikett</translation>
     </message>
     <message>
-        <source>Enter Address to Send to</source>
-        <translation>Zieladresse eingeben</translation>
+        <source>N/A</source>
+        <translation>k.A.</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other FUNC addresses after it matures.
-To Add: enter percentage to give and FUNC address to add to the MultiSend vector.
-To Delete: Enter address to delete and press delete.
-MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend ermöglicht es automatisch bis zu 100% Ihrer Stake- oder Masternode-Belohnung zu einer Liste von anderen FUNC-Adressen zu senden.
-Zum hinzufügen: Gebe den Prozentsätze ein, um die FUNC-Adressen des MultiSend-Vektor hinzuzufügen.
-Zum entfernen: Gebe die zu löschende Adresse ein und drücke löschen.
-MultiSend wird nicht aktiviert bis Sie auf Aktivieren geklickt haben.</translation>
+        <source>Start All</source>
+        <translation>Alle ausführen</translation>
     </message>
     <message>
-        <source>Add to MultiSend Vector</source>
-        <translation>Füge zum MultiSend-Vektor hinzu</translation>
+        <source>Start Inactive/s</source>
+        <translation>Starte Inaktive</translation>
     </message>
     <message>
-        <source>Add</source>
-        <translation>Hinzufügen</translation>
+        <source>Masternodes</source>
+        <translation>Masternodes</translation>
     </message>
     <message>
-        <source>Deactivate MultiSend</source>
-        <translation>Deaktiviere MultiSend</translation>
+        <source>Full nodes that incentivize node operators to perform the core consensus functions
+and vote on the treasury system receiving a periodic reward.</source>
+        <translation>Full Nodes, die Node Betreibern einen Anreiz bieten, die Kern Konsensfunktionen zu betreiben und in dem Treasury System mit abstimmen, erhalten periodisch eine Belohnung.</translation>
     </message>
     <message>
-        <source>Deactivate</source>
-        <translation>Deaktivieren</translation>
+        <source>Create Masternode Controller</source>
+        <translation>Masternode Controller erstellen</translation>
     </message>
     <message>
-        <source>Choose an address from the address book</source>
-        <translation>Wähle eine Adresse aus dem Adressbuch</translation>
+        <source>No active Masternode yet</source>
+        <translation>Keine aktiven Masternodes bis jetzt</translation>
     </message>
     <message>
-        <source>Alt+A</source>
-        <translation>Alt+A</translation>
-    </message>
-    <message>
-        <source>Percentage of stake to send</source>
-        <translation>Prozentsatz des Staken zum senden</translation>
-    </message>
-    <message>
-        <source>Percentage:</source>
-        <translation>Prozent:</translation>
-    </message>
-    <message>
-        <source>Address to send portion of stake to</source>
-        <translation>Adresse an die der Staking-Anteil gesendet wird</translation>
-    </message>
-    <message>
-        <source>Address:</source>
-        <translation>Adresse:</translation>
-    </message>
-    <message>
-        <source>Label:</source>
-        <translation>Bezeichnung:</translation>
-    </message>
-    <message>
-        <source>Enter a label for this address to add it to your address book</source>
-        <translation>Adressbezeichnung eingeben, diese wird zusammen mit der Adresse dem Adressbuch hinzugefügt</translation>
-    </message>
-    <message>
-        <source>Delete Address From MultiSend Vector</source>
-        <translation>Lösche Adresse von MultiSend-Vektor</translation>
+        <source>Start</source>
+        <translation>Start</translation>
     </message>
     <message>
         <source>Delete</source>
         <translation>Löschen</translation>
     </message>
     <message>
-        <source>Activate MultiSend</source>
-        <translation>Aktiviere MultiSend</translation>
+        <source>Info</source>
+        <translation>Info</translation>
     </message>
     <message>
-        <source>Activate</source>
-        <translation>Aktivieren</translation>
+        <source>Please wait until the node is fully synced</source>
+        <translation>Bitte warten Sie bis der Node vollständig synchronisiert ist</translation>
     </message>
     <message>
-        <source>View MultiSend Vector</source>
-        <translation>Zeige MultiSend-Vektor</translation>
+        <source>Start Masternode</source>
+        <translation>Starte Masternode</translation>
     </message>
     <message>
-        <source>View MultiSend</source>
-        <translation>Zeige MultiSend</translation>
+        <source>Are you sure you want to start masternode %1?
+</source>
+        <translation>Sind Sie sicher, dass Sie den Masternode starten wollen %1?
+</translation>
     </message>
     <message>
-        <source>Send For Stakes</source>
-        <translation>For Staker versenden</translation>
+        <source>Cannot edit masternode, wallet locked</source>
+        <translation>Masternode kann nicht bearbeitet werden, das Wallet ist verschlossen</translation>
     </message>
     <message>
-        <source>Send For Masternode Rewards</source>
-        <translation>Für Masternode Rewards versenden</translation>
+        <source>Cannot start masternode, the collateral transaction has not been confirmed by the network yet.
+Please wait few more minutes (masternode collaterals require %1 confirmations).</source>
+        <translation>Masternode kann nicht gestartet werden, das Kollateral wurde noch nicht durch das Netzwerk bestätigt. Bitte warten Sie einige Minuten (Es werden %1 Bestätigungen benötigt)</translation>
     </message>
     <message>
-        <source>(no label)</source>
-        <translation>(keine Bezeichnung)</translation>
+        <source>Background task is being executed, please wait</source>
+        <translation>Hintergrundprozess wird ausgeführt. Bitte warten Sie</translation>
     </message>
     <message>
-        <source>Please Enter 1 - 100 for percent.</source>
-        <translation>Bitte eine Zahl zwischen 1-100 in Prozent eingeben.</translation>
+        <source>Start ALL masternodes failed</source>
+        <translation>Starten ALLER Masternodes gescheitert</translation>
+    </message>
+    <message>
+        <source>Wallet unlock cancelled</source>
+        <translation>Entriegelung des Wallets abgebrochen</translation>
+    </message>
+    <message>
+        <source>Cannot perform Masternodes start</source>
+        <translation>Start des Masternodes kann nicht durchgeführt werden</translation>
+    </message>
+    <message>
+        <source>%1 Masternodes failed to start, %2 started</source>
+        <translation>%1 Masternodes konnten nicht gestartet werden, %2 wurden gestartet</translation>
+    </message>
+    <message>
+        <source>All Masternodes started!</source>
+        <translation>Alle Masternodes gestartet</translation>
+    </message>
+    <message>
+        <source>Cannot show Masternode information, wallet locked</source>
+        <translation>Informationen des Masternodes konnten nicht angezeigt werden, das Wallet ist verriegelt.</translation>
+    </message>
+    <message>
+        <source>Masternode data copied to the clipboard.</source>
+        <translation>Masternode Daten in die Zwischenablage kopiert</translation>
+    </message>
+    <message>
+        <source>Remote Masternode Data</source>
+        <translation>Remote Masternode Daten</translation>
+    </message>
+    <message>
+        <source>You are just about to export the required data to run a Masternode
+on a remote server to your clipboard.
+
+
+You will only have to paste the data in the func.conf file
+of your remote server and start it, then start the Masternode using
+this controller wallet (select the Masternode in the list and press "start").
+</source>
+        <translation>Sie sind dabei die erforderlichen Daten,
+um einen Masternode auf einem externen Server laufen zu lassen,
+in die Zwischenablage zu kopieren.
+
+
+SIe müssen lediglich die Daten in das func.conf-File ihres externen Servers einfügen,
+die Func-wallet starten, um dann von der Kontrollwallet aus
+ihren Masternode zu starten.
+</translation>
+    </message>
+    <message>
+        <source>Delete Masternode</source>
+        <translation>Lösche Masternode</translation>
+    </message>
+    <message>
+        <source>You are just about to delete Masternode:
+%1
+
+Are you sure?</source>
+        <translation>Sie sind dabei folgednen Masternode zu löschen:
+%1
+
+Sind sie sicher?</translation>
+    </message>
+    <message>
+        <source>Invalid masternode.conf file</source>
+        <translation>Ungültiges masternode.conf file</translation>
+    </message>
+    <message>
+        <source>Error parsing masternode.conf file</source>
+        <translation>Fehler beim Parsen der masternode.conf Datei </translation>
+    </message>
+    <message>
+        <source>masternode.conf file doesn't exists</source>
+        <translation>masternode.conf File existiert nicht</translation>
+    </message>
+    <message>
+        <source>Cannot create Masternode controller, wallet locked</source>
+        <translation>Konnte keinen Masternode Controller erzeugen, das Wallet ist verriegelt</translation>
+    </message>
+    <message>
+        <source>Not enough balance to create a masternode, 10,000 FUNC required.</source>
+        <translation>Nicht genügend Guthaben um einen Masternode zu erstellen, 10'000 FUNC werden benötigt.</translation>
+    </message>
+    <message>
+        <source>Error creating masternode</source>
+        <translation>Fehler beim Erstellen des Masternodes</translation>
     </message>
 </context>
 <context>
-    <name>MultisigDialog</name>
+    <name>MnInfoDialog</name>
     <message>
-        <source>Multisignature Address Interactions</source>
-        <translation>Mehrfachsignatur- und Adressinteraktionen</translation>
+        <source>Form</source>
+        <translation>Formular</translation>
     </message>
     <message>
-        <source>Create MultiSignature &amp;Address</source>
-        <translation>Erstelle Mehrfachsignatur $Address</translation>
+        <source>Masternode Information</source>
+        <translation>Masternode Information</translation>
     </message>
     <message>
-        <source>How many people must sign to verify a transaction</source>
-        <translation>Wie viele Personen müssen diese Transaktion signieren um Sie zu verifizieren?</translation>
+        <source>Public Key:</source>
+        <translation>Öffentlicher Schlüssel:</translation>
     </message>
     <message>
-        <source>Enter the minimum number of signatures required to sign transactions</source>
-        <translation>Anzahl der minimal benötigten Signierungen um Transaktionen zu signieren.</translation>
+        <source>492526e7fa3c810b35016...40a5df85ee227ab00b1156994</source>
+        <translation>492526e7fa3c810b35016...40a5df85ee227ab00b1156994</translation>
     </message>
     <message>
-        <source>Address Label:</source>
-        <translation>Adressbezeichnung:</translation>
+        <source>Address: </source>
+        <translation>IP-Adresse:</translation>
     </message>
     <message>
-        <source>Add another address that could sign to verify a transaction from the multisig address.</source>
-        <translation>Berechtige eine weitere Adresse, eine Signatur zur Verifikation einer Transaktion von einer mehrfach signierten Adresse zu leisten.</translation>
+        <source>127.0.0.2:43223</source>
+        <translation>127.0.0.2:43223</translation>
     </message>
     <message>
-        <source>&amp;Add Address / Key</source>
-        <translation>&amp;Füge Adresse / Schlüssel hinzu</translation>
+        <source>Collaterall tx id:</source>
+        <translation>ID der Kollateral-Transaktion:</translation>
     </message>
     <message>
-        <source>Local addresses or public keys that can sign:</source>
-        <translation>Lokale Adressen oder öffentliche Schlüssel die Signieren dürfen:</translation>
+        <source>Output index:</source>
+        <translation>Output Index:</translation>
     </message>
     <message>
-        <source>Create a new multisig address</source>
-        <translation>Erstelle eine neue Mehrfachsignatur-Adresse</translation>
-    </message>
-    <message>
-        <source>C&amp;reate</source>
-        <translation>C&amp;reate</translation>
+        <source>1 Inputs</source>
+        <translation>1 Input</translation>
     </message>
     <message>
         <source>Status:</source>
         <translation>Status:</translation>
     </message>
     <message>
-        <source>Use below to quickly import an address by its redeem. Don't forget to add a label before clicking import!
-Keep in mind, the wallet will rescan the blockchain to find transactions containing the new address.
-Please be patient after clicking import.</source>
-        <translation>Verwenden Sie unten, um eine Adresse schnell zu importieren, indem Sie sie einlösen. Vergessen Sie nicht, eine Beschriftung hinzuzufügen, bevor Sie auf Importieren klicken! 
-Beachten Sie, dass die Brieftasche die Blockchain erneut scannt, um Transaktionen zu finden, die die neue Adresse enthalten
-Bitte haben Sie etwas Geduld, nachdem Sie auf Importieren geklickt haben.</translation>
+        <source>MISSING</source>
+        <translation>FEHLEND</translation>
     </message>
     <message>
-        <source>&amp;Import Redeem</source>
-        <translation>&amp; Importieren einlösen</translation>
+        <source>Export data to run the Masternode on a remote server</source>
+        <translation>Ausgabe der Daten, um Masternode auf externem Server auszuführen</translation>
+    </message>
+</context>
+<context>
+    <name>MyAddressRow</name>
+    <message>
+        <source>Form</source>
+        <translation>Formular</translation>
     </message>
     <message>
-        <source>&amp;Create MultiSignature Tx</source>
-        <translation>&amp;Erstelle eine mehrfach signierte Transaktion </translation>
+        <source>Savings</source>
+        <translation>Erspartes</translation>
     </message>
     <message>
-        <source>Inputs:</source>
-        <translation>Eingaben:</translation>
+        <source>Jan. 19, 2019</source>
+        <translation>Jan. 19, 2019</translation>
     </message>
     <message>
-        <source>Coin Control</source>
-        <translation>Coinverwaltung</translation>
+        <source>DN6i46dytMPVhV1JMGZFuQBh7BZZ6nNLox</source>
+        <translation>DN6i46dytMPVhV1JMGZFuQBh7BZZ6nNLox</translation>
+    </message>
+</context>
+<context>
+    <name>NavMenuWidget</name>
+    <message>
+        <source>Form</source>
+        <translation>Formular</translation>
     </message>
     <message>
-        <source>Quantity Selected:</source>
-        <translation>Menge ausgewählt:</translation>
+        <source>V 1.0.0</source>
+        <translation>V 1.0.0</translation>
     </message>
     <message>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    <message>
-        <source>Amount:</source>
-        <translation>Betrag:</translation>
-    </message>
-    <message>
-        <source>Add an input to fund the outputs</source>
-        <translation>Füge eine Eingabe hinzu damit die Ausgabe finanziert wird.</translation>
-    </message>
-    <message>
-        <source>Add a Raw Input</source>
-        <translation>Füge eine rohe Eingabe hinzu</translation>
-    </message>
-    <message>
-        <source>Address / Amount:</source>
-        <translation>Adresse / Menge:</translation>
-    </message>
-    <message>
-        <source>Add destinations to send FUNC to</source>
-        <translation>Füge Transaktionsziele für FUNC-Überweisung hinzu</translation>
-    </message>
-    <message>
-        <source>Add &amp;Destination</source>
-        <translation>Füge &amp;Transaktionsziel hinzu</translation>
-    </message>
-    <message>
-        <source>Create a transaction object using the given inputs to the given outputs</source>
-        <translation>Erstelle eine Transaktion mit den gegeben Eingaben zu den angegebenen Zielen.</translation>
-    </message>
-    <message>
-        <source>Cr&amp;eate</source>
-        <translation>Erzeuge</translation>
-    </message>
-    <message>
-        <source>&amp;Sign MultiSignature Tx</source>
-        <translation>&amp;Signiere mehrfach signierte Transaktion</translation>
-    </message>
-    <message>
-        <source>Transaction Hex:</source>
-        <translation>Transaktionsschlüssel HEX:</translation>
-    </message>
-    <message>
-        <source>Sign the transaction from this wallet or from provided private keys</source>
-        <translation>Signiere eine Transaktion von diesem Wallet oder von bereitgestellten privaten Schlüsseln.</translation>
-    </message>
-    <message>
-        <source>S&amp;ign</source>
-        <translation>Unterschreiben</translation>
-    </message>
-    <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;DISABLED until transaction has been signed enough times.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt; DEAKTIVIERT bis die Transaktion entsprechend oft signiert wurde.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <source>Co&amp;mmit</source>
-        <translation>Co&amp;mmit</translation>
-    </message>
-    <message>
-        <source>Add private keys to sign the transaction with</source>
-        <translation>Füge private Schlüssel zum signieren der Transaktion hinzu</translation>
-    </message>
-    <message>
-        <source>Add Private &amp;Key</source>
-        <translation>Füge privaten &amp;Key hinzu</translation>
-    </message>
-    <message>
-        <source>Sign with only private keys (Not Recommened)</source>
-        <translation>Nur mit privaten Schlüsseln signieren (Nicht empfohlen)</translation>
-    </message>
-    <message>
-        <source>Invalid Tx Hash.</source>
-        <translation>Ungültiger Transaktions-Hash.</translation>
-    </message>
-    <message>
-        <source>Vout position must be positive.</source>
-        <translation>Vout-Position muss positiv sein.</translation>
-    </message>
-    <message>
-        <source>Maximum possible addresses reached. (15)</source>
-        <translation>Maximale Anzahl möglicher Adressen erreicht. (15)</translation>
-    </message>
-    <message>
-        <source>Vout Position: </source>
-        <translation>Vout Position:</translation>
-    </message>
-    <message>
-        <source>Amount: </source>
-        <translation>Menge:</translation>
-    </message>
-    <message>
-        <source>Maximum (15)</source>
-        <translation>Maximum (15)</translation>
+        <source>v%1</source>
+        <translation>v%1</translation>
     </message>
 </context>
 <context>
@@ -1714,8 +1756,16 @@ Bitte haben Sie etwas Geduld, nachdem Sie auf Importieren geklickt haben.</trans
         <translation>Zahlungsanfrage von URI oder Datei öffnen</translation>
     </message>
     <message>
-        <source>URI:</source>
-        <translation>URI:</translation>
+        <source>TextLabel</source>
+        <translation>TextEtikett</translation>
+    </message>
+    <message>
+        <source>CANCEL</source>
+        <translation>ABBRECHEN</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
     </message>
     <message>
         <source>Select payment request file</source>
@@ -1724,6 +1774,29 @@ Bitte haben Sie etwas Geduld, nachdem Sie auf Importieren geklickt haben.</trans
     <message>
         <source>Select payment request file to open</source>
         <translation>Datei für Zahlungsanfrage öffnen</translation>
+    </message>
+    <message>
+        <source>File not found</source>
+        <translation>Datei nicht gefunden</translation>
+    </message>
+    <message>
+        <source>Parsed data too large</source>
+        <translation>Zu viele Daten zu parsen</translation>
+    </message>
+    <message>
+        <source>Invalid URI, not starting with "func" prefix</source>
+        <translation>Ungültige URI, sie beginnt nicht mit "func"-Präfix</translation>
+    </message>
+</context>
+<context>
+    <name>OptionButton</name>
+    <message>
+        <source>Form</source>
+        <translation>Formular</translation>
+    </message>
+    <message>
+        <source>TextLabel</source>
+        <translation>TextEtikett</translation>
     </message>
 </context>
 <context>
@@ -1835,6 +1908,14 @@ https://www.transifex.com/CryptoDev-Project/CryptoDev-Project-translations</tran
         <translation>Aktivieren Sie zFUNC Automint</translation>
     </message>
     <message>
+        <source>Enable automatic zFUNC minting from specific addresses</source>
+        <translation>Automatisches zFUNC Minting von spezifischen Adressen erlauben</translation>
+    </message>
+    <message>
+        <source>Enable Automint Addresses</source>
+        <translation>Automint Adressen aktivieren</translation>
+    </message>
+    <message>
         <source>Percentage of incoming FUNC which get automatically converted to zFUNC via Zerocoin Protocol (min: 10%)</source>
         <translation>Anteil des eingehenden FUNC, welcher automatisch zu zFUNC via Zerocoin Protokoll konvertiert wird (min: 10%)</translation>
     </message>
@@ -1907,6 +1988,10 @@ https://www.transifex.com/CryptoDev-Project/CryptoDev-Project-translations</tran
         <translation>Benutzeroberfläche Motiv:</translation>
     </message>
     <message>
+        <source>Unit to show amounts in:</source>
+        <translation>Einheit des Betrags anzeigen in:</translation>
+    </message>
+    <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
         <translation>Wähle die Standardunterteilungseinheit, um sie auf der Oberfläche anzuzeigen und wenn Coins gesendet werden.</translation>
     </message>
@@ -1917,6 +2002,14 @@ https://www.transifex.com/CryptoDev-Project/CryptoDev-Project-translations</tran
     <message>
         <source>Hide empty balances</source>
         <translation>Leere Salden ausblenden</translation>
+    </message>
+    <message>
+        <source>Hide orphan stakes in transaction lists</source>
+        <translation>Verbirge verwaiste Stakes in der Transaktionsliste</translation>
+    </message>
+    <message>
+        <source>Hide orphan stakes</source>
+        <translation>Verbirge verwaiste Stakes</translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
@@ -1988,156 +2081,81 @@ https://www.transifex.com/CryptoDev-Project/CryptoDev-Project-translations</tran
     </message>
 </context>
 <context>
-    <name>OverviewPage</name>
+    <name>FUNCGUI</name>
     <message>
-        <source>Form</source>
-        <translation>Formular</translation>
+        <source>FUNC Core</source>
+        <translation>FUNC Core</translation>
     </message>
     <message>
-        <source>Available:</source>
-        <translation>Verfügbar:</translation>
+        <source>Wallet</source>
+        <translation>Wallet</translation>
     </message>
     <message>
-        <source>Your current spendable balance</source>
-        <translation>Ihr aktuell verfügbarer Kontostand</translation>
+        <source>Node</source>
+        <translation>Node</translation>
     </message>
     <message>
-        <source>Total Balance, including all unavailable coins.</source>
-        <translation>Gesamtsaldo, einschließlich aller nicht verfügbaren Münzen.</translation>
+        <source>&amp;Show / Hide</source>
+        <translation>&amp;Anzeigen / Verstecken</translation>
     </message>
     <message>
-        <source>FUNC Balance</source>
-        <translation>FUNC Bilanzen</translation>
+        <source>Show or hide the main Window</source>
+        <translation>Das Hauptfenster anzeigen oder verstecken</translation>
     </message>
     <message>
-        <source>Pending:</source>
-        <translation>Ausstehend:</translation>
+        <source>E&amp;xit</source>
+        <translation>&amp;Beenden</translation>
     </message>
     <message>
-        <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
-        <translation>Betrag aus unbestätigten Transaktionen, der noch nicht im aktuell verfügbaren Kontostand enthalten ist</translation>
+        <source>Quit application</source>
+        <translation>Anwendung beenden</translation>
     </message>
     <message>
-        <source>Immature:</source>
-        <translation>Unreif:</translation>
+        <source>FUNC Core client</source>
+        <translation>FUNC Core Client</translation>
     </message>
     <message>
-        <source>Staked or masternode rewards that has not yet matured</source>
-        <translation>Erarbeiteter Betrag der noch nicht gereift ist</translation>
+        <source>Error</source>
+        <translation>Fehler</translation>
     </message>
     <message>
-        <source>Current locked balance in watch-only addresses</source>
-        <translation>Der aktuelle gesperrte Kontostand in Nur-Uhr-Adressen</translation>
+        <source>Warning</source>
+        <translation>Warnung</translation>
     </message>
     <message>
-        <source>Your current FUNC balance, unconfirmed and immature transactions included</source>
-        <translation>Ihr aktueller FUNC-Saldo, unbestätigte und unreife Transaktionen sind enthalten</translation>
+        <source>Information</source>
+        <translation>Hinweis</translation>
     </message>
     <message>
-        <source>zFUNC Balance</source>
-        <translation>zFUNC Bilanzen</translation>
+        <source>System Message</source>
+        <translation>Systembenachrichtigung</translation>
     </message>
     <message>
-        <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zFUNC are spendable.</source>
-        <translation>Ausgereift: Mehr als 20 Bestätigungen und mehr als 1 Prägungen der selben Stückelung nach erfolgter Prägung.
-Diese zFUNC sind Verwendbar.</translation>
+        <source>Sent MultiSend transaction</source>
+        <translation>Versende MultiSend Transaktion</translation>
     </message>
     <message>
-        <source>Unconfirmed: less than 20 confirmations
-Immature: confirmed, but less than 1 mint of the same denomination after it was minted</source>
-        <translation>Unbestätigt: Weniger als 20 Bestätigungen
-Unreif: Bestätigt, aber keine Prägung in der selben Stückelung seit erfolgter Prägung</translation>
+        <source>Sent transaction</source>
+        <translation>Gesendete Transaktion</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the FUNC network after a connection is established, but this process has not completed yet.</source>
-        <translation>Die angezeigte Information ist möglicherweise nicht mehr aktuell. Ihre Wallet synchronisiert sich automatisch mit dem FUNC-Netzwerk, nachdem eine Verbindung hergestellt wurde. Aber dieser Vorgang ist noch nicht abgeschlossen.</translation>
+        <source>Incoming transaction</source>
+        <translation>Eingehende Transaktion</translation>
     </message>
     <message>
-        <source>OVERVIEW</source>
-        <translation>ÜBERBLICK</translation>
-    </message>
-    <message>
-        <source>Combined Balance (including unconfirmed and immature coins)</source>
-        <translation>Kombinierte Beträge (einschließlich unbestätigte und unreife Coins)</translation>
-    </message>
-    <message>
-        <source>Combined Balance</source>
-        <translation>Kombiniertes Guthaben</translation>
-    </message>
-    <message>
-        <source>Unconfirmed transactions to watch-only addresses</source>
-        <translation>Unbestätigte Transaktionen  zu beobachteten Adressen</translation>
-    </message>
-    <message>
-        <source>Staked or masternode rewards in watch-only addresses that has not yet matured</source>
-        <translation>Erarbeiteter Betrag der beobachteten Adressen der noch nicht gereift ist</translation>
-    </message>
-    <message>
-        <source>Total:</source>
-        <translation>Gesamtbetrag:</translation>
-    </message>
-    <message>
-        <source>Current total balance in watch-only addresses</source>
-        <translation>Kontostand der beobachteten Adressen</translation>
-    </message>
-    <message>
-        <source>Watch-only:</source>
-        <translation>Beobachtet:</translation>
-    </message>
-    <message>
-        <source>Your current balance in watch-only addresses</source>
-        <translation>Aktueller Kontostand der beobachteten Adressen</translation>
-    </message>
-    <message>
-        <source>Spendable:</source>
-        <translation>Verfügbar:</translation>
-    </message>
-    <message>
-        <source>Locked FUNC or Masternode collaterals. These are excluded from zFUNC minting.</source>
-        <translation>Gesperrte FUNC oder Masternode Pfand. Diese sind vom zFUNC Prägen ausgeschlossen.</translation>
-    </message>
-    <message>
-        <source>Locked:</source>
-        <translation>Gesperrt:</translation>
-    </message>
-    <message>
-        <source>Unconfirmed:</source>
-        <translation>Unbestätigt:</translation>
-    </message>
-    <message>
-        <source>Your current zFUNC balance, unconfirmed and immature zFUNC included.</source>
-        <translation>Ihre aktuelle zFUNC-Bilanz, unbestätigte und unreife zFUNC enthalten.</translation>
-    </message>
-    <message>
-        <source>Recent transactions</source>
-        <translation>Letzte Transaktionen</translation>
-    </message>
-    <message>
-        <source>out of sync</source>
-        <translation>nicht synchron</translation>
-    </message>
-    <message>
-        <source>Current percentage of zFUNC.
-If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
+        <source>Date: %1
+Amount: %2
+Type: %3
+Address: %4
 </source>
-        <translation>Aktueller Prozentsatz an zFUNC.
-Falls das automatische Prägen aktiviert ist, wird sich dieser Prozentsatz um den eingestellten Prozentsatz fürs automatisierte Prägen einpendeln (Standard = 10%).
-</translation>
+        <translation>Datum: %1
+Betrag: %2
+Typ: %3
+Adresse: %4</translation>
     </message>
     <message>
-        <source>AutoMint is currently enabled and set to </source>
-        <translation>Automatisches Prägen ist aktiv und eingestellt auf </translation>
-    </message>
-    <message>
-        <source>To disable AutoMint add 'enablezeromint=0' in func.conf.</source>
-        <translation>Um das automatische Prägen zu deaktivieren, füge 'enablezeromint=0' in func.conf ein.</translation>
-    </message>
-    <message>
-        <source>AutoMint is currently disabled.
-To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in func.conf</source>
-        <translation>Das automatische Prägen ist deaktiviert.
-Um das automatische Prägen zu aktivieren ändere 'enablezeromint=0' zu 'enablezeromint=1' in func.conf</translation>
+        <source>A fatal error occurred. FUNC can no longer continue safely and will quit.</source>
+        <translation>Ein fataler Fehler ist aufgetreten. FUNC kann nicht länger sicher fortfahren und wird geschlossen</translation>
     </message>
 </context>
 <context>
@@ -2247,546 +2265,129 @@ Um das automatische Prägen zu aktivieren ändere 'enablezeromint=0' zu 'enablez
     </message>
 </context>
 <context>
-    <name>PrivacyDialog</name>
+    <name>PrivacyWidget</name>
     <message>
-        <source>Zerocoin Actions:</source>
-        <translation>Zerocoin Aktionen:</translation>
+        <source>Form</source>
+        <translation>Formular</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the FUNC network after a connection is established, but this process has not completed yet.</source>
-        <translation>Die angezeigte Information ist möglicherweise nicht mehr aktuell. Ihre Wallet synchronisiert sich automatisch mit dem FUNC-Netzwerk, nachdem eine Verbindung hergestellt wurde. Aber dieser Vorgang ist noch nicht abgeschlossen.</translation>
-    </message>
-    <message>
-        <source>Mint Zerocoin</source>
-        <translation>Präge Zerocoin</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    <message>
-        <source>zFUNC</source>
-        <translation>zFUNC</translation>
-    </message>
-    <message>
-        <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
-        <translation>Zurücksetzen der Zerocoin-Wallet-DB. Löscht Transaktionen, die es nicht in die Blockchain geschafft haben.</translation>
-    </message>
-    <message>
-        <source>Reset</source>
-        <translation>Zurücksetzen</translation>
-    </message>
-    <message>
-        <source>Rescan the complete blockchain for  Zerocoin mints and their meta-data.</source>
-        <translation>Erneutes Scannen der kompletten Blockchain nach Zerocoin Prägungen und deren Meta-Daten</translation>
-    </message>
-    <message>
-        <source>ReScan</source>
-        <translation>Erneut Scannen</translation>
-    </message>
-    <message>
-        <source>Status and/or Mesages from the last Mint Action.</source>
-        <translation>Status und/oder Mitteilungen aus der letzten Prägung</translation>
-    </message>
-    <message>
-        <source>PRIVACY</source>
-        <translation>PRIVATSPHÄRE</translation>
-    </message>
-    <message>
-        <source>zFUNC Control</source>
-        <translation>zFUNC Control</translation>
-    </message>
-    <message>
-        <source>zFUNC Selected:</source>
-        <translation>zFUNC ausgewählt:</translation>
-    </message>
-    <message>
-        <source>Quantity Selected:</source>
-        <translation>Menge ausgewählt:</translation>
-    </message>
-    <message>
-        <source>Spend Zerocoin. Without 'Pay To:' address creates payments to yourself.</source>
-        <translation>Überweise Zerocoin. Ohne Empfänger-Adresse werden Zahlungen an Sie selbst erstellt.</translation>
-    </message>
-    <message>
-        <source>Spend Zerocoin</source>
-        <translation>Überweise Zerocoin</translation>
-    </message>
-    <message>
-        <source>Available (mature and spendable) zFUNC for spending</source>
-        <translation>Verfügbare (ausgereifte und aufwendbare) zFUNC zum Überweisen</translation>
-    </message>
-    <message>
-        <source>Available Balance:</source>
-        <translation>Verfügbare Bilanz:</translation>
-    </message>
-    <message>
-        <source>Available (mature and spendable) zFUNC for spending
-
-zFUNC are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>Verfügbare (ausgereifte und aufwendbare) zFUNC zum Überweisen
-
-zFUNC sind ausgereift wenn sie mehr als 20 Bestätigungen und mehr als 2 Prägungen in der selben Stückelung nach erfolgter Prägung halten.</translation>
-    </message>
-    <message>
-        <source>0 zFUNC</source>
-        <translation>0 zFUNC</translation>
-    </message>
-    <message>
-        <source>Pay &amp;To:</source>
-        <translation>E&amp;mpfänger:</translation>
-    </message>
-    <message>
-        <source>The FUNC address to send the payment to. Creates local payment to yourself when empty.</source>
-        <translation>Die FUNC-Adresse, an die die Zahlung gesendet wird. Erstellt eine lokale Zahlung an Sie selbst, wenn die Zeile leer ist.</translation>
-    </message>
-    <message>
-        <source>Choose previously used address</source>
-        <translation>Bereits verwendete Adresse auswählen</translation>
-    </message>
-    <message>
-        <source>Alt+A</source>
-        <translation>Alt+A</translation>
-    </message>
-    <message>
-        <source>Paste address from clipboard</source>
-        <translation>Adresse aus der Zwischenablage einfügen</translation>
-    </message>
-    <message>
-        <source>Alt+P</source>
-        <translation>Alt+P</translation>
-    </message>
-    <message>
-        <source>&amp;Label:</source>
-        <translation>&amp;Bezeichnung:</translation>
-    </message>
-    <message>
-        <source>Enter a label for this address to add it to the list of used addresses</source>
-        <translation>Adressbezeichnung eingeben, um diese in der Liste der bereits verwendeten Adressen zu speichern</translation>
-    </message>
-    <message>
-        <source>A&amp;mount:</source>
-        <translation>Betra&amp;g:</translation>
-    </message>
-    <message>
-        <source>Convert Change to Zerocoin (might cost additional fees)</source>
-        <translation>Wandle Wechselgeld in Zerocoin um (kann zusätzliche Gebühren kosten)</translation>
-    </message>
-    <message>
-        <source>If checked, the wallet tries to minimize the returning change instead of minimizing the number of spent denominations.</source>
-        <translation>Falls aktiviert, versucht die Wallet, das zurückkehrende Wechselgeld zu minimieren, anstatt die Anzahl der verbrauchten Stückelungen zu minimieren.</translation>
-    </message>
-    <message>
-        <source>Minimize Change</source>
-        <translation>Minimiert Wechselgeld</translation>
-    </message>
-    <message>
-        <source>Information about the available Zerocoin funds.</source>
-        <translation>Informationen über den verfügbaren Zerocoin-Bestand.</translation>
-    </message>
-    <message>
-        <source>Zerocoin Stats:</source>
-        <translation>Zerocoin Statistiken:</translation>
-    </message>
-    <message>
-        <source>Total Balance including unconfirmed and immature zFUNC</source>
-        <translation>Totales Guthaben, einschließlich unbestätigter und unreifer zFUNC</translation>
-    </message>
-    <message>
-        <source>Total Zerocoin  Balance:</source>
-        <translation>Totales Zerocoin Guthaben:</translation>
-    </message>
-    <message>
-        <source>Denominations with value 1:</source>
-        <translation>Stückelungen mit Wert 1:</translation>
-    </message>
-    <message>
-        <source>Denom. with value 1:</source>
-        <translation>Stücke mit Wert 1:</translation>
-    </message>
-    <message>
-        <source>Unconfirmed: less than 20 confirmations
-Immature: confirmed, but less than 1 mint of the same denomination after it was minted</source>
-        <translation>Unbestätigt: Weniger als 20 Bestätigungen
-Unreif: Bestätigt, aber keine Prägung in der selben Stückelung seit erfolgter Prägung</translation>
-    </message>
-    <message>
-        <source>Show the current status of automatic zFUNC minting.
-
-To change the status (restart required):
-- enable: add 'enablezeromint=1' to func.conf
-- disable: add 'enablezeromint=0' to func.conf
-
-To change the percentage (no restart required):
-- menu Settings-&gt;Options-&gt;Percentage of autominted zFUNC
-
-</source>
-        <translation>Zeigt den aktuellen Status der automatischen zFUNC-Prägung an
-
-Um den Status zu ändern (Neustart erforderlich): 
-- enable: füge 'enablezeromint = 1' zu func.conf hinzu
-- disable: füge 'enablezeromint = 0' zu func.conf hinzu
-
-Um den Prozentsatz zu ändern (kein Neustart erforderlich): 
-- Menü Einstellungen-&gt; Optionen-&gt; Prozentsatz der autom. zFUNC
-</translation>
-    </message>
-    <message>
-        <source>AutoMint Status</source>
-        <translation>AutoMint-Status</translation>
-    </message>
-    <message>
-        <source>Global Supply:</source>
-        <translation>Globales Angebot:</translation>
-    </message>
-    <message>
-        <source>Denom. 1:</source>
-        <translation>Wertstufe 1:</translation>
-    </message>
-    <message>
-        <source>Denom. 5:</source>
-        <translation>Wertstufe 5:</translation>
-    </message>
-    <message>
-        <source>Denom. 10:</source>
-        <translation>Wertstufe 10:</translation>
-    </message>
-    <message>
-        <source>Denom. 50:</source>
-        <translation>Wertstufe 50:</translation>
-    </message>
-    <message>
-        <source>Denom. 100:</source>
-        <translation>Wertstufe 100:</translation>
-    </message>
-    <message>
-        <source>Denom. 500:</source>
-        <translation>Wertstufe 500:</translation>
-    </message>
-    <message>
-        <source>Denom. 1000:</source>
-        <translation>Wertstufe 1000:</translation>
-    </message>
-    <message>
-        <source>Denom. 5000:</source>
-        <translation>Wertstufe 5000:</translation>
-    </message>
-    <message>
-        <source>0 x</source>
-        <translation>0 x</translation>
-    </message>
-    <message>
-        <source>Denominations with value 5:</source>
-        <translation>Stückelungen mit Wert 5:</translation>
-    </message>
-    <message>
-        <source>Denom. with value 5:</source>
-        <translation>Stücke mit Wert 5:</translation>
-    </message>
-    <message>
-        <source>Denominations with value 10:</source>
-        <translation>Stückelungen mit Wert 10:</translation>
-    </message>
-    <message>
-        <source>Denom. with value 10:</source>
-        <translation>Stücke mit Wert 10:</translation>
-    </message>
-    <message>
-        <source>Denominations with value 50:</source>
-        <translation>Stückelungen mit Wert 50:</translation>
-    </message>
-    <message>
-        <source>Denom. with value 50:</source>
-        <translation>Stücke mit Wert 50:</translation>
-    </message>
-    <message>
-        <source>Denominations with value 100:</source>
-        <translation>Stückelungen mit Wert 100:</translation>
-    </message>
-    <message>
-        <source>Denom. with value 100:</source>
-        <translation>Stücke mit Wert 100:</translation>
-    </message>
-    <message>
-        <source>Denominations with value 500:</source>
-        <translation>Stückelungen mit Wert 500:</translation>
-    </message>
-    <message>
-        <source>Denom. with value 500:</source>
-        <translation>Stücke mit Wert 500:</translation>
-    </message>
-    <message>
-        <source>Denominations with value 1000:</source>
-        <translation>Stückelungen mit Wert 1000:</translation>
-    </message>
-    <message>
-        <source>Denom. with value 1000:</source>
-        <translation>Stücke mit Wert 1000:</translation>
-    </message>
-    <message>
-        <source>Denominations with value 5000:</source>
-        <translation>Stückelungen mit Wert 5000:</translation>
-    </message>
-    <message>
-        <source>Denom. with value 5000:</source>
-        <translation>Stücke mit Wert 5000:</translation>
-    </message>
-    <message>
-        <source>Priority:</source>
-        <translation>Priorität:</translation>
+        <source>Title</source>
+        <translation>Titel</translation>
     </message>
     <message>
         <source>TextLabel</source>
         <translation>TextEtikett</translation>
     </message>
     <message>
-        <source>Fee:</source>
-        <translation>Gebühr:</translation>
+        <source>PushButton</source>
+        <translation>Druckknopf</translation>
     </message>
     <message>
-        <source>Dust:</source>
-        <translation>Abzug:</translation>
+        <source>N/A</source>
+        <translation>k.A.</translation>
     </message>
     <message>
-        <source>no</source>
-        <translation>nein</translation>
+        <source>Privacy</source>
+        <translation>Privatsphäre</translation>
     </message>
     <message>
-        <source>Bytes:</source>
-        <translation>Byte:</translation>
+        <source>Convert</source>
+        <translation>Umwandeln</translation>
     </message>
     <message>
-        <source>Insufficient funds!</source>
-        <translation>Unzureichender Kontostand!</translation>
+        <source>Mint</source>
+        <translation>Prägen</translation>
     </message>
     <message>
-        <source>Coins automatically selected</source>
-        <translation>Coins automatisch ausgewählt</translation>
+        <source>Minting zFUNC anonymizes your FUNC by removing any
+transaction history, making transactions untraceable </source>
+        <translation>Das Prägen von zFUNC anonymisiert Ihre FUNC, indem es die Transaktionshistorie entfernt und Transaktionen so nicht rückverfolgbar macht.</translation>
     </message>
     <message>
-        <source>medium</source>
-        <translation>mittel</translation>
+        <source>Mint new zFUNC or convert back to FUNC</source>
+        <translation>Präge neue zFUNC oder einlösen für FUNC</translation>
     </message>
     <message>
-        <source>Coin Control Features</source>
-        <translation>"Coin Control"-Funktionen</translation>
+        <source>Last zFUNC Movements</source>
+        <translation>letzte zFUNC Bewegungen</translation>
     </message>
     <message>
-        <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
-        <translation>Wenn dies aktivert, und die Wechselgeld-Adresse leer oder ungültig ist, wird das Wechselgeld einer neu erzeugten Adresse gutgeschrieben.</translation>
+        <source>No transactions yet</source>
+        <translation>Keine Transaktionen</translation>
     </message>
     <message>
-        <source>Custom change address</source>
-        <translation>Benutzerdefinierte Wechselgeld-Adresse</translation>
+        <source>Mint zFUNC</source>
+        <translation>zFUNC prägen</translation>
     </message>
     <message>
-        <source>Amount After Fee:</source>
-        <translation>Betrag nach Gebühr:</translation>
+        <source>Enter amount of FUNC to mint into zFUNC</source>
+        <translation>Gebe eine Anzahl FUNC ein, um sie in zFUNC zu wechseln</translation>
     </message>
     <message>
-        <source>Change:</source>
-        <translation>Wechselgeld:</translation>
+        <source>Convert back to FUNC</source>
+        <translation>Konvertiere zFUNC zurück zu FUNC</translation>
     </message>
     <message>
-        <source>out of sync</source>
-        <translation>nicht synchron</translation>
+        <source>Enter amount of zFUNC to convert back into FUNC</source>
+        <translation>Geben Sie die Menge zFUNC ein, die in FUNC umgewandelt werden sollen</translation>
     </message>
     <message>
-        <source>Mint Status: Okay</source>
-        <translation>Prägestatus: Okay</translation>
+        <source>Zerocoin</source>
+        <translation>Zerocoin</translation>
     </message>
     <message>
-        <source>Starting ResetMintZerocoin: rescanning complete blockchain, this will need up to 30 minutes depending on your hardware.
-Please be patient...</source>
-        <translation>Starten von ResetMintZerocoin: Erneutes Scannen der kompletten Blockchain. Das benötigt, je nach Hardware, bis zu 30 Minuten.
-Bitte haben Sie etwas Geduld...</translation>
+        <source>zFUNC is currently undergoing maintenance</source>
+        <translation>zFUNC wird momentan überarbeitet</translation>
     </message>
     <message>
-        <source>zFUNC Spend #: </source>
-        <translation>zFUNC Ausgeben #:</translation>
+        <source>You need to unlock the wallet to be able to %1 zFUNC</source>
+        <translation>Sie müssen Ihr Wallet entriegeln, um %1 zFUNC zu</translation>
     </message>
     <message>
-        <source>zFUNC Mint</source>
-        <translation>zFUNC Prägen</translation>
+        <source>convert</source>
+        <translation>Umwandeln</translation>
     </message>
     <message>
-        <source> &lt;b&gt;enabled&lt;/b&gt;.</source>
-        <translation> &lt;b&gt;enabled&lt;/b&gt;.</translation>
+        <source>mint</source>
+        <translation>Prägen</translation>
     </message>
     <message>
-        <source> &lt;b&gt;disabled&lt;/b&gt;.</source>
-        <translation> &lt;b&gt;disabled&lt;/b&gt;.</translation>
+        <source>Invalid value</source>
+        <translation>Ungültiger Wert</translation>
     </message>
     <message>
-        <source> Configured target percentage: &lt;b&gt;</source>
-        <translation>Konfigurierter Zielprozentsatz: &lt;b&gt;</translation>
+        <source>zFUNC minted successfully</source>
+        <translation>zFUNC erfolgreich geprägt</translation>
     </message>
     <message>
-        <source>zFUNC is currently disabled due to maintenance.</source>
-        <translation>zFUNC ist aktuell deaktiviert aufgrund von Wartungsarbeiten.</translation>
+        <source>zFUNC converted back to FUNC</source>
+        <translation>zFUNC zurück in FUNC konvertiert</translation>
     </message>
     <message>
-        <source>zFUNC is currently undergoing maintenance.</source>
-        <translation>zFUNC unterliegt momentan Wartungsarbeiten.</translation>
+        <source>You don't have any FUNC to select.</source>
+        <translation>Sie haben keine FUNC zu wählen</translation>
     </message>
     <message>
-        <source>Denom. with value &lt;b&gt;1&lt;/b&gt;:</source>
-        <translation>Denom. mit Wert &lt;b&gt;1&lt;/b&gt;:</translation>
+        <source>Rescan Mints</source>
+        <translation>Prägungen erneut scannen</translation>
     </message>
     <message>
-        <source>Denom. with value &lt;b&gt;5&lt;/b&gt;:</source>
-        <translation>Denom. mit Wert &lt;b&gt;5&lt;/b&gt;:</translation>
+        <source>Your zerocoin mints are going to be scanned from the blockchain from scratch</source>
+        <translation>Ihre zerocoin Prägungen werden von Beginn der Blockchain gescannt</translation>
     </message>
     <message>
-        <source>Denom. with value &lt;b&gt;10&lt;/b&gt;:</source>
-        <translation>Denom. mit Wert &lt;b&gt; 10&lt;/b&gt;:</translation>
+        <source>Reset Spent zFUNC</source>
+        <translation>Ausgegebene zFUNC erneut senden</translation>
     </message>
     <message>
-        <source>Denom. with value &lt;b&gt;50&lt;/b&gt;:</source>
-        <translation>Denom. mit Wert &lt;b&gt; 50&lt;/b&gt;:</translation>
+        <source>Your zerocoin spends are going to be scanned from the blockchain from scratch</source>
+        <translation>Ihre Zerocoin-Ausgaben werden von Beginn der Blockchain gescannt</translation>
     </message>
     <message>
-        <source>Denom. with value &lt;b&gt;100&lt;/b&gt;:</source>
-        <translation>Denom. mit Wert &lt;b&gt;100&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Denom. with value &lt;b&gt;500&lt;/b&gt;:</source>
-        <translation>Denom. mit Wert &lt;b&gt;500&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Denom. with value &lt;b&gt;1000&lt;/b&gt;:</source>
-        <translation>Denom. mit Wert &lt;b&gt;1000&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Denom. with value &lt;b&gt;5000&lt;/b&gt;:</source>
-        <translation>Denom. mit Wert &lt;b&gt;5000&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>AutoMint Status:</source>
-        <translation>AutoMint-Status:</translation>
-    </message>
-    <message>
-        <source>Denom. &lt;b&gt;1&lt;/b&gt;:</source>
-        <translation>Denom. &lt;b&gt;1&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Denom. &lt;b&gt;5&lt;/b&gt;:</source>
-        <translation>Denom. &lt;b&gt;5&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Denom. &lt;b&gt;10&lt;/b&gt;:</source>
-        <translation>Denom. &lt;b&gt;10&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Denom. &lt;b&gt;50&lt;/b&gt;:</source>
-        <translation>Denom. &lt;b&gt;50&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Denom. &lt;b&gt;100&lt;/b&gt;:</source>
-        <translation>Denom. &lt;b&gt;100&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Denom. &lt;b&gt;500&lt;/b&gt;:</source>
-        <translation>Denom. &lt;b&gt;500&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Denom. &lt;b&gt;1000&lt;/b&gt;:</source>
-        <translation>Denom. &lt;b&gt;1000&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Denom. &lt;b&gt;5000&lt;/b&gt;:</source>
-        <translation>Denom. &lt;b&gt;5000&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Duration: </source>
-        <translation>Dauer:</translation>
-    </message>
-    <message>
-        <source> sec.
-</source>
-        <translation>ausg.
-</translation>
-    </message>
-    <message>
-        <source>Starting ResetSpentZerocoin: </source>
-        <translation>Starte ResetSpentZerocoin: </translation>
-    </message>
-    <message>
-        <source>No 'Pay To' address provided, creating local payment</source>
-        <translation>Keine "Pay To"-Adresse zur Verfügung. Erstelle lokale Zahlung</translation>
-    </message>
-    <message>
-        <source>Invalid Func Address</source>
-        <translation>Ungültige FUNC-Adresse </translation>
-    </message>
-    <message>
-        <source>Invalid Send Amount</source>
-        <translation>Ungültiger Sendebetrag.</translation>
-    </message>
-    <message>
-        <source>Confirm additional Fees</source>
-        <translation>Zusätzliche Gebühren bestätigen</translation>
-    </message>
-    <message>
-        <source>Are you sure you want to send?&lt;br /&gt;&lt;br /&gt;</source>
-        <translation>Sind Sie sicher, dass Sie senden möchten?&lt;br /&gt;&lt;br /&gt;</translation>
-    </message>
-    <message>
-        <source> to address </source>
-        <translation>an Adresse</translation>
-    </message>
-    <message>
-        <source> to a newly generated (unused and therefore anonymous) local address &lt;br /&gt;</source>
-        <translation>an eine neu generierte (unbenutzte und daher anonyme) lokale Adresse&lt;br /&gt;</translation>
-    </message>
-    <message>
-        <source>Confirm send coins</source>
-        <translation>Sende Coins bestätigen</translation>
-    </message>
-    <message>
-        <source>Failed to fetch mint associated with serial hash</source>
-        <translation>Mit Hash verbundene Prägung konnte nicht abgerufen werden</translation>
-    </message>
-    <message>
-        <source>Spend Zerocoin failed with status = </source>
-        <translation>Ausgeben Zerocoin fehlgeschlagen mit Status =</translation>
-    </message>
-    <message>
-        <source>denomination: </source>
-        <translation>Stückelung:</translation>
-    </message>
-    <message>
-        <source>serial: </source>
-        <translation>seriell:</translation>
-    </message>
-    <message>
-        <source>Spend is 1 of : </source>
-        <translation>Spend ist 1 von :</translation>
-    </message>
-    <message>
-        <source>value out: </source>
-        <translation>Betrag out:</translation>
-    </message>
-    <message>
-        <source>address: </source>
-        <translation>Adresse:</translation>
-    </message>
-    <message>
-        <source>Sending successful, return code: </source>
-        <translation>Senden erfolgreich, Rückgabecode:</translation>
-    </message>
-    <message>
-        <source>txid: </source>
-        <translation>txid: </translation>
-    </message>
-    <message>
-        <source>fee: </source>
-        <translation>Gebühr:</translation>
+        <source>Total %1</source>
+        <translation>Gesamt %1</translation>
     </message>
 </context>
-<context>
-    <name>ProposalFrame</name>
-    </context>
 <context>
     <name>QObject</name>
     <message>
@@ -2794,8 +2395,8 @@ Bitte haben Sie etwas Geduld...</translation>
         <translation>Betrag</translation>
     </message>
     <message>
-        <source>Enter a FUNC address (e.g. %1)</source>
-        <translation>FUNC-Adresse eingeben (z.B. %1)</translation>
+        <source>Enter FUNC address (e.g. %1)</source>
+        <translation>FUNC Adresse eingeben (z.B. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2841,24 +2442,121 @@ Bitte haben Sie etwas Geduld...</translation>
         <source>FUNC Core</source>
         <translation>FUNC Core</translation>
     </message>
-    </context>
-<context>
-    <name>QRImageWidget</name>
     <message>
-        <source>&amp;Save Image...</source>
-        <translation>Grafik &amp;speichern...</translation>
+        <source>Error: Specified data directory "%1" does not exist.</source>
+        <translation>Fehler: Angegebener Speicherpfad "%1" existiert nicht.</translation>
     </message>
     <message>
-        <source>&amp;Copy Image</source>
-        <translation>Grafik &amp;kopieren</translation>
+        <source>Error: Cannot parse configuration file: %1. Only use key=value syntax.</source>
+        <translation>Fehler: Konfigurationsdatei: %1 konnte nicht geparst werden. Bitte nutzen Sie nur Schlüssel=Wert Syntax</translation>
     </message>
     <message>
-        <source>Save QR Code</source>
-        <translation>QR-Code speichern</translation>
+        <source>Error: Invalid combination of -regtest and -testnet.</source>
+        <translation>Fehler: Ungültige Kombination von -regtest und -testnet</translation>
     </message>
     <message>
-        <source>PNG Image (*.png)</source>
-        <translation>PNG-Grafik (*.png)</translation>
+        <source>Error reading masternode configuration file: %1</source>
+        <translation>Fehler beim Einlesen der Konfigurationsdatei %1 für den Masternode.</translation>
+    </message>
+    <message>
+        <source>FUNC Core didn't yet exit safely...</source>
+        <translation>FUNC Core konnte noch nicht sicher beendet werden...</translation>
+    </message>
+    <message>
+        <source>Contact</source>
+        <translation>Kontakt</translation>
+    </message>
+    <message>
+        <source>Receiving</source>
+        <translation>Empfangen</translation>
+    </message>
+    <message>
+        <source>Delegator</source>
+        <translation>Delegierter</translation>
+    </message>
+    <message>
+        <source>Cold Staking</source>
+        <translation>Cold Staking</translation>
+    </message>
+    <message>
+        <source>Cold Staking Contact</source>
+        <translation>Cold Staking Kontakt</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>Verborgen</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Unbekannt</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Alle</translation>
+    </message>
+    <message>
+        <source>Contacts</source>
+        <translation>Kontakte</translation>
+    </message>
+    <message>
+        <source>Delegators</source>
+        <translation>Delegierte</translation>
+    </message>
+    <message>
+        <source>Staking Contacts</source>
+        <translation>Staking Kontakte</translation>
+    </message>
+    <message>
+        <source>Received</source>
+        <translation>Empfangen</translation>
+    </message>
+    <message>
+        <source>Sent</source>
+        <translation>Gesendet</translation>
+    </message>
+    <message>
+        <source>Mined</source>
+        <translation>Erarbeitet</translation>
+    </message>
+    <message>
+        <source>Minted</source>
+        <translation>Erzeugt</translation>
+    </message>
+    <message>
+        <source>MN reward</source>
+        <translation>MN Vergütung</translation>
+    </message>
+    <message>
+        <source>To yourself</source>
+        <translation>Eigenüberweisung</translation>
+    </message>
+    <message>
+        <source>Cold stakes</source>
+        <translation>Cold Stakes</translation>
+    </message>
+    <message>
+        <source>Hot stakes</source>
+        <translation>Hot Stakes</translation>
+    </message>
+    <message>
+        <source>Delegated</source>
+        <translation>Zugewiesen</translation>
+    </message>
+    <message>
+        <source>Delegations</source>
+        <translation>Delegationen</translation>
+    </message>
+    <message>
+        <source>by Label</source>
+        <translation>nach Bezeichnung</translation>
+    </message>
+    <message>
+        <source>by Address</source>
+        <translation>nach Adresse</translation>
+    </message>
+    <message>
+        <source>by Date</source>
+        <translation>nach Datum</translation>
     </message>
 </context>
 <context>
@@ -2912,10 +2610,6 @@ Bitte haben Sie etwas Geduld...</translation>
         <translation>Debug-Protokolldatei</translation>
     </message>
     <message>
-        <source>Using OpenSSL version</source>
-        <translation>Verwendete OpenSSL Version</translation>
-    </message>
-    <message>
         <source>Build date</source>
         <translation>Build Datum</translation>
     </message>
@@ -2942,6 +2636,14 @@ Bitte haben Sie etwas Geduld...</translation>
     <message>
         <source>Number of Masternodes</source>
         <translation>Anzahl der Masternodes</translation>
+    </message>
+    <message>
+        <source>Data Directory</source>
+        <translation>Datenverzeichnis</translation>
+    </message>
+    <message>
+        <source>Last block hash</source>
+        <translation>Letzter Blockhash</translation>
     </message>
     <message>
         <source>&amp;Console</source>
@@ -3204,8 +2906,16 @@ Bitte haben Sie etwas Geduld...</translation>
         <translation>Synchronisation der Blockchain bestätigen</translation>
     </message>
     <message>
+        <source>Use up and down arrows to navigate history, and %1 to clear screen.</source>
+        <translation>Verwende die Pfeiltasten um durch den Verlauf zu scrollen und %1 um das Konsolenfester zu löschen.</translation>
+    </message>
+    <message>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
         <translation>Gebe &lt;b&gt;help&lt;/b&gt; ein, um eine Übersicht der verfügbaren Befehle zu erhalten.</translation>
+    </message>
+    <message>
+        <source>WARNING: Scammers have been active, telling users to type commands here, stealing their wallet contents. Do not use this console without fully understanding the ramifications of a command.</source>
+        <translation>Warnung: Abzocker sind aktiv und erzählen Nutzer hier Befehle einzugeben, um so den Inhalt des Wallets zu stehlen. Nutzen Sie diese Konsole nicht, ohne die Bedeutungen eines Befehls vollständig zu verstehen.</translation>
     </message>
     <message>
         <source>%1 B</source>
@@ -3257,153 +2967,113 @@ Bitte haben Sie etwas Geduld...</translation>
     </message>
 </context>
 <context>
-    <name>ReceiveCoinsDialog</name>
+    <name>ReceiveDialog</name>
     <message>
-        <source>Reuse one of the previously used receiving addresses.&lt;br&gt;Reusing addresses has security and privacy issues.&lt;br&gt;Do not use this unless re-generating a payment request made before.</source>
-        <translation>Wiederverwendung einer zuvor verwendeten Empfangsadressen.&lt;br&gt;Wiederverwendete Adressen haben Sicherheits- und Datenschutzprobleme.&lt;br&gt;Verwenden Sie diese nicht, es sei denn, dass Sie zuvor eine Zahlungsanforderung generieren.</translation>
+        <source>Dialog</source>
+        <translation>Dialog</translation>
     </message>
     <message>
-        <source>R&amp;euse an existing receiving address (not recommended)</source>
-        <translation>&amp;Wiederverwendung einer vorhandenen Empfangsadresse (nicht empfohlen)</translation>
+        <source>Transaction Details</source>
+        <translation>Transaktionsdetails</translation>
     </message>
     <message>
-        <source>&amp;Message:</source>
-        <translation>Nachricht:</translation>
+        <source>F7VFR83SQbiezrW72hjcWJtcfip5krte2Z </source>
+        <translation>F7VFR83SQbiezrW72hjcWJtcfip5krte2Z</translation>
     </message>
     <message>
-        <source>An optional label to associate with the new receiving address.</source>
-        <translation>Ein optionales Etikett, das mit der neuen Empfangsadresse verknüpft werden soll.</translation>
+        <source>CANCEL</source>
+        <translation>ABBRECHEN</translation>
     </message>
     <message>
-        <source>A&amp;mount:</source>
-        <translation>Betra&amp;g:</translation>
-    </message>
-    <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the FUNC network.</source>
-        <translation>Eine optionale Nachricht an die Zahlungsaufforderung anhängen, die bei der Eröffnung der Anforderung angezeigt wird. Hinweis: Die Nachricht wird nicht mit der Zahlung über das FUNC-Netzwerk gesendet.</translation>
-    </message>
-    <message>
-        <source>RECEIVE</source>
-        <translation>EMPFANGEN</translation>
-    </message>
-    <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the FUNC network.</source>
-        <translation>Eine optionale Nachricht an die Zahlungsaufforderung anhängen, die bei der Eröffnung der Anforderung angezeigt wird.&lt;br&gt;Hinweis: Die Nachricht wird nicht mit der Zahlung über das FUNC-Netzwerk gesendet.</translation>
-    </message>
-    <message>
-        <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
-        <translation>Verwenden Sie dieses Formular, um Zahlungen anzufordern. Alle Felder sind &lt;b&gt;optional&lt;/b&gt;.</translation>
-    </message>
-    <message>
-        <source>&amp;Label:</source>
-        <translation>&amp;Bezeichnung:</translation>
-    </message>
-    <message>
-        <source>An optional amount to request. Leave this empty or zero to not request a specific amount.</source>
-        <translation>Einen optionalen Betrag anfordern. Lassen Sie diesen leer oder Null, um einen unbestimmten Betrag anzufordern.</translation>
-    </message>
-    <message>
-        <source>&amp;Request payment</source>
-        <translation>Zahlung anfo&amp;rdern</translation>
-    </message>
-    <message>
-        <source>Clear all fields of the form.</source>
-        <translation>Alle Formularfelder zurücksetzen.</translation>
-    </message>
-    <message>
-        <source>Clear</source>
-        <translation>Clear</translation>
-    </message>
-    <message>
-        <source>Requested payments history</source>
-        <translation>Verlauf der angeforderten Zahlungen</translation>
-    </message>
-    <message>
-        <source>Show the selected request (does the same as double clicking an entry)</source>
-        <translation>Zeige die ausgewählte Anfrage an (entspricht dem Doppelklick auf einen Eintrag)</translation>
-    </message>
-    <message>
-        <source>Show</source>
-        <translation>Anzeigen</translation>
-    </message>
-    <message>
-        <source>Remove the selected entries from the list</source>
-        <translation>Entferne die ausgewählten Einträge aus der Liste</translation>
-    </message>
-    <message>
-        <source>Remove</source>
-        <translation>Entfernen</translation>
-    </message>
-    <message>
-        <source>Copy label</source>
-        <translation>Bezeichnung kopieren</translation>
-    </message>
-    <message>
-        <source>Copy message</source>
-        <translation>Nachricht kopieren</translation>
-    </message>
-    <message>
-        <source>Copy amount</source>
-        <translation>Betrag kopieren</translation>
-    </message>
-    <message>
-        <source>Copy address</source>
-        <translation>Adresse kopieren</translation>
+        <source>OK</source>
+        <translation>OK</translation>
     </message>
 </context>
 <context>
-    <name>ReceiveRequestDialog</name>
+    <name>ReceiveWidget</name>
     <message>
-        <source>QR Code</source>
-        <translation>QR Code</translation>
+        <source>Form</source>
+        <translation>Formular</translation>
     </message>
     <message>
-        <source>Copy &amp;URI</source>
-        <translation>&amp;URI kopieren</translation>
+        <source>TextLabel</source>
+        <translation>TextEtikett</translation>
     </message>
     <message>
-        <source>Copy &amp;Address</source>
-        <translation>&amp;Adresse kopieren</translation>
+        <source>No address</source>
+        <translation>Keine Adresse</translation>
     </message>
     <message>
-        <source>&amp;Save Image...</source>
-        <translation>Grafik &amp;speichern...</translation>
+        <source>Add Label</source>
+        <translation>Bezeichnung hinzufügen</translation>
     </message>
     <message>
-        <source>Request payment to %1</source>
-        <translation>Zahlung an %1 anfordern </translation>
+        <source>Generate Address</source>
+        <translation>Generiere Adresse</translation>
     </message>
     <message>
-        <source>Payment information</source>
-        <translation>Zahlungsinformationen</translation>
+        <source>Copy</source>
+        <translation>Kopieren</translation>
     </message>
     <message>
-        <source>URI</source>
-        <translation>URI</translation>
+        <source>Receive</source>
+        <translation>Empfangen</translation>
     </message>
     <message>
-        <source>Address</source>
-        <translation>Adresse</translation>
+        <source>Scan the QR code or copy the address to receive FUNC.</source>
+        <translation>QR-Code scannen oder Adresse kopieren um FUNC zu erhalten.</translation>
     </message>
     <message>
-        <source>Amount</source>
-        <translation>Betrag</translation>
+        <source>No address </source>
+        <translation>Keine Adresse</translation>
     </message>
     <message>
-        <source>Label</source>
-        <translation>Bezeichnung</translation>
+        <source>No available address, try unlocking the wallet</source>
+        <translation>Keine Adresse verfügbar, versuche die Wallet zu entsperren.</translation>
     </message>
     <message>
-        <source>Message</source>
-        <translation>Nachricht</translation>
+        <source>Error generating address</source>
+        <translation>Fehler beim Erstellen der Adresse</translation>
     </message>
     <message>
-        <source>Resulting URI too long, try to reduce the text for label / message.</source>
-        <translation>Resultierende URI zu lang. Versuchen sie den Text für Label / Nachricht zu kürzen.</translation>
+        <source>Edit Label</source>
+        <translation>Bezeichnung bearbeiten</translation>
     </message>
     <message>
-        <source>Error encoding URI into QR Code.</source>
-        <translation>Fehler bei der Kodierung der URI im QR-Code</translation>
+        <source>Edit Address Label</source>
+        <translation>Adressbezeichnung bearbeiten</translation>
+    </message>
+    <message>
+        <source>Address label saved</source>
+        <translation>Adressbezeichnung gespeichert</translation>
+    </message>
+    <message>
+        <source>Error storing address label</source>
+        <translation>Fehler beim Speichern der Adressbezeichnung</translation>
+    </message>
+    <message>
+        <source>Cannot create new address, wallet locked</source>
+        <translation>Konnte keine neue Adresse erzeugen. Wallet verriegelt.</translation>
+    </message>
+    <message>
+        <source>New address created</source>
+        <translation>Neue Adresse erstellen</translation>
+    </message>
+    <message>
+        <source>Address copied</source>
+        <translation>Adresse kopiert</translation>
+    </message>
+    <message>
+        <source>Cannot perform operation, wallet locked</source>
+        <translation>Aufgabe kann nicht durchgeführt werden, Ihr Wallet ist verschlossen</translation>
+    </message>
+    <message>
+        <source>URI copied to clipboard</source>
+        <translation>URI in die Zwischenablage kopiert</translation>
+    </message>
+    <message>
+        <source>Address copied to clipboard</source>
+        <translation>Adresse in Zwischenablage kopiert</translation>
     </message>
 </context>
 <context>
@@ -3442,507 +3112,1477 @@ Bitte haben Sie etwas Geduld...</translation>
     </message>
 </context>
 <context>
-    <name>SendCoinsDialog</name>
+    <name>RequestDialog</name>
     <message>
-        <source>Send Coins</source>
-        <translation>FUNCs überweisen</translation>
+        <source>Dialog</source>
+        <translation>Dialog</translation>
     </message>
     <message>
-        <source>SEND</source>
-        <translation>SENDEN</translation>
+        <source>New Request Payment</source>
+        <translation>Neue Zahlung anfordern</translation>
     </message>
     <message>
-        <source>Coin Control Features</source>
-        <translation>"Coin Control"-Funktionen</translation>
+        <source>Lorem ipsum dolor sit amet, consectur cling elit, sed do </source>
+        <translation>Lorem ipsum dolor sit amet, consectur cling elit, sed do </translation>
     </message>
     <message>
-        <source>Insufficient funds!</source>
-        <translation>Unzureichender Kontostand!</translation>
+        <source>Amount</source>
+        <translation>Betrag</translation>
     </message>
     <message>
-        <source>Quantity:</source>
-        <translation>Anzahl:</translation>
+        <source>FUNC</source>
+        <translation>FUNC</translation>
     </message>
     <message>
-        <source>Bytes:</source>
-        <translation>Byte:</translation>
+        <source>TextLabel</source>
+        <translation>TextEtikett</translation>
     </message>
     <message>
-        <source>Amount:</source>
-        <translation>Betrag:</translation>
+        <source>F7VFR83SQbiezrW72hjcWJtcfip5krte2Z </source>
+        <translation>F7VFR83SQbiezrW72hjcWJtcfip5krte2Z</translation>
     </message>
     <message>
-        <source>Priority:</source>
-        <translation>Priorität:</translation>
+        <source>COPY ADDRESS</source>
+        <translation>Adresse kopieren</translation>
     </message>
     <message>
-        <source>medium</source>
-        <translation>mittel</translation>
+        <source>COPY URL</source>
+        <translation>URL kopieren</translation>
     </message>
     <message>
-        <source>Fee:</source>
-        <translation>Gebühr:</translation>
+        <source>CANCEL</source>
+        <translation>ABBRECHEN</translation>
     </message>
     <message>
-        <source>Dust:</source>
-        <translation>Abzug:</translation>
+        <source>REQUEST</source>
+        <translation>Anfordern</translation>
     </message>
     <message>
-        <source>no</source>
-        <translation>nein</translation>
+        <source>Label</source>
+        <translation>Bezeichnung</translation>
     </message>
     <message>
-        <source>After Fee:</source>
-        <translation>Nach Gebühren:</translation>
+        <source>Description (optional)</source>
+        <translation>Beschreibung (optional)</translation>
     </message>
     <message>
-        <source>Change:</source>
-        <translation>Wechselgeld:</translation>
+        <source>New Payment Request</source>
+        <translation>Neue Bezahlung anfordern</translation>
     </message>
     <message>
-        <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
-        <translation>Wenn dies aktivert, und die Wechselgeld-Adresse leer oder ungültig ist, wird das Wechselgeld einer neu erzeugten Adresse gutgeschrieben.</translation>
+        <source>Instead of sharing only a FUNC address, you can create a payment request, bundling up more information.</source>
+        <translation>Anstatt nur eine FUNC Adresse zu teilen, können Sie eine Zahlung anfordern, die mehr Informationen enthält.</translation>
     </message>
     <message>
-        <source>Custom change address</source>
-        <translation>Benutzerdefinierte Wechselgeld-Adresse</translation>
+        <source>Enter a label for the address</source>
+        <translation>Eine Bezeichnung für die Adresse eingeben</translation>
     </message>
     <message>
-        <source>Split UTXO</source>
-        <translation>UTXO aufteilen</translation>
+        <source>Enter description</source>
+        <translation>Beschreibung eingeben</translation>
     </message>
     <message>
-        <source># of outputs</source>
-        <translation>Anzahl outputs</translation>
+        <source>Error</source>
+        <translation>Fehler</translation>
     </message>
     <message>
-        <source>UTXO Size:</source>
-        <translation>UTXO Größe:</translation>
+        <source>GENERATE</source>
+        <translation>ERSTELLEN</translation>
     </message>
     <message>
-        <source>0 FUNC</source>
-        <translation>0 FUNC</translation>
+        <source>Creates an address to receive coin delegations and be able to stake them.</source>
+        <translation>Erstellt eine Adresse um Münzzuweisungen zu empfangen und diese zu staken</translation>
     </message>
     <message>
-        <source>Transaction Fee:</source>
-        <translation>Transaktionsgebühr:</translation>
+        <source>New Cold Staking Address</source>
+        <translation>Neue Cold Staking Adresse</translation>
     </message>
     <message>
-        <source>Choose...</source>
-        <translation>Auswählen...</translation>
+        <source>Amount (optional)</source>
+        <translation>Betrag (optional)</translation>
+    </message>
+</context>
+<context>
+    <name>SendChangeAddressDialog</name>
+    <message>
+        <source>Dialog</source>
+        <translation>Dialog</translation>
     </message>
     <message>
-        <source>collapse fee-settings</source>
-        <translation>Gebühreneinstellungen reduzieren</translation>
+        <source>Transaction Details</source>
+        <translation>Transaktionsdetails</translation>
     </message>
     <message>
-        <source>Minimize</source>
-        <translation>Minimieren</translation>
+        <source>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</source>
+        <translation>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</translation>
     </message>
     <message>
-        <source>per kilobyte</source>
-        <translation>pro Kilobyte</translation>
+        <source>CANCEL</source>
+        <translation>ABBRECHEN</translation>
     </message>
     <message>
-        <source>total at least</source>
-        <translation>Gesamt mindestens</translation>
+        <source>OK</source>
+        <translation>OK</translation>
     </message>
     <message>
-        <source>(read the tooltip)</source>
-        <translation>(Kurzinfo lesen)</translation>
+        <source>Custom Change Address</source>
+        <translation>Benutzerdefinierte Wechseladresse</translation>
     </message>
     <message>
-        <source>Custom:</source>
-        <translation>Benutzerdefiniert:</translation>
+        <source>The remainder of the value resultant from the inputs minus the outputs value goes to the "change" FUNC address</source>
+        <translation>Der verbleibende Betrag der Inputs minus der Outputs geht an die Wechseladresse</translation>
     </message>
     <message>
-        <source>(Smart fee not initialized yet. This usually takes a few blocks...)</source>
-        <translation>("Intelligente" Gebühren sind noch nicht berechnet. Dies dauert normalerweise ein paar Blöcke...)</translation>
+        <source>SAVE</source>
+        <translation>SICHERN</translation>
     </message>
     <message>
-        <source>SwiftX</source>
-        <translation>Swift Transaktion</translation>
+        <source>Invalid address</source>
+        <translation>Ungültige Adresse</translation>
+    </message>
+</context>
+<context>
+    <name>SendCustomFeeDialog</name>
+    <message>
+        <source>Form</source>
+        <translation>Formular</translation>
     </message>
     <message>
-        <source>Confirmation time:</source>
-        <translation>Bestätigungszeit:</translation>
+        <source>Transaction Details</source>
+        <translation>Transaktionsdetails</translation>
     </message>
     <message>
-        <source>Open Coin Control...</source>
-        <translation>Öffne Coin Kontrolle...</translation>
-    </message>
-    <message>
-        <source>Coins automatically selected</source>
-        <translation>Coins automatisch ausgewählt</translation>
-    </message>
-    <message>
-        <source>If the custom fee is set to 1000 uFUNCs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uFUNCs in fee,&lt;br /&gt;while "at least" pays 1000 uFUNCs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Wenn die kundenspezifische Gebühr auf 1000 uFUNCs eingestellt ist und die Transaktion nur 250 Bytes beträgt, dann zahlt man "pro Kilobyte" nur 250 uFUNCs an Gebühren,&lt;br /&gt;während man "mindestens" 1000 uFUNCs bezahlt. Für Transaktionen, die größer sind als ein Kilobyte, bezahlen sie per Kilobyte.</translation>
-    </message>
-    <message>
-        <source>If the custom fee is set to 1000 uFUNCs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uFUNCs in fee,&lt;br /&gt;while "total at least" pays 1000 uFUNCs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Wenn die kundenspezifische Gebühr auf 1000 uFUNCs eingestellt ist und die Transaktion nur 250 Bytes beträgt, dann zahlt man "pro Kilobyte" nur 250 uFUNCs an Gebühren,&lt;br /&gt;während man "insgesamt mindestens" 1000 uFUNCs bezahlt. Für Transaktionen, die größer sind als ein Kilobyte, bezahlen sie per Kilobyte.</translation>
-    </message>
-    <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for FUNC transactions than the network can process.</source>
-        <translation>Nur die minimale Gebühr zu zahlen ist nur gut, solange es weniger Transaktionsvolumen als Platz in den Blocken gibt.&lt;br /&gt;Aber seien Sie sich bewusst, dass dies in einer niemals bestätigende Transaktion enden kann, sobald die Nachfrage nach FUNC-Transaktionen höher ist, als was das Netzwerk verarbeiten kann.</translation>
-    </message>
-    <message>
-        <source>normal</source>
-        <translation>normal</translation>
-    </message>
-    <message>
-        <source>fast</source>
-        <translation>schnell</translation>
+        <source>Customize the transaction fee at your to your liking, depending on the fee value your transaction will be included or not in the blockchain.</source>
+        <translation>Passen Sie die Transaktionsgebühr nach Ihrem Befinden an. Abhängig von der Gebühr wird ihre Transaktion in die Blockchain eingefügt oder vom Netzwerk zurückgewiesen</translation>
     </message>
     <message>
         <source>Recommended</source>
         <translation>Empfohlen</translation>
     </message>
     <message>
-        <source>Send as zero-fee transaction if possible</source>
-        <translation>Sende als gebührenfreie Transaktion, wenn möglich</translation>
+        <source>FUNC/kilobyte</source>
+        <translation>FUNC/kB</translation>
     </message>
     <message>
-        <source>(confirmation may take longer)</source>
-        <translation>(die Bestätigung kann länger dauern)</translation>
+        <source>0.00 KB</source>
+        <translation>0.00 KB</translation>
     </message>
     <message>
-        <source>Confirm the send action</source>
-        <translation>Bestätige die Sendeaktion</translation>
+        <source>Custom</source>
+        <translation>Benutzerdefiniert:</translation>
     </message>
     <message>
-        <source>S&amp;end</source>
-        <translation>Üb&amp;erweisen</translation>
+        <source>CANCEL</source>
+        <translation>ABBRECHEN</translation>
     </message>
     <message>
-        <source>Clear all fields of the form.</source>
-        <translation>Alle Formularfelder zurücksetzen.</translation>
+        <source>OK</source>
+        <translation>OK</translation>
     </message>
     <message>
-        <source>Clear &amp;All</source>
-        <translation>&amp;Alles zurücksetzen</translation>
+        <source>Customize Fee</source>
+        <translation>Benutzerdefinierte Gebühr</translation>
     </message>
     <message>
-        <source>Send to multiple recipients at once</source>
-        <translation>An mehrere Empfänger auf einmal überweisen</translation>
+        <source>Customize the transaction fee, depending on the fee value your transaction might be included faster in the blockchain.</source>
+        <translation>Passen Sie die Transaktionsgebühr an. Abhängig von der Gebühr kann Ihre Transaktion schneller in die Blockchain eingefügt werden.</translation>
     </message>
     <message>
-        <source>Add &amp;Recipient</source>
-        <translation>Empfänge&amp;r hinzufügen</translation>
+        <source>Normal</source>
+        <translation>Normal</translation>
     </message>
     <message>
-        <source>Anonymized FUNC</source>
-        <translation>Anonymisierte FUNC</translation>
+        <source>Slow</source>
+        <translation>Langsam</translation>
     </message>
     <message>
-        <source>Balance:</source>
-        <translation>Kontostand:</translation>
+        <source>Fast</source>
+        <translation>Schnell</translation>
     </message>
     <message>
-        <source>Copy quantity</source>
-        <translation>Anzahl kopieren</translation>
+        <source>SAVE</source>
+        <translation>SICHERN</translation>
+    </message>
+    </context>
+<context>
+    <name>SendMultiRow</name>
+    <message>
+        <source>Form</source>
+        <translation>Formular</translation>
     </message>
     <message>
-        <source>Copy amount</source>
-        <translation>Betrag kopieren</translation>
+        <source>TextLabel</source>
+        <translation>TextEtikett</translation>
     </message>
     <message>
-        <source>Copy fee</source>
-        <translation>Gebühr kopieren</translation>
+        <source>Enter address</source>
+        <translation>Adresse einfügen</translation>
     </message>
     <message>
-        <source>Copy after fee</source>
-        <translation>Kopiere nach Gebühr</translation>
-    </message>
-    <message>
-        <source>Copy bytes</source>
-        <translation>Kopiere Bytes</translation>
-    </message>
-    <message>
-        <source>Copy priority</source>
-        <translation>Kopiere Priorität</translation>
-    </message>
-    <message>
-        <source>Copy dust</source>
-        <translation>Kopiere Abzug</translation>
-    </message>
-    <message>
-        <source>Copy change</source>
-        <translation>Kopiere Wechselgeld</translation>
-    </message>
-    <message>
-        <source>The split block tool does not work when sending to outside addresses. Try again.</source>
-        <translation>Das Split-Block-Tool funktioniert nicht beim Senden an externe Adressen. Versuchen Sie es erneut.</translation>
-    </message>
-    <message>
-        <source>The split block tool does not work with multiple addresses. Try again.</source>
-        <translation>Das Split-Block-Tool funktioniert nicht mit mehreren Adressen. Versuchen Sie es erneut.</translation>
-    </message>
-    <message>
-        <source>Warning: Invalid FUNC address</source>
-        <translation>Warnung: Ungültige FUNC-Adresse</translation>
-    </message>
-    <message>
-        <source>%1 to %2</source>
-        <translation>%1 zu %2</translation>
-    </message>
-    <message>
-        <source>Are you sure you want to send?</source>
-        <translation>Sind Sie sicher, dass Sie senden möchten?</translation>
-    </message>
-    <message>
-        <source>are added as transaction fee</source>
-        <translation>werden als Transaktionsgebühr hinzugefügt</translation>
-    </message>
-    <message>
-        <source>Total Amount = &lt;b&gt;%1&lt;/b&gt;&lt;br /&gt;= %2</source>
-        <translation>Gesamtbetrag = &lt;b&gt;%1&lt;/b&gt;&lt;br /&gt;= %2</translation>
-    </message>
-    <message>
-        <source>Confirm send coins</source>
-        <translation>Sende Coins bestätigen</translation>
-    </message>
-    <message>
-        <source>A fee %1 times higher than %2 per kB is considered an insanely high fee.</source>
-        <translation>Eine Gebühr %1 mal höher als %2 pro kB gilt als wahnsinnig hohe Gebühr.</translation>
-    </message>
-    <message>
-        <source>The recipient address is not valid, please recheck.</source>
-        <translation>Die Adresse des Empfängers ist nicht gültig, bitte erneut prüfen.</translation>
-    </message>
-    <message>
-        <source>using SwiftX</source>
-        <translation>mit SwiftX</translation>
-    </message>
-    <message>
-        <source> split into %1 outputs using the UTXO splitter.</source>
-        <translation>In %1 Ausgänge mit dem UTXO-Splitter aufgeteilen.</translation>
-    </message>
-    <message>
-        <source>&lt;b&gt;(%1 of %2 entries displayed)&lt;/b&gt;</source>
-        <translation>&lt;b&gt;(%1 von %2 Einträge angezeigt)&lt;/b&gt;</translation>
-    </message>
-    <message>
-        <source>The amount to pay must be larger than 0.</source>
-        <translation>Der zu zahlende Betrag muss größer als 0 sein.</translation>
-    </message>
-    <message>
-        <source>The amount exceeds your balance.</source>
-        <translation>Der Betrag übersteigt ihr Guthaben.</translation>
-    </message>
-    <message>
-        <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation>Die Gesamtsumme überschreitet Ihr Guthaben, sobald die Transaktionsgebühr von %1 enthalten ist.</translation>
-    </message>
-    <message>
-        <source>Duplicate address found, can only send to each address once per send operation.</source>
-        <translation>Doppelte Adresse gefunden. Es kann nur einmal pro Sendeoperation an jede Adresse gesendet werden.</translation>
-    </message>
-    <message>
-        <source>Transaction creation failed!</source>
-        <translation>Transaktionserstellung fehlgeschlagen!</translation>
-    </message>
-    <message>
-        <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Die Transaktion wurde abgelehnt! Dies könnte passieren, wenn einige der Coins in deiner Wallet schon ausgegeben wurden. Zum Beispiel wenn du eine Kopie der wallet.dat benutzt hättest und Coins in der Kopie verbracht wurden.  Hier aber noch nicht als verbraucht markiert wurden.</translation>
-    </message>
-    <message>
-        <source>Error: The wallet was unlocked only to anonymize coins.</source>
-        <translation>Fehler: Die Wallet wurde nur zum Anonymisieren von Coins freigeschaltet.</translation>
-    </message>
-    <message>
-        <source>Error: The wallet was unlocked only to anonymize coins. Unlock canceled.</source>
-        <translation>Fehler: Die Wallet wurde nur zum Anonymisieren von Coins freigeschaltet. Freischaltung aufgehoben.</translation>
-    </message>
-    <message>
-        <source>Pay only the minimum fee of %1</source>
-        <translation>Zahle nur die Mindestgebühr von %1</translation>
-    </message>
-    <message>
-        <source>Warning: Unknown change address</source>
-        <translation>Warnung: Unbekannte Wechselgeld-Adresse </translation>
-    </message>
-    <message>
-        <source>(no label)</source>
-        <translation>(keine Bezeichnung)</translation>
+        <source>Enter label</source>
+        <translation>Bezeichnung eingeben</translation>
     </message>
 </context>
 <context>
-    <name>SendCoinsEntry</name>
+    <name>SendWidget</name>
     <message>
-        <source>This is a normal payment.</source>
-        <translation>Dies ist eine normale Überweisung.</translation>
+        <source>Send</source>
+        <translation>Schicken</translation>
     </message>
     <message>
-        <source>Pay &amp;To:</source>
-        <translation>E&amp;mpfänger:</translation>
+        <source>You can transfer public coins (FUNC) or private coins (zFUNC)</source>
+        <translation>Sie können öffentliche Coins (FUNC) oder private Coins (zFUNC) transferieren</translation>
     </message>
     <message>
-        <source>The FUNC address to send the payment to</source>
-        <translation>FUNC-Adresse, an die überwiesen werden soll</translation>
+        <source>Select coin type to spend</source>
+        <translation>Wähle Coin zum ausgeben</translation>
     </message>
     <message>
-        <source>Choose previously used address</source>
-        <translation>Bereits verwendete Adresse auswählen</translation>
+        <source>Amount</source>
+        <translation>Betrag</translation>
     </message>
     <message>
-        <source>Alt+A</source>
-        <translation>Alt+A</translation>
+        <source>Customize fee</source>
+        <translation>Benutzerdefinierte Gebühr</translation>
     </message>
     <message>
-        <source>Paste address from clipboard</source>
-        <translation>Adresse aus der Zwischenablage einfügen</translation>
+        <source>Clear all</source>
+        <translation>Alles löschen</translation>
     </message>
     <message>
-        <source>Alt+P</source>
-        <translation>Alt+P</translation>
+        <source>Add recipient</source>
+        <translation>Füge Empfänger hinzu</translation>
     </message>
     <message>
-        <source>Remove this entry</source>
-        <translation>Diesen Eintrag entfernen</translation>
+        <source>Reset to default</source>
+        <translation>Auf Voreinstellungen zurücksetzen</translation>
     </message>
     <message>
-        <source>&amp;Label:</source>
-        <translation>&amp;Bezeichnung:</translation>
+        <source>Total to send</source>
+        <translation>Totalbetrag zum Senden</translation>
     </message>
     <message>
-        <source>Enter a label for this address to add it to the list of used addresses</source>
-        <translation>Adressbezeichnung eingeben, um diese in der Liste der bereits verwendeten Adressen zu speichern</translation>
+        <source>Send FUNC</source>
+        <translation>Sende FUNC</translation>
     </message>
     <message>
-        <source>A&amp;mount:</source>
-        <translation>Betra&amp;g:</translation>
+        <source>Send zFUNC</source>
+        <translation>Sende zFUNC</translation>
     </message>
     <message>
-        <source>Message:</source>
-        <translation>Nachricht:</translation>
+        <source>Total remaining from the selected UTXO</source>
+        <translation>Verbleibender Gesamtbetrag von der ausgewählten UTXO</translation>
     </message>
     <message>
-        <source>A message that was attached to the FUNC: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the FUNC network.</source>
-        <translation>Eine an die FUNC-URI angefügte Nachricht, die zusammen mit der Transaktion gespeichert wird. Hinweis: Diese Nachricht wird nicht über das FUNC-Netzwerk gesendet.</translation>
+        <source>Total remaining</source>
+        <translation>Verbleibender Gesamtbetrag</translation>
     </message>
     <message>
-        <source>This is an unverified payment request.</source>
-        <translation>Dies ist eine unverifizierte Zahlungsanforderung.</translation>
+        <source>Warning!</source>
+        <translation>Warnung!</translation>
     </message>
     <message>
-        <source>Pay To:</source>
-        <translation>Empfänger:</translation>
+        <source>Customize Fee</source>
+        <translation>Benutzerdefinierte Gebühr</translation>
     </message>
     <message>
-        <source>Memo:</source>
-        <translation>Memo:</translation>
+        <source>Maximum amount of outputs reached</source>
+        <translation>Maximale Anzahl an Outputs erreicht</translation>
     </message>
     <message>
-        <source>This is a verified payment request.</source>
-        <translation>Dies ist eine verifizierte Zahlungsanforderung.</translation>
+        <source>FUNC address or contact label</source>
+        <translation>FUNC Adresse oder Kontaktbezeichnung</translation>
     </message>
     <message>
-        <source>Enter a label for this address to add it to your address book</source>
-        <translation>Adressbezeichnung eingeben, diese wird zusammen mit der Adresse dem Adressbuch hinzugefügt</translation>
+        <source>Invalid entry, previous entries must be valid before add a new one</source>
+        <translation>Ungültige Eingabe, vorangehende Eingaben müssen gültig sein bevor eine neue angefügt werden kann</translation>
+    </message>
+    <message>
+        <source>Invalid entry</source>
+        <translation>Ungültige Eingabe</translation>
+    </message>
+    <message>
+        <source>No set recipients</source>
+        <translation>Keine Empfänger definiert</translation>
+    </message>
+    <message>
+        <source>Cannot send, wallet locked</source>
+        <translation>Senden nicht möglich, Wallet geschlossen</translation>
+    </message>
+    <message>
+        <source>Cannot create transaction.</source>
+        <translation>Die Transaktion kann nicht erzeugt werden.</translation>
+    </message>
+    <message>
+        <source>WARNING:
+Transaction spends a cold-stake delegation, voiding it.
+These coins will no longer be cold-staked.</source>
+        <translation>WARNUNG:
+Transaktion gibt eine cold-staking Zuweisung aus und macht diese nichtig. Diese Münzen werden nicht länger cold gestaked.</translation>
+    </message>
+    <message>
+        <source>Transaction sent</source>
+        <translation>Transaktion geschickt</translation>
+    </message>
+    <message>
+        <source>Spend Zerocoin</source>
+        <translation>Überweise Zerocoin</translation>
+    </message>
+    <message>
+        <source>zFUNC is currently undergoing maintenance.</source>
+        <translation>zFUNC unterliegt momentan Wartungsarbeiten.</translation>
+    </message>
+    <message>
+        <source>Coin control mint not found</source>
+        <translation>Coin control mint nicht gefunden</translation>
+    </message>
+    <message>
+        <source>Sending %1 to address %2
+</source>
+        <translation>Sende %1 an Adresse %2</translation>
+    </message>
+    <message>
+        <source>Sending %1 to addresses:
+%2</source>
+        <translation>Sende %1 an Adressen %2</translation>
+    </message>
+    <message>
+        <source>zFUNC transaction sent!</source>
+        <translation>zFUNC Transaktion ausgeführt</translation>
+    </message>
+    <message>
+        <source>Version 1 zFUNC require a security level of 100 to successfully spend.</source>
+        <translation>Version 1 zFUNC benötigen eine Sicherheitsstufe von 100 um erfolgreich ausgegeben werden zu können.</translation>
+    </message>
+    <message>
+        <source>Too much inputs (</source>
+        <translation>Zu viele Eingaben (</translation>
+    </message>
+    <message>
+        <source>) needed.
+Maximum allowed: </source>
+        <translation>) benötigt.
+Maximal erlaubt:</translation>
+    </message>
+    <message>
+        <source>
+Either mint higher denominations (so fewer inputs are needed) or reduce the amount to spend.</source>
+        <translation>
+Präge entweder höhere Stückelungen (damit weniger Eingaben benötigt werdenn) oder reduziere die aufzuwendende Menge.</translation>
+    </message>
+    <message>
+        <source>Address label update failed for address: %1</source>
+        <translation>Update fpr Adressbezeichnung der Adresse %1 gescheitert</translation>
+    </message>
+    <message>
+        <source>Invalid URI</source>
+        <translation>Ungültige URI</translation>
+    </message>
+    <message>
+        <source>Invalid address in URI</source>
+        <translation>Ungültige Adresse in URI</translation>
+    </message>
+    <message>
+        <source>Custom Fee %1</source>
+        <translation>Benutzerdefinierte Gebühr %1</translation>
+    </message>
+    <message>
+        <source>You don't have any FUNC to select.</source>
+        <translation>Sie haben keine FUNC zu wählen</translation>
+    </message>
+    <message>
+        <source>You don't have any zFUNC in your balance to select.</source>
+        <translation>Sie haben keine zFUNC zum Auswählen</translation>
+    </message>
+    <message>
+        <source>No contacts available, you can go to the contacts screen and add some there!</source>
+        <translation>Keine Kontakte verfügbar. Sie können zum Kontaktfenster wechseln und dort welche hinzufügen.</translation>
+    </message>
+    <message>
+        <source>Save contact</source>
+        <translation>Kontakt speichern</translation>
+    </message>
+    <message>
+        <source>Address field is empty</source>
+        <translation>Adressfeld ist leer</translation>
+    </message>
+    <message>
+        <source>Invalid address</source>
+        <translation>Ungültige Adresse</translation>
+    </message>
+    <message>
+        <source>Cannot store your own address as contact</source>
+        <translation>Eigene Adresse nicht als Kontakt speicherbar</translation>
+    </message>
+    <message>
+        <source>Update Contact</source>
+        <translation>Kontakt bearbeiten</translation>
+    </message>
+    <message>
+        <source>Create New Contact</source>
+        <translation>Kontakt erstellen</translation>
+    </message>
+    <message>
+        <source>New Contact Stored</source>
+        <translation>Neuer Kontakt gespeichert</translation>
+    </message>
+    <message>
+        <source>Error Storing Contact</source>
+        <translation>Fehler beim Speichern des Kontakts</translation>
     </message>
 </context>
 <context>
-    <name>ShutdownWindow</name>
+    <name>SettingsBackupWallet</name>
     <message>
-        <source>FUNC Core is shutting down...</source>
-        <translation>FUNC Core wird beendet...</translation>
+        <source>Form</source>
+        <translation>Formular</translation>
     </message>
     <message>
-        <source>Do not shut down the computer until this window disappears.</source>
-        <translation>Fahren Sie den Computer nicht herunter, bevor dieses Fenster verschwindet.</translation>
+        <source>TextLabel</source>
+        <translation>TextEtikett</translation>
+    </message>
+    <message>
+        <source>Backup Wallet </source>
+        <translation>Backup Wallet</translation>
+    </message>
+    <message>
+        <source>Change Wallet Passphrase</source>
+        <translation>Wallet Passwort ändern</translation>
+    </message>
+    <message>
+        <source>This will decrypt the whole wallet data and encrypt it back with the new passphrase.
+Remember to write it down and store it safely, otherwise you might lose access to your funds.</source>
+        <translation>Dies wird die Walletdatei entschlüsseln und mit einer neuen Passphrase verschlüsseln. Bedenken Sie, diese aufzuschreiben und sicher zu verwahren. Andernfalls können Sie den Zugriff auf Ihr Vermögen verlieren</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Wo</translation>
+    </message>
+    <message>
+        <source>Keep your wallet safe by doing regular backups and storing your backup file externally.
+This option creates a wallet.dat file that can be used to recover your whole balance (transactions and addresses) on another device.</source>
+        <translation>Halten Sie Ihr Wallet durch regelmäßiges Backup sicher und speichern Sie diese auf einem externen Gerät ab.
+Diese Option erzeugt eine wallet.dat Datei, die sie nutzen können, um Ihr Vermögen (Transaktionen und Adressen) auf einem anderen Gerät vollständig wiederherzustellen.</translation>
+    </message>
+    <message>
+        <source>Select folder...</source>
+        <translation>Ordner auswählen</translation>
+    </message>
+    <message>
+        <source>Change Passphrase</source>
+        <translation>Passwort ändern</translation>
+    </message>
+    <message>
+        <source>Backup Wallet</source>
+        <translation>Wallet sichern</translation>
+    </message>
+    <message>
+        <source>Wallet Data (*.dat)</source>
+        <translation>Wallet-Daten (*.dat)</translation>
+    </message>
+    <message>
+        <source>Backup created</source>
+        <translation>Backup erstellt</translation>
+    </message>
+    <message>
+        <source>Backup creation failed</source>
+        <translation>Erstellung des Backups fehlgeschlagen</translation>
+    </message>
+    <message>
+        <source>Please select a folder to export the backup first.</source>
+        <translation>Bitte wählen Sie zuerst einen Ordner aus, um das Backup zu exportieren.</translation>
     </message>
 </context>
 <context>
-    <name>SignVerifyMessageDialog</name>
+    <name>SettingsBitToolWidget</name>
     <message>
-        <source>Signatures - Sign / Verify a Message</source>
-        <translation>Signaturen - Signieren / Überprüfen einer Nachricht</translation>
+        <source>Form</source>
+        <translation>Formular</translation>
     </message>
     <message>
-        <source>&amp;Sign Message</source>
-        <translation>Nachricht &amp;signieren</translation>
+        <source>TextLabel</source>
+        <translation>TextEtikett</translation>
     </message>
     <message>
-        <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Sie können Nachrichten mit Ihren Adressen signieren, um zu beweisen, dass Sie diese besitzen. Seien Sie vorsichtig nichts fragwürdiges zu unterschreiben, da Phishing-Angriffe versuchen können, Sie dazu zu bringen, Ihre Identität zu überschreiben. Unterschreiben Sie nur ganz detaillierte Aussagen, denen Sie zustimmen.</translation>
+        <source>PushButton</source>
+        <translation>Druckknopf</translation>
     </message>
     <message>
-        <source>The FUNC address to sign the message with</source>
-        <translation>FUNC Adresse mit welcher die Nachricht signiert werden soll</translation>
+        <source>Decrypt Address Result</source>
+        <translation>Entschlüssel Adressergebnisse</translation>
     </message>
     <message>
-        <source>Choose previously used address</source>
-        <translation>Bereits verwendete Adresse auswählen</translation>
+        <source>Import Address</source>
+        <translation>Adresse importieren</translation>
     </message>
     <message>
-        <source>Alt+A</source>
-        <translation>Alt+A</translation>
+        <source>Clear</source>
+        <translation>Clear</translation>
     </message>
     <message>
-        <source>Paste address from clipboard</source>
-        <translation>Adresse aus der Zwischenablage einfügen</translation>
+        <source>BIP38 Tool</source>
+        <translation>BIP 38 Werkzeug</translation>
     </message>
     <message>
-        <source>Alt+P</source>
-        <translation>Alt+P</translation>
+        <source>Encrypt</source>
+        <translation>VERSCHLÜSSELN</translation>
     </message>
     <message>
-        <source>Enter the message you want to sign here</source>
-        <translation>Geben Sie hier die Nachricht ein, die Sie digital unterschreiben möchten</translation>
+        <source>Decrypt</source>
+        <translation>ENTSCHLÜSSELN</translation>
+    </message>
+    <message>
+        <source>Encrypted key</source>
+        <translation>Schlüssel zur Verschlüsselung</translation>
+    </message>
+    <message>
+        <source>Enter a encrypted key</source>
+        <translation>Geben Sie einen Schlüssel für die Verschlüsselung ein</translation>
+    </message>
+    <message>
+        <source>Passphrase</source>
+        <translation>Passphrase</translation>
+    </message>
+    <message>
+        <source>Enter a passphrase </source>
+        <translation>Gib eine Passphrase ein</translation>
+    </message>
+    <message>
+        <source>Decrypted address result</source>
+        <translation>Ergebnisse entschlüsselter Adressen</translation>
+    </message>
+    <message>
+        <source>Decrypted Address</source>
+        <translation>Entschlüsselte Adresse</translation>
+    </message>
+    <message>
+        <source>FUNC address</source>
+        <translation>FUNC Adresse</translation>
+    </message>
+    <message>
+        <source>Enter address</source>
+        <translation>Adresse einfügen</translation>
+    </message>
+    <message>
+        <source>Enter passphrase</source>
+        <translation>Passphrase eingeben</translation>
+    </message>
+    <message>
+        <source>Encrypted Key</source>
+        <translation>Verschlüsselter Schlüssel</translation>
+    </message>
+    <message>
+        <source>ENCRYPT</source>
+        <translation>VERSCHLÜSSELN</translation>
+    </message>
+    <message>
+        <source>CLEAR ALL</source>
+        <translation>ALLES LÖSCHEN</translation>
+    </message>
+    <message>
+        <source>CLEAR</source>
+        <translation>LÖSCHEN</translation>
+    </message>
+    <message>
+        <source>The entered passphrase is invalid. </source>
+        <translation>Die eingegebene Passphrase ist ungültig. </translation>
+    </message>
+    <message>
+        <source>Allowed: 0-9,a-z,A-Z,</source>
+        <translation>Zulässig: 0-9,a-z,A-Z,</translation>
+    </message>
+    <message>
+        <source>The entered address is invalid.</source>
+        <translation>Die eingegebene Adresse ist falsch</translation>
+    </message>
+    <message>
+        <source>Please check the address and try again.</source>
+        <translation>Bitte die Adresse prüfen und erneut eingeben</translation>
+    </message>
+    <message>
+        <source>The entered address does not refer to a key.</source>
+        <translation>Die eingegebene Adresse passt zu keinem Schlüssel</translation>
+    </message>
+    <message>
+        <source>Wallet unlock was cancelled.</source>
+        <translation>Entsperrung der Wallet wurde abgebrochen.</translation>
+    </message>
+    <message>
+        <source>Private key for the entered address is not available.</source>
+        <translation>Kein privater Schlüssel für die eingegebene Adresse verfügbar</translation>
+    </message>
+    <message>
+        <source>Address encrypted.</source>
+        <translation>Verschlüsselte Adresse.</translation>
+    </message>
+    <message>
+        <source>No addresses available, you can go to the receive screen and add some there!</source>
+        <translation>Keine Adressen verfügbar, Sie können in das Empfangsmenu gehen und neue hinzufügen!</translation>
+    </message>
+    <message>
+        <source>Failed to decrypt.</source>
+        <translation>Entschlüsselung fehlgeschlagen.</translation>
+    </message>
+    <message>
+        <source>Please check the key and passphrase and try again.</source>
+        <translation>Bitte überprüfen Sie den Schlüssel und die Passphrase und versuchen Sie es erneut.</translation>
+    </message>
+    <message>
+        <source>Data Not Valid.</source>
+        <translation>Daten ungültig.</translation>
+    </message>
+    <message>
+        <source>Please try again.</source>
+        <translation>Bitte versuchen Sie es erneut.</translation>
+    </message>
+    <message>
+        <source>Please wait while key is imported</source>
+        <translation>Bitte warten. Schlüssel wird importiert..</translation>
+    </message>
+    <message>
+        <source>Cannot import address, key already held by the wallet</source>
+        <translation>Adresse kann nicht importiert werden, der Schlüssel ist schon in der Wallet hinterlegt</translation>
+    </message>
+    <message>
+        <source>Error adding key to the wallet</source>
+        <translation>Fehler beim Hinzufügen des Schlüssels zur Wallet</translation>
+    </message>
+    <message>
+        <source>Successfully added private key to the wallet</source>
+        <translation>Private Key erfolgreich zum Wallet hinzugefügt</translation>
+    </message>
+</context>
+<context>
+    <name>SettingsConsoleWidget</name>
+    <message>
+        <source>Form</source>
+        <translation>Formular</translation>
+    </message>
+    <message>
+        <source>TextLabel</source>
+        <translation>TextEtikett</translation>
+    </message>
+    <message>
+        <source>Console</source>
+        <translation>Konsole</translation>
+    </message>
+    <message>
+        <source>Console input</source>
+        <translation>Konsoleneingabe</translation>
+    </message>
+    <message>
+        <source>Command Line Options </source>
+        <translation>Befehlszeilenoptionen</translation>
+    </message>
+    <message>
+        <source>Open Debug File</source>
+        <translation>Öffne Debug-Datei</translation>
+    </message>
+    <message>
+        <source>Clear history</source>
+        <translation>Verlauf löschen</translation>
+    </message>
+    <message>
+        <source>Cannot open debug file.
+Verify that you have installed a predetermined text editor.</source>
+        <translation>Debug Datei konnte nicht geöffnet werden. Stellen Sie sicher, den vorher bestimmten Texteditor installiert zu haben.</translation>
+    </message>
+    <message>
+        <source>Welcome to the FUNC RPC console.</source>
+        <translation>Willkommen in der FUNC RPC-Konsole.</translation>
+    </message>
+    <message>
+        <source>Use up and down arrows to navigate history, and %1 to clear screen.</source>
+        <translation>Verwende die Pfeiltasten um durch den Verlauf zu scrollen und %1 um das Konsolenfester zu löschen.</translation>
+    </message>
+    <message>
+        <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
+        <translation>Gebe &lt;b&gt;help&lt;/b&gt; ein, um eine Übersicht der verfügbaren Befehle zu erhalten.</translation>
+    </message>
+    <message>
+        <source>WARNING: Scammers have been active, telling users to type commands here, stealing their wallet contents. Do not use this console without fully understanding the ramifications of a command.</source>
+        <translation>Warnung: Abzocker sind aktiv und erzählen Nutzer hier Befehle einzugeben, um so den Inhalt des Wallets zu stehlen. Nutzen Sie diese Konsole nicht, ohne die Bedeutungen eines Befehls vollständig zu verstehen.</translation>
+    </message>
+</context>
+<context>
+    <name>SettingsDisplayOptionsWidget</name>
+    <message>
+        <source>Form</source>
+        <translation>Formular</translation>
+    </message>
+    <message>
+        <source>TextLabel</source>
+        <translation>TextEtikett</translation>
+    </message>
+    <message>
+        <source>Hide stake charts in the dashboard</source>
+        <translation>Verbirge Stake Charts im Dashboard</translation>
+    </message>
+    <message>
+        <source>Reset to default</source>
+        <translation>Auf Voreinstellungen zurücksetzen</translation>
+    </message>
+    <message>
+        <source>Discard changes</source>
+        <translation>Änderungen verwerfen</translation>
+    </message>
+    <message>
+        <source>Display</source>
+        <translation>Display</translation>
+    </message>
+    <message>
+        <source>Customize the display view options</source>
+        <translation>Anpassen der Bildschirmdarstellung</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Sprache</translation>
+    </message>
+    <message>
+        <source>Unit to show amount</source>
+        <translation>Anzeige der Einheit</translation>
+    </message>
+    <message>
+        <source>Decimal digits</source>
+        <translation>Dezimalstellen</translation>
+    </message>
+    <message>
+        <source>Third party transactions URLs</source>
+        <translation>URLs für Drittpartei-Transaktionen</translation>
+    </message>
+    <message>
+        <source>Hide empty balances</source>
+        <translation>Leere Salden ausblenden</translation>
+    </message>
+    <message>
+        <source>SAVE</source>
+        <translation>SICHERN</translation>
+    </message>
+    <message>
+        <source>default</source>
+        <translation>standard</translation>
+    </message>
+    <message>
+        <source>Options reset succeed</source>
+        <translation>Zurücksetzen der Optionen erfolgreich.</translation>
+    </message>
+</context>
+<context>
+    <name>SettingsExportCSV</name>
+    <message>
+        <source>Form</source>
+        <translation>Formular</translation>
+    </message>
+    <message>
+        <source>Export your wallet's accounting data to a csv file.</source>
+        <translation>Wallet Daten als csv Datei exportieren</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>Wo</translation>
+    </message>
+    <message>
+        <source>Select folder...</source>
+        <translation>Ordner auswählen</translation>
+    </message>
+    <message>
+        <source>Export Address Book</source>
+        <translation>Adressbuch exportieren</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Exportiere CSV</translation>
+    </message>
+    <message>
+        <source>Export Address List</source>
+        <translation>Adressliste exportieren</translation>
+    </message>
+    <message>
+        <source>FUNC_tx_csv_export(*.csv)</source>
+        <translation>FUNC_tx_csv_export(*.csv)</translation>
+    </message>
+    <message>
+        <source>FUNC_addresses_csv_export(*.csv)</source>
+        <translation>FUNC_addresses_csv_export(*.csv)</translation>
+    </message>
+    <message>
+        <source>Please select a folder to export the csv file first.</source>
+        <translation>Bitte wählen Sie zuerst einen Ordner für den Export der CSV-Datei aus</translation>
+    </message>
+    <message>
+        <source>Confirmed</source>
+        <translation>Bestätigt</translation>
+    </message>
+    <message>
+        <source>Watch-only</source>
+        <translation>Nur beobachtet</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Datum</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Art</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Bezeichnung</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adresse</translation>
+    </message>
+    <message>
+        <source>ID</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>Exporting Successful
+The transaction history was successfully saved to %1.</source>
+        <translation>Export erfolgreich.
+Die Transaktionshistorie wurde erfolgreich unter %1 gespeichert.</translation>
+    </message>
+    <message>
+        <source>Exporting Failed
+There was an error trying to save the transaction history to %1.</source>
+        <translation>Export gescheitert.
+Es gab einen Fehler beim Versuch die Transaktionshistorie unter %1 zu speichern.</translation>
+    </message>
+    <message>
+        <source>No available addresses to export under the selected filter</source>
+        <translation>Für den Export sind bei dem ausgewählten Filter keine Adressen verfügbar.</translation>
+    </message>
+    <message>
+        <source>Exporting Successful
+The address book was successfully saved to %1.</source>
+        <translation>Export erfolgreich!
+Das Adressbuch wurde erfolgreich unter %1 gespeichert.</translation>
+    </message>
+    <message>
+        <source>Exporting Failed
+There was an error trying to save the address list to %1. Please try again.</source>
+        <translation>Export gescheitert.
+Es gab ein Problem bei dem Versuch die Adressen unter %1 zu speichern. Bitte versuchen Sie es erneut.</translation>
+    </message>
+</context>
+<context>
+    <name>SettingsFaqWidget</name>
+    <message>
+        <source>Form</source>
+        <translation>Formular</translation>
+    </message>
+    <message>
+        <source>TextLabel</source>
+        <translation>TextEtikett</translation>
+    </message>
+    <message>
+        <source>PushButton</source>
+        <translation>Druckknopf</translation>
+    </message>
+    <message>
+        <source>1) What is FUNC?</source>
+        <translation>1) Was ist FUNC?</translation>
+    </message>
+    <message>
+        <source>2) Why are my FUNC unspendable?</source>
+        <translation>2) Wieso kann ich meine FUNC nicht ausgeben?</translation>
+    </message>
+    <message>
+        <source>3) FUNC privacy? What is Zerocoin (zFUNC)?</source>
+        <translation>3) FUNC Privatsphäre? Was ist ein Zercoin (zFUNC)?</translation>
+    </message>
+    <message>
+        <source>4) Why are my zFUNC unspendable?</source>
+        <translation>4) Wieso kann ich meine zFUNC nicht ausgeben?</translation>
+    </message>
+    <message>
+        <source>5) Why did my wallet convert the balance
+    into zFUNC automatically?</source>
+        <translation>5) Wieso hat meine Wallet automatisch das Guthaben in zFUNC gewechselt?</translation>
+    </message>
+    <message>
+        <source>6) How do I receive FUNC/zFUNC?</source>
+        <translation>6) Wie empfange ich FUNC/zFUNC?</translation>
+    </message>
+    <message>
+        <source>7) How do I stake FUNC/zFUNC?</source>
+        <translation>7) Wie stake ich FUNC/zFUNC?</translation>
+    </message>
+    <message>
+        <source>8) Where I should go if I need support?</source>
+        <translation>8) Wo sollte ich hingehen, wenn ich ein Problem habe?</translation>
+    </message>
+    <message>
+        <source>9) What is a Masternode?</source>
+        <translation>9) Was ist ein Masternode?</translation>
+    </message>
+    <message>
+        <source>10) What is a Masternode Controller?</source>
+        <translation>10) Was ist ein Masternode Controller?</translation>
+    </message>
+    <message>
+        <source>1</source>
+        <translation>1</translation>
+    </message>
+    <message>
+        <source>What is FUNC?</source>
+        <translation>Was ist FUNC</translation>
+    </message>
+    <message>
+        <source>
+                           &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
+                           FUNC is a form of digital online money using blockchain technology
+                           that can be easily transferred globally, instantly, and with near
+                           zero fees.  FUNC incorporates market leading security &amp;
+                           privacy and is also the first PoS (Proof of Stake) Cryptocurrency
+                           to implement ZeroCoin(zFUNC) and Zerocoin staking.
+                           &lt;/p&gt;&lt;p align="justify"&gt;
+                           FUNC utilizes a Proof of Stake (PoS) consensus system algorithm,
+                           allowing all owners of FUNC to participate in earning block rewards
+                           while securing the network with full node wallets, as well as to
+                           run Masternodes to create and vote on proposals.
+                           &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+                         </source>
+        <translation>FUNC ist eine Form von digitalem Onlinegeld, das die Blockchaintechnologie verwendet und
+einfach, global, sofort und nahezu kostenlos versendet werden kann. FUNC enthält marktführende Sicherheits- und Privatsphäretechnologien und ist auch die erste PoS (Proof of Stake) Kryptowährung, die ZeroCoin (zFUNC) und Zerocoin Staking verwendet.
+FUNC nutzt einen PoS Konsensalgorithmus, der es den Besitzern von FUNC erlaubt, an der Vergabe der Block Rewards teilzuhaben, während das Netzwerk durch Fullnode Wallets abgesichert ist. Darüber hinaus können Masternode Proposals einreichen und darüber abstimmen.</translation>
+    </message>
+    <message>
+        <source>2</source>
+        <translation>2</translation>
+    </message>
+    <message>
+        <source>Why are my FUNC unspendable?</source>
+        <translation>Wieso kann ich meine FUNC nicht ausgeben?</translation>
+    </message>
+    <message>
+        <source>
+                           &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
+                           Newly received FUNC requires 6 confirmations on the network
+                           to become eligible for spending which can take ~6 minutes.
+                           &lt;/p&gt;&lt;p align="justify"&gt;
+                           Your FUNC wallet also needs to be completely synchronized
+                           to see and spend balances on the network.
+                           &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+                         </source>
+        <translation>Neu empfangene FUNC brauchen 6 Bestätigungen im Netzwerkum für Transaktionen verwendet werden zu können. Dies dauert ungeführ 6 Minuten. Ihr FUNC Wallet muss auch komplett mit dem Netzwerk synchronisiert sein um Guthaben einsehen und versenden zu können.</translation>
+    </message>
+    <message>
+        <source>3</source>
+        <translation>3</translation>
+    </message>
+    <message>
+        <source>FUNC privacy? What is Zerocoin (zFUNC)?</source>
+        <translation>FUNC Privatsphäre? Was ist ein Zercoin (zFUNC)?</translation>
+    </message>
+    <message>
+        <source>
+                           &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
+                           zFUNC is an optional privacy-centric method of coin mixing on the
+                           FUNC blockchain. Basically all your transactions cannot be tracked
+                           on to any block explorer. You can read more about the technicals in the
+                           &lt;a style='color: #80ffac' href='https://functioncoin.club/zfunc/'&gt;
+                           "FUNC Zerocoin (zFUNC) Technical Paper"&lt;/a&gt;.
+                           &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+                         </source>
+        <translation>
+&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
+zFUNC ist eine optionale Methode zur Mischung von Münzen auf der FUNC Blockchain, deren Fokus auf Privatsphäre liegt. Im Grunde können all Ihre Transaktionen nicht auf einem Blockexplorer verfolgt werden. Hier  finden Sie mehr über die Technik heraus.
+&lt;a style='color: #80ffac' href='https://functioncoin.club/zfunc/'&gt;
+"FUNC Zerocoin (zFUNC) Technical Paper"&lt;/a&gt;
+&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <source>4</source>
+        <translation>4</translation>
+    </message>
+    <message>
+        <source>Why are my zFUNC unspendable?</source>
+        <translation>Wieso kann ich meine zFUNC nicht ausgeben?</translation>
+    </message>
+    <message>
+        <source>
+                           &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
+                           After minting, zFUNC will require 20 confirmations as well as 1
+                           additional mint of the same denomination on the network to
+                           become eligible for spending.
+                           &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+                         </source>
+        <translation>Nach der Prägung - dem Minting - benötigen zFUNC 20 Bestätigungen und eine weitere Prägung gleichen Nennwerts, bevor diese für Zahlungen geeignet sind.</translation>
+    </message>
+    <message>
+        <source>5</source>
+        <translation>5</translation>
+    </message>
+    <message>
+        <source>Why did my wallet convert the balance into zFUNC automatically?</source>
+        <translation>Wieso hat meine Wallet automatisch das Guthaben in zFUNC gewechselt?</translation>
+    </message>
+    <message>
+        <source>6</source>
+        <translation>6</translation>
+    </message>
+    <message>
+        <source>How do I receive FUNC/zFUNC?</source>
+        <translation>Wie empfange ich FUNC/zFUNC?</translation>
+    </message>
+    <message>
+        <source>7</source>
+        <translation>7</translation>
+    </message>
+    <message>
+        <source>How do I stake FUNC/zFUNC?</source>
+        <translation>Wie stake ich FUNC/zFUNC?</translation>
+    </message>
+    <message>
+        <source>Where should I go if I need support?</source>
+        <translation>An wen kann ich mich wenden, wenn ich Hilfe benötige?</translation>
+    </message>
+    <message>
+        <source>What is a Masternode?</source>
+        <translation>Was ist ein Masternode?</translation>
+    </message>
+    <message>
+        <source>What is a Masternode Controller?</source>
+        <translation>Was ist ein Masternode Controller?</translation>
+    </message>
+    <message>
+        <source>8</source>
+        <translation>8</translation>
+    </message>
+    <message>
+        <source>9</source>
+        <translation>9</translation>
+    </message>
+    <message>
+        <source>10</source>
+        <translation>10</translation>
+    </message>
+    <message>
+        <source>Frequently Asked Questions</source>
+        <translation>Häufig gestellte Fragen</translation>
+    </message>
+    <message>
+        <source>You can read more here</source>
+        <translation>Hier können Sie mehr lesen</translation>
+    </message>
+    <message>
+        <source>Exit</source>
+        <translation>Exit</translation>
+    </message>
+</context>
+<context>
+    <name>SettingsInformationWidget</name>
+    <message>
+        <source>Form</source>
+        <translation>Formular</translation>
+    </message>
+    <message>
+        <source>Network Monitor</source>
+        <translation>Netzwerkmonitor</translation>
+    </message>
+    <message>
+        <source>Information</source>
+        <translation>Hinweis</translation>
+    </message>
+    <message>
+        <source>General</source>
+        <translation>Allgemein</translation>
+    </message>
+    <message>
+        <source>Client Version:</source>
+        <translation>Client Version:</translation>
+    </message>
+    <message>
+        <source>BerkeleyDB version:</source>
+        <translation>BerkeleyDB version:</translation>
+    </message>
+    <message>
+        <source>Datadir:</source>
+        <translation>Speicherpfad:</translation>
+    </message>
+    <message>
+        <source>Startup time:</source>
+        <translation>Startzeit:</translation>
+    </message>
+    <message>
+        <source>Connections:</source>
+        <translation>Verbindungen</translation>
+    </message>
+    <message>
+        <source>Number of Masternodes:</source>
+        <translation>Anzahl der Masternodes:</translation>
+    </message>
+    <message>
+        <source>Current number of blocks:</source>
+        <translation>Aktuelle Nummer von Blöcken:</translation>
+    </message>
+    <message>
+        <source>Last block time:</source>
+        <translation>Letzte Blockzeit:</translation>
+    </message>
+    <message>
+        <source>Last block hash:</source>
+        <translation>Letzter Blockhash:</translation>
+    </message>
+    <message>
+        <source>Current number of transactions:</source>
+        <translation>Aktuelle Anzahl von Transaktionen:</translation>
+    </message>
+    <message>
+        <source>User Agent:</source>
+        <translation>User Agent:</translation>
+    </message>
+    <message>
+        <source>Network</source>
+        <translation>Netzwerk</translation>
+    </message>
+    <message>
+        <source>Name:</source>
+        <translation>Name:</translation>
+    </message>
+    <message>
+        <source>Blockchain</source>
+        <translation>Blockchain</translation>
+    </message>
+    <message>
+        <source>Memory Pool</source>
+        <translation>Memory Pool</translation>
+    </message>
+    <message>
+        <source>Main</source>
+        <translation>Main</translation>
+    </message>
+    <message>
+        <source>Wallet Conf</source>
+        <translation>Wallet Konfiguration</translation>
+    </message>
+    <message>
+        <source>Backups</source>
+        <translation>Backups</translation>
+    </message>
+    <message>
+        <source>No information</source>
+        <translation>Keine Information</translation>
+    </message>
+    <message>
+        <source>Unable to open backups folder</source>
+        <translation>Backup-Ordner konnte nicht geöffnet werden</translation>
+    </message>
+    <message>
+        <source>Unable to open func.conf with default application</source>
+        <translation>func.conf konnte mit der Standardanwendung nicht geöffnet werden</translation>
+    </message>
+    <message>
+        <source>In:</source>
+        <translation>In:</translation>
+    </message>
+    <message>
+        <source>Out:</source>
+        <translation>Out:</translation>
+    </message>
+</context>
+<context>
+    <name>SettingsMainOptionsWidget</name>
+    <message>
+        <source>Form</source>
+        <translation>Formular</translation>
+    </message>
+    <message>
+        <source>TextLabel</source>
+        <translation>TextEtikett</translation>
+    </message>
+    <message>
+        <source>Window</source>
+        <translation>Fenster</translation>
+    </message>
+    <message>
+        <source>Customize the application window options</source>
+        <translation>Optionen des Anwendungsfensters anpassen</translation>
+    </message>
+    <message>
+        <source>CheckBox</source>
+        <translation>Checkbox</translation>
+    </message>
+    <message>
+        <source>Reset to default</source>
+        <translation>Auf Voreinstellungen zurücksetzen</translation>
+    </message>
+    <message>
+        <source>Discard changes</source>
+        <translation>Änderungen verwerfen</translation>
+    </message>
+    <message>
+        <source>SAVE</source>
+        <translation>SICHERN</translation>
+    </message>
+    <message>
+        <source>Main</source>
+        <translation>Main</translation>
+    </message>
+    <message>
+        <source>Size of database cache</source>
+        <translation>Größe des Datenbankcache</translation>
+    </message>
+    <message>
+        <source>Number of script verification threads</source>
+        <translation>Anzahl der Threads für die Skriptverifizierung</translation>
+    </message>
+    <message>
+        <source>Start FUNC on system login</source>
+        <translation>Starte FUNC bei Systemlogin</translation>
+    </message>
+    <message>
+        <source>Minimize to the tray instead of the taskbar</source>
+        <translation>Minimiere in den Tray statt in die Taskbar</translation>
+    </message>
+    <message>
+        <source>Minimize on close</source>
+        <translation>Minimiere bei Schließen</translation>
+    </message>
+    <message>
+        <source>Reset Options</source>
+        <translation>Optionen zurücksetzen</translation>
+    </message>
+    <message>
+        <source>You are just about to reset the app's options to the default values.
+
+Are you sure?
+</source>
+        <translation>Sind sind dabei die Optionen der Anwendung auf die Standardwerte zurückzusetzen.
+
+Sind Sie sicher?</translation>
+    </message>
+    <message>
+        <source>Options reset succeed</source>
+        <translation>Zurücksetzen der Optionen erfolgreich.</translation>
+    </message>
+</context>
+<context>
+    <name>SettingsMultisendDialog</name>
+    <message>
+        <source>Form</source>
+        <translation>Formular</translation>
+    </message>
+    <message>
+        <source>Transaction Details</source>
+        <translation>Transaktionsdetails</translation>
+    </message>
+    <message>
+        <source>TextLabel</source>
+        <translation>TextEtikett</translation>
+    </message>
+    <message>
+        <source>CANCEL</source>
+        <translation>ABBRECHEN</translation>
+    </message>
+    <message>
+        <source>SAVE</source>
+        <translation>SICHERN</translation>
+    </message>
+    <message>
+        <source>New recipient for multisend</source>
+        <translation>Neuer Empfänger für Multisend</translation>
+    </message>
+    <message>
+        <source>Address Label (optional)</source>
+        <translation>Adressbezeichnung (optional)</translation>
+    </message>
+    <message>
+        <source>Enter label to be saved with this address</source>
+        <translation>Bezeichnung, die mit dieser Adresse gespeichert wird</translation>
+    </message>
+    <message>
+        <source>Percentage</source>
+        <translation>Prozentsatz</translation>
+    </message>
+</context>
+<context>
+    <name>SettingsMultisendWidget</name>
+    <message>
+        <source>Form</source>
+        <translation>Formular</translation>
+    </message>
+    <message>
+        <source>TextLabel</source>
+        <translation>TextEtikett</translation>
+    </message>
+    <message>
+        <source>N/A</source>
+        <translation>k.A.</translation>
+    </message>
+    <message>
+        <source>CheckBox</source>
+        <translation>Checkbox</translation>
+    </message>
+    <message>
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other FUNC addresses after it matures.</source>
+        <translation>MultiSend erlaubt automatisch bis zu 100% Ihres Stakes oder Ihrer Masternode Belohnungen an eine Liste von FUNC Adressen zu senden, nachdem diese fällig geworden sind.</translation>
+    </message>
+    <message>
+        <source>Active</source>
+        <translation>Aktiv</translation>
+    </message>
+    <message>
+        <source>Disable</source>
+        <translation>deaktivieren</translation>
+    </message>
+    <message>
+        <source>No active recipient yet</source>
+        <translation>Noch kein aktiver Empfänger</translation>
+    </message>
+    <message>
+        <source>Send stakes</source>
+        <translation>Sende Stakes</translation>
+    </message>
+    <message>
+        <source>Send masternode rewards</source>
+        <translation>Sende Masternode Belohnungen</translation>
+    </message>
+    <message>
+        <source>ADD RECIPIENT</source>
+        <translation>EMPFÄNGER HINZUFÜGEN</translation>
+    </message>
+    <message>
+        <source>CLEAR ALL</source>
+        <translation>ALLES LÖSCHEN</translation>
+    </message>
+    <message>
+        <source>Cannot perform operation, wallet locked</source>
+        <translation>Aufgabe kann nicht durchgeführt werden, Ihr Wallet ist verschlossen</translation>
+    </message>
+    <message>
+        <source>Clear succeed</source>
+        <translation>Löschen erfolgreich</translation>
+    </message>
+    <message>
+        <source>Clear all failed, could not locate address in wallet file</source>
+        <translation>Adresse konnte in der Wallet Datei nicht gefunden werden.</translation>
+    </message>
+    <message>
+        <source>Cannot add multisend recipient, wallet locked</source>
+        <translation>Multisend Empfänger konnte nicht hinzugefügt werden, das Wallet ist verriegelt</translation>
+    </message>
+    <message>
+        <source>The entered address: %1 is invalid.
+Please check the address and try again.</source>
+        <translation>Die eingegebene Adresse %1 ist ungültig. Bitte kontrollieren Sie diese und versuchen Sie es erneut.</translation>
+    </message>
+    <message>
+        <source>Invalid percentage, please enter values from 1 to 100.</source>
+        <translation>Ungültiger Prozentsatz. Bitte geben Sie einen Wert zwischen 1 und 100 ein.</translation>
+    </message>
+    <message>
+        <source>The total amount of your MultiSend vector is over 100% of your stake reward</source>
+        <translation>Die Gesamtmenge Ihres MultiSend-Vektors ist größer als 100% Ihrer Belohnung</translation>
+    </message>
+    <message>
+        <source>Error saving  MultiSend, failed saving properties to the database.</source>
+        <translation>Fehler beim Speichern von MultiSend.
+Eigenschaften konnten nicht in der Datenbank gespeichert werden.</translation>
+    </message>
+    <message>
+        <source>Unable to activate MultiSend, no available recipients</source>
+        <translation>Multisend konnte nicht aktiviert werden. Keine Empfänger verfügbar.</translation>
+    </message>
+    <message>
+        <source>Unable to activate MultiSend
+Check one or both of the check boxes to send on stake and/or masternode rewards</source>
+        <translation>MultiSend konnte nicht aktiviert werden
+
+Aktivieren Sie eine oder beide Checkboxen, um Stake oder Masternode Rewards zu senden</translation>
+    </message>
+    <message>
+        <source>MultiSend activated but writing settings to DB failed</source>
+        <translation>MultiSend wurde aktiviert aber das Schreiben der Einstellung in die Datenbank ist gescheitert.</translation>
+    </message>
+    <message>
+        <source>MultiSend activated</source>
+        <translation>MultiSend aktiviert</translation>
+    </message>
+    <message>
+        <source>First multiSend address invalid</source>
+        <translation>Die erste MultiSend Adresse ist ungültig.</translation>
+    </message>
+    <message>
+        <source>MultiSend deactivated but writing settings to DB failed</source>
+        <translation>MultiSend wurde deatktiviert, aber das Schreiben der Einstellungen in die Datenbank ist gescheitert.</translation>
+    </message>
+    <message>
+        <source>MultiSend deactivated</source>
+        <translation>MultiSend deaktiviert</translation>
+    </message>
+</context>
+<context>
+    <name>SettingsSignMessageWidgets</name>
+    <message>
+        <source>Form</source>
+        <translation>Formular</translation>
+    </message>
+    <message>
+        <source>TextLabel</source>
+        <translation>TextEtikett</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Clear</translation>
+    </message>
+    <message>
+        <source>Sign/Verify Message</source>
+        <translation>Signiere/Verifiziere Nachricht</translation>
+    </message>
+    <message>
+        <source>Sign</source>
+        <translation>Signiere</translation>
+    </message>
+    <message>
+        <source>Verify</source>
+        <translation>Verifiziere</translation>
+    </message>
+    <message>
+        <source>Select mode</source>
+        <translation>Modus auswählen</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Nachricht</translation>
+    </message>
+    <message>
+        <source>FUNC address or contact label</source>
+        <translation>FUNC Adresse oder Kontaktbezeichnung</translation>
+    </message>
+    <message>
+        <source>Enter address</source>
+        <translation>Adresse einfügen</translation>
+    </message>
+    <message>
+        <source>Write message</source>
+        <translation>Nachricht schreiben</translation>
     </message>
     <message>
         <source>Signature</source>
         <translation>Signatur</translation>
     </message>
     <message>
-        <source>Copy the current signature to the system clipboard</source>
-        <translation>Kopiert die aktuelle Signatur in die Zwischenablage</translation>
+        <source>SIGN</source>
+        <translation>SIGNIEREN</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this FUNC address</source>
-        <translation>Signiere die Nachricht um zu Beweisen, dass du diese FUNC Adresse besitzt</translation>
+        <source>CLEAR ALL</source>
+        <translation>ALLES LÖSCHEN</translation>
     </message>
     <message>
-        <source>The FUNC address the message was signed with</source>
-        <translation>Die FUNC Adresse mit welcher die Nachricht signiert wurde.</translation>
-    </message>
-    <message>
-        <source>Verify the message to ensure it was signed with the specified FUNC address</source>
-        <translation>Überprüfen Sie die Nachricht, um sicherzustellen, dass sie mit der angegebenen FUNC-Adresse signiert wurde.</translation>
-    </message>
-    <message>
-        <source>Sign &amp;Message</source>
-        <translation>Signiere &amp;Nachricht </translation>
-    </message>
-    <message>
-        <source>Reset all sign message fields</source>
-        <translation>Setze alle signierten Nachrichten Felder zurück</translation>
-    </message>
-    <message>
-        <source>Clear &amp;All</source>
-        <translation>&amp;Alles zurücksetzen</translation>
-    </message>
-    <message>
-        <source>&amp;Verify Message</source>
-        <translation>&amp;Verifiziere Nachricht</translation>
+        <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>Sie können Nachrichten mit Ihren Adressen signieren, um zu beweisen, dass Sie diese besitzen. Seien Sie vorsichtig nichts fragwürdiges zu unterschreiben, da Phishing-Angriffe versuchen können, Sie dazu zu bringen, Ihre Identität zu überschreiben. Unterschreiben Sie nur ganz detaillierte Aussagen, denen Sie zustimmen.</translation>
     </message>
     <message>
         <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
         <translation>Geben Sie die signierte Adresse, die Nachricht (stellen Sie sicher, dass Zeilenumbrüche, Leerzeichen, Tabs usw. genau kopieren) und Signatur unten ein, um die Nachricht zu überprüfen. Seien Sie vorsichtig, nicht mehr in die Signatur hinein zu interpretieren, als das was in der signierten Nachricht selbst angegeben ist, um zu vermeiden, von einem Mann-in-der-Mitte Angriff getroffen zu werden.</translation>
     </message>
     <message>
-        <source>Verify &amp;Message</source>
-        <translation>Verifiziere &amp;Nachricht</translation>
-    </message>
-    <message>
-        <source>Reset all verify message fields</source>
-        <translation>Zurücksetzen aller überprüften Felder.</translation>
-    </message>
-    <message>
-        <source>Click "Sign Message" to generate signature</source>
-        <translation>Klicken Sie auf "signiere Nachricht", um Signatur zu generieren</translation>
+        <source>VERIFY</source>
+        <translation>VERIFIZIEREN</translation>
     </message>
     <message>
         <source>The entered address is invalid.</source>
@@ -3992,6 +4632,350 @@ Bitte haben Sie etwas Geduld...</translation>
         <source>Message verified.</source>
         <translation>Nachricht überprüft.</translation>
     </message>
+    <message>
+        <source>No addresses available, you can go to the receive screen and add some there!</source>
+        <translation>Keine Adressen verfügbar, Sie können in das Empfangsmenu gehen und neue hinzufügen!</translation>
+    </message>
+</context>
+<context>
+    <name>SettingsWalletOptionsWidget</name>
+    <message>
+        <source>Form</source>
+        <translation>Formular</translation>
+    </message>
+    <message>
+        <source>TextLabel</source>
+        <translation>TextEtikett</translation>
+    </message>
+    <message>
+        <source>CheckBox</source>
+        <translation>Checkbox</translation>
+    </message>
+    <message>
+        <source>RadioButton</source>
+        <translation>RadioButton</translation>
+    </message>
+    <message>
+        <source>Reset to default</source>
+        <translation>Auf Voreinstellungen zurücksetzen</translation>
+    </message>
+    <message>
+        <source>Discard changes</source>
+        <translation>Änderungen verwerfen</translation>
+    </message>
+    <message>
+        <source>Wallet</source>
+        <translation>Wallet</translation>
+    </message>
+    <message>
+        <source>Customize the internal wallet options</source>
+        <translation>Interne Optionen des Wallets anpassen</translation>
+    </message>
+    <message>
+        <source>Stake split threshold:</source>
+        <translation>Staff Split-Schwelle:</translation>
+    </message>
+    <message>
+        <source>Spend unconfirmed change</source>
+        <translation>Unconfirmed Change ausgeben</translation>
+    </message>
+    <message>
+        <source>Network</source>
+        <translation>Netzwerk</translation>
+    </message>
+    <message>
+        <source>Customize the node network options</source>
+        <translation>Optionen des Node-Netzwerks anpassen</translation>
+    </message>
+    <message>
+        <source>Proxy IP:</source>
+        <translation>Proxy IP:</translation>
+    </message>
+    <message>
+        <source>Enter proxy IP</source>
+        <translation>Proxy IP eingeben</translation>
+    </message>
+    <message>
+        <source>Port:</source>
+        <translation>Port</translation>
+    </message>
+    <message>
+        <source>Allow incoming connections</source>
+        <translation>Eingehende Verbindungen erlauben</translation>
+    </message>
+    <message>
+        <source>Connect through SOCKS5 proxy (default proxy):</source>
+        <translation>Durch SOCKS5 Verbinden (Standardmäßiger Proxy):</translation>
+    </message>
+    <message>
+        <source>SAVE</source>
+        <translation>SICHERN</translation>
+    </message>
+    <message>
+        <source>Options reset succeed</source>
+        <translation>Zurücksetzen der Optionen erfolgreich.</translation>
+    </message>
+</context>
+<context>
+    <name>SettingsWalletRepairWidget</name>
+    <message>
+        <source>Form</source>
+        <translation>Formular</translation>
+    </message>
+    <message>
+        <source>TextLabel</source>
+        <translation>TextEtikett</translation>
+    </message>
+    <message>
+        <source>Wallet Repair</source>
+        <translation>Wallet Reparatur</translation>
+    </message>
+    <message>
+        <source>The buttons below will restart the wallet with command-line options to repair this wallet, fix issues with corrupt blockchain files or missing/obsolete transactions.</source>
+        <translation>Durch die unteren Buttons wird das Wallet mit den Kommandozeilen Optionen für die Reparatur dieses Wallets, zur Behebung von Fehlern mit beschädigten Blockchain Datein oder zur Behebung fehlender/obsolter Transaktionen neu gestartet</translation>
+    </message>
+    <message>
+        <source>Attempt to recover private keys from a corrupt wallet.dat.</source>
+        <translation>Versuche, private Schlüssel aus einer beschädigten wallet.dat wiederherzustellen.</translation>
+    </message>
+    <message>
+        <source>Rescan the blockchain for missing wallet transactions.</source>
+        <translation>Blockchain nach fehlenden Transaktionen durchsuchen</translation>
+    </message>
+    <message>
+        <source>Recover transactions from blockchain (keep-meta-data, e.g. account owner).</source>
+        <translation>Transaktionen aus Blockchain wiederherstellen (Behalte Metadaten wie Account Besitzer)</translation>
+    </message>
+    <message>
+        <source>Recover transactions from blockchain (drop meta-data).</source>
+        <translation>Wiederherstellung von Transaktionen aus der Blockchain (verwerfe Meta-Daten)</translation>
+    </message>
+    <message>
+        <source>Upgrade wallet to latest format on startup. (Note: this is NOT an update of the wallet itself)</source>
+        <translation>Upgrade das Wallet zum aktuellen Format bei Start-up. (Bedenke: Dies updated nicht das Wallet selbst)</translation>
+    </message>
+    <message>
+        <source>Rebuild blockchain index from current blk000???.dat files.</source>
+        <translation>Rekonstruiere Blockchain Index aus blk000???.dat Datein</translation>
+    </message>
+    <message>
+        <source>Deletes all local blockchain folders so the wallet synchronizes from scratch.</source>
+        <translation>Löscht alle lokalen Blockchain-Ordner damit das Wallet sich von Grund auf synchronisiert.</translation>
+    </message>
+    <message>
+        <source>Salvage wallet</source>
+        <translation>Wallet Rettung</translation>
+    </message>
+    <message>
+        <source>Rescan blockchain file</source>
+        <translation>Blockchain Datei erneut scannen</translation>
+    </message>
+    <message>
+        <source>Recover transactions 1</source>
+        <translation>Wiederherstellung von Transaktionen 1</translation>
+    </message>
+    <message>
+        <source>Recover transactions 2</source>
+        <translation>Wiederherstellung von Transaktionen 2</translation>
+    </message>
+    <message>
+        <source>Upgrade wallet format</source>
+        <translation>Upgrade Wallet Format</translation>
+    </message>
+    <message>
+        <source>Rebuild index</source>
+        <translation>Index neu aufbauen</translation>
+    </message>
+    <message>
+        <source>Delete local blockchain </source>
+        <translation>Lokale Blockchain löschen</translation>
+    </message>
+    <message>
+        <source>This will delete your local blockchain folders and the wallet will synchronize the complete Blockchain from scratch.&lt;br /&gt;&lt;br /&gt;</source>
+        <translation>Dieser Vorgang wird Ihren lokalen Blockchain-Ordner löschen und das Wallet wird von Grund auf neu Synchronisieren.&lt;br /&gt;&lt;br /&gt;</translation>
+    </message>
+    <message>
+        <source>This needs quite some time and downloads a lot of data.&lt;br /&gt;&lt;br /&gt;</source>
+        <translation>Dieser Vorgang wird einige Zeit in Anspruch nehmen und eine menge Daten herunterladen.&lt;br /&gt;&lt;br /&gt;</translation>
+    </message>
+    <message>
+        <source>Your transactions and funds will be visible again after the download has completed.&lt;br /&gt;&lt;br /&gt;</source>
+        <translation>Deine Transaktionen und Guthaben werden wieder sichtbar sein nachdem der Download-Prozess abgeschlossen ist.&lt;br /&gt;&lt;br /&gt;</translation>
+    </message>
+    <message>
+        <source>Do you want to continue?.&lt;br /&gt;</source>
+        <translation>Möchten Sie fortfahren?&lt;br /&gt;</translation>
+    </message>
+    <message>
+        <source>Confirm resync Blockchain</source>
+        <translation>Synchronisation der Blockchain bestätigen</translation>
+    </message>
+</context>
+<context>
+    <name>SettingsWidget</name>
+    <message>
+        <source>Form</source>
+        <translation>Formular</translation>
+    </message>
+    <message>
+        <source>Wallet Data</source>
+        <translation>Wallet Daten</translation>
+    </message>
+    <message>
+        <source>Wallet</source>
+        <translation>Wallet</translation>
+    </message>
+    <message>
+        <source>Multisend</source>
+        <translation>Multisend</translation>
+    </message>
+    <message>
+        <source>Tools</source>
+        <translation>Werkzeuge</translation>
+    </message>
+    <message>
+        <source>Sign/Verify Message</source>
+        <translation>Signiere/Verifiziere Nachricht</translation>
+    </message>
+    <message>
+        <source>BIP38 Tool</source>
+        <translation>BIP 38 Werkzeug</translation>
+    </message>
+    <message>
+        <source>Options</source>
+        <translation>Optionen</translation>
+    </message>
+    <message>
+        <source>Main</source>
+        <translation>Main</translation>
+    </message>
+    <message>
+        <source>Display</source>
+        <translation>Display</translation>
+    </message>
+    <message>
+        <source>Debug</source>
+        <translation>Debug</translation>
+    </message>
+    <message>
+        <source>Information</source>
+        <translation>Hinweis</translation>
+    </message>
+    <message>
+        <source>Console</source>
+        <translation>Konsole</translation>
+    </message>
+    <message>
+        <source>Wallet Repair</source>
+        <translation>Wallet Reparatur</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Hilfe</translation>
+    </message>
+    <message>
+        <source>FAQ</source>
+        <translation>FAQ</translation>
+    </message>
+    <message>
+        <source>About FUNC</source>
+        <translation>Über FUNC</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Einstellungen</translation>
+    </message>
+    <message>
+        <source>Confirm options reset</source>
+        <translation>Zurücksetzen der Optionen bestätigen</translation>
+    </message>
+    <message>
+        <source>Client restart required to activate changes.</source>
+        <translation>Client Neustart erforderlich, um Änderungen zu aktivieren.</translation>
+    </message>
+    <message>
+        <source>Client will be shutdown, do you want to proceed?</source>
+        <translation>Der Client wird heruntergefahren, wollen Sie fortfahren?</translation>
+    </message>
+    <message>
+        <source>Restart required</source>
+        <translation>Neustart erforderlich</translation>
+    </message>
+    <message>
+        <source>Your wallet needs to be restarted to apply the changes
+</source>
+        <translation>Ihr Wallet muss für die Übernahme der Änderungen neu gestartet werden</translation>
+    </message>
+    <message>
+        <source>Restart Now</source>
+        <translation>Jetzt neu starten</translation>
+    </message>
+    <message>
+        <source>Restart Later</source>
+        <translation>Später neu starten</translation>
+    </message>
+    <message>
+        <source>Options will be applied on next wallet restart</source>
+        <translation>Änderungen werden mit dem nächsten Start des Wallets wirksam</translation>
+    </message>
+    <message>
+        <source>Options stored</source>
+        <translation>Optionen gesichert</translation>
+    </message>
+    <message>
+        <source>Options store failed</source>
+        <translation>Speichern der Optionen gescheitert</translation>
+    </message>
+    <message>
+        <source>Discard Unsaved Changes</source>
+        <translation>Entferne nicht gespeicherte Änderungen</translation>
+    </message>
+    <message>
+        <source>You are just about to discard all of your unsaved options.
+
+Are you sure?
+</source>
+        <translation>Sie sind dabei all Ihre ungespeicherten Optionen zu entfernen.
+
+Sind Sie sicher?</translation>
+    </message>
+</context>
+<context>
+    <name>ShutdownWindow</name>
+    <message>
+        <source>FUNC Core is shutting down...</source>
+        <translation>FUNC Core wird beendet...</translation>
+    </message>
+    <message>
+        <source>Do not shut down the computer until this window disappears.</source>
+        <translation>Fahren Sie den Computer nicht herunter, bevor dieses Fenster verschwindet.</translation>
+    </message>
+</context>
+<context>
+    <name>SnackBar</name>
+    <message>
+        <source>Form</source>
+        <translation>Formular</translation>
+    </message>
+    <message>
+        <source>Contact Stored</source>
+        <translation>Kontakt gespeichert</translation>
+    </message>
+</context>
+<context>
+    <name>Splash</name>
+    <message>
+        <source>Form</source>
+        <translation>Formular</translation>
+    </message>
+    <message>
+        <source>Loading…</source>
+        <translation>Lade...</translation>
+    </message>
+    <message>
+        <source>FUNC Core</source>
+        <translation>FUNC Core</translation>
+    </message>
 </context>
 <context>
     <name>SplashScreen</name>
@@ -4021,6 +5005,170 @@ Bitte haben Sie etwas Geduld...</translation>
     </message>
 </context>
 <context>
+    <name>TooltipMenu</name>
+    <message>
+        <source>Form</source>
+        <translation>Formular</translation>
+    </message>
+    <message>
+        <source>Copy</source>
+        <translation>Kopieren</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Bearbeiten</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>Löschen</translation>
+    </message>
+    <message>
+        <source>Last</source>
+        <translation>Letzte</translation>
+    </message>
+</context>
+<context>
+    <name>TopBar</name>
+    <message>
+        <source>Form</source>
+        <translation>Formular</translation>
+    </message>
+    <message>
+        <source>Available</source>
+        <translation>Verfügbar</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Ausstehend</translation>
+    </message>
+    <message>
+        <source>Immature</source>
+        <translation>Noch nicht fällig</translation>
+    </message>
+    <message>
+        <source>Wallet Unlocked for staking</source>
+        <translation>Wallet für das Staking entriegelt</translation>
+    </message>
+    <message>
+        <source>Error generating address</source>
+        <translation>Fehler beim Erstellen der Adresse</translation>
+    </message>
+    <message>
+        <source>Address Copied</source>
+        <translation>Adresse kopiert</translation>
+    </message>
+    <message>
+        <source>Staking active</source>
+        <translation>Staking aktiv</translation>
+    </message>
+    <message>
+        <source>Staking not active</source>
+        <translation>Staking nicht aktiv</translation>
+    </message>
+    <message>
+        <source>Synchronized - Block: %1</source>
+        <translation>Synchronisierter Block:%1</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n hour(s)</source>
+        <translation><numerusform>%n Stunden</numerusform><numerusform>%n Stunden</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n day(s)</source>
+        <translation><numerusform>%n Tage</numerusform><numerusform>%n Tage</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n week(s)</source>
+        <translation><numerusform>%n Wochen</numerusform><numerusform>%n Wochen</numerusform></translation>
+    </message>
+    <message>
+        <source>%1 and %2</source>
+        <translation>%1 und %2</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n year(s)</source>
+        <translation><numerusform>%n Jahre</numerusform><numerusform>%n Jahre</numerusform></translation>
+    </message>
+    <message>
+        <source>Wallet Upgrade</source>
+        <translation>Wallet Upgrade</translation>
+    </message>
+    <message>
+        <source>Upgrading to HD wallet will improve
+the wallet's reliability and security.
+
+
+NOTE: after the upgrade, a new
+backup will be created.
+</source>
+        <translation>Das Upgrade auf ein HD Wallet wird die Verlässlichkeit und Sicherheit des Wallets erhöhen.
+
+
+BEDENKEN SIE: Nach dem Upgrade wird ein neues Backup erstellt.
+</translation>
+    </message>
+    <message>
+        <source>Upgrade Wallet</source>
+        <translation>Upgrade Wallet</translation>
+    </message>
+    <message>
+        <source>Wallet unlock cancelled</source>
+        <translation>Entriegelung des Wallets abgebrochen</translation>
+    </message>
+    <message>
+        <source>Tor Disabled</source>
+        <translation>Tor ausgeschaltet</translation>
+    </message>
+    <message>
+        <source>Available (Locked included)</source>
+        <translation>Verfügbar (einschl. Verriegelte)</translation>
+    </message>
+    <message>
+        <source>The wallet has been successfully upgraded to HD.</source>
+        <translation>Das Wallet wurde erfolgreich auf HD geupgradet.</translation>
+    </message>
+    <message>
+        <source>It is advised to make a backup.</source>
+        <translation>Es wird empfohlen ein Backup zu machen.</translation>
+    </message>
+    <message>
+        <source>Do you wish to backup now?</source>
+        <translation>Möchten Sie jetzt ein Backup erstellen?</translation>
+    </message>
+    <message>
+        <source>Backup Wallet</source>
+        <translation>Wallet sichern</translation>
+    </message>
+    <message>
+        <source>Wallet Data (*.dat)</source>
+        <translation>Wallet-Daten (*.dat)</translation>
+    </message>
+    <message>
+        <source>Backup created</source>
+        <translation>Backup erstellt</translation>
+    </message>
+    <message>
+        <source>Backup creation failed</source>
+        <translation>Erstellung des Backups fehlgeschlagen</translation>
+    </message>
+    <message>
+        <source>no file selected</source>
+        <translation>Keine Datei ausgewählt</translation>
+    </message>
+    <message>
+        <source>Wallet upgraded successfully, but no backup created.</source>
+        <translation>Wallet erfolgreich geupgradet, aber es wurde kein Backup erstellt.</translation>
+    </message>
+    <message>
+        <source>WARNING: remember to make a copy of your wallet.dat file!</source>
+        <translation>WARNUNG: Vergessen Sie nicht eine Kopie Ihrer Wallet.dat Datei zu machen!</translation>
+    </message>
+    <message>
+        <source>Upgrade Wallet Error</source>
+        <translation>Fehler beim Upgrade des Wallets</translation>
+    </message>
+</context>
+<context>
     <name>TrafficGraphWidget</name>
     <message>
         <source>KB/s</source>
@@ -4029,6 +5177,10 @@ Bitte haben Sie etwas Geduld...</translation>
 </context>
 <context>
     <name>TransactionDesc</name>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation><numerusform>Geöffnet für %n weitere Blöcke</numerusform><numerusform>Geöffnet für %n weitere Blöcke</numerusform></translation>
+    </message>
     <message>
         <source>Open until %1</source>
         <translation>Offen bis %1</translation>
@@ -4089,6 +5241,10 @@ Bitte haben Sie etwas Geduld...</translation>
         <source>, has not been successfully broadcast yet</source>
         <translation>, wurde noch nicht erfolgreich übertragen</translation>
     </message>
+    <message numerus="yes">
+        <source>, broadcast through %n node(s)</source>
+        <translation><numerusform>, über %n Knoten übertragen</numerusform><numerusform>, über %n Knoten übertragen</numerusform></translation>
+    </message>
     <message>
         <source>Date</source>
         <translation>Datum</translation>
@@ -4128,6 +5284,10 @@ Bitte haben Sie etwas Geduld...</translation>
     <message>
         <source>Credit</source>
         <translation>Gutschrift</translation>
+    </message>
+    <message numerus="yes">
+        <source>matures in %n more block(s)</source>
+        <translation><numerusform>reift noch %n weitere Blöcke</numerusform><numerusform>reift noch %n weitere Blöcke</numerusform></translation>
     </message>
     <message>
         <source>not accepted</source>
@@ -4174,10 +5334,6 @@ Bitte haben Sie etwas Geduld...</translation>
         <translation>Händler</translation>
     </message>
     <message>
-        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Erzeugte FUNCs müssen %1 Blöcke lang reifen, bevor sie ausgegeben werden können. Als Sie diesen Block erzeugten, wurde er an das Netzwerk übertragen, um ihn der Blockkette hinzuzufügen. Falls dies fehlschlägt wird der Status in "nicht angenommen" geändert und Sie werden keine FUNCs gutgeschrieben bekommen. Das kann gelegentlich passieren, wenn ein anderer Knoten einen Block fast zeitgleich erzeugt.</translation>
-    </message>
-    <message>
         <source>Debug information</source>
         <translation>Debuginformationen</translation>
     </message>
@@ -4203,17 +5359,6 @@ Bitte haben Sie etwas Geduld...</translation>
     </message>
 </context>
 <context>
-    <name>TransactionDescDialog</name>
-    <message>
-        <source>Transaction details</source>
-        <translation>Transaktionsdetails</translation>
-    </message>
-    <message>
-        <source>This pane shows a detailed description of the transaction</source>
-        <translation>Dieser Bereich zeigt eine detaillierte Beschreibung der Transaktion an</translation>
-    </message>
-</context>
-<context>
     <name>TransactionTableModel</name>
     <message>
         <source>Date</source>
@@ -4226,6 +5371,10 @@ Bitte haben Sie etwas Geduld...</translation>
     <message>
         <source>Address</source>
         <translation>Adresse</translation>
+    </message>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation><numerusform>Geöffnet für %n weitere Blöcke</numerusform><numerusform>Geöffnet für %n weitere Blöcke</numerusform></translation>
     </message>
     <message>
         <source>Open until %1</source>
@@ -4272,10 +5421,6 @@ Bitte haben Sie etwas Geduld...</translation>
         <translation>Empfangen von</translation>
     </message>
     <message>
-        <source>Received via Obfuscation</source>
-        <translation>über/durch Verschleierung empfangen</translation>
-    </message>
-    <message>
         <source>FUNC Stake</source>
         <translation>FUNC Stake</translation>
     </message>
@@ -4284,20 +5429,12 @@ Bitte haben Sie etwas Geduld...</translation>
         <translation>zFUNC Stake</translation>
     </message>
     <message>
-        <source>Obfuscation Denominate</source>
-        <translation>Stückelung der Verschleierung</translation>
+        <source>FUNC Cold Stake</source>
+        <translation>FUNC Cold Stake</translation>
     </message>
     <message>
-        <source>Obfuscation Collateral Payment</source>
-        <translation>Sicherheitspfandzahlung für Verschleierung</translation>
-    </message>
-    <message>
-        <source>Obfuscation Make Collateral Inputs</source>
-        <translation>Verschleierung Erzeugung des Sicherheitspfand</translation>
-    </message>
-    <message>
-        <source>Obfuscation Create Denominations</source>
-        <translation>Verschleierung Erzeugung der Stückelung</translation>
+        <source>Stake delegation</source>
+        <translation>Stake Zuweisung</translation>
     </message>
     <message>
         <source>Converted FUNC to zFUNC</source>
@@ -4320,14 +5457,6 @@ Bitte haben Sie etwas Geduld...</translation>
         <translation>Umgewandeltes zFUNC zu FUNC</translation>
     </message>
     <message>
-        <source>Anonymous (zFUNC Transaction)</source>
-        <translation>Anonym (zFUNC Transaktion)</translation>
-    </message>
-    <message>
-        <source>Anonymous (zFUNC Stake)</source>
-        <translation>Anonym (zFUNC Stake)</translation>
-    </message>
-    <message>
         <source>Sent to</source>
         <translation>Überwiesen an</translation>
     </message>
@@ -4340,16 +5469,28 @@ Bitte haben Sie etwas Geduld...</translation>
         <translation>Eigenüberweisung</translation>
     </message>
     <message>
+        <source>FUNC Stake on behalf of</source>
+        <translation>FUNC Stake im Auftrag von</translation>
+    </message>
+    <message>
+        <source>Stake delegation spent by</source>
+        <translation>Stake Zuweisung ausgegeben durch</translation>
+    </message>
+    <message>
         <source>Mined</source>
         <translation>Erarbeitet</translation>
     </message>
     <message>
-        <source>Obfuscated</source>
-        <translation>Verschleiert</translation>
-    </message>
-    <message>
         <source>watch-only</source>
         <translation>nur beobachtet</translation>
+    </message>
+    <message>
+        <source>Anonymous</source>
+        <translation>Anonym</translation>
+    </message>
+    <message>
+        <source>No information</source>
+        <translation>Keine Information</translation>
     </message>
     <message>
         <source>(n/a)</source>
@@ -4381,192 +5522,121 @@ Bitte haben Sie etwas Geduld...</translation>
     </message>
 </context>
 <context>
-    <name>TransactionView</name>
+    <name>TxDetailDialog</name>
     <message>
-        <source>All</source>
-        <translation>Alle</translation>
+        <source>Form</source>
+        <translation>Formular</translation>
     </message>
     <message>
-        <source>Today</source>
-        <translation>Heute</translation>
+        <source>Transaction Details</source>
+        <translation>Transaktionsdetails</translation>
     </message>
     <message>
-        <source>This week</source>
-        <translation>Diese Woche</translation>
+        <source>Total amount</source>
+        <translation>Gesamtmenge</translation>
     </message>
     <message>
-        <source>This month</source>
-        <translation>Diesen Monat</translation>
+        <source>Previous Transaction</source>
+        <translation>Vorherige Transaktion</translation>
     </message>
     <message>
-        <source>Last month</source>
-        <translation>Letzten Monat</translation>
+        <source>Output Index</source>
+        <translation>Output Index</translation>
     </message>
     <message>
-        <source>This year</source>
-        <translation>Dieses Jahr</translation>
+        <source>F7VFR83SQbie…BhjcWJtcfip5krte2Z </source>
+        <translation>F7VFR83SQbie…BhjcWJtcfip5krte2Z</translation>
     </message>
     <message>
-        <source>Range...</source>
-        <translation>Zeitraum...</translation>
-    </message>
-    <message>
-        <source>Most Common</source>
-        <translation>Gängigste</translation>
-    </message>
-    <message>
-        <source>Received with</source>
-        <translation>Empfangen über</translation>
-    </message>
-    <message>
-        <source>Sent to</source>
-        <translation>Überwiesen an</translation>
-    </message>
-    <message>
-        <source>To yourself</source>
-        <translation>Eigenüberweisung</translation>
-    </message>
-    <message>
-        <source>Mined</source>
-        <translation>Erarbeitet</translation>
-    </message>
-    <message>
-        <source>Minted</source>
-        <translation>Erzeugt</translation>
-    </message>
-    <message>
-        <source>Masternode Reward</source>
-        <translation>Masternode Vergütung</translation>
-    </message>
-    <message>
-        <source>Zerocoin Mint</source>
-        <translation>Zerocoin Prägung</translation>
-    </message>
-    <message>
-        <source>Zerocoin Spend</source>
-        <translation>Zerocoin Ausgabe</translation>
-    </message>
-    <message>
-        <source>Zerocoin Spend to Self</source>
-        <translation>Zerocoin Ausgabe an sich Selbst</translation>
-    </message>
-    <message>
-        <source>Other</source>
-        <translation>Andere</translation>
-    </message>
-    <message>
-        <source>Enter address or label to search</source>
-        <translation>Zu suchende Adresse oder Bezeichnung eingeben</translation>
-    </message>
-    <message>
-        <source>Min amount</source>
-        <translation>Minimaler Betrag</translation>
-    </message>
-    <message>
-        <source>Copy address</source>
-        <translation>Adresse kopieren</translation>
-    </message>
-    <message>
-        <source>Copy label</source>
-        <translation>Bezeichnung kopieren</translation>
-    </message>
-    <message>
-        <source>Copy amount</source>
-        <translation>Betrag kopieren</translation>
-    </message>
-    <message>
-        <source>Copy transaction ID</source>
-        <translation>Transaktions-ID kopieren</translation>
-    </message>
-    <message>
-        <source>Edit label</source>
-        <translation>Bezeichnung bearbeiten</translation>
-    </message>
-    <message>
-        <source>Show transaction details</source>
-        <translation>Transaktionsdetails anzeigen</translation>
-    </message>
-    <message>
-        <source>Export Transaction History</source>
-        <translation>Transaktionsverlauf exportieren</translation>
-    </message>
-    <message>
-        <source>Comma separated file (*.csv)</source>
-        <translation>Kommagetrennte Datei (*.csv)</translation>
-    </message>
-    <message>
-        <source>Confirmed</source>
-        <translation>Bestätigt</translation>
-    </message>
-    <message>
-        <source>Watch-only</source>
-        <translation>Nur beobachtet</translation>
-    </message>
-    <message>
-        <source>Date</source>
-        <translation>Datum</translation>
-    </message>
-    <message>
-        <source>Type</source>
-        <translation>Art</translation>
-    </message>
-    <message>
-        <source>Label</source>
-        <translation>Bezeichnung</translation>
-    </message>
-    <message>
-        <source>Address</source>
-        <translation>Adresse</translation>
+        <source>May 25, 2017</source>
+        <translation>25. Mai 2017</translation>
     </message>
     <message>
         <source>ID</source>
         <translation>ID</translation>
     </message>
     <message>
-        <source>Exporting Failed</source>
-        <translation>Exportieren fehlgeschlagen</translation>
+        <source>Sending to</source>
+        <translation>Sende an</translation>
     </message>
     <message>
-        <source>There was an error trying to save the transaction history to %1.</source>
-        <translation>Beim Speichern des Transaktionsverlaufs nach %1 ist ein Fehler aufgetreten.</translation>
+        <source>Coin inputs</source>
+        <translation>Münzeingaben</translation>
     </message>
     <message>
-        <source>Exporting Successful</source>
-        <translation>Exportieren erfolgreich</translation>
+        <source>Fee</source>
+        <translation>Gebühr</translation>
     </message>
     <message>
-        <source>Received FUNC from zFUNC</source>
-        <translation>Empfangene FUNC von zFUNC</translation>
+        <source>Size</source>
+        <translation>Größe</translation>
     </message>
     <message>
-        <source>Zerocoin Spend, Change in zFUNC</source>
-        <translation>Zerocoin Überweisung, Wechselgeld in zFUNC</translation>
+        <source>Change address</source>
+        <translation>Wechseladresse</translation>
     </message>
     <message>
-        <source>The transaction history was successfully saved to %1.</source>
-        <translation>Speichern des Transaktionsverlaufs nach %1 war erfolgreich.</translation>
+        <source>Spendable</source>
+        <translation>Verfügbar für die Ausgabe</translation>
     </message>
     <message>
-        <source>Range:</source>
-        <translation>Zeitraum:</translation>
+        <source>Confirmations</source>
+        <translation>Betätigungen</translation>
     </message>
     <message>
-        <source>to</source>
-        <translation>bis</translation>
+        <source>Status</source>
+        <translation>Status</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Datum</translation>
+    </message>
+    <message>
+        <source>TextLabel</source>
+        <translation>TextEtikett</translation>
+    </message>
+    <message>
+        <source>CANCEL</source>
+        <translation>ABBRECHEN</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
+    </message>
+    <message>
+        <source>Confirm Your Transaction</source>
+        <translation>Bestätigen Sie Ihre Transaktion</translation>
+    </message>
+    <message>
+        <source>SEND</source>
+        <translation>SENDEN</translation>
+    </message>
+    <message>
+        <source>ID copied</source>
+        <translation>ID kopiert</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Unbekannt</translation>
     </message>
 </context>
 <context>
-    <name>UnitDisplayStatusBarControl</name>
+    <name>TxRow</name>
     <message>
-        <source>Unit to show amounts in. Click to select another unit.</source>
-        <translation>Angezeigte Einheit. Klicken Sie, um eine andere Einheit zu wählen.</translation>
+        <source>Form</source>
+        <translation>Formular</translation>
     </message>
-</context>
-<context>
-    <name>WalletFrame</name>
     <message>
-        <source>No wallet has been loaded.</source>
-        <translation>Es wurde keine Wallet geladen.</translation>
+        <source>Received from Bob</source>
+        <translation>Von Bob empfangen</translation>
+    </message>
+    <message>
+        <source>18/05/18</source>
+        <translation>18/05/18</translation>
+    </message>
+    <message>
+        <source>+0.000585 FUNC</source>
+        <translation>+0.000585 FUNC</translation>
     </message>
 </context>
 <context>
@@ -4581,30 +5651,71 @@ Bitte haben Sie etwas Geduld...</translation>
     </message>
 </context>
 <context>
-    <name>WalletView</name>
+    <name>WelcomeContentWidget</name>
     <message>
-        <source>HISTORY</source>
-        <translation>VERLAUF</translation>
+        <source>1</source>
+        <translation>1</translation>
     </message>
     <message>
-        <source>&amp;Export</source>
-        <translation>&amp;Exportieren</translation>
+        <source>2</source>
+        <translation>2</translation>
     </message>
     <message>
-        <source>Export the data in the current tab to a file</source>
-        <translation>Daten aus der aktuellen Ansicht in eine Datei exportieren</translation>
+        <source>3</source>
+        <translation>3</translation>
     </message>
     <message>
-        <source>Selected amount:</source>
-        <translation>Ausgewählter Betrag:</translation>
+        <source>4</source>
+        <translation>4</translation>
     </message>
     <message>
-        <source>Backup Wallet</source>
-        <translation>Wallet sichern</translation>
+        <source>Language</source>
+        <translation>Sprache</translation>
     </message>
     <message>
-        <source>Wallet Data (*.dat)</source>
-        <translation>Wallet-Daten (*.dat)</translation>
+        <source>Welcome</source>
+        <translation>Willkommen</translation>
+    </message>
+    <message>
+        <source>Privacy</source>
+        <translation>Privatsphäre</translation>
+    </message>
+    <message>
+        <source>Masternodes</source>
+        <translation>Masternodes</translation>
+    </message>
+    <message>
+        <source>Select your language</source>
+        <translation>Wählen Sie Ihre Sprache</translation>
+    </message>
+    <message>
+        <source>Welcome to
+FUNC Core Wallet</source>
+        <translation>Willkommen beim FUNC Core Wallet</translation>
+    </message>
+    <message>
+        <source>FUNC is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</source>
+        <translation>FUNC ist die innovativste, auf Proof of Stake Blockchain basierende Technologie. Es wurde von einem Team hoch erfahrener Entwickler und Kryptographen entwickelt.</translation>
+    </message>
+    <message>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;As our manifesto says: Privacy is a non-negotiable basic human right; it grants users the freedom to share their data whenever and with whomever they want - FUNC believes in self sovereignty.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>Wie unser Manifestum sagt: Privatsphäre ist ein nicht-verhandelbares Menschenrecht; es garantiert Nuzern die Freiheit ihre Daten wann immer und mit wem auch immer zu teilen - FUNC galubt an diese Souveränität.</translation>
+    </message>
+    <message>
+        <source>The masternode network is FUNC's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
+        <translation>Das Masternode Netzwerk ist FUNC zweite Schicht, die auf der Blockchain aufgesetzt wurde und unserer DAO ermöglicht, dezentrale Steuerung und einen Fiskus ermöglicht.</translation>
+    </message>
+    <message>
+        <source>How FUNC respects your privacy?</source>
+        <translation>Wie respektiert FUNC meine Privatsphäre?</translation>
+    </message>
+    <message>
+        <source>What is a Masternode?</source>
+        <translation>Was ist ein Masternode?</translation>
+    </message>
+    <message>
+        <source>default</source>
+        <translation>standard</translation>
     </message>
 </context>
 <context>
@@ -4614,22 +5725,42 @@ Bitte haben Sie etwas Geduld...</translation>
         <translation>Wählen Sie die zFUNC aus, die Sie ausgeben möchten</translation>
     </message>
     <message>
-        <source>Quantity</source>
-        <translation>Menge</translation>
+        <source>Coin Control</source>
+        <translation>Coinverwaltung</translation>
+    </message>
+    <message>
+        <source>PushButton</source>
+        <translation>Druckknopf</translation>
+    </message>
+    <message>
+        <source>zFunc</source>
+        <translation>zFUNC</translation>
+    </message>
+    <message>
+        <source>0.00 </source>
+        <translation>0.00</translation>
+    </message>
+    <message>
+        <source>Quantity:</source>
+        <translation>Anzahl:</translation>
+    </message>
+    <message>
+        <source>Is Spendable</source>
+        <translation>ist aufwendbar</translation>
     </message>
     <message>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <source>zFUNC</source>
-        <translation>zFUNC</translation>
-    </message>
-    <message>
         <source>Select/Deselect All</source>
         <translation>Alle Aus-/Abwählen</translation>
     </message>
-    </context>
+    <message>
+        <source>Select zFUNC Denominations to Spend</source>
+        <translation>Auswahl des zFUNC Nennwerts für das Ausgaben</translation>
+    </message>
+</context>
 <context>
     <name>func-core</name>
     <message>
@@ -4651,10 +5782,6 @@ Bitte haben Sie etwas Geduld...</translation>
     <message>
         <source>Bind to given address to listen for JSON-RPC connections. Use [host]:port notation for IPv6. This option can be specified multiple times (default: bind to all interfaces)</source>
         <translation>Binde an die angegebene Adresse und höre auf JSON-RPC verbindungen. Benutze [host]:port Notation für IPv6. Diese Option kann mehrere Male aufgerufen werden (Standard: Binde an alle Schnittstellen)</translation>
-    </message>
-    <message>
-        <source>Calculated accumulator checkpoint is not what is recorded by block index</source>
-        <translation>Der berechnete Akkumulator-Checkpoint stimmt nicht mit dem vom Blockindex aufgezeichneten überein</translation>
     </message>
     <message>
         <source>Cannot obtain a lock on data directory %s. FUNC Core is probably already running.</source>
@@ -4685,8 +5812,8 @@ Bitte haben Sie etwas Geduld...</translation>
         <translation>Veröffentlicht unter der MIT-Software-Lizenz, siehe die beigelegte Datei COPYING oder &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
     </message>
     <message>
-        <source>Enable automatic wallet backups triggered after each zFUNC minting (0-1, default: %u)</source>
-        <translation>Aktiviere nach jeder zFUNC-Prägung ausgelöste automatische Wallet-Backups (0-1, Standard: %u)</translation>
+        <source>Enable cold staking functionality (0-1, default: %u). Disabled if staking=0</source>
+        <translation>Ermögliche Cold Staking Funktionalität (0-1, standardmäßig: %u). Ausgeschaltet, wenn staking=0</translation>
     </message>
     <message>
         <source>Enable or disable staking functionality for FUNC inputs (0-1, default: %u)</source>
@@ -4773,16 +5900,16 @@ Bitte haben Sie etwas Geduld...</translation>
         <translation>Maximale Größe der Daten in Datenträgertransaktionen, die wir weiterleiten und abbilden (default: %u)</translation>
     </message>
     <message>
+        <source>Maximum size of the list of indexes in the block spam filter (default: %u)</source>
+        <translation>Maximale Größe der Indexliste im Blockspamfilter (standardmäßig: %u)</translation>
+    </message>
+    <message>
         <source>Maximum total fees to use in a single wallet transaction, setting too low may abort large transactions (default: %s)</source>
         <translation>Maximale Gesamtgebühren für die Verwendung in einer einzigen Wallet-Transaktion. Zu niedrige Einstellung kann große Transaktionen abbrechen (default: %s)</translation>
     </message>
     <message>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: %u)</source>
         <translation>Sekundenanzahl, um fehlerhafte Peers von der Wiederverbindung abzuhalten (default: %u)</translation>
-    </message>
-    <message>
-        <source>Obfuscation uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
-        <translation>Verschleierung benötigt exakt gestückelte Mengen um Gelder zu versenden, ggf. müssen Sie einfach mehr Münzen anonymisieren.</translation>
     </message>
     <message>
         <source>Output debugging information (default: %u, supplying &lt;category&gt; is optional)</source>
@@ -4831,18 +5958,6 @@ Bitte haben Sie etwas Geduld...</translation>
     <message>
         <source>Unable to bind to %s on this computer. FUNC Core is probably already running.</source>
         <translation>Fehler: Port %s ist bereits belegt! Läuft bereits eine andere FUNC Core Wallet ?</translation>
-    </message>
-    <message>
-        <source>Unable to locate enough Obfuscation denominated funds for this transaction.</source>
-        <translation>Nicht genügend gestückeltes, verschleiertes Guthaben für diese Transaktion gefunden.</translation>
-    </message>
-    <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 FUNC.</source>
-        <translation>Nicht genügend verschleiertes, nicht gestückeltes Guthaben für diese Transaktion gefunden, die nicht gleich 10000 FUNC entsprechen.</translation>
-    </message>
-    <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 FUNC.</source>
-        <translation>Nicht genügend Guthaben für diese Transaktion gefunden, die nicht gleich 10000 FUNC entsprechen.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -4929,6 +6044,10 @@ Bitte haben Sie etwas Geduld...</translation>
         <translation>Gegenstellen-Adressen immer per DNS lookup anfragen (Standard: %u)</translation>
     </message>
     <message>
+        <source>Append comment to the user agent string</source>
+        <translation>Hänge Kommentar an den User Agent String</translation>
+    </message>
+    <message>
         <source>Attempt to recover private keys from a corrupt wallet.dat</source>
         <translation>Versuche private Schlüssel aus fehlerhafter wallet.dat wiederherzustellen.</translation>
     </message>
@@ -4941,28 +6060,8 @@ Bitte haben Sie etwas Geduld...</translation>
         <translation>Block-Erzeugungs-Optionen:</translation>
     </message>
     <message>
-        <source>Calculating missing accumulators...</source>
-        <translation>Fehlende Akkus berechnen ...</translation>
-    </message>
-    <message>
         <source>Cannot downgrade wallet</source>
         <translation>Wallet downgrade nicht möglich</translation>
-    </message>
-    <message>
-        <source>Cannot resolve -bind address: '%s'</source>
-        <translation>Kann -bind Adresse nicht auflösen: '%s'</translation>
-    </message>
-    <message>
-        <source>Cannot resolve -externalip address: '%s'</source>
-        <translation>Kann -externalip Adresse nicht auflösen: '%s'</translation>
-    </message>
-    <message>
-        <source>Cannot resolve -whitebind address: '%s'</source>
-        <translation>Kann -whitebind Adresse nicht auflösen: '%s'</translation>
-    </message>
-    <message>
-        <source>Cannot write default address</source>
-        <translation>Standardadresse kann nicht geschrieben werden</translation>
     </message>
     <message>
         <source>Connect only to the specified node(s)</source>
@@ -5033,10 +6132,6 @@ Bitte haben Sie etwas Geduld...</translation>
         <translation>Geladen</translation>
     </message>
     <message>
-        <source>Enable automatic Zerocoin minting (0-1, default: %u)</source>
-        <translation>Automatische Zerocoin-Prägung ermöglichen (0-1, Standard: %u)</translation>
-    </message>
-    <message>
         <source>Enable publish hash transaction (locked via SwiftX) in &lt;address&gt;</source>
         <translation>Aktivieren Sie die Veröffentlichung der Hash-Transaktion (gesperrt über SwiftX) in &lt;address&gt;</translation>
     </message>
@@ -5081,16 +6176,16 @@ Bitte haben Sie etwas Geduld...</translation>
         <translation>Fehler beim Lesen der Datenbank, wird heruntergefahren.</translation>
     </message>
     <message>
-        <source>Error recovering public key.</source>
-        <translation>Fehler bei der Wiederherstellung des öffentlichen Schlüssels.</translation>
-    </message>
-    <message>
         <source>Error writing zerocoinDB to disk</source>
         <translation>Fehler beim Schreiben von zerocoinDB auf die Festplatte</translation>
     </message>
     <message>
         <source>Error</source>
         <translation>Fehler</translation>
+    </message>
+    <message>
+        <source>Error: </source>
+        <translation>Fehler:</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
@@ -5107,10 +6202,6 @@ Bitte haben Sie etwas Geduld...</translation>
     <message>
         <source>Error: Wallet locked, unable to create transaction!</source>
         <translation>Fehler: Wallet verschlossen, Transaktion konnte nicht erstellt werden!</translation>
-    </message>
-    <message>
-        <source>Failed to calculate accumulator checkpoint</source>
-        <translation>Fehler beim Berechnen des Akku-Checkpoints</translation>
     </message>
     <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
@@ -5181,28 +6272,8 @@ Bitte haben Sie etwas Geduld...</translation>
         <translation>Ungültige -onion Adresse oder Hostname: '%s'</translation>
     </message>
     <message>
-        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Ungültiger Betrag für -maxtxfee=&lt;amount&gt;: '%s'</translation>
-    </message>
-    <message>
-        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Ungültiger Betrag für -minrelaytxfee=&lt;amount&gt;: '%s'</translation>
-    </message>
-    <message>
-        <source>Invalid amount for -mintxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Ungültiger Betrag für -mintxfee=&lt;amount&gt;: '%s'</translation>
-    </message>
-    <message>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s' (must be at least %s)</source>
         <translation>Ungültiger Betrag für -paytxfee=&lt;amount&gt;: '%s' (muss mindestens  %s sein)</translation>
-    </message>
-    <message>
-        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Ungültiger Betrag für -paytxfee=&lt;amount&gt;: '%s'</translation>
-    </message>
-    <message>
-        <source>Invalid amount for -reservebalance=&lt;amount&gt;</source>
-        <translation>Ungültiger Betrag für -reservebalance=&lt;amount&gt;</translation>
     </message>
     <message>
         <source>Invalid amount</source>
@@ -5221,12 +6292,8 @@ Bitte haben Sie etwas Geduld...</translation>
         <translation>Ungültiger Port in masternode.conf entdeckt</translation>
     </message>
     <message>
-        <source>Invalid private key.</source>
-        <translation>Ungültiger privater Schlüssel.</translation>
-    </message>
-    <message>
-        <source>Percentage of automatically minted Zerocoin  (1-100, default: %u)</source>
-        <translation>Prozent automatisch geprägter Zerocoins (1-100, Standard: %u)</translation>
+        <source>Recalculating FUNC supply...</source>
+        <translation>Bestimme FUNC Bestand erneut...</translation>
     </message>
     <message>
         <source>Reindex the FUNC and zFUNC money supply statistics</source>
@@ -5255,7 +6322,7 @@ Bitte haben Sie etwas Geduld...</translation>
     <message>
         <source> mints deleted
 </source>
-        <translation>Prägungen gelöscht 
+        <translation>Prägungen gelöscht
 </translation>
     </message>
     <message>
@@ -5281,10 +6348,6 @@ Bitte haben Sie etwas Geduld...</translation>
         <translation>Fehler: Die Transaktion wurde abgelehnt! Dies könnte passieren, wenn einige Coins in deiner Wallet schon ausgegeben wurden, als  wenn du eine Kopie von der wallet.dat benutzt hättest. Coins wurden in der Kopie verbracht, aber hier nicht als verbracht markiert.</translation>
     </message>
     <message>
-        <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
-        <translation>Fehler: Diese Transaktion erfordert eine Transaktionsgebühr von mindestens %s wegen ihrer Menge, Komplexität oder Verwendung von kürzlich erhaltenen Mitteln!</translation>
-    </message>
-    <message>
         <source>Error: Unsupported argument -checklevel found. Checklevel must be level 4.</source>
         <translation>Fehler: Nicht unterstütztes Argument -checklevel entdeckt. Checklevel muss Level 4 sein.</translation>
     </message>
@@ -5299,14 +6362,6 @@ Bitte haben Sie etwas Geduld...</translation>
     <message>
         <source>In rare cases, a spend with 7 coins exceeds our maximum allowable transaction size, please retry spend using 6 or less coins</source>
         <translation>In seltenen Fällen überschreiten Ausgaben mit 7 Münzen die maximal zulässige Transaktionsgröße. Bitte versuchen Sie erneut, mit 6 oder weniger Münzen auszugeben</translation>
-    </message>
-    <message>
-        <source>Preferred Denomination for automatically minted Zerocoin  (1/5/10/50/100/500/1000/5000), 0 for no preference. default: %u)</source>
-        <translation>Bervorzugte Stückelung für automatisch geprägte Zerocoins (1/5/10/50/100/500/1000/5000), 0 falls keine bestimmte Stückelung präferiert wird. Standard: %u)</translation>
-    </message>
-    <message>
-        <source>Specify custom backup path to add a copy of any automatic zFUNC backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
-        <translation>Benutzerdefinierten Sicherungspfad festlegen, in den Kopien von allen automatischen zFUNC-Sicherungen abgelegt werden. Wenn ein Verzeichnis ausgewählt ist, wird jede Sicherung als Datei mit Zeitstempel erstellt. Wenn eine Datei ausgewählt ist, wird diese Datei bei jeder Sicherung überschrieben. Wenn der Sicherungspfad auch festgelegt ist, werden 4 Sicherungen erstellt.</translation>
     </message>
     <message>
         <source>Specify custom backup path to add a copy of any wallet backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup.</source>
@@ -5325,8 +6380,8 @@ Bitte haben Sie etwas Geduld...</translation>
         <translation>Versuche die Wiederherstellung der fehlerhaften Blockchain zu forcieren</translation>
     </message>
     <message>
-        <source>CoinSpend: Accumulator witness does not verify</source>
-        <translation>CoinSpend: Akkumulator-Zeuge verifiziert nicht</translation>
+        <source>Cannot create public spend input</source>
+        <translation>Public Spend Input konnte nicht erzeugt werden</translation>
     </message>
     <message>
         <source>Display the stake modifier calculations in the debug.log file.</source>
@@ -5365,12 +6420,12 @@ Bitte haben Sie etwas Geduld...</translation>
         <translation>Error: No valid utxo!</translation>
     </message>
     <message>
-        <source>Failed to create mint</source>
-        <translation>Fehler beim Erstellen von Minze</translation>
-    </message>
-    <message>
         <source>Failed to find Zerocoins in wallet.dat</source>
         <translation>Zerocoins in wallet.dat nicht gefunden</translation>
+    </message>
+    <message>
+        <source>Failed to parse public spend</source>
+        <translation>Parsen des Public Spend gescheitert</translation>
     </message>
     <message>
         <source>Failed to select a zerocoin</source>
@@ -5383,6 +6438,10 @@ Bitte haben Sie etwas Geduld...</translation>
     <message>
         <source>Failed to write coin serial number into wallet</source>
         <translation>Fehler beim Schreiben der Seriennummer der Münze in die Brieftasche</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -%s=&lt;amount&gt;: '%s'</source>
+        <translation>Ungültiger Betrag für -%s=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
@@ -5429,10 +6488,6 @@ Bitte haben Sie etwas Geduld...</translation>
         <translation>Lade Sporks...</translation>
     </message>
     <message>
-        <source>Loading wallet... (%3.2f %%)</source>
-        <translation>Lade Wallet... (%3.2f %%)</translation>
-    </message>
-    <message>
         <source>Loading wallet...</source>
         <translation>Lade Wallet...</translation>
     </message>
@@ -5467,10 +6522,6 @@ Bitte haben Sie etwas Geduld...</translation>
     <message>
         <source>Mint did not make it into blockchain</source>
         <translation>Mint schaffte es nicht in Blockchain</translation>
-    </message>
-    <message>
-        <source>Need address because change is not exact</source>
-        <translation>Brauche eine Adresse, weil die Änderung nicht exakt ist</translation>
     </message>
     <message>
         <source>Need to specify a port with -whitebind: '%s'</source>
@@ -5509,6 +6560,18 @@ Bitte haben Sie etwas Geduld...</translation>
         <translation>Passwort für JSON-RPC Verbindungen</translation>
     </message>
     <message>
+        <source>Unable to find transaction containing mint %s</source>
+        <translation>Transaktion mit Prägung %s konnte nicht gefunden werden</translation>
+    </message>
+    <message>
+        <source>Unable to find transaction containing mint, txHash: %s</source>
+        <translation>Transaktion mit Prägung und Hash: %s konnte nicht gefunden werden</translation>
+    </message>
+    <message>
+        <source>Use block spam filter (default: %u)</source>
+        <translation>Nutze Block Spamfilter (standardmäßig %u)</translation>
+    </message>
+    <message>
         <source>isValid(): Invalid -proxy address or hostname: '%s'</source>
         <translation>isValid(): Invalid -proxy address or hostname: '%s'</translation>
     </message>
@@ -5517,12 +6580,28 @@ Bitte haben Sie etwas Geduld...</translation>
         <translation>Vorbereitung für die Resynchronisierung ...</translation>
     </message>
     <message>
+        <source>Please check that your computer's date and time are correct! If your clock is wrong FUNC Core will not work properly.</source>
+        <translation>Bitte stellen Sie sicher, das vom Computer verwendete Zeit und Datumangaben korrekt sind! Wenn ihr System falsche Zeitangaben nutzt, wird FUNC Core nicht korrekt funktionieren.</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -%s address: '%s'</source>
+        <translation>Kann -%s Adresse nicht auflösen: '%s'</translation>
+    </message>
+    <message>
+        <source>Need destination or change address because change is not exact</source>
+        <translation>Benötige Zieladresse oder Wechseladresse, weil der Wechsel nicht exakt ist</translation>
+    </message>
+    <message>
         <source>Prepend debug output with timestamp (default: %u)</source>
         <translation>Zeitstempel vor Debug-Ausgabe vermerken (Standard: %u)</translation>
     </message>
     <message>
         <source>Print version and exit</source>
         <translation>Version drucken und Programm beenden</translation>
+    </message>
+    <message>
+        <source>Pubcoin not found in mint tx</source>
+        <translation>Pubcoin in Prägungstransaktion nicht gefunden</translation>
     </message>
     <message>
         <source>RPC server options:</source>
@@ -5539,14 +6618,6 @@ Bitte haben Sie etwas Geduld...</translation>
     <message>
         <source>Rebuild block chain index from current blk000??.dat files</source>
         <translation>Baue den Blockchain-Index mithilfe der aktuellen blk000??.dat Datei erneut auf</translation>
-    </message>
-    <message>
-        <source>Receive and display P2P network alerts (default: %u)</source>
-        <translation>Empfange P2P-Netzwerk-Warnsignale und zeige diese an (Standard: %u)</translation>
-    </message>
-    <message>
-        <source>Reindex the accumulator database</source>
-        <translation>Reinde die Akkumulator-Datenbank neu</translation>
     </message>
     <message>
         <source>Relay and mine data carrier transactions (default: %u)</source>
@@ -5583,10 +6654,6 @@ Bitte haben Sie etwas Geduld...</translation>
     <message>
         <source>Send transactions as zero-fee transactions if possible (default: %u)</source>
         <translation>Sende die Transaktion als gebührenfreie Transaktion, falls möglich (Standard: %u)</translation>
-    </message>
-    <message>
-        <source>Session timed out.</source>
-        <translation>Zeitüberschreitung</translation>
     </message>
     <message>
         <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
@@ -5631,14 +6698,6 @@ Bitte haben Sie etwas Geduld...</translation>
     <message>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
         <translation>Schrumpfe debug.log Datei beim Client-Start (Standard: 1, falls -debug nicht gesetzt ist)</translation>
-    </message>
-    <message>
-        <source>Signing failed.</source>
-        <translation>Signieren fehlgeschlagen.</translation>
-    </message>
-    <message>
-        <source>Signing timed out.</source>
-        <translation>Zeitüberschreitung bei der Signierung.</translation>
     </message>
     <message>
         <source>Signing transaction failed</source>
@@ -5697,10 +6756,6 @@ Bitte haben Sie etwas Geduld...</translation>
         <translation>Synchronisierung erfolgreich beendet</translation>
     </message>
     <message>
-        <source>Synchronization pending...</source>
-        <translation>Synchronisierung ausstehend...</translation>
-    </message>
-    <message>
         <source>Synchronizing budgets...</source>
         <translation>Synchronisiere Budgets....</translation>
     </message>
@@ -5719,14 +6774,6 @@ Bitte haben Sie etwas Geduld...</translation>
     <message>
         <source>Syncing zFUNC wallet...</source>
         <translation>Synchronisiere zFUNC Wallet... </translation>
-    </message>
-    <message>
-        <source>The coin spend has been used</source>
-        <translation>Die Münzausgabe wurde verwendet</translation>
-    </message>
-    <message>
-        <source>The transaction did not verify</source>
-        <translation>Die Transaktion wurde nicht verifiziert</translation>
     </message>
     <message>
         <source>This help message</source>
@@ -5789,6 +6836,10 @@ Bitte haben Sie etwas Geduld...</translation>
         <translation>Kann auf diesem Computer nicht an %s binden (zurückgegebener Fehler: %s)</translation>
     </message>
     <message>
+        <source>Unable to generate initial key</source>
+        <translation>Initialschlüssel konnte nicht generiert werden</translation>
+    </message>
+    <message>
         <source>Unable to sign spork message, wrong key?</source>
         <translation>Die Spork-Nachricht konnte nicht signiert werden. Falscher Key?</translation>
     </message>
@@ -5819,6 +6870,10 @@ Bitte haben Sie etwas Geduld...</translation>
     <message>
         <source>Use the test network</source>
         <translation>Das Testnetzwerk verwenden</translation>
+    </message>
+    <message>
+        <source>User Agent comment (%s) contains unsafe characters.</source>
+        <translation>User Agend Kommentar (%s) enthält nicht sichere Zeichen.</translation>
     </message>
     <message>
         <source>Username for JSON-RPC connections</source>
@@ -5895,6 +6950,29 @@ Bitte haben Sie etwas Geduld...</translation>
     <message>
         <source>wallet.dat corrupt, salvage failed</source>
         <translation>wallet.dat beschädigt, Datenrettung fehlgeschlagen</translation>
+    </message>
+</context>
+<context>
+    <name>send</name>
+    <message>
+        <source>Form</source>
+        <translation>Formular</translation>
+    </message>
+    <message>
+        <source>Send</source>
+        <translation>Schicken</translation>
+    </message>
+    <message>
+        <source>TextLabel</source>
+        <translation>TextEtikett</translation>
+    </message>
+    <message>
+        <source>Include delegated</source>
+        <translation>Schließe Zugewiesene mit ein</translation>
+    </message>
+    <message>
+        <source>PushButton</source>
+        <translation>Druckknopf</translation>
     </message>
 </context>
 </TS>

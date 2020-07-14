@@ -14,7 +14,7 @@ To install:
 	sudo update-desktop-database
 
 If you build yourself, you will either need to modify the paths in
-the .desktop file or copy or symlink your funcqt binary to `/usr/bin`
+the .desktop file or copy or symlink your func-qt binary to `/usr/bin`
 and the `../../share/pixmaps/func128.png` to `/usr/share/pixmaps`
 
 func-qt.protocol (KDE)
