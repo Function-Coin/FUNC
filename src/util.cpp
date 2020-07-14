@@ -373,9 +373,40 @@ void ReadConfigFile(std::map<std::string, std::string>& mapSettingsRet,
     if (!streamConfig.good()) {
         // Create empty func.conf if it does not exist
         FILE* configFile = fsbridge::fopen(GetConfigFile(), "a");
-        if (configFile != NULL)
+        if (configFile != NULL) {
+            std::string strHeader =
+                "# FUNC Configuration File!\n"
+                "# If you need aditional addnodes vist site below.\n"
+                "# https://vaultwatch.eu/addnodes.php?coin=func \n"
+				"addnode=206.189.224.178 \n"
+				"addnode=141.164.40.223 \n"
+				"addnode=73.44.29.41 \n"
+				"addnode=5.196.29.44 \n"
+				"addnode=51.178.139.117 \n"
+				"addnode=46.148.10.212 \n"
+				"addnode=164.132.225.253 \n"
+				"addnode=192.241.136.242 \n"
+				"addnode=167.86.88.90 \n"
+				"addnode=207.180.249.132 \n"
+				"addnode=164.68.109.35 \n"
+				"addnode=144.91.96.216 \n"
+				"addnode=78.141.213.139 \n"
+				"addnode=45.77.236.160 \n"
+				"addnode=173.212.193.101 \n"
+				"addnode=5.189.135.149 \n"
+				"addnode=94.177.240.207 \n"
+				"addnode=167.86.117.224 \n"
+				"addnode=213.136.80.114 \n"
+				"addnode=173.249.19.46 \n"
+				"addnode=155.138.239.88 \n"
+				"addnode=149.28.230.102 \n"
+				"addnode=199.247.13.137 \n"
+				"addnode=193.200.241.138 \n"
+				"addnode=62.171.154.117 \n";
+            fwrite(strHeader.c_str(), std::strlen(strHeader.c_str()), 1, configFile);
             fclose(configFile);
-        return; // Nothing to read, so just return
+            streamConfig.open(GetConfigFile());
+        }
     }
 
     std::set<std::string> setOptions;
