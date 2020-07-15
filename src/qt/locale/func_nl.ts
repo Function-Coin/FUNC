@@ -1902,9 +1902,9 @@ Weet je het zeker?</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/CryptoDev-Project/CryptoDev-Project-translations</source>
+https://www.transifex.com/Function-Coin/Function-Coin-translations</source>
         <translation>Taal ontbreekt of vertaling onvolledig? Help om bij te dragen aan vertalingen:
-https://www.transifex.com/CryptoDev-Project/CryptoDev-Project-translations</translation>
+https://www.transifex.com/Function-Coin/Function-Coin-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>

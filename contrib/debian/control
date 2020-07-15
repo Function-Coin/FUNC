@@ -29,8 +29,8 @@ Build-Depends: debhelper,
  dh-systemd
 Standards-Version: 3.9.2
 Homepage: http://www.func.org
-Vcs-Git: git://github.com/CryptoDev-Project/FUNC.git
-Vcs-Browser: http://github.com/CryptoDev-Project/FUNC
+Vcs-Git: git://github.com/Function-Coin/FUNC.git
+Vcs-Browser: http://github.com/Function-Coin/FUNC
 
 Package: funcd
 Architecture: any

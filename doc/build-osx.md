@@ -43,7 +43,7 @@ Build FUNC Core
 
 1. Clone the FUNC Core source code:
 
-        git clone https://github.com/CryptoDev-Project/func
+        git clone https://github.com/Function-Coin/func
         cd func
 
 2.  Make the Homebrew OpenSSL headers visible to the configure script  (do ```brew info openssl``` to find out why this is necessary, or if you use Homebrew with installation folders different from the default).

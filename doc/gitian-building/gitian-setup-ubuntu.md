@@ -32,10 +32,10 @@ git config --global user.email "MY_NAME@example.com"
 Fetching the Build Script
 --------------------------
 
-The build script we'll be using is contained in the FUNC github repository ([contrib/gitian-build.py](https://github.com/CryptoDev-Project/func/blob/master/contrib/gitian-build.py)). Since this is a completely fresh environment, we haven't yet cloned the FUNC repository and will need to fetch this script with the following commands:
+The build script we'll be using is contained in the FUNC github repository ([contrib/gitian-build.py](https://github.com/Function-Coin/func/blob/master/contrib/gitian-build.py)). Since this is a completely fresh environment, we haven't yet cloned the FUNC repository and will need to fetch this script with the following commands:
 
 ```bash
-curl -L -O https://raw.githubusercontent.com/CryptoDev-Project/FUNC/master/contrib/gitian-build.py
+curl -L -O https://raw.githubusercontent.com/Function-Coin/FUNC/master/contrib/gitian-build.py
 chmod +x gitian-build.py
 ```
 

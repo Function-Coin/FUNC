@@ -24,18 +24,18 @@ URL:		https://func.org/
 Source0:	https://func.org/bin/func-core-%{version}/func-%{version}.tar.gz
 Source1:	http://download.oracle.com/berkeley-db/db-%{bdbv}.NC.tar.gz
 
-Source10:	https://raw.githubusercontent.com/CryptoDev-Project/func/v%{version}/contrib/debian/examples/func.conf
+Source10:	https://raw.githubusercontent.com/Function-Coin/func/v%{version}/contrib/debian/examples/func.conf
 
 #man pages
-Source20:	https://raw.githubusercontent.com/CryptoDev-Project/func/v%{version}/doc/man/funcd.1
-Source21:	https://raw.githubusercontent.com/CryptoDev-Project/func/v%{version}/doc/man/func-cli.1
-Source22:	https://raw.githubusercontent.com/CryptoDev-Project/func/v%{version}/doc/man/func-qt.1
+Source20:	https://raw.githubusercontent.com/Function-Coin/func/v%{version}/doc/man/funcd.1
+Source21:	https://raw.githubusercontent.com/Function-Coin/func/v%{version}/doc/man/func-cli.1
+Source22:	https://raw.githubusercontent.com/Function-Coin/func/v%{version}/doc/man/func-qt.1
 
 #selinux
-Source30:	https://raw.githubusercontent.com/CryptoDev-Project/func/v%{version}/contrib/rpm/func.te
+Source30:	https://raw.githubusercontent.com/Function-Coin/func/v%{version}/contrib/rpm/func.te
 # Source31 - what about func-tx and bench_func ???
-Source31:	https://raw.githubusercontent.com/CryptoDev-Project/func/v%{version}/contrib/rpm/func.fc
-Source32:	https://raw.githubusercontent.com/CryptoDev-Project/func/v%{version}/contrib/rpm/func.if
+Source31:	https://raw.githubusercontent.com/Function-Coin/func/v%{version}/contrib/rpm/func.fc
+Source32:	https://raw.githubusercontent.com/Function-Coin/func/v%{version}/contrib/rpm/func.if
 
 Source100:	https://upload.wikimedia.org/wikipedia/commons/4/46/Bitcoin.svg
 

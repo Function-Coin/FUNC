@@ -1684,9 +1684,9 @@ Emin misiniz?</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/CryptoDev-Project/CryptoDev-Project-translations</source>
+https://www.transifex.com/Function-Coin/Function-Coin-translations</source>
         <translation>Dil eksik veya çeviri tamamlanmamış mı? Katkıda bulunan çevirilere yardımcı olun:
-https://www.transifex.com/CryptoDev-Project/CryptoDev-Project-translations</translation>
+https://www.transifex.com/Function-Coin/Function-Coin-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>

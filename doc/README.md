@@ -26,7 +26,7 @@ Drag FUNC-Qt to your applications folder, and then run FUNC-Qt.
 
 ### Need Help?
 
-* See the documentation at the [FUNC Wiki](https://github.com/CryptoDev-Project/FUNC/wiki)
+* See the documentation at the [FUNC Wiki](https://github.com/Function-Coin/FUNC/wiki)
 for help and more information.
 * Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [FUNC Forum](http://forum.func.org/).
 * Join our Discord server [Discord Server](https://discord.func.org)

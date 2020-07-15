@@ -1901,9 +1901,9 @@ Jeste li sigurni?</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/CryptoDev-Project/CryptoDev-Project-translations</source>
+https://www.transifex.com/Function-Coin/Function-Coin-translations</source>
         <translation>Jezik nedostaje ili prijevod nije potpun? Pomozite s prijevodom ovdje:
-https://www.transifex.com/CryptoDev-Project/CryptoDev-Project-translations</translation>
+https://www.transifex.com/Function-Coin/Function-Coin-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
