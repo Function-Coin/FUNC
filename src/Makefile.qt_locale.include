@@ -1,0 +1,14 @@
+QT_TS = \
+  qt/locale/func_de.ts \
+  qt/locale/func_en.ts \
+  qt/locale/func_en_US.ts \
+  qt/locale/func_es.ts \
+  qt/locale/func_fr_FR.ts \
+  qt/locale/func_hr_HR.ts \
+  qt/locale/func_it.ts \
+  qt/locale/func_ko_KR.ts \
+  qt/locale/func_nl.ts \
+  qt/locale/func_pl.ts \
+  qt/locale/func_ru.ts \
+  qt/locale/func_tr.ts \
+  qt/locale/func_zh_CN.ts

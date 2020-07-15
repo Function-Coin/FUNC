@@ -1,6 +1,6 @@
-// Copyright (c) 2017-2018 The PIVX developers
-// Copyright (c) 2019 The CryptoDev developers
-// Copyright (c) 2019 The FunCoin developers
+// Copyright (c) 2017-2020 The PIVX developers
+// Copyright (c) 2020 The CryptoDev developers
+// Copyright (c) 2020 The FunCoin developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -11,6 +11,7 @@
 #include "libzerocoin/Coin.h"
 #include "mintpool.h"
 #include "uint256.h"
+#include "wallet/wallet.h"
 #include "zerocoin.h"
 
 class CDeterministicMint;
@@ -24,7 +25,7 @@ private:
     CMintPool mintPool;
 
 public:
-    CzFUNCWallet(std::string strWalletFile);
+    CzFUNCWallet(CWallet* parent);
 
     void AddToMintPool(const std::pair<uint256, uint32_t>& pMint, bool fVerbose);
     bool SetMasterSeed(const uint256& seedMaster, bool fResetCount = false);
@@ -45,6 +46,9 @@ public:
     bool CheckSeed(const CDeterministicMint& dMint);
 
 private:
+    /* Parent wallet */
+    CWallet* wallet{nullptr};
+
     uint512 GetZerocoinSeed(uint32_t n);
 };
 

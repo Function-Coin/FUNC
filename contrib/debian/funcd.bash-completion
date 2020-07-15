@@ -1,1 +1,2 @@
 contrib/funcd.bash-completion	funcd
+contrib/func-cli.bash-completion func-cli

@@ -1,9 +1,9 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2018 The PIVX developers
-// Copyright (c) 2019 The CryptoDev developers
-// Copyright (c) 2019 The FunCoin developers
+// Copyright (c) 2015-2019 The PIVX developers
+// Copyright (c) 2020 The CryptoDev developers
+// Copyright (c) 2020 The FunCoin developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -72,9 +72,9 @@ static const std::string COOKIEAUTH_USER = "__cookie__";
 /** Default name for auth cookie file */
 static const std::string COOKIEAUTH_FILE = ".cookie";
 
-boost::filesystem::path GetAuthCookieFile()
+fs::path GetAuthCookieFile()
 {
-    boost::filesystem::path path(GetArg("-rpccookiefile", COOKIEAUTH_FILE));
+    fs::path path(GetArg("-rpccookiefile", COOKIEAUTH_FILE));
     if (!path.is_complete()) path = GetDataDir() / path;
     return path;
 }
@@ -89,7 +89,7 @@ bool GenerateAuthCookie(std::string *cookie_out)
      * these are set to 077 in init.cpp unless overridden with -sysperms.
      */
     std::ofstream file;
-    boost::filesystem::path filepath = GetAuthCookieFile();
+    fs::path filepath = GetAuthCookieFile();
     file.open(filepath.string().c_str());
     if (!file.is_open()) {
         LogPrintf("Unable to open cookie authentication file %s for writing\n", filepath.string());
@@ -108,7 +108,7 @@ bool GetAuthCookie(std::string *cookie_out)
 {
     std::ifstream file;
     std::string cookie;
-    boost::filesystem::path filepath = GetAuthCookieFile();
+    fs::path filepath = GetAuthCookieFile();
     file.open(filepath.string().c_str());
     if (!file.is_open())
         return false;
@@ -123,8 +123,8 @@ bool GetAuthCookie(std::string *cookie_out)
 void DeleteAuthCookie()
 {
     try {
-        boost::filesystem::remove(GetAuthCookieFile());
-    } catch (const boost::filesystem::filesystem_error& e) {
+        fs::remove(GetAuthCookieFile());
+    } catch (const fs::filesystem_error& e) {
         LogPrintf("%s: Unable to remove random auth cookie file: %s\n", __func__, e.what());
     }
 }

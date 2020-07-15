@@ -1,0 +1,7 @@
+[main]
+host = https://www.transifex.com
+
+[CryptoDev-Project-translations.qt-translation-41x]
+file_filter = src/qt/locale/func_<lang>.ts
+source_file = src/qt/locale/func_en.ts
+source_lang = en

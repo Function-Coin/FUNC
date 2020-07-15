@@ -1,2 +1,2 @@
-debian/manpages/funcd.1
-debian/manpages/func.conf.5
+doc/man/funcd.1
+doc/man/func-cli.1

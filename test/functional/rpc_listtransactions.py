@@ -4,7 +4,7 @@
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 """Test the listtransactions API."""
 
-from test_framework.test_framework import BitcoinTestFramework
+from test_framework.test_framework import FuncTestFramework
 from test_framework.util import *
 from test_framework.mininode import CTransaction, COIN
 from io import BytesIO
@@ -15,7 +15,7 @@ def txFromHex(hexstring):
     tx.deserialize(f)
     return tx
 
-class ListTransactionsTest(BitcoinTestFramework):
+class ListTransactionsTest(FuncTestFramework):
     def set_test_params(self):
         self.num_nodes = 2
         self.enable_mocktime()
@@ -80,6 +80,16 @@ class ListTransactionsTest(BitcoinTestFramework):
         assert_array_result(self.nodes[1].listtransactions(),
                            {"category":"receive","amount":Decimal("0.44")},
                            {"txid":txid, "account" : "toself"} )
+
+        multisig = self.nodes[1].createmultisig(1, [self.nodes[1].getnewaddress()])
+        self.nodes[0].importaddress(multisig["redeemScript"], "watchonly", False, True)
+        txid = self.nodes[1].sendtoaddress(multisig["address"], 0.1)
+        self.nodes[1].generate(1)
+        self.sync_all()
+        assert(len(self.nodes[0].listtransactions("watchonly", 100, 0, False)) == 0)
+        assert_array_result(self.nodes[0].listtransactions("watchonly", 100, 0, True),
+                           {"category": "receive", "amount": Decimal("0.1")},
+                           {"txid": txid, "account": "watchonly"})
 
 
 if __name__ == '__main__':
