@@ -80,7 +80,7 @@ BerkeleyDB is required for the wallet.
  You can add the repository using the following command:
 
     sudo apt-get install software-properties-common
-    sudo add-apt-repository ppa:func/func
+    sudo add-apt-repository ppa:bitcoin/bitcoin
     sudo apt-get update
     sudo apt-get install libdb4.8-dev libdb4.8++-dev
 
