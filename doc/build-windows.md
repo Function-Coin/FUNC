@@ -73,8 +73,8 @@ If you want to build the windows installer with `make deploy` you need [NSIS](ht
 
 Acquire the source in the usual way:
 
-    git clone https://github.com/Function-Coin/func.git
-    cd func
+    git clone https://github.com/Function-Coin/FUNC.git
+    cd FUNC
 
 ## Building for 64-bit Windows
 
