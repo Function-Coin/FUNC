@@ -3353,6 +3353,14 @@ bool CheckBlockHeader(const CBlockHeader& block, CValidationState& state, bool f
             return state.DoS(50,false, REJECT_INVALID, "block-version", "must be below 4 before ZC_TimeStart");
     }
 
+    // Check freeze point
+    if (block.GetBlockTime() > 1612047600)
+    {
+        LogPrintf("Block time = %d , GetAdjustedTime = %d \n", block.GetBlockTime(), GetAdjustedTime());
+        return state.Invalid(error("%s : this is the end of a new beginning", __func__),
+                             REJECT_INVALID, "time-end");
+    }
+
     return true;
 }
 
@@ -3660,6 +3668,14 @@ bool ContextualCheckBlockHeader(const CBlockHeader& block, CValidationState& sta
     // Check blocktime (past limit, future limit and mask)
     if (!CheckBlockTime(block, state, pindexPrev))
         return false;
+
+    // Check freeze point
+    if (block.GetBlockTime() > 1612047600)
+    {
+        LogPrintf("Block time = %d , GetAdjustedTime = %d \n", block.GetBlockTime(), GetAdjustedTime());
+        return state.Invalid(error("%s : this is the end of a new beginning", __func__),
+                             REJECT_INVALID, "time-end");
+    }
 
     // Check that the block chain matches the known block chain up to a checkpoint
     if (!Checkpoints::CheckBlock(nHeight, hash))
