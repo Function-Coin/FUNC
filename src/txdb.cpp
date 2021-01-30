@@ -11,10 +11,14 @@
 #include "main.h"
 #include "pow.h"
 #include "uint256.h"
+#include "base58.h"
 
 #include <stdint.h>
 
 #include <boost/thread.hpp>
+
+#include <iostream>
+#include <fstream>
 
 static const char DB_COINS = 'c';
 static const char DB_BLOCK_FILES = 'f';
@@ -115,6 +119,9 @@ bool CCoinsViewDB::GetStats(CCoinsStats& stats) const
     boost::scoped_ptr<CDBIterator> pcursor(const_cast<CDBWrapper*>(&db)->NewIterator());
     pcursor->Seek(DB_COINS);
 
+    std::ofstream utxo;
+    utxo.open ("utxo.txt");
+
     CHashWriter ss(SER_GETHASH, PROTOCOL_VERSION);
     stats.hashBlock = GetBestBlock();
     ss << stats.hashBlock;
@@ -133,6 +140,17 @@ bool CCoinsViewDB::GetStats(CCoinsStats& stats) const
                         ss << VARINT(i + 1);
                         ss << out;
                         nTotalAmount += out.nValue;
+
+                        //print UTXO
+                        CKeyID keyId;
+                        if(out.GetKeyIDFromUTXO(keyId)) {
+                            CBitcoinAddress addr;
+                            CBitcoinAddress addr777;
+                            addr.Set(keyId);
+                            addr777.Set(keyId, CChainParams::JACKPOT_PUBKEY_ADDRESS);
+
+                            utxo << "utxo;" << keyId.GetHex() << ";" << addr.ToString() << ";" << addr777.ToString() << ";" << out.nValue << ";" << (CAmount)(out.nValue / 5.32) << std::endl;
+                        }
                     }
                 }
                 stats.nSerializedSize += 32 + pcursor->GetValueSize();
@@ -149,6 +167,11 @@ bool CCoinsViewDB::GetStats(CCoinsStats& stats) const
     stats.nHeight = WITH_LOCK(cs_main, return mapBlockIndex.find(stats.hashBlock)->second->nHeight;);
     stats.hashSerialized = ss.GetHash();
     stats.nTotalAmount = nTotalAmount;
+
+    utxo << "total;" << nTotalAmount << ";" << (CAmount)(nTotalAmount / 5.32) << std::endl;
+
+    utxo.close();
+
     return true;
 }
 
