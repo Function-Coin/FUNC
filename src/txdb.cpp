@@ -144,12 +144,10 @@ bool CCoinsViewDB::GetStats(CCoinsStats& stats) const
                         //print UTXO
                         CKeyID keyId;
                         if(out.GetKeyIDFromUTXO(keyId)) {
-                            CBitcoinAddress addr;
-                            CBitcoinAddress addr777;
-                            addr.Set(keyId);
-                            addr777.Set(keyId, CChainParams::JACKPOT_PUBKEY_ADDRESS);
+                            std::string strAddr = EncodeDestination(keyId, CChainParams::PUBKEY_ADDRESS);
+                            std::string strAddr777 = EncodeDestination(keyId, CChainParams::JACKPOT_PUBKEY_ADDRESS);
 
-                            utxo << "utxo;" << keyId.GetHex() << ";" << addr.ToString() << ";" << addr777.ToString() << ";" << out.nValue << ";" << (CAmount)(out.nValue / 5.32) << std::endl;
+                            utxo << "utxo;" << keyId.GetHex() << ";" << strAddr << ";" << strAddr777 << ";" << out.nValue << ";" << (CAmount)(out.nValue / 5.32) << std::endl;
                         }
                     }
                 }

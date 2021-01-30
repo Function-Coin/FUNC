@@ -525,9 +525,9 @@ UniValue dumpwallet(const UniValue& params, bool fHelp)
             file << strprintf(" # addr=%s%s\n", strAddr, (metadata.HasKeyOrigin() ? " hdkeypath="+metadata.key_origin.pathToString() : ""));
 
             // 777
-            std::string strAddr777 = CBitcoinAddress(keyid, (metadata.HasKeyOrigin() && IsStakingDerPath(metadata.key_origin) ?
+            std::string strAddr777 = EncodeDestination(keyid, (metadata.HasKeyOrigin() && IsStakingDerPath(metadata.key_origin) ?
                                                           CChainParams::STAKING_ADDRESS :
-                                                          CChainParams::JACKPOT_PUBKEY_ADDRESS)).ToString();
+                                                          CChainParams::JACKPOT_PUBKEY_ADDRESS));
 
             file << strprintf("%s %s ", KeyIO::EncodeSecret777(key), strTime);
             if (pwalletMain->mapAddressBook.count(keyid)) {
