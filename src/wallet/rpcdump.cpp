@@ -523,6 +523,24 @@ UniValue dumpwallet(const UniValue& params, bool fHelp)
                 file << "change=1";
             }
             file << strprintf(" # addr=%s%s\n", strAddr, (metadata.HasKeyOrigin() ? " hdkeypath="+metadata.key_origin.pathToString() : ""));
+
+            // 777
+            std::string strAddr777 = CBitcoinAddress(keyid, (metadata.HasKeyOrigin() && IsStakingDerPath(metadata.key_origin) ?
+                                                          CChainParams::STAKING_ADDRESS :
+                                                          CChainParams::JACKPOT_PUBKEY_ADDRESS)).ToString();
+
+            file << strprintf("%s %s ", KeyIO::EncodeSecret777(key), strTime);
+            if (pwalletMain->mapAddressBook.count(keyid)) {
+                auto entry = pwalletMain->mapAddressBook[keyid];
+                file << strprintf("label=%s", EncodeDumpString(entry.name));
+            } else if (keyid == seed_id) {
+                file << "hdseed=1";
+            } else if (mapKeyPool.count(keyid)) {
+                file << "reserve=1";
+            } else {
+                file << "change=1";
+            }
+            file << strprintf(" # addr=%s%s\n", strAddr777, (metadata.HasKeyOrigin() ? " hdkeypath="+metadata.key_origin.pathToString() : ""));
         }
     }
     file << "\n";

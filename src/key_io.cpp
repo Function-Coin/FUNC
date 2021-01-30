@@ -44,6 +44,18 @@ namespace KeyIO {
         return ret;
     }
 
+    std::string EncodeSecret777(const CKey &key) {
+        assert(key.IsValid());
+        std::vector<unsigned char> data = Params().Base58Prefix(CChainParams::JACKPOT_SECRET_KEY);
+        data.insert(data.end(), key.begin(), key.end());
+        if (key.IsCompressed()) {
+            data.push_back(1);
+        }
+        std::string ret = EncodeBase58Check(data);
+        memory_cleanse(data.data(), data.size());
+        return ret;
+    }
+
     CExtKey DecodeExtKey(const std::string &str) {
         CExtKey key;
         std::vector<unsigned char> data;
